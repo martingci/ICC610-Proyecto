@@ -1,0 +1,65 @@
+{
+  "total_issues": 3,
+  "issues_by_severity": {
+    "error": 0,
+    "warning": 3,
+    "note": 0
+  },
+  "issues": [
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
+      "file": ".github/workflows/main.yml",
+      "region": {
+        "startLine": 15,
+        "startColumn": 5,
+        "endLine": 56,
+        "endColumn": 36
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/prs.yml",
+      "region": {
+        "startLine": 11,
+        "startColumn": 5,
+        "endLine": 15,
+        "endColumn": 53
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/unpinned-tag",
+      "rule_index": 21,
+      "level": "warning",
+      "message": "Unpinned 3rd party Action 'Lint PR' step [Uses Step](1) uses 'amannn/action-semantic-pull-request' with ref 'v2.1.0', not a pinned commit hash",
+      "file": ".github/workflows/prs.yml",
+      "region": {
+        "startLine": 13,
+        "startColumn": 15,
+        "endColumn": 57
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    }
+  ],
+  "sarif_metadata": {
+    "version": "2.1.0",
+    "schema_uri": "https://json.schemastore.org/sarif-2.1.0.json",
+    "tool": {
+      "name": "CodeQL",
+      "version": "unknown",
+      "information_uri": ""
+    },
+    "tool_name": "CodeQL",
+    "tool_version": "unknown"
+  }
+}

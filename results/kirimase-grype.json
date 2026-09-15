@@ -1,0 +1,38 @@
+{
+  "total_vulnerabilities": 2,
+  "vulnerabilities_by_severity": {
+    "critical": 0,
+    "high": 1,
+    "medium": 0,
+    "low": 1
+  },
+  "vulnerabilities": [
+    {
+      "package_name": "cross-spawn",
+      "current_version": "7.0.3",
+      "vuln_id": "GHSA-3xgq-45jj-v275",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "Regular Expression Denial of Service (ReDoS) in cross-spawn",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "tmp",
+      "current_version": "0.0.33",
+      "vuln_id": "GHSA-52f5-9888-hmc6",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "tmp allows arbitrary temporary file / directory write via symbolic link `dir` parameter",
+      "cwe": "N/A",
+      "cvss_score": 2.5,
+      "type": "vulnerability"
+    }
+  ],
+  "grype_metadata": {
+    "grype_version": "unknown",
+    "db_location": "",
+    "scanned_path": "/workspaces/Proyecto-Ciberseguridad/miner/repos/kirimase"
+  }
+}

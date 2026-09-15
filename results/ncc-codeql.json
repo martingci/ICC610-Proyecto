@@ -1,0 +1,897 @@
+{
+  "total_issues": 63,
+  "issues_by_severity": {
+    "error": 0,
+    "warning": 63,
+    "note": 0
+  },
+  "issues": [
+    {
+      "rule_id": "js/insecure-temporary-file",
+      "rule_index": 98,
+      "level": "warning",
+      "message": "Insecure creation of file in [the os temp dir](1).",
+      "file": "src/cli.js",
+      "region": {
+        "startLine": 297,
+        "startColumn": 32,
+        "endColumn": 59
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unneeded-defensive-code",
+      "rule_index": 116,
+      "level": "warning",
+      "message": "This guard always evaluates to true.",
+      "file": "test/unit/browser-mainfield/output-coverage.js",
+      "region": {
+        "startLine": 86,
+        "startColumn": 15,
+        "endColumn": 57
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unneeded-defensive-code",
+      "rule_index": 116,
+      "level": "warning",
+      "message": "This guard always evaluates to true.",
+      "file": "test/unit/browser-mainfield/output.js",
+      "region": {
+        "startLine": 86,
+        "startColumn": 15,
+        "endColumn": 57
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unneeded-defensive-code",
+      "rule_index": 116,
+      "level": "warning",
+      "message": "This guard always evaluates to true.",
+      "file": "test/unit/bundle-subasset2/output-coverage.js",
+      "region": {
+        "startLine": 67,
+        "startColumn": 15,
+        "endColumn": 57
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unneeded-defensive-code",
+      "rule_index": 116,
+      "level": "warning",
+      "message": "This guard always evaluates to true.",
+      "file": "test/unit/bundle-subasset2/output.js",
+      "region": {
+        "startLine": 67,
+        "startColumn": 15,
+        "endColumn": 57
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unneeded-defensive-code",
+      "rule_index": 116,
+      "level": "warning",
+      "message": "This guard always evaluates to true.",
+      "file": "test/unit/custom-emit/output-coverage.js",
+      "region": {
+        "startLine": 47,
+        "startColumn": 15,
+        "endColumn": 57
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unneeded-defensive-code",
+      "rule_index": 116,
+      "level": "warning",
+      "message": "This guard always evaluates to true.",
+      "file": "test/unit/custom-emit/output.js",
+      "region": {
+        "startLine": 47,
+        "startColumn": 15,
+        "endColumn": 57
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unneeded-defensive-code",
+      "rule_index": 116,
+      "level": "warning",
+      "message": "This guard always evaluates to true.",
+      "file": "test/unit/externals/output-coverage.js",
+      "region": {
+        "startLine": 63,
+        "startColumn": 15,
+        "endColumn": 57
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unneeded-defensive-code",
+      "rule_index": 116,
+      "level": "warning",
+      "message": "This guard always evaluates to true.",
+      "file": "test/unit/externals/output.js",
+      "region": {
+        "startLine": 63,
+        "startColumn": 15,
+        "endColumn": 57
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unneeded-defensive-code",
+      "rule_index": 116,
+      "level": "warning",
+      "message": "This guard always evaluates to true.",
+      "file": "test/unit/shebang/output-coverage.js",
+      "region": {
+        "startLine": 47,
+        "startColumn": 15,
+        "endColumn": 57
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unneeded-defensive-code",
+      "rule_index": 116,
+      "level": "warning",
+      "message": "This guard always evaluates to true.",
+      "file": "test/unit/shebang/output.js",
+      "region": {
+        "startLine": 47,
+        "startColumn": 15,
+        "endColumn": 57
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unneeded-defensive-code",
+      "rule_index": 116,
+      "level": "warning",
+      "message": "This guard always evaluates to true.",
+      "file": "test/unit/ts-decl/output-coverage.js",
+      "region": {
+        "startLine": 37,
+        "startColumn": 15,
+        "endColumn": 57
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unneeded-defensive-code",
+      "rule_index": 116,
+      "level": "warning",
+      "message": "This guard always evaluates to true.",
+      "file": "test/unit/ts-decl/output.js",
+      "region": {
+        "startLine": 37,
+        "startColumn": 15,
+        "endColumn": 57
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unneeded-defensive-code",
+      "rule_index": 116,
+      "level": "warning",
+      "message": "This guard always evaluates to true.",
+      "file": "test/unit/ts-decl-dir/output-coverage.js",
+      "region": {
+        "startLine": 37,
+        "startColumn": 15,
+        "endColumn": 57
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unneeded-defensive-code",
+      "rule_index": 116,
+      "level": "warning",
+      "message": "This guard always evaluates to true.",
+      "file": "test/unit/ts-decl-dir/output.js",
+      "region": {
+        "startLine": 37,
+        "startColumn": 15,
+        "endColumn": 57
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unneeded-defensive-code",
+      "rule_index": 116,
+      "level": "warning",
+      "message": "This guard always evaluates to true.",
+      "file": "test/unit/ts-exts/output-coverage.js",
+      "region": {
+        "startLine": 62,
+        "startColumn": 15,
+        "endColumn": 57
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unneeded-defensive-code",
+      "rule_index": 116,
+      "level": "warning",
+      "message": "This guard always evaluates to true.",
+      "file": "test/unit/ts-exts/output.js",
+      "region": {
+        "startLine": 62,
+        "startColumn": 15,
+        "endColumn": 57
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unneeded-defensive-code",
+      "rule_index": 116,
+      "level": "warning",
+      "message": "This guard always evaluates to true.",
+      "file": "test/unit/ts-mixed-modules/output-coverage.js",
+      "region": {
+        "startLine": 53,
+        "startColumn": 15,
+        "endColumn": 57
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unneeded-defensive-code",
+      "rule_index": 116,
+      "level": "warning",
+      "message": "This guard always evaluates to true.",
+      "file": "test/unit/ts-mixed-modules/output.js",
+      "region": {
+        "startLine": 53,
+        "startColumn": 15,
+        "endColumn": 57
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unneeded-defensive-code",
+      "rule_index": 116,
+      "level": "warning",
+      "message": "This guard always evaluates to true.",
+      "file": "test/unit/tsconfig-paths/output-coverage.js",
+      "region": {
+        "startLine": 50,
+        "startColumn": 15,
+        "endColumn": 57
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unneeded-defensive-code",
+      "rule_index": 116,
+      "level": "warning",
+      "message": "This guard always evaluates to true.",
+      "file": "test/unit/tsconfig-paths-allowjs/output-coverage.js",
+      "region": {
+        "startLine": 80,
+        "startColumn": 15,
+        "endColumn": 57
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unneeded-defensive-code",
+      "rule_index": 116,
+      "level": "warning",
+      "message": "This guard always evaluates to true.",
+      "file": "test/unit/tsconfig-paths-array-extends/output-coverage.js",
+      "region": {
+        "startLine": 80,
+        "startColumn": 15,
+        "endColumn": 57
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unneeded-defensive-code",
+      "rule_index": 116,
+      "level": "warning",
+      "message": "This guard always evaluates to true.",
+      "file": "test/unit/tsconfig-paths-conflicting-external/output-coverage.js",
+      "region": {
+        "startLine": 50,
+        "startColumn": 15,
+        "endColumn": 57
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable ctx.",
+      "file": "test/integration/canvas.js",
+      "region": {
+        "startLine": 5,
+        "startColumn": 9,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable app.",
+      "file": "test/integration/express.js",
+      "region": {
+        "startLine": 1,
+        "startColumn": 7,
+        "endColumn": 10
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable fetch.",
+      "file": "test/integration/fetch-h2.js",
+      "region": {
+        "startLine": 1,
+        "startColumn": 7,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable proc.",
+      "file": "test/integration/fluent-ffmpeg.js",
+      "region": {
+        "startLine": 2,
+        "startColumn": 7,
+        "endColumn": 11
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable bigquery.",
+      "file": "test/integration/google-bigquery.js",
+      "region": {
+        "startLine": 3,
+        "startColumn": 7,
+        "endColumn": 15
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable ioredis.",
+      "file": "test/integration/ioredis.js",
+      "region": {
+        "startLine": 1,
+        "startColumn": 7,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable jimp.",
+      "file": "test/integration/jimp.js",
+      "region": {
+        "startLine": 1,
+        "startColumn": 7,
+        "endColumn": 11
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable a.",
+      "file": "test/integration/json-without-ext.js",
+      "region": {
+        "startLine": 1,
+        "startColumn": 9,
+        "endColumn": 10
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable db.",
+      "file": "test/integration/leveldown.js",
+      "region": {
+        "startLine": 2,
+        "startColumn": 8,
+        "endColumn": 10
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable mailgun.",
+      "file": "test/integration/mailgun.js",
+      "region": {
+        "startLine": 1,
+        "startColumn": 7,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable blogSchema.",
+      "file": "test/integration/mongoose.js",
+      "region": {
+        "startLine": 4,
+        "startColumn": 7,
+        "endColumn": 17
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable connection.",
+      "file": "test/integration/mysql.js",
+      "region": {
+        "startLine": 3,
+        "startColumn": 5,
+        "endColumn": 15
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable fs.",
+      "file": "test/integration/pdfkit.js",
+      "region": {
+        "startLine": 1,
+        "startColumn": 7,
+        "endColumn": 9
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable client.",
+      "file": "test/integration/pg.js",
+      "region": {
+        "startLine": 2,
+        "startColumn": 7,
+        "endColumn": 13
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable Observable.",
+      "file": "test/integration/rxjs.js",
+      "region": {
+        "startLine": 1,
+        "startColumn": 9,
+        "endColumn": 19
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable Subject.",
+      "file": "test/integration/rxjs.js",
+      "region": {
+        "startLine": 1,
+        "startColumn": 21,
+        "endColumn": 28
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable ReplaySubject.",
+      "file": "test/integration/rxjs.js",
+      "region": {
+        "startLine": 1,
+        "startColumn": 30,
+        "endColumn": 43
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable from.",
+      "file": "test/integration/rxjs.js",
+      "region": {
+        "startLine": 1,
+        "startColumn": 45,
+        "endColumn": 49
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable of.",
+      "file": "test/integration/rxjs.js",
+      "region": {
+        "startLine": 1,
+        "startColumn": 51,
+        "endColumn": 53
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable switchMap.",
+      "file": "test/integration/rxjs.js",
+      "region": {
+        "startLine": 2,
+        "startColumn": 22,
+        "endColumn": 31
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable sentry.",
+      "file": "test/integration/sentry.js",
+      "region": {
+        "startLine": 1,
+        "startColumn": 7,
+        "endColumn": 13
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable db.",
+      "file": "test/integration/sequelize.js",
+      "region": {
+        "startLine": 3,
+        "startColumn": 7,
+        "endColumn": 9
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable slackWebClient.",
+      "file": "test/integration/slack.js",
+      "region": {
+        "startLine": 3,
+        "startColumn": 7,
+        "endColumn": 21
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable io.",
+      "file": "test/integration/socket.io.js",
+      "region": {
+        "startLine": 2,
+        "startColumn": 7,
+        "endColumn": 9
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable stripe.",
+      "file": "test/integration/stripe.js",
+      "region": {
+        "startLine": 1,
+        "startColumn": 7,
+        "endColumn": 13
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable tiny.",
+      "file": "test/integration/tiny-json-http.js",
+      "region": {
+        "startLine": 1,
+        "startColumn": 7,
+        "endColumn": 11
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable deferred.",
+      "file": "test/integration/when.js",
+      "region": {
+        "startLine": 3,
+        "startColumn": 5,
+        "endColumn": 13
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused import crypto.",
+      "file": "test/unit/browser-mainfield/input.js",
+      "region": {
+        "startLine": 1,
+        "endColumn": 37
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable crypto_browser__WEBPACK_IMPORTED_MODULE_0___default.",
+      "file": "test/unit/browser-mainfield/output-coverage.js",
+      "region": {
+        "startLine": 95,
+        "startColumn": 26,
+        "endColumn": 77
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable crypto_browser__WEBPACK_IMPORTED_MODULE_0___default.",
+      "file": "test/unit/browser-mainfield/output.js",
+      "region": {
+        "startLine": 95,
+        "startColumn": 26,
+        "endColumn": 77
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable external_path_namespaceObject.",
+      "file": "test/unit/bundle-subasset2/output-coverage.js",
+      "region": {
+        "startLine": 76,
+        "startColumn": 7,
+        "endColumn": 36
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable external_path_namespaceObject.",
+      "file": "test/unit/bundle-subasset2/output.js",
+      "region": {
+        "startLine": 76,
+        "startColumn": 7,
+        "endColumn": 36
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/automatic-semicolon-insertion",
+      "rule_index": 184,
+      "level": "warning",
+      "message": "Avoid automated semicolon insertion (95% of all statements in [the enclosing script](1) have an explicit semicolon).",
+      "file": "src/index.js",
+      "region": {
+        "startLine": 28,
+        "endColumn": 2
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/automatic-semicolon-insertion",
+      "rule_index": 184,
+      "level": "warning",
+      "message": "Avoid automated semicolon insertion (90% of all statements in [the enclosing function](1) have an explicit semicolon).",
+      "file": "src/index.js",
+      "region": {
+        "startLine": 90,
+        "startColumn": 5,
+        "endColumn": 103
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/automatic-semicolon-insertion",
+      "rule_index": 184,
+      "level": "warning",
+      "message": "Avoid automated semicolon insertion (90% of all statements in [the enclosing function](1) have an explicit semicolon).",
+      "file": "src/index.js",
+      "region": {
+        "startLine": 126,
+        "startColumn": 5,
+        "endColumn": 50
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/automatic-semicolon-insertion",
+      "rule_index": 184,
+      "level": "warning",
+      "message": "Avoid automated semicolon insertion (90% of all statements in [the enclosing function](1) have an explicit semicolon).",
+      "file": "src/index.js",
+      "region": {
+        "startLine": 128,
+        "startColumn": 7,
+        "endColumn": 61
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/automatic-semicolon-insertion",
+      "rule_index": 184,
+      "level": "warning",
+      "message": "Avoid automated semicolon insertion (90% of all statements in [the enclosing function](1) have an explicit semicolon).",
+      "file": "src/index.js",
+      "region": {
+        "startLine": 246,
+        "endColumn": 4
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/automatic-semicolon-insertion",
+      "rule_index": 184,
+      "level": "warning",
+      "message": "Avoid automated semicolon insertion (90% of all statements in [the enclosing function](1) have an explicit semicolon).",
+      "file": "test/unit/externals/output-coverage.js",
+      "region": {
+        "startLine": 69,
+        "endColumn": 53
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/automatic-semicolon-insertion",
+      "rule_index": 184,
+      "level": "warning",
+      "message": "Avoid automated semicolon insertion (90% of all statements in [the enclosing function](1) have an explicit semicolon).",
+      "file": "test/unit/externals/output.js",
+      "region": {
+        "startLine": 69,
+        "endColumn": 53
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/automatic-semicolon-insertion",
+      "rule_index": 184,
+      "level": "warning",
+      "message": "Avoid automated semicolon insertion (90% of all statements in [the enclosing function](1) have an explicit semicolon).",
+      "file": "test/unit.test.js",
+      "region": {
+        "startLine": 79,
+        "endColumn": 6
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    }
+  ],
+  "sarif_metadata": {
+    "version": "2.1.0",
+    "schema_uri": "https://json.schemastore.org/sarif-2.1.0.json",
+    "tool": {
+      "name": "CodeQL",
+      "version": "unknown",
+      "information_uri": ""
+    },
+    "tool_name": "CodeQL",
+    "tool_version": "unknown"
+  }
+}

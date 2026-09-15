@@ -1,0 +1,258 @@
+{
+  "total_vulnerabilities": 22,
+  "vulnerabilities_by_severity": {
+    "critical": 4,
+    "high": 10,
+    "medium": 6,
+    "low": 2
+  },
+  "vulnerabilities": [
+    {
+      "package_name": "json5",
+      "current_version": "1.0.1",
+      "vuln_id": "GHSA-9c47-m6qq-7p4h",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "Prototype Pollution in JSON5 via Parse Method",
+      "cwe": "N/A",
+      "cvss_score": 7.1,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "json5",
+      "current_version": "2.2.1",
+      "vuln_id": "GHSA-9c47-m6qq-7p4h",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "Prototype Pollution in JSON5 via Parse Method",
+      "cwe": "N/A",
+      "cvss_score": 7.1,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "mixin-deep",
+      "current_version": "1.3.1",
+      "vuln_id": "GHSA-fhjf-83wg-r2j9",
+      "vuln_severity": "critical",
+      "fix_version": "N/A",
+      "message": "Prototype Pollution in mixin-deep",
+      "cwe": "N/A",
+      "cvss_score": 9.8,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "set-value",
+      "current_version": "0.4.3",
+      "vuln_id": "GHSA-4g88-fppr-53pp",
+      "vuln_severity": "critical",
+      "fix_version": "N/A",
+      "message": "Prototype Pollution in set-value",
+      "cwe": "N/A",
+      "cvss_score": 9.8,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "set-value",
+      "current_version": "2.0.0",
+      "vuln_id": "GHSA-4g88-fppr-53pp",
+      "vuln_severity": "critical",
+      "fix_version": "N/A",
+      "message": "Prototype Pollution in set-value",
+      "cwe": "N/A",
+      "cvss_score": 9.8,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "ws",
+      "current_version": "7.5.9",
+      "vuln_id": "GHSA-3h5v-q93c-6h6q",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "ws affected by a DoS when handling a request with many HTTP headers",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "decode-uri-component",
+      "current_version": "0.2.0",
+      "vuln_id": "GHSA-w573-4hg7-7wgq",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "decode-uri-component vulnerable to Denial of Service (DoS)",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "kind-of",
+      "current_version": "6.0.2",
+      "vuln_id": "GHSA-6c8f-qphg-qjgp",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "Validation Bypass in kind-of",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "@babel/traverse",
+      "current_version": "7.18.9",
+      "vuln_id": "GHSA-67hx-6x53-jw92",
+      "vuln_severity": "critical",
+      "fix_version": "N/A",
+      "message": "Babel vulnerable to arbitrary code execution when compiling specifically crafted malicious code",
+      "cwe": "N/A",
+      "cvss_score": 9.3,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "flatted",
+      "current_version": "3.2.6",
+      "vuln_id": "GHSA-rf6f-7fwh-wjgh",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "Prototype Pollution via parse() in NodeJS flatted",
+      "cwe": "N/A",
+      "cvss_score": 8.9,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "react-devtools-core",
+      "current_version": "4.25.0",
+      "vuln_id": "GHSA-rxrc-rgv4-jpvx",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "React Developer Tools extension Improper Authorization vulnerability",
+      "cwe": "N/A",
+      "cvss_score": 6.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "path-to-regexp",
+      "current_version": "1.7.0",
+      "vuln_id": "GHSA-9wv6-86v2-598j",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "path-to-regexp outputs backtracking regular expressions",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "set-value",
+      "current_version": "0.4.3",
+      "vuln_id": "GHSA-4jqc-8m5r-9rpr",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "Prototype Pollution in set-value",
+      "cwe": "N/A",
+      "cvss_score": 7.3,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "set-value",
+      "current_version": "2.0.0",
+      "vuln_id": "GHSA-4jqc-8m5r-9rpr",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "Prototype Pollution in set-value",
+      "cwe": "N/A",
+      "cvss_score": 7.3,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "@babel/helpers",
+      "current_version": "7.18.9",
+      "vuln_id": "GHSA-968p-4wvh-cqc8",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "Babel has inefficient RegExp complexity in generated code with .replace when transpiling named capturing groups",
+      "cwe": "N/A",
+      "cvss_score": 6.2,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "@babel/runtime",
+      "current_version": "7.18.6",
+      "vuln_id": "GHSA-968p-4wvh-cqc8",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "Babel has inefficient RegExp complexity in generated code with .replace when transpiling named capturing groups",
+      "cwe": "N/A",
+      "cvss_score": 6.2,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "@babel/runtime-corejs3",
+      "current_version": "7.18.6",
+      "vuln_id": "GHSA-968p-4wvh-cqc8",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "Babel has inefficient RegExp complexity in generated code with .replace when transpiling named capturing groups",
+      "cwe": "N/A",
+      "cvss_score": 6.2,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "yaml",
+      "current_version": "1.10.2",
+      "vuln_id": "GHSA-48c2-rrv3-qjmp",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "yaml is vulnerable to Stack Overflow via deeply nested YAML collections",
+      "cwe": "N/A",
+      "cvss_score": 4.3,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "flatted",
+      "current_version": "3.2.6",
+      "vuln_id": "GHSA-25h7-pfq9-p65f",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "flatted vulnerable to unbounded recursion DoS in parse() revive phase",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "word-wrap",
+      "current_version": "1.2.3",
+      "vuln_id": "GHSA-j8xg-fqg3-53r7",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "word-wrap vulnerable to Regular Expression Denial of Service",
+      "cwe": "N/A",
+      "cvss_score": 5.3,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "diff",
+      "current_version": "4.0.2",
+      "vuln_id": "GHSA-73rr-hh4g-fpgx",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "jsdiff has a Denial of Service vulnerability in parsePatch and applyPatch",
+      "cwe": "N/A",
+      "cvss_score": 2.7,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "diff",
+      "current_version": "5.1.0",
+      "vuln_id": "GHSA-73rr-hh4g-fpgx",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "jsdiff has a Denial of Service vulnerability in parsePatch and applyPatch",
+      "cwe": "N/A",
+      "cvss_score": 2.7,
+      "type": "vulnerability"
+    }
+  ],
+  "grype_metadata": {
+    "grype_version": "unknown",
+    "db_location": "",
+    "scanned_path": "/workspaces/Proyecto-Ciberseguridad/miner/repos/micro"
+  }
+}

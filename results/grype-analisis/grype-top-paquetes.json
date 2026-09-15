@@ -1,0 +1,23 @@
+[
+    {
+        "package_name": "next",
+        "count": 1596,
+        "current_version": "15.0.7",
+        "has_fix": false,
+        "fix_version": "N/A"
+    },
+    {
+        "package_name": "minimatch",
+        "count": 928,
+        "current_version": "3.1.2",
+        "has_fix": false,
+        "fix_version": "N/A"
+    },
+    {
+        "package_name": "axios",
+        "count": 749,
+        "current_version": "1.6.2",
+        "has_fix": false,
+        "fix_version": "N/A"
+    }
+]

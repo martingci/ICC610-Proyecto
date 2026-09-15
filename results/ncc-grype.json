@@ -1,0 +1,49 @@
+{
+  "total_vulnerabilities": 3,
+  "vulnerabilities_by_severity": {
+    "critical": 0,
+    "high": 0,
+    "medium": 1,
+    "low": 2
+  },
+  "vulnerabilities": [
+    {
+      "package_name": "@tootallnate/once",
+      "current_version": "1.1.2",
+      "vuln_id": "GHSA-vpq2-c234-7xj6",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "@tootallnate/once vulnerable to Incorrect Control Flow Scoping",
+      "cwe": "N/A",
+      "cvss_score": 3.3,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "@tootallnate/once",
+      "current_version": "2.0.0",
+      "vuln_id": "GHSA-vpq2-c234-7xj6",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "@tootallnate/once vulnerable to Incorrect Control Flow Scoping",
+      "cwe": "N/A",
+      "cvss_score": 3.3,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "ip-address",
+      "current_version": "9.0.5",
+      "vuln_id": "GHSA-v2v4-37r5-5v8g",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "ip-address has XSS in Address6 HTML-emitting methods",
+      "cwe": "N/A",
+      "cvss_score": 5.3,
+      "type": "vulnerability"
+    }
+  ],
+  "grype_metadata": {
+    "grype_version": "unknown",
+    "db_location": "",
+    "scanned_path": "/workspaces/Proyecto-Ciberseguridad/miner/repos/ncc"
+  }
+}

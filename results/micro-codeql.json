@@ -1,0 +1,91 @@
+{
+  "total_issues": 5,
+  "issues_by_severity": {
+    "error": 0,
+    "warning": 5,
+    "note": 0
+  },
+  "issues": [
+    {
+      "rule_id": "js/xss",
+      "rule_index": 13,
+      "level": "warning",
+      "message": "Cross-site scripting vulnerability due to [user-provided value](1).",
+      "file": "examples/socket.io-chat-app/index.html",
+      "region": {
+        "startLine": 38,
+        "startColumn": 72,
+        "endColumn": 89
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/xss-through-dom",
+      "rule_index": 14,
+      "level": "warning",
+      "message": "[DOM text](1) is reinterpreted as HTML without escaping meta-characters.",
+      "file": "examples/socket.io-chat-app/index.html",
+      "region": {
+        "startLine": 38,
+        "startColumn": 72,
+        "endColumn": 89
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/functionality-from-untrusted-source",
+      "rule_index": 36,
+      "level": "warning",
+      "message": "Script loaded from content delivery network with no integrity check.",
+      "file": "examples/socket.io-chat-app/index.html",
+      "region": {
+        "startLine": 26,
+        "startColumn": 2,
+        "endColumn": 97
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/log-injection",
+      "rule_index": 85,
+      "level": "warning",
+      "message": "Log entry depends on a [user-provided value](1).",
+      "file": "examples/json-body-parsing/index.js",
+      "region": {
+        "startLine": 5,
+        "startColumn": 14,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/log-injection",
+      "rule_index": 85,
+      "level": "warning",
+      "message": "Log entry depends on a [user-provided value](1).",
+      "file": "examples/socket.io-chat-app/websocket-server.js",
+      "region": {
+        "startLine": 10,
+        "startColumn": 16,
+        "endColumn": 33
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    }
+  ],
+  "sarif_metadata": {
+    "version": "2.1.0",
+    "schema_uri": "https://json.schemastore.org/sarif-2.1.0.json",
+    "tool": {
+      "name": "CodeQL",
+      "version": "unknown",
+      "information_uri": ""
+    },
+    "tool_name": "CodeQL",
+    "tool_version": "unknown"
+  }
+}

@@ -1,0 +1,368 @@
+{
+  "total_vulnerabilities": 32,
+  "vulnerabilities_by_severity": {
+    "critical": 0,
+    "high": 10,
+    "medium": 21,
+    "low": 1
+  },
+  "vulnerabilities": [
+    {
+      "package_name": "vite",
+      "current_version": "7.3.1",
+      "vuln_id": "GHSA-v2wj-q39q-566r",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "Vite: `server.fs.deny` bypassed with queries",
+      "cwe": "N/A",
+      "cvss_score": 8.2,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "vite",
+      "current_version": "7.3.1",
+      "vuln_id": "GHSA-p9ff-h696-f583",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "Vite Vulnerable to Arbitrary File Read via Vite Dev Server WebSocket",
+      "cwe": "N/A",
+      "cvss_score": 8.2,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "vite",
+      "current_version": "7.3.1",
+      "vuln_id": "GHSA-4w7w-66w2-5vf9",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "Vite Vulnerable to Path Traversal in Optimized Deps `.map` Handling",
+      "cwe": "N/A",
+      "cvss_score": 6.3,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "rollup",
+      "current_version": "4.55.1",
+      "vuln_id": "GHSA-mw96-cpmx-2vgc",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "Rollup 4 has Arbitrary File Write via Path Traversal",
+      "cwe": "N/A",
+      "cvss_score": 8.8,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "path-to-regexp",
+      "current_version": "8.3.0",
+      "vuln_id": "GHSA-j3q9-mxjg-w52f",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "path-to-regexp vulnerable to Denial of Service via sequential optional groups",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "dompurify",
+      "current_version": "3.3.1",
+      "vuln_id": "GHSA-crv5-9vww-q3g8",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "DOMPurify has a SAFE_FOR_TEMPLATES bypass in RETURN_DOM mode",
+      "cwe": "N/A",
+      "cvss_score": 6.8,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "uuid",
+      "current_version": "11.1.0",
+      "vuln_id": "GHSA-w5hq-g745-h8pq",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided",
+      "cwe": "N/A",
+      "cvss_score": 6.3,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "path-to-regexp",
+      "current_version": "8.3.0",
+      "vuln_id": "GHSA-27v5-c462-wpq7",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "path-to-regexp vulnerable to Regular Expression Denial of Service via multiple wildcards",
+      "cwe": "N/A",
+      "cvss_score": 5.9,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "lodash-es",
+      "current_version": "4.17.23",
+      "vuln_id": "GHSA-r5fr-rjxr-66jc",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "lodash vulnerable to Code Injection via `_.template` imports key names",
+      "cwe": "N/A",
+      "cvss_score": 8.1,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "picomatch",
+      "current_version": "2.3.1",
+      "vuln_id": "GHSA-3v7f-55p6-f55p",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching",
+      "cwe": "N/A",
+      "cvss_score": 5.3,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "picomatch",
+      "current_version": "4.0.3",
+      "vuln_id": "GHSA-3v7f-55p6-f55p",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching",
+      "cwe": "N/A",
+      "cvss_score": 5.3,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "minimatch",
+      "current_version": "10.2.1",
+      "vuln_id": "GHSA-7r86-cg39-jmmj",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "minimatch has ReDoS: matchOne() combinatorial backtracking via multiple non-adjacent GLOBSTAR segments",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "dompurify",
+      "current_version": "3.3.1",
+      "vuln_id": "GHSA-v9jr-rg53-9pgp",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "DOMPurify: Prototype Pollution to XSS Bypass via CUSTOM_ELEMENT_HANDLING Fallback",
+      "cwe": "N/A",
+      "cvss_score": 6.9,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "dompurify",
+      "current_version": "3.3.1",
+      "vuln_id": "GHSA-h7mw-gpvr-xq4m",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "DOMPurify: FORBID_TAGS bypassed by function-based ADD_TAGS predicate (asymmetry with FORBID_ATTR fix)",
+      "cwe": "N/A",
+      "cvss_score": 6,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "minimatch",
+      "current_version": "10.2.1",
+      "vuln_id": "GHSA-23c5-xmqv-rm74",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "minimatch ReDoS: nested *() extglobs generate catastrophically backtracking regular expressions",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "next",
+      "current_version": "16.1.5",
+      "vuln_id": "GHSA-ggv3-7p47-pfv8",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "Next.js: HTTP request smuggling in rewrites",
+      "cwe": "N/A",
+      "cvss_score": 6.3,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "postcss",
+      "current_version": "8.4.31",
+      "vuln_id": "GHSA-qx2v-qp2m-jg93",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "PostCSS has XSS via Unescaped </style> in its CSS Stringify Output",
+      "cwe": "N/A",
+      "cvss_score": 6.1,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "postcss",
+      "current_version": "8.5.6",
+      "vuln_id": "GHSA-qx2v-qp2m-jg93",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "PostCSS has XSS via Unescaped </style> in its CSS Stringify Output",
+      "cwe": "N/A",
+      "cvss_score": 6.1,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "lodash-es",
+      "current_version": "4.17.23",
+      "vuln_id": "GHSA-f23m-r3pf-42rh",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "lodash vulnerable to Prototype Pollution via array path bypass in `_.unset` and `_.omit`",
+      "cwe": "N/A",
+      "cvss_score": 6.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "picomatch",
+      "current_version": "2.3.1",
+      "vuln_id": "GHSA-c2c7-rcm5-vvqj",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "Picomatch has a ReDoS vulnerability via extglob quantifiers",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "picomatch",
+      "current_version": "4.0.3",
+      "vuln_id": "GHSA-c2c7-rcm5-vvqj",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "Picomatch has a ReDoS vulnerability via extglob quantifiers",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "brace-expansion",
+      "current_version": "5.0.2",
+      "vuln_id": "GHSA-f886-m6hf-6m8v",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "brace-expansion: Zero-step sequence causes process hang and memory exhaustion",
+      "cwe": "N/A",
+      "cvss_score": 6.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "next",
+      "current_version": "16.1.5",
+      "vuln_id": "GHSA-3x4c-7xq6-9pq8",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "Next.js: Unbounded next/image disk cache growth can exhaust storage",
+      "cwe": "N/A",
+      "cvss_score": 6.9,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "next",
+      "current_version": "16.1.5",
+      "vuln_id": "GHSA-h27x-g6w4-24gq",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "Next.js: Unbounded postponed resume buffering can lead to DoS",
+      "cwe": "N/A",
+      "cvss_score": 6.9,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "dompurify",
+      "current_version": "3.3.1",
+      "vuln_id": "GHSA-v2wj-7wpq-c8vv",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "DOMPurify contains a Cross-site Scripting vulnerability",
+      "cwe": "N/A",
+      "cvss_score": 6.1,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "next",
+      "current_version": "16.1.5",
+      "vuln_id": "GHSA-mq59-m269-xvcx",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "Next.js: null origin can bypass Server Actions CSRF checks",
+      "cwe": "N/A",
+      "cvss_score": 5.3,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "next",
+      "current_version": "16.1.5",
+      "vuln_id": "GHSA-jcc7-9wpm-mj36",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Next.js: null origin can bypass dev HMR websocket CSRF checks",
+      "cwe": "N/A",
+      "cvss_score": 2.3,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "next",
+      "current_version": "16.1.5",
+      "vuln_id": "GHSA-q4gf-8mx6-v5v3",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "Next.js has a Denial of Service with Server Components",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "dompurify",
+      "current_version": "3.3.1",
+      "vuln_id": "GHSA-39q2-94rc-95cp",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "DOMPurify's ADD_TAGS function form bypasses FORBID_TAGS due to short-circuit evaluation",
+      "cwe": "N/A",
+      "cvss_score": 5.3,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "dompurify",
+      "current_version": "3.3.1",
+      "vuln_id": "GHSA-cj63-jhhr-wcxv",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "DOMPurify USE_PROFILES prototype pollution allows event handlers",
+      "cwe": "N/A",
+      "cvss_score": 5.3,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "dompurify",
+      "current_version": "3.3.1",
+      "vuln_id": "GHSA-cjmm-f4jc-qw8r",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "DOMPurify ADD_ATTR predicate skips URI validation",
+      "cwe": "N/A",
+      "cvss_score": 5.3,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "dompurify",
+      "current_version": "3.3.1",
+      "vuln_id": "GHSA-h8r8-wccr-v5f2",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "DOMPurify is vulnerable to mutation-XSS via Re-Contextualization",
+      "cwe": "N/A",
+      "cvss_score": 6.9,
+      "type": "vulnerability"
+    }
+  ],
+  "grype_metadata": {
+    "grype_version": "unknown",
+    "db_location": "",
+    "scanned_path": "/workspaces/Proyecto-Ciberseguridad/miner/repos/streamdown"
+  }
+}

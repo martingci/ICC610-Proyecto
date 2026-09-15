@@ -1,0 +1,71 @@
+{
+  "total_vulnerabilities": 5,
+  "vulnerabilities_by_severity": {
+    "critical": 0,
+    "high": 1,
+    "medium": 4,
+    "low": 0
+  },
+  "vulnerabilities": [
+    {
+      "package_name": "next",
+      "current_version": "15.6.0-canary.60",
+      "vuln_id": "GHSA-5f7q-jpqc-wp7h",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "Next.js has Unbounded Memory Consumption via PPR Resume Endpoint",
+      "cwe": "N/A",
+      "cvss_score": 5.9,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "postcss",
+      "current_version": "8.4.31",
+      "vuln_id": "GHSA-qx2v-qp2m-jg93",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "PostCSS has XSS via Unescaped </style> in its CSS Stringify Output",
+      "cwe": "N/A",
+      "cvss_score": 6.1,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "postcss",
+      "current_version": "8.5.3",
+      "vuln_id": "GHSA-qx2v-qp2m-jg93",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "PostCSS has XSS via Unescaped </style> in its CSS Stringify Output",
+      "cwe": "N/A",
+      "cvss_score": 6.1,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "next",
+      "current_version": "15.6.0-canary.60",
+      "vuln_id": "GHSA-9g9p-9gw9-jx7f",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "Next.js self-hosted applications vulnerable to DoS via Image Optimizer remotePatterns configuration",
+      "cwe": "N/A",
+      "cvss_score": 5.9,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "next",
+      "current_version": "15.6.0-canary.60",
+      "vuln_id": "GHSA-h25m-26qc-wcjf",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "Next.js HTTP request deserialization can lead to DoS when using insecure React Server Components",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    }
+  ],
+  "grype_metadata": {
+    "grype_version": "unknown",
+    "db_location": "",
+    "scanned_path": "/workspaces/Proyecto-Ciberseguridad/miner/repos/commerce"
+  }
+}

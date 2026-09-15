@@ -1,0 +1,1430 @@
+{
+  "total_issues": 94,
+  "issues_by_severity": {
+    "error": 0,
+    "warning": 94,
+    "note": 0
+  },
+  "issues": [
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
+      "file": ".github/workflows/build_and_deploy.yml",
+      "region": {
+        "startLine": 42,
+        "startColumn": 5,
+        "endLine": 111,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
+      "file": ".github/workflows/build_and_deploy.yml",
+      "region": {
+        "startLine": 112,
+        "startColumn": 5,
+        "endLine": 166,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_deploy.yml",
+      "region": {
+        "startLine": 167,
+        "startColumn": 5,
+        "endLine": 210,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
+      "file": ".github/workflows/build_and_deploy.yml",
+      "region": {
+        "startLine": 211,
+        "startColumn": 5,
+        "endLine": 386,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
+      "file": ".github/workflows/build_and_deploy.yml",
+      "region": {
+        "startLine": 387,
+        "startColumn": 5,
+        "endLine": 435,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
+      "file": ".github/workflows/build_and_deploy.yml",
+      "region": {
+        "startLine": 436,
+        "startColumn": 5,
+        "endLine": 495,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_deploy.yml",
+      "region": {
+        "startLine": 564,
+        "startColumn": 5,
+        "endLine": 573,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
+      "file": ".github/workflows/build_and_deploy.yml",
+      "region": {
+        "startLine": 574,
+        "startColumn": 5,
+        "endLine": 608,
+        "endColumn": 75
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 25,
+        "startColumn": 5,
+        "endLine": 28,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 111,
+        "startColumn": 5,
+        "endLine": 121,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 122,
+        "startColumn": 5,
+        "endLine": 135,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 136,
+        "startColumn": 5,
+        "endLine": 143,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 144,
+        "startColumn": 5,
+        "endLine": 191,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 192,
+        "startColumn": 5,
+        "endLine": 205,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 206,
+        "startColumn": 5,
+        "endLine": 221,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 222,
+        "startColumn": 5,
+        "endLine": 231,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 232,
+        "startColumn": 5,
+        "endLine": 246,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 247,
+        "startColumn": 5,
+        "endLine": 254,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 255,
+        "startColumn": 5,
+        "endLine": 268,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 269,
+        "startColumn": 5,
+        "endLine": 282,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 283,
+        "startColumn": 5,
+        "endLine": 294,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 295,
+        "startColumn": 5,
+        "endLine": 319,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 320,
+        "startColumn": 5,
+        "endLine": 331,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 332,
+        "startColumn": 5,
+        "endLine": 371,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 372,
+        "startColumn": 5,
+        "endLine": 424,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 425,
+        "startColumn": 5,
+        "endLine": 461,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 462,
+        "startColumn": 5,
+        "endLine": 506,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 507,
+        "startColumn": 5,
+        "endLine": 552,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 553,
+        "startColumn": 5,
+        "endLine": 594,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 595,
+        "startColumn": 5,
+        "endLine": 640,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 641,
+        "startColumn": 5,
+        "endLine": 665,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 666,
+        "startColumn": 5,
+        "endLine": 684,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 685,
+        "startColumn": 5,
+        "endLine": 703,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 704,
+        "startColumn": 5,
+        "endLine": 725,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 726,
+        "startColumn": 5,
+        "endLine": 746,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 747,
+        "startColumn": 5,
+        "endLine": 766,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 767,
+        "startColumn": 5,
+        "endLine": 792,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 793,
+        "startColumn": 5,
+        "endLine": 817,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 818,
+        "startColumn": 5,
+        "endLine": 845,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 846,
+        "startColumn": 5,
+        "endLine": 880,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 881,
+        "startColumn": 5,
+        "endLine": 918,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 919,
+        "startColumn": 5,
+        "endLine": 941,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 942,
+        "startColumn": 5,
+        "endLine": 964,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 965,
+        "startColumn": 5,
+        "endLine": 987,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 988,
+        "startColumn": 5,
+        "endLine": 1021,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 1022,
+        "startColumn": 5,
+        "endLine": 1073,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 1074,
+        "startColumn": 5,
+        "endLine": 1109,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 1110,
+        "startColumn": 5,
+        "endLine": 1130,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 1131,
+        "startColumn": 5,
+        "endLine": 1165,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 1166,
+        "startColumn": 5,
+        "endLine": 1200,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 1201,
+        "startColumn": 5,
+        "endLine": 1236,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 1237,
+        "startColumn": 5,
+        "endLine": 1272,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 1273,
+        "startColumn": 5,
+        "endLine": 1299,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 1300,
+        "startColumn": 5,
+        "endLine": 1326,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/build_and_test.yml",
+      "region": {
+        "startLine": 1327,
+        "startColumn": 5,
+        "endLine": 1371,
+        "endColumn": 111
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
+      "file": ".github/workflows/build_reusable.yml",
+      "region": {
+        "startLine": 145,
+        "startColumn": 5,
+        "endLine": 441,
+        "endColumn": 37
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
+      "file": ".github/workflows/code_freeze.yml",
+      "region": {
+        "startLine": 25,
+        "startColumn": 5,
+        "endLine": 48,
+        "endColumn": 55
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
+      "file": ".github/workflows/create_release_branch.yml",
+      "region": {
+        "startLine": 23,
+        "startColumn": 5,
+        "endLine": 95,
+        "endColumn": 61
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/graphite_ci_optimizer.yml",
+      "region": {
+        "startLine": 36,
+        "startColumn": 5,
+        "endLine": 54,
+        "endColumn": 63
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/integration_tests_reusable.yml",
+      "region": {
+        "startLine": 43,
+        "startColumn": 5,
+        "endLine": 50,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/integration_tests_reusable.yml",
+      "region": {
+        "startLine": 51,
+        "startColumn": 5,
+        "endLine": 58,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/integration_tests_reusable.yml",
+      "region": {
+        "startLine": 59,
+        "startColumn": 5,
+        "endLine": 78,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/integration_tests_reusable.yml",
+      "region": {
+        "startLine": 81,
+        "startColumn": 5,
+        "endLine": 109,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/integration_tests_reusable.yml",
+      "region": {
+        "startLine": 112,
+        "startColumn": 5,
+        "endLine": 147,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: write, issues: write, pull-requests: write}}",
+      "file": ".github/workflows/issue_stale.yml",
+      "region": {
+        "startLine": 10,
+        "startColumn": 5,
+        "endLine": 73,
+        "endColumn": 100
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
+      "file": ".github/workflows/issue_wrong_template.yml",
+      "region": {
+        "startLine": 9,
+        "startColumn": 5,
+        "endLine": 21,
+        "endColumn": 53
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
+      "file": ".github/workflows/popular.yml",
+      "region": {
+        "startLine": 10,
+        "startColumn": 5,
+        "endLine": 30,
+        "endColumn": 47
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/pull_request_stats.yml",
+      "region": {
+        "startLine": 82,
+        "startColumn": 5,
+        "endLine": 89,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
+      "file": ".github/workflows/pull_request_stats.yml",
+      "region": {
+        "startLine": 90,
+        "startColumn": 5,
+        "endLine": 134,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
+      "file": ".github/workflows/pull_request_stats.yml",
+      "region": {
+        "startLine": 135,
+        "startColumn": 5,
+        "endLine": 173,
+        "endColumn": 63
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/release-next-rspack.yml",
+      "region": {
+        "startLine": 32,
+        "startColumn": 5,
+        "endLine": 39,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/rspack-nextjs-build-integration-tests.yml",
+      "region": {
+        "startLine": 11,
+        "startColumn": 5,
+        "endLine": 25,
+        "endColumn": 22
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/rspack-nextjs-dev-integration-tests.yml",
+      "region": {
+        "startLine": 11,
+        "startColumn": 5,
+        "endLine": 25,
+        "endColumn": 22
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
+      "file": ".github/workflows/rspack-update-tests-manifest.yml",
+      "region": {
+        "startLine": 12,
+        "startColumn": 5,
+        "endLine": 72,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
+      "file": ".github/workflows/rspack-update-tests-manifest.yml",
+      "region": {
+        "startLine": 73,
+        "startColumn": 5,
+        "endLine": 128,
+        "endColumn": 118
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/sync_backport_canary_release.yml",
+      "region": {
+        "startLine": 119,
+        "startColumn": 5,
+        "endLine": 157,
+        "endColumn": 88
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
+      "file": ".github/workflows/test-turbopack-rust-bench-test.yml",
+      "region": {
+        "startLine": 24,
+        "startColumn": 5,
+        "endLine": 75,
+        "endColumn": 61
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
+      "file": ".github/workflows/test_e2e_deploy_release.yml",
+      "region": {
+        "startLine": 49,
+        "startColumn": 5,
+        "endLine": 108,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/test_e2e_deploy_release.yml",
+      "region": {
+        "startLine": 109,
+        "startColumn": 5,
+        "endLine": 139,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/test_e2e_deploy_release.yml",
+      "region": {
+        "startLine": 140,
+        "startColumn": 5,
+        "endLine": 184,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/test_e2e_deploy_release.yml",
+      "region": {
+        "startLine": 185,
+        "startColumn": 5,
+        "endLine": 228,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
+      "file": ".github/workflows/test_e2e_deploy_release.yml",
+      "region": {
+        "startLine": 229,
+        "startColumn": 5,
+        "endLine": 258,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
+      "file": ".github/workflows/test_e2e_deploy_release.yml",
+      "region": {
+        "startLine": 259,
+        "startColumn": 5,
+        "endLine": 312,
+        "endColumn": 83
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
+      "file": ".github/workflows/test_e2e_project_reset_cron.yml",
+      "region": {
+        "startLine": 26,
+        "startColumn": 5,
+        "endLine": 49,
+        "endColumn": 58
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
+      "file": ".github/workflows/test_examples.yml",
+      "region": {
+        "startLine": 19,
+        "startColumn": 5,
+        "endLine": 51,
+        "endColumn": 33
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
+      "file": ".github/workflows/trigger_release.yml",
+      "region": {
+        "startLine": 40,
+        "startColumn": 5,
+        "endLine": 130,
+        "endColumn": 67
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/turbopack-nextjs-build-integration-tests.yml",
+      "region": {
+        "startLine": 10,
+        "startColumn": 5,
+        "endLine": 24,
+        "endColumn": 22
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/turbopack-nextjs-dev-integration-tests.yml",
+      "region": {
+        "startLine": 10,
+        "startColumn": 5,
+        "endLine": 17,
+        "endColumn": 22
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
+      "file": ".github/workflows/turbopack-update-tests-manifest.yml",
+      "region": {
+        "startLine": 12,
+        "startColumn": 5,
+        "endLine": 68,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
+      "file": ".github/workflows/turbopack-update-tests-manifest.yml",
+      "region": {
+        "startLine": 69,
+        "startColumn": 5,
+        "endLine": 124,
+        "endColumn": 121
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
+      "file": ".github/workflows/update_fonts_data.yml",
+      "region": {
+        "startLine": 15,
+        "startColumn": 5,
+        "endLine": 69,
+        "endColumn": 83
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
+      "file": ".github/workflows/update_react.yml",
+      "region": {
+        "startLine": 22,
+        "startColumn": 5,
+        "endLine": 72,
+        "endColumn": 85
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
+      "file": ".github/workflows/upload-tests-manifest.yml",
+      "region": {
+        "startLine": 18,
+        "startColumn": 5,
+        "endLine": 44,
+        "endColumn": 54
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/unpinned-tag",
+      "rule_index": 21,
+      "level": "warning",
+      "message": "Unpinned 3rd party Action 'Pull Request Auto-Labeler' step [Uses Step](1) uses 'vercel/next.js/.github/actions/pr-auto-label' with ref 'canary', not a pinned commit hash",
+      "file": ".github/workflows/pull_request_auto_label.yml",
+      "region": {
+        "startLine": 65,
+        "startColumn": 15,
+        "endColumn": 66
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    }
+  ],
+  "sarif_metadata": {
+    "version": "2.1.0",
+    "schema_uri": "https://json.schemastore.org/sarif-2.1.0.json",
+    "tool": {
+      "name": "CodeQL",
+      "version": "unknown",
+      "information_uri": ""
+    },
+    "tool_name": "CodeQL",
+    "tool_version": "unknown"
+  }
+}

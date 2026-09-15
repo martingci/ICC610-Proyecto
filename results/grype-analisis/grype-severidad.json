@@ -1,0 +1,26 @@
+[
+    {
+        "level": "critical",
+        "count": 837,
+        "cvss": "9.0 - 10.0",
+        "percentage": 4.9
+    },
+    {
+        "level": "high",
+        "count": 6532,
+        "cvss": "7.0 - 8.9",
+        "percentage": 38.3
+    },
+    {
+        "level": "medium",
+        "count": 7847,
+        "cvss": "4.0 - 6.9",
+        "percentage": 46.0
+    },
+    {
+        "level": "low",
+        "count": 1858,
+        "cvss": "0.0 - 3.9",
+        "percentage": 10.9
+    }
+]

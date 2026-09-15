@@ -1,0 +1,2181 @@
+{
+  "total_issues": 155,
+  "issues_by_severity": {
+    "error": 0,
+    "warning": 155,
+    "note": 0
+  },
+  "issues": [
+    {
+      "rule_id": "js/clear-text-cookie",
+      "rule_index": 7,
+      "level": "warning",
+      "message": "Sensitive cookie sent without enforcing SSL encryption.",
+      "file": "framework-boilerplates/sveltekit/src/hooks.js",
+      "region": {
+        "startLine": 15,
+        "startColumn": 7,
+        "endLine": 18,
+        "endColumn": 9
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/missing-rate-limiting",
+      "rule_index": 10,
+      "level": "warning",
+      "message": "This route handler performs [a file system access](1), but is not rate-limited.",
+      "file": "framework-boilerplates/express-bun/src/index.ts",
+      "region": {
+        "startLine": 35,
+        "startColumn": 19,
+        "endLine": 37,
+        "endColumn": 2
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/missing-rate-limiting",
+      "rule_index": 10,
+      "level": "warning",
+      "message": "This route handler performs [a file system access](1), but is not rate-limited.",
+      "file": "solutions/express/src/index.ts",
+      "region": {
+        "startLine": 35,
+        "startColumn": 19,
+        "endLine": 37,
+        "endColumn": 2
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/resource-exhaustion",
+      "rule_index": 11,
+      "level": "warning",
+      "message": "This creates a timer with a user-controlled duration from a [user-provided value](1).",
+      "file": "flags-sdk/experimentation-statsig/lib/actions.ts",
+      "region": {
+        "startLine": 14,
+        "startColumn": 55,
+        "endColumn": 57
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/resource-exhaustion",
+      "rule_index": 11,
+      "level": "warning",
+      "message": "This creates a timer with a user-controlled duration from a [user-provided value](1).",
+      "file": "flags-sdk/flagsmith/lib/actions.ts",
+      "region": {
+        "startLine": 13,
+        "startColumn": 55,
+        "endColumn": 57
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/resource-exhaustion",
+      "rule_index": 11,
+      "level": "warning",
+      "message": "This creates a timer with a user-controlled duration from a [user-provided value](1).",
+      "file": "flags-sdk/growthbook/lib/actions.ts",
+      "region": {
+        "startLine": 14,
+        "startColumn": 55,
+        "endColumn": 57
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/resource-exhaustion",
+      "rule_index": 11,
+      "level": "warning",
+      "message": "This creates a timer with a user-controlled duration from a [user-provided value](1).",
+      "file": "flags-sdk/launchdarkly/lib/actions.ts",
+      "region": {
+        "startLine": 14,
+        "startColumn": 55,
+        "endColumn": 57
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/resource-exhaustion",
+      "rule_index": 11,
+      "level": "warning",
+      "message": "This creates a timer with a user-controlled duration from a [user-provided value](1).",
+      "file": "flags-sdk/openfeature/lib/actions.ts",
+      "region": {
+        "startLine": 14,
+        "startColumn": 55,
+        "endColumn": 57
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/resource-exhaustion",
+      "rule_index": 11,
+      "level": "warning",
+      "message": "This creates a timer with a user-controlled duration from a [user-provided value](1).",
+      "file": "flags-sdk/posthog/lib/actions.ts",
+      "region": {
+        "startLine": 13,
+        "startColumn": 55,
+        "endColumn": 57
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/resource-exhaustion",
+      "rule_index": 11,
+      "level": "warning",
+      "message": "This creates a timer with a user-controlled duration from a [user-provided value](1).",
+      "file": "flags-sdk/reflag/lib/actions.ts",
+      "region": {
+        "startLine": 13,
+        "startColumn": 55,
+        "endColumn": 57
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/resource-exhaustion",
+      "rule_index": 11,
+      "level": "warning",
+      "message": "This creates a timer with a user-controlled duration from a [user-provided value](1).",
+      "file": "flags-sdk/vercel/lib/actions.ts",
+      "region": {
+        "startLine": 13,
+        "startColumn": 55,
+        "endColumn": 57
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/xss",
+      "rule_index": 13,
+      "level": "warning",
+      "message": "Cross-site scripting vulnerability due to [user-provided value](1).",
+      "file": "vercel-tutor/app/page.tsx",
+      "region": {
+        "startLine": 95,
+        "startColumn": 23,
+        "endColumn": 30
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/xss-through-dom",
+      "rule_index": 14,
+      "level": "warning",
+      "message": "[DOM text](1) is reinterpreted as HTML without escaping meta-characters.",
+      "file": "apps/vibe-coding-platform/components/preview/preview.tsx",
+      "region": {
+        "startLine": 49,
+        "startColumn": 33,
+        "endColumn": 43
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/xss-through-dom",
+      "rule_index": 14,
+      "level": "warning",
+      "message": "[DOM text](1) is reinterpreted as HTML without escaping meta-characters.\n[DOM text](2) is reinterpreted as HTML without escaping meta-characters.",
+      "file": "framework-boilerplates/hexo/themes/landscape/source/js/script.js",
+      "region": {
+        "startLine": 76,
+        "startColumn": 21,
+        "endColumn": 25
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/xss-through-dom",
+      "rule_index": 14,
+      "level": "warning",
+      "message": "[DOM text](1) is reinterpreted as HTML without escaping meta-characters.",
+      "file": "framework-boilerplates/hexo/themes/landscape/source/js/script.js",
+      "region": {
+        "startLine": 124,
+        "startColumn": 11,
+        "endColumn": 81
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/stored-xss",
+      "rule_index": 16,
+      "level": "warning",
+      "message": "Stored cross-site scripting vulnerability due to [stored value](1).",
+      "file": "solutions/blog/app/blog/%5Bslug%5D/page.tsx",
+      "region": {
+        "startLine": 67,
+        "startColumn": 19,
+        "endLine": 82,
+        "endColumn": 13
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/stored-xss",
+      "rule_index": 16,
+      "level": "warning",
+      "message": "Stored cross-site scripting vulnerability due to [stored value](1).",
+      "file": "solutions/blog/app/components/posts.tsx",
+      "region": {
+        "startLine": 20,
+        "startColumn": 18,
+        "endColumn": 27
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/stored-xss",
+      "rule_index": 16,
+      "level": "warning",
+      "message": "Stored cross-site scripting vulnerability due to [stored value](1).",
+      "file": "solutions/blog/app/components/posts.tsx",
+      "region": {
+        "startLine": 22,
+        "startColumn": 19,
+        "endColumn": 39
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/stored-xss",
+      "rule_index": 16,
+      "level": "warning",
+      "message": "Stored cross-site scripting vulnerability due to [stored value](1).",
+      "file": "solutions/blog/app/rss/route.ts",
+      "region": {
+        "startLine": 37,
+        "startColumn": 23,
+        "endColumn": 30
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unsafe-jquery-plugin",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Potential XSS vulnerability in the ['$.fn.fancybox' plugin](1).",
+      "file": "framework-boilerplates/hexo/themes/landscape/source/fancybox/jquery.fancybox.js",
+      "region": {
+        "startLine": 334,
+        "startColumn": 17,
+        "endColumn": 75
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unsafe-jquery-plugin",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Potential XSS vulnerability in the ['$.fn.fancybox' plugin](1).",
+      "file": "framework-boilerplates/hexo/themes/landscape/source/fancybox/jquery.fancybox.js",
+      "region": {
+        "startLine": 1056,
+        "startColumn": 20,
+        "endColumn": 79
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unsafe-jquery-plugin",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Potential XSS vulnerability in the ['$.fn.fancybox' plugin](1).",
+      "file": "framework-boilerplates/hexo/themes/landscape/source/fancybox/jquery.fancybox.js",
+      "region": {
+        "startLine": 1061,
+        "startColumn": 9,
+        "endColumn": 20
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unsafe-jquery-plugin",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Potential XSS vulnerability in the ['$.fn.fancybox' plugin](1).",
+      "file": "framework-boilerplates/hexo/themes/landscape/source/fancybox/jquery.fancybox.js",
+      "region": {
+        "startLine": 1096,
+        "startColumn": 40,
+        "endColumn": 52
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unsafe-jquery-plugin",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Potential XSS vulnerability in the ['$.fn.fancybox' plugin](1).",
+      "file": "framework-boilerplates/hexo/themes/landscape/source/fancybox/jquery.fancybox.js",
+      "region": {
+        "startLine": 2125,
+        "startColumn": 65,
+        "endColumn": 71
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unsafe-jquery-plugin",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Potential XSS vulnerability in the ['$.fn.fancybox' plugin](1).",
+      "file": "framework-boilerplates/hexo/themes/landscape/source/fancybox/jquery.fancybox.pack.js",
+      "region": {
+        "startLine": 193,
+        "startColumn": 28,
+        "endColumn": 70
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unsafe-jquery-plugin",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Potential XSS vulnerability in the ['$.fn.fancybox' plugin](1).",
+      "file": "framework-boilerplates/hexo/themes/landscape/source/fancybox/jquery.fancybox.pack.js",
+      "region": {
+        "startLine": 569,
+        "startColumn": 15,
+        "endColumn": 69
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unsafe-jquery-plugin",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Potential XSS vulnerability in the ['$.fn.fancybox' plugin](1).",
+      "file": "framework-boilerplates/hexo/themes/landscape/source/fancybox/jquery.fancybox.pack.js",
+      "region": {
+        "startLine": 572,
+        "startColumn": 9,
+        "endColumn": 15
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unsafe-jquery-plugin",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Potential XSS vulnerability in the ['$.fn.fancybox' plugin](1).",
+      "file": "framework-boilerplates/hexo/themes/landscape/source/fancybox/jquery.fancybox.pack.js",
+      "region": {
+        "startLine": 594,
+        "startColumn": 30,
+        "endColumn": 37
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unsafe-jquery-plugin",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Potential XSS vulnerability in the ['$.fn.fancybox' plugin](1).",
+      "file": "framework-boilerplates/hexo/themes/landscape/source/fancybox/jquery.fancybox.pack.js",
+      "region": {
+        "startLine": 1153,
+        "startColumn": 60,
+        "endColumn": 61
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/html-constructed-from-input",
+      "rule_index": 18,
+      "level": "warning",
+      "message": "This HTML construction which depends on [library input](1) might later allow [cross-site scripting](2).\nThis HTML construction which depends on [library input](1) might later allow [cross-site scripting](3).",
+      "file": "framework-boilerplates/hexo/themes/landscape/source/fancybox/jquery.fancybox.js",
+      "region": {
+        "startLine": 1214,
+        "startColumn": 13,
+        "endColumn": 17
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/html-constructed-from-input",
+      "rule_index": 18,
+      "level": "warning",
+      "message": "This HTML construction which depends on [library input](1) might later allow [cross-site scripting](2).\nThis HTML construction which depends on [library input](1) might later allow [cross-site scripting](3).",
+      "file": "framework-boilerplates/hexo/themes/landscape/source/fancybox/jquery.fancybox.js",
+      "region": {
+        "startLine": 1219,
+        "startColumn": 13,
+        "endColumn": 20
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/html-constructed-from-input",
+      "rule_index": 18,
+      "level": "warning",
+      "message": "This HTML construction which depends on [library input](1) might later allow [cross-site scripting](2).\nThis HTML construction which depends on [library input](1) might later allow [cross-site scripting](3).",
+      "file": "framework-boilerplates/hexo/themes/landscape/source/fancybox/jquery.fancybox.js",
+      "region": {
+        "startLine": 1224,
+        "startColumn": 11,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/html-constructed-from-input",
+      "rule_index": 18,
+      "level": "warning",
+      "message": "This HTML construction which depends on [library input](1) might later allow [cross-site scripting](2).\nThis HTML construction which depends on [library input](1) might later allow [cross-site scripting](3).",
+      "file": "framework-boilerplates/hexo/themes/landscape/source/fancybox/jquery.fancybox.js",
+      "region": {
+        "startLine": 1226,
+        "startColumn": 13,
+        "endColumn": 17
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/html-constructed-from-input",
+      "rule_index": 18,
+      "level": "warning",
+      "message": "This HTML construction which depends on [library input](1) might later allow [cross-site scripting](2).",
+      "file": "framework-boilerplates/hexo/themes/landscape/source/fancybox/jquery.fancybox.js",
+      "region": {
+        "startLine": 2089,
+        "startColumn": 11,
+        "endColumn": 15
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/html-constructed-from-input",
+      "rule_index": 18,
+      "level": "warning",
+      "message": "This HTML construction which depends on [library input](1) might later allow [cross-site scripting](2).\nThis HTML construction which depends on [library input](1) might later allow [cross-site scripting](3).",
+      "file": "framework-boilerplates/hexo/themes/landscape/source/fancybox/jquery.fancybox.pack.js",
+      "region": {
+        "startLine": 676,
+        "startColumn": 17,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/html-constructed-from-input",
+      "rule_index": 18,
+      "level": "warning",
+      "message": "This HTML construction which depends on [library input](1) might later allow [cross-site scripting](2).\nThis HTML construction which depends on [library input](1) might later allow [cross-site scripting](3).",
+      "file": "framework-boilerplates/hexo/themes/landscape/source/fancybox/jquery.fancybox.pack.js",
+      "region": {
+        "startLine": 680,
+        "startColumn": 19,
+        "endColumn": 20
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/html-constructed-from-input",
+      "rule_index": 18,
+      "level": "warning",
+      "message": "This HTML construction which depends on [library input](1) might later allow [cross-site scripting](2).\nThis HTML construction which depends on [library input](1) might later allow [cross-site scripting](3).",
+      "file": "framework-boilerplates/hexo/themes/landscape/source/fancybox/jquery.fancybox.pack.js",
+      "region": {
+        "startLine": 683,
+        "startColumn": 18,
+        "endColumn": 19
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/html-constructed-from-input",
+      "rule_index": 18,
+      "level": "warning",
+      "message": "This HTML construction which depends on [library input](1) might later allow [cross-site scripting](2).\nThis HTML construction which depends on [library input](1) might later allow [cross-site scripting](3).",
+      "file": "framework-boilerplates/hexo/themes/landscape/source/fancybox/jquery.fancybox.pack.js",
+      "region": {
+        "startLine": 685,
+        "startColumn": 19,
+        "endColumn": 20
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/html-constructed-from-input",
+      "rule_index": 18,
+      "level": "warning",
+      "message": "This HTML construction which depends on [library input](1) might later allow [cross-site scripting](2).",
+      "file": "framework-boilerplates/hexo/themes/landscape/source/fancybox/jquery.fancybox.pack.js",
+      "region": {
+        "startLine": 1133,
+        "startColumn": 13,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/insecure-randomness",
+      "rule_index": 20,
+      "level": "warning",
+      "message": "This uses a cryptographically insecure random number generated at [Math.random()](1) in a security context.",
+      "file": "python/vibe-coding-ide/frontend/src/app/App.tsx",
+      "region": {
+        "startLine": 34,
+        "startColumn": 17,
+        "endColumn": 37
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/insecure-randomness",
+      "rule_index": 20,
+      "level": "warning",
+      "message": "This uses a cryptographically insecure random number generated at [Math.random()](1) in a security context.",
+      "file": "python/vibe-coding-ide/frontend/src/components/Editor/EditorPane.tsx",
+      "region": {
+        "startLine": 109,
+        "startColumn": 30,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/insecure-randomness",
+      "rule_index": 20,
+      "level": "warning",
+      "message": "This uses a cryptographically insecure random number generated at [Math.random()](1) in a security context.",
+      "file": "python/vibe-coding-ide/frontend/src/components/Editor/EditorPane.tsx",
+      "region": {
+        "startLine": 186,
+        "startColumn": 32,
+        "endColumn": 43
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/insecure-randomness",
+      "rule_index": 20,
+      "level": "warning",
+      "message": "This uses a cryptographically insecure random number generated at [Math.random()](1) in a security context.",
+      "file": "python/vibe-coding-ide/frontend/src/context/ProjectsContext.tsx",
+      "region": {
+        "startLine": 529,
+        "startColumn": 22,
+        "endColumn": 33
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/insecure-randomness",
+      "rule_index": 20,
+      "level": "warning",
+      "message": "This uses a cryptographically insecure random number generated at [Math.random()](1) in a security context.",
+      "file": "python/vibe-coding-ide/frontend/src/lib/user.ts",
+      "region": {
+        "startLine": 20,
+        "startColumn": 60,
+        "endColumn": 62
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/insecure-randomness",
+      "rule_index": 20,
+      "level": "warning",
+      "message": "This uses a cryptographically insecure random number generated at [Math.random()](1) in a security context.\nThis uses a cryptographically insecure random number generated at [Math.random()](2) in a security context.\nThis uses a cryptographically insecure random number generated at [Math.random()](3) in a security context.",
+      "file": "python/vibe-coding-ide/frontend/src/hooks/useChat.tsx",
+      "region": {
+        "startLine": 31,
+        "startColumn": 3,
+        "endColumn": 8
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/insecure-randomness",
+      "rule_index": 20,
+      "level": "warning",
+      "message": "This uses a cryptographically insecure random number generated at [Math.random()](1) in a security context.\nThis uses a cryptographically insecure random number generated at [Math.random()](2) in a security context.\nThis uses a cryptographically insecure random number generated at [Math.random()](3) in a security context.",
+      "file": "python/vibe-coding-ide/frontend/src/hooks/useChat.tsx",
+      "region": {
+        "startLine": 32,
+        "startColumn": 3,
+        "endColumn": 13
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/insecure-randomness",
+      "rule_index": 20,
+      "level": "warning",
+      "message": "This uses a cryptographically insecure random number generated at [Math.random()](1) in a security context.",
+      "file": "python/vibe-coding-ide/frontend/src/hooks/useChat.tsx",
+      "region": {
+        "startLine": 35,
+        "startColumn": 3,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/insecure-randomness",
+      "rule_index": 20,
+      "level": "warning",
+      "message": "This uses a cryptographically insecure random number generated at [Math.random()](1) in a security context.\nThis uses a cryptographically insecure random number generated at [Math.random()](2) in a security context.\nThis uses a cryptographically insecure random number generated at [Math.random()](3) in a security context.",
+      "file": "python/vibe-coding-ide/frontend/src/hooks/useChat.tsx",
+      "region": {
+        "startLine": 36,
+        "startColumn": 3,
+        "endColumn": 11
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/insecure-randomness",
+      "rule_index": 20,
+      "level": "warning",
+      "message": "This uses a cryptographically insecure random number generated at [Math.random()](1) in a security context.\nThis uses a cryptographically insecure random number generated at [Math.random()](2) in a security context.\nThis uses a cryptographically insecure random number generated at [Math.random()](3) in a security context.",
+      "file": "python/vibe-coding-ide/frontend/src/hooks/useChat.tsx",
+      "region": {
+        "startLine": 41,
+        "startColumn": 3,
+        "endColumn": 8
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/type-confusion-through-parameter-tampering",
+      "rule_index": 22,
+      "level": "warning",
+      "message": "Potential type confusion as [this HTTP request parameter](1) may be either an array or a string.",
+      "file": "solutions/web3-authentication/pages/api/auth/%5B...nextauth%5D.ts",
+      "region": {
+        "startLine": 50,
+        "startColumn": 29,
+        "endColumn": 47
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/request-forgery",
+      "rule_index": 28,
+      "level": "warning",
+      "message": "The [URL](1) of this request depends on a [user-provided value](2).",
+      "file": "edge-middleware/ip-blocking-datadome/lib/datadome-ip.ts",
+      "region": {
+        "startLine": 38,
+        "startColumn": 23,
+        "endLine": 44,
+        "endColumn": 6
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/request-forgery",
+      "rule_index": 28,
+      "level": "warning",
+      "message": "The [URL](1) of this request depends on a [user-provided value](2).",
+      "file": "edge-middleware/rewrites-upstash/api.ts",
+      "region": {
+        "startLine": 29,
+        "startColumn": 20,
+        "endLine": 31,
+        "endColumn": 8
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/request-forgery",
+      "rule_index": 28,
+      "level": "warning",
+      "message": "The [URL](1) of this request depends on a [user-provided value](2).",
+      "file": "edge-middleware/rewrites-upstash/api.ts",
+      "region": {
+        "startLine": 36,
+        "startColumn": 20,
+        "endLine": 38,
+        "endColumn": 8
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/request-forgery",
+      "rule_index": 28,
+      "level": "warning",
+      "message": "The [URL](1) of this request depends on a [user-provided value](2).",
+      "file": "solutions/platforms-slate-supabase/pages/api/check-domain.js",
+      "region": {
+        "startLine": 4,
+        "startColumn": 26,
+        "endLine": 13,
+        "endColumn": 4
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/request-forgery",
+      "rule_index": 28,
+      "level": "warning",
+      "message": "The [URL](1) of this request depends on a [user-provided value](2).",
+      "file": "solutions/platforms-slate-supabase/pages/api/remove-domain.js",
+      "region": {
+        "startLine": 6,
+        "startColumn": 26,
+        "endLine": 14,
+        "endColumn": 4
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/request-forgery",
+      "rule_index": 28,
+      "level": "warning",
+      "message": "The [URL](1) of this request depends on a [user-provided value](2).",
+      "file": "solutions/platforms-slate-supabase/pages/api/request-delegation.js",
+      "region": {
+        "startLine": 4,
+        "startColumn": 26,
+        "endLine": 13,
+        "endColumn": 4
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/stack-trace-exposure",
+      "rule_index": 49,
+      "level": "warning",
+      "message": "This information exposed to the user depends on [stack trace information](1).",
+      "file": "edge-middleware/feature-flag-apple-store/pages/api/store/close.ts",
+      "region": {
+        "startLine": 21,
+        "startColumn": 7,
+        "endLine": 24,
+        "endColumn": 9
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/stack-trace-exposure",
+      "rule_index": 49,
+      "level": "warning",
+      "message": "This information exposed to the user depends on [stack trace information](1).",
+      "file": "edge-middleware/feature-flag-apple-store/pages/api/store/open.ts",
+      "region": {
+        "startLine": 21,
+        "startColumn": 7,
+        "endLine": 24,
+        "endColumn": 9
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/incomplete-url-substring-sanitization",
+      "rule_index": 56,
+      "level": "warning",
+      "message": "'[myshopify.com](1)' can be anywhere in the URL, and arbitrary hosts may come before or after it.",
+      "file": "framework-boilerplates/hydrogen-2/app/components/Footer.tsx",
+      "region": {
+        "startLine": 21,
+        "startColumn": 11,
+        "endColumn": 45
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/incomplete-url-substring-sanitization",
+      "rule_index": 56,
+      "level": "warning",
+      "message": "'[myshopify.com](1)' can be anywhere in the URL, and arbitrary hosts may come before or after it.",
+      "file": "framework-boilerplates/hydrogen-2/app/components/Header.tsx",
+      "region": {
+        "startLine": 58,
+        "startColumn": 11,
+        "endColumn": 45
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/incomplete-url-substring-sanitization",
+      "rule_index": 56,
+      "level": "warning",
+      "message": "'[pic.twitter.com](1)' may be followed by an arbitrary host name.",
+      "file": "solutions/platforms-slate-supabase/lib/twitter.js",
+      "region": {
+        "startLine": 56,
+        "startColumn": 12,
+        "endColumn": 57
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/incomplete-url-substring-sanitization",
+      "rule_index": 56,
+      "level": "warning",
+      "message": "'[twitter.com](1)' may be followed by an arbitrary host name.",
+      "file": "solutions/platforms-slate-supabase/lib/twitter.js",
+      "region": {
+        "startLine": 57,
+        "startColumn": 12,
+        "endColumn": 53
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/client-side-unvalidated-url-redirection",
+      "rule_index": 67,
+      "level": "warning",
+      "message": "Untrusted URL redirection depends on a [user-provided value](1).",
+      "file": "vercel-tutor/app/page.tsx",
+      "region": {
+        "startLine": 95,
+        "startColumn": 23,
+        "endColumn": 30
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/polynomial-redos",
+      "rule_index": 76,
+      "level": "warning",
+      "message": "This [regular expression](1) that depends on [library input](2) may run slow on strings starting with '<p' and with many repetitions of '<p'.\nThis [regular expression](3) that depends on [library input](2) may run slow on strings starting with '<p>' and with many repetitions of '>a'.",
+      "file": "framework-boilerplates/hydrogen/src/lib/utils.ts",
+      "region": {
+        "startLine": 67,
+        "startColumn": 17,
+        "endColumn": 33
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/http-to-file-access",
+      "rule_index": 84,
+      "level": "warning",
+      "message": "Write to file system depends on [Untrusted data](1).",
+      "file": "edge-middleware/feature-flag-optimizely/scripts/fetch_optimizely_datafile.js",
+      "region": {
+        "startLine": 15,
+        "startColumn": 53,
+        "endColumn": 65
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/http-to-file-access",
+      "rule_index": 84,
+      "level": "warning",
+      "message": "Write to file system depends on [Untrusted data](1).",
+      "file": "edge-middleware/geolocation/scripts/countries.js",
+      "region": {
+        "startLine": 21,
+        "startColumn": 29,
+        "endColumn": 36
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/http-to-file-access",
+      "rule_index": 84,
+      "level": "warning",
+      "message": "Write to file system depends on [Untrusted data](1).",
+      "file": "internal/scripts/update-fields.ts",
+      "region": {
+        "startLine": 26,
+        "startColumn": 5,
+        "endColumn": 34
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/log-injection",
+      "rule_index": 85,
+      "level": "warning",
+      "message": "Log entry depends on a [user-provided value](1).",
+      "file": "guides/sandbox-voice-agent/app/api/connection-details/route.ts",
+      "region": {
+        "startLine": 44,
+        "startColumn": 19,
+        "endColumn": 81
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/log-injection",
+      "rule_index": 85,
+      "level": "warning",
+      "message": "Log entry depends on a [user-provided value](1).",
+      "file": "guides/sandbox-voice-agent/app/api/sandbox/stop/route.ts",
+      "region": {
+        "startLine": 29,
+        "startColumn": 17,
+        "endColumn": 75
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/log-injection",
+      "rule_index": 85,
+      "level": "warning",
+      "message": "Log entry depends on a [user-provided value](1).",
+      "file": "guides/sandbox-voice-agent/app/api/sandbox/stop/route.ts",
+      "region": {
+        "startLine": 34,
+        "startColumn": 19,
+        "endColumn": 72
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/log-injection",
+      "rule_index": 85,
+      "level": "warning",
+      "message": "Log entry depends on a [user-provided value](1).",
+      "file": "guides/sandbox-voice-agent/app/api/sandbox/stop/route.ts",
+      "region": {
+        "startLine": 44,
+        "startColumn": 17,
+        "endColumn": 63
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/log-injection",
+      "rule_index": 85,
+      "level": "warning",
+      "message": "Log entry depends on a [user-provided value](1).",
+      "file": "solutions/cron/pages/api/cron/%5Bcron%5D.ts",
+      "region": {
+        "startLine": 9,
+        "startColumn": 15,
+        "endColumn": 19
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/regex/missing-regexp-anchor",
+      "rule_index": 93,
+      "level": "warning",
+      "message": "When this is used as a regular expression on a URL, it may match anywhere, and arbitrary hosts may come before or after it.",
+      "file": "framework-boilerplates/hexo/themes/landscape/source/fancybox/helpers/jquery.fancybox-media.js",
+      "region": {
+        "startLine": 106,
+        "startColumn": 18,
+        "endColumn": 65
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/regex/missing-regexp-anchor",
+      "rule_index": 93,
+      "level": "warning",
+      "message": "When this is used as a regular expression on a URL, it may match anywhere, and arbitrary hosts may come before or after it.",
+      "file": "framework-boilerplates/hexo/themes/landscape/source/fancybox/helpers/jquery.fancybox-media.js",
+      "region": {
+        "startLine": 119,
+        "startColumn": 18,
+        "endColumn": 67
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/regex/missing-regexp-anchor",
+      "rule_index": 93,
+      "level": "warning",
+      "message": "When this is used as a regular expression on a URL, it may match anywhere, and arbitrary hosts may come before or after it.",
+      "file": "framework-boilerplates/hexo/themes/landscape/source/fancybox/helpers/jquery.fancybox-media.js",
+      "region": {
+        "startLine": 131,
+        "startColumn": 18,
+        "endColumn": 55
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/regex/missing-regexp-anchor",
+      "rule_index": 93,
+      "level": "warning",
+      "message": "When this is used as a regular expression on a URL, it may match anywhere, and arbitrary hosts may come before or after it.",
+      "file": "framework-boilerplates/hydrogen/src/lib/utils.ts",
+      "region": {
+        "startLine": 158,
+        "startColumn": 28,
+        "endColumn": 47
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/useless-expression",
+      "rule_index": 108,
+      "level": "warning",
+      "message": "This expression has no effect.",
+      "file": "framework-boilerplates/hexo/themes/landscape/scripts/fancybox.js",
+      "region": {
+        "startLine": 32,
+        "startColumn": 3,
+        "endColumn": 71
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/redundant-operation",
+      "rule_index": 113,
+      "level": "warning",
+      "message": "Operands [label](1) and [label](2) are identical.",
+      "file": "starter/cms-payload/components/Link/index.tsx",
+      "region": {
+        "startLine": 45,
+        "startColumn": 12,
+        "endColumn": 26
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/redundant-operation",
+      "rule_index": 113,
+      "level": "warning",
+      "message": "Operands [children](1) and [children](2) are identical.",
+      "file": "starter/cms-payload/components/Link/index.tsx",
+      "region": {
+        "startLine": 46,
+        "startColumn": 12,
+        "endColumn": 32
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/redundant-operation",
+      "rule_index": 113,
+      "level": "warning",
+      "message": "Operands [label](1) and [label](2) are identical.",
+      "file": "starter/cms-payload/components/Link/index.tsx",
+      "region": {
+        "startLine": 54,
+        "startColumn": 12,
+        "endColumn": 26
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/redundant-operation",
+      "rule_index": 113,
+      "level": "warning",
+      "message": "Operands [children](1) and [children](2) are identical.",
+      "file": "starter/cms-payload/components/Link/index.tsx",
+      "region": {
+        "startLine": 55,
+        "startColumn": 12,
+        "endColumn": 32
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unneeded-defensive-code",
+      "rule_index": 116,
+      "level": "warning",
+      "message": "This guard always evaluates to false.",
+      "file": "edge-middleware/bot-protection-datadome/lib/datadome.ts",
+      "region": {
+        "startLine": 215,
+        "startColumn": 36,
+        "endColumn": 55
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unneeded-defensive-code",
+      "rule_index": 116,
+      "level": "warning",
+      "message": "This guard always evaluates to false.",
+      "file": "edge-middleware/ip-blocking-datadome/lib/datadome.ts",
+      "region": {
+        "startLine": 196,
+        "startColumn": 36,
+        "endColumn": 55
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unreachable-statement",
+      "rule_index": 124,
+      "level": "warning",
+      "message": "This statement is unreachable.",
+      "file": "framework-boilerplates/hexo/themes/landscape/scripts/fancybox.js",
+      "region": {
+        "startLine": 32,
+        "startColumn": 3,
+        "endColumn": 72
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/useless-assignment-in-return",
+      "rule_index": 127,
+      "level": "warning",
+      "message": "The assignment to c is useless, since it is a local variable and will go out of scope.",
+      "file": "framework-boilerplates/hexo/themes/landscape/source/fancybox/jquery.fancybox.pack.js",
+      "region": {
+        "startLine": 926,
+        "startColumn": 7,
+        "endColumn": 20
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/trivial-conditional",
+      "rule_index": 134,
+      "level": "warning",
+      "message": "This use of variable 'results' always evaluates to true.",
+      "file": "framework-boilerplates/hydrogen-2/app/components/Search.tsx",
+      "region": {
+        "startLine": 114,
+        "startColumn": 8,
+        "endColumn": 15
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/trivial-conditional",
+      "rule_index": 134,
+      "level": "warning",
+      "message": "This use of variable 'data' always evaluates to true.",
+      "file": "solutions/cron/components/post.tsx",
+      "region": {
+        "startLine": 30,
+        "startColumn": 66,
+        "endColumn": 70
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/overwritten-property",
+      "rule_index": 150,
+      "level": "warning",
+      "message": "This property is overwritten by [another property](1) in the same object literal.",
+      "file": "internal/packages/ui/src/tailwind.cjs",
+      "region": {
+        "startLine": 4,
+        "startColumn": 3,
+        "endColumn": 20
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/useless-assignment-to-local",
+      "rule_index": 151,
+      "level": "warning",
+      "message": "The value assigned to err here is unused.",
+      "file": "edge-middleware/ip-blocking-datadome/lib/fetch-api.ts",
+      "region": {
+        "startLine": 24,
+        "startColumn": 7,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/useless-assignment-to-local",
+      "rule_index": 151,
+      "level": "warning",
+      "message": "The initial value of e is unused, since it is always overwritten.",
+      "file": "framework-boilerplates/hexo/themes/landscape/source/fancybox/jquery.fancybox.pack.js",
+      "region": {
+        "startLine": 715,
+        "startColumn": 9,
+        "endColumn": 15
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/useless-assignment-to-local",
+      "rule_index": 151,
+      "level": "warning",
+      "message": "The initial value of c is unused, since it is always overwritten.",
+      "file": "framework-boilerplates/hexo/themes/landscape/source/fancybox/jquery.fancybox.pack.js",
+      "region": {
+        "startLine": 716,
+        "startColumn": 9,
+        "endColumn": 15
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/useless-assignment-to-local",
+      "rule_index": 151,
+      "level": "warning",
+      "message": "The value assigned to c here is unused.",
+      "file": "framework-boilerplates/hexo/themes/landscape/source/fancybox/jquery.fancybox.pack.js",
+      "region": {
+        "startLine": 926,
+        "startColumn": 15,
+        "endLine": 931,
+        "endColumn": 8
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/useless-assignment-to-local",
+      "rule_index": 151,
+      "level": "warning",
+      "message": "The initial value of filter is unused, since it is always overwritten.",
+      "file": "solutions/platforms-slate-supabase/pages/_sites/%5Bsite%5D/index.js",
+      "region": {
+        "startLine": 117,
+        "startColumn": 7,
+        "endLine": 119,
+        "endColumn": 4
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/useless-assignment-to-local",
+      "rule_index": 151,
+      "level": "warning",
+      "message": "The value assigned to filter here is unused.",
+      "file": "solutions/platforms-slate-supabase/pages/_sites/%5Bsite%5D/index.js",
+      "region": {
+        "startLine": 121,
+        "startColumn": 5,
+        "endLine": 123,
+        "endColumn": 6
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused import use.",
+      "file": "app-directory/i18n/app/%5Blang%5D/page.tsx",
+      "region": {
+        "startLine": 2,
+        "endColumn": 28
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused import Code.",
+      "file": "app-directory/redirect-with-fallback/app/complex-redirect-destination/page.tsx",
+      "region": {
+        "startLine": 1,
+        "endColumn": 70
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused import Code.",
+      "file": "app-directory/redirect-with-fallback/app/simple-redirect-destination/page.tsx",
+      "region": {
+        "startLine": 1,
+        "endColumn": 70
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused import BOTD_PROXY_API.",
+      "file": "edge-middleware/bot-protection-botd/lib/botd/script.tsx",
+      "region": {
+        "startLine": 3,
+        "endColumn": 60
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable session.",
+      "file": "edge-middleware/clerk-authentication/components/tryRenovationSection/SessionList.jsx",
+      "region": {
+        "startLine": 8,
+        "startColumn": 9,
+        "endColumn": 16
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable reverify.",
+      "file": "edge-middleware/clerk-authentication/pages/api/stateful/_middleware.js",
+      "region": {
+        "startLine": 10,
+        "startColumn": 11,
+        "endColumn": 19
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable s.",
+      "file": "edge-middleware/clerk-authentication/utils/forceRender.jsx",
+      "region": {
+        "startLine": 4,
+        "startColumn": 10,
+        "endColumn": 11
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable flags.",
+      "file": "edge-middleware/feature-flag-configcat/scripts/configcat.js",
+      "region": {
+        "startLine": 32,
+        "startColumn": 9,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused import useEffect.",
+      "file": "edge-middleware/feature-flag-posthog/pages/about/index.tsx",
+      "region": {
+        "startLine": 1,
+        "endColumn": 34
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused import Head.",
+      "file": "edge-middleware/hostname-rewrites/pages/_sites/%5Bsite%5D/about.tsx",
+      "region": {
+        "startLine": 1,
+        "endColumn": 29
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable pending.",
+      "file": "edge-middleware/rate-limit-any-framework/middleware.js",
+      "region": {
+        "startLine": 19,
+        "startColumn": 20,
+        "endColumn": 27
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable limit.",
+      "file": "edge-middleware/rate-limit-any-framework/middleware.js",
+      "region": {
+        "startLine": 19,
+        "startColumn": 29,
+        "endColumn": 34
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable reset.",
+      "file": "edge-middleware/rate-limit-any-framework/middleware.js",
+      "region": {
+        "startLine": 19,
+        "startColumn": 36,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable remaining.",
+      "file": "edge-middleware/rate-limit-any-framework/middleware.js",
+      "region": {
+        "startLine": 19,
+        "startColumn": 43,
+        "endColumn": 52
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused import getCartId.",
+      "file": "flags-sdk/hypertune/lib/actions.ts",
+      "region": {
+        "startLine": 6,
+        "endColumn": 42
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable BACKEND_URL.",
+      "file": "flags-sdk/hypertune/lib/actions.ts",
+      "region": {
+        "startLine": 12,
+        "startColumn": 7,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused import FC.",
+      "file": "framework-boilerplates/blitzjs/src/core/layouts/Layout.tsx",
+      "region": {
+        "startLine": 2,
+        "endColumn": 34
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused import styles.",
+      "file": "framework-boilerplates/hugo/themes/ananke/src/js/main.js",
+      "region": {
+        "startLine": 1,
+        "endColumn": 40
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable webpack.",
+      "file": "framework-boilerplates/hugo/themes/ananke/src/webpack.config.js",
+      "region": {
+        "startLine": 3,
+        "startColumn": 5,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused import routes.",
+      "file": "framework-boilerplates/sapper/src/service-worker.js",
+      "region": {
+        "startLine": 1,
+        "endColumn": 74
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable resolve.",
+      "file": "microfrontends/nextjs-multi-zones/packages/eslint-config-custom/next.js",
+      "region": {
+        "startLine": 1,
+        "startColumn": 9,
+        "endColumn": 16
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused imports cookies, headers.",
+      "file": "microfrontends/saas-microservices/apps/dashboard/src/app/components/dashboard-header.tsx",
+      "region": {
+        "startLine": 1,
+        "endColumn": 49
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused import SidebarTrigger.",
+      "file": "microfrontends/saas-microservices/apps/dashboard/src/app/components/dashboard-nav.tsx",
+      "region": {
+        "startLine": 5,
+        "endLine": 16,
+        "endColumn": 34
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused imports ArrowDownIcon, ArrowUpIcon.",
+      "file": "microfrontends/saas-microservices/apps/dashboard/src/app/components/metric-cards.tsx",
+      "region": {
+        "startLine": 1,
+        "endLine": 8,
+        "endColumn": 23
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused imports cookies, headers.",
+      "file": "microfrontends/saas-microservices/apps/dashboard/src/app/components/recent-activity.tsx",
+      "region": {
+        "startLine": 1,
+        "endColumn": 49
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable resolve.",
+      "file": "microfrontends/single-spa/packages/eslint-config-custom/base.js",
+      "region": {
+        "startLine": 1,
+        "startColumn": 9,
+        "endColumn": 16
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused imports Code, Link.",
+      "file": "plop-templates/example/app/page.tsx",
+      "region": {
+        "startLine": 1,
+        "endColumn": 61
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable isOutOfSync.",
+      "file": "python/vibe-coding-ide/frontend/src/components/Editor/EditorPane.tsx",
+      "region": {
+        "startLine": 88,
+        "startColumn": 9,
+        "endColumn": 20
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable handleImmediateSync.",
+      "file": "python/vibe-coding-ide/frontend/src/components/Editor/EditorPane.tsx",
+      "region": {
+        "startLine": 101,
+        "startColumn": 9,
+        "endColumn": 28
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused imports Button, Code, Link, List.",
+      "file": "solutions/auth-with-ory/pages/index.tsx",
+      "region": {
+        "startLine": 5,
+        "endColumn": 69
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable filename.",
+      "file": "solutions/aws-s3-image-upload/app/api/upload/route.ts",
+      "region": {
+        "startLine": 6,
+        "startColumn": 11,
+        "endColumn": 19
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused import Quote.",
+      "file": "solutions/microfrontends/apps/main/app/components/colored-button.tsx",
+      "region": {
+        "startLine": 4,
+        "endColumn": 52
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused import Button.",
+      "file": "solutions/mint-nft/components/UploadNft.tsx",
+      "region": {
+        "startLine": 5,
+        "endColumn": 64
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable disabled.",
+      "file": "solutions/mint-nft/components/UploadNft.tsx",
+      "region": {
+        "startLine": 15,
+        "startColumn": 10,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused imports Code, Link.",
+      "file": "solutions/mint-nft/pages/index.tsx",
+      "region": {
+        "startLine": 1,
+        "endColumn": 69
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused import Highlight.",
+      "file": "solutions/platforms-slate-supabase/components/editor/Leaf.js",
+      "region": {
+        "startLine": 1,
+        "endColumn": 40
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused import truncate.",
+      "file": "solutions/platforms-slate-supabase/lib/twitter.js",
+      "region": {
+        "startLine": 3,
+        "endColumn": 34
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable published.",
+      "file": "solutions/platforms-slate-supabase/pages/api/post.js",
+      "region": {
+        "startLine": 7,
+        "startColumn": 31,
+        "endColumn": 40
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable currentMark.",
+      "file": "solutions/platforms-slate-supabase/pages/app/post/%5Bid%5D/index.js",
+      "region": {
+        "startLine": 79,
+        "startColumn": 10,
+        "endColumn": 21
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused import Image.",
+      "file": "solutions/platforms-slate-supabase/pages/app/site/%5Bid%5D/drafts.js",
+      "region": {
+        "startLine": 6,
+        "endColumn": 31
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused imports cookies, headers.",
+      "file": "solutions/saas-microservices/apps/dashboard/src/app/components/dashboard-header.tsx",
+      "region": {
+        "startLine": 1,
+        "endColumn": 49
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused import SidebarTrigger.",
+      "file": "solutions/saas-microservices/apps/dashboard/src/app/components/dashboard-nav.tsx",
+      "region": {
+        "startLine": 5,
+        "endLine": 16,
+        "endColumn": 34
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused imports ArrowDownIcon, ArrowUpIcon.",
+      "file": "solutions/saas-microservices/apps/dashboard/src/app/components/metric-cards.tsx",
+      "region": {
+        "startLine": 1,
+        "endLine": 8,
+        "endColumn": 23
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused imports cookies, headers.",
+      "file": "solutions/saas-microservices/apps/dashboard/src/app/components/recent-activity.tsx",
+      "region": {
+        "startLine": 1,
+        "endColumn": 49
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused import Button.",
+      "file": "solutions/testing/apps/main-site/pages/signup.tsx",
+      "region": {
+        "startLine": 3,
+        "endColumn": 72
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused imports BrowserType, DeviceName, ScreenOrientation.",
+      "file": "solutions/testing/packages/playwright/shared/applitools.ts",
+      "region": {
+        "startLine": 2,
+        "endLine": 12,
+        "endColumn": 37
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused imports DeviceName, ScreenOrientation.",
+      "file": "solutions/testing/packages/playwright/shared/base-fixture.ts",
+      "region": {
+        "startLine": 5,
+        "endLine": 9,
+        "endColumn": 37
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable error.",
+      "file": "solutions/web3-authentication/pages/index.tsx",
+      "region": {
+        "startLine": 35,
+        "startColumn": 32,
+        "endColumn": 37
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable size.",
+      "file": "starter/cms-payload/components/Media/Image/index.tsx",
+      "region": {
+        "startLine": 14,
+        "startColumn": 5,
+        "endColumn": 9
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused import Media.",
+      "file": "starter/cms-payload/components/Media/Video/index.tsx",
+      "region": {
+        "startLine": 3,
+        "endColumn": 34
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable showFallback.",
+      "file": "starter/cms-payload/components/Media/Video/index.tsx",
+      "region": {
+        "startLine": 9,
+        "startColumn": 10,
+        "endColumn": 22
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused import link.",
+      "file": "starter/cms-payload/payload/fields/richText/index.ts",
+      "region": {
+        "startLine": 9,
+        "endColumn": 27
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/duplicate-variable-declaration",
+      "rule_index": 153,
+      "level": "warning",
+      "message": "Variable e has already [been previously declared](1).",
+      "file": "framework-boilerplates/hexo/themes/landscape/source/fancybox/jquery.fancybox.pack.js",
+      "region": {
+        "startLine": 717,
+        "startColumn": 9,
+        "endColumn": 19
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/duplicate-variable-declaration",
+      "rule_index": 153,
+      "level": "warning",
+      "message": "Variable c has already [been previously declared](1).",
+      "file": "framework-boilerplates/hexo/themes/landscape/source/fancybox/jquery.fancybox.pack.js",
+      "region": {
+        "startLine": 721,
+        "startColumn": 9,
+        "endColumn": 20
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/duplicate-variable-declaration",
+      "rule_index": 153,
+      "level": "warning",
+      "message": "Variable c has already [been previously declared](1).",
+      "file": "framework-boilerplates/hexo/themes/landscape/source/fancybox/jquery.fancybox.pack.js",
+      "region": {
+        "startLine": 836,
+        "startColumn": 9,
+        "endColumn": 60
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/duplicate-variable-declaration",
+      "rule_index": 153,
+      "level": "warning",
+      "message": "Variable b has already [been previously declared](1).",
+      "file": "framework-boilerplates/hexo/themes/landscape/source/fancybox/jquery.fancybox.pack.js",
+      "region": {
+        "startLine": 1205,
+        "startColumn": 11,
+        "endColumn": 57
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/variable-initialization-conflict",
+      "rule_index": 161,
+      "level": "warning",
+      "message": "This initialization of e overwrites an [earlier initialization](1).",
+      "file": "framework-boilerplates/hexo/themes/landscape/source/fancybox/jquery.fancybox.pack.js",
+      "region": {
+        "startLine": 717,
+        "startColumn": 9,
+        "endColumn": 19
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/variable-initialization-conflict",
+      "rule_index": 161,
+      "level": "warning",
+      "message": "This initialization of c overwrites an [earlier initialization](1).",
+      "file": "framework-boilerplates/hexo/themes/landscape/source/fancybox/jquery.fancybox.pack.js",
+      "region": {
+        "startLine": 721,
+        "startColumn": 9,
+        "endColumn": 20
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/template-syntax-in-string-literal",
+      "rule_index": 182,
+      "level": "warning",
+      "message": "This string is not a template literal, but appears to reference the variable [template](1).",
+      "file": "internal/scripts/lib/contentful/update-template.ts",
+      "region": {
+        "startLine": 125,
+        "startColumn": 9,
+        "endColumn": 38
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/template-syntax-in-string-literal",
+      "rule_index": 182,
+      "level": "warning",
+      "message": "This string is not a template literal, but appears to reference the variable [template](1).",
+      "file": "internal/scripts/lib/contentful/update-template.ts",
+      "region": {
+        "startLine": 144,
+        "startColumn": 11,
+        "endColumn": 55
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/automatic-semicolon-insertion",
+      "rule_index": 184,
+      "level": "warning",
+      "message": "Avoid automated semicolon insertion (93% of all statements in [the enclosing function](1) have an explicit semicolon).",
+      "file": "framework-boilerplates/eleventy/.eleventy.js",
+      "region": {
+        "startLine": 52,
+        "startColumn": 3,
+        "endColumn": 59
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    }
+  ],
+  "sarif_metadata": {
+    "version": "2.1.0",
+    "schema_uri": "https://json.schemastore.org/sarif-2.1.0.json",
+    "tool": {
+      "name": "CodeQL",
+      "version": "unknown",
+      "information_uri": ""
+    },
+    "tool_name": "CodeQL",
+    "tool_version": "unknown"
+  }
+}

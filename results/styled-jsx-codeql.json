@@ -1,0 +1,288 @@
+{
+  "total_issues": 19,
+  "issues_by_severity": {
+    "error": 0,
+    "warning": 19,
+    "note": 0
+  },
+  "issues": [
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused class Test.",
+      "file": "test/fixtures/css-tag-same-file.js",
+      "region": {
+        "startLine": 16,
+        "startColumn": 7,
+        "endColumn": 11
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable element.",
+      "file": "test/fixtures/dynamic-element.js",
+      "region": {
+        "startLine": 17,
+        "startColumn": 9,
+        "endColumn": 16
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused function Component1.",
+      "file": "test/fixtures/fragment.js",
+      "region": {
+        "startLine": 33,
+        "startColumn": 10,
+        "endColumn": 20
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused function Component2.",
+      "file": "test/fixtures/fragment.js",
+      "region": {
+        "startLine": 41,
+        "startColumn": 10,
+        "endColumn": 20
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable className.",
+      "file": "test/fixtures/macro.js",
+      "region": {
+        "startLine": 3,
+        "startColumn": 9,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable styles.",
+      "file": "test/fixtures/macro.js",
+      "region": {
+        "startLine": 3,
+        "startColumn": 20,
+        "endColumn": 26
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable test.",
+      "file": "test/fixtures/macro.js",
+      "region": {
+        "startLine": 11,
+        "startColumn": 7,
+        "endColumn": 11
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable dynamicStyles2.",
+      "file": "test/fixtures/macro.js",
+      "region": {
+        "startLine": 15,
+        "startColumn": 7,
+        "endColumn": 21
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable ExampleComponent.",
+      "file": "test/fixtures/macro.js",
+      "region": {
+        "startLine": 19,
+        "startColumn": 7,
+        "endColumn": 23
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable Test.",
+      "file": "test/fixtures/mixed-global-scoped.js",
+      "region": {
+        "startLine": 1,
+        "startColumn": 7,
+        "endColumn": 11
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable Test1.",
+      "file": "test/fixtures/multiple-jsx.js",
+      "region": {
+        "startLine": 5,
+        "startColumn": 7,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable Test2.",
+      "file": "test/fixtures/multiple-jsx.js",
+      "region": {
+        "startLine": 19,
+        "startColumn": 7,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable Test3.",
+      "file": "test/fixtures/multiple-jsx.js",
+      "region": {
+        "startLine": 21,
+        "startColumn": 7,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable baz.",
+      "file": "test/fixtures/styles.js",
+      "region": {
+        "startLine": 11,
+        "startColumn": 7,
+        "endColumn": 10
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable a.",
+      "file": "test/fixtures/styles.js",
+      "region": {
+        "startLine": 17,
+        "startColumn": 7,
+        "endColumn": 8
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable b.",
+      "file": "test/fixtures/styles.js",
+      "region": {
+        "startLine": 38,
+        "startColumn": 7,
+        "endColumn": 8
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable dynamic.",
+      "file": "test/fixtures/styles.js",
+      "region": {
+        "startLine": 45,
+        "startColumn": 7,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable b.",
+      "file": "test/fixtures/styles.js",
+      "region": {
+        "startLine": 46,
+        "startColumn": 9,
+        "endColumn": 10
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/superfluous-trailing-arguments",
+      "rule_index": 176,
+      "level": "warning",
+      "message": "Superfluous argument passed to [function combinePlugins](1).",
+      "file": "src/_utils.js",
+      "region": {
+        "startLine": 655,
+        "startColumn": 56,
+        "endLine": 658,
+        "endColumn": 6
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    }
+  ],
+  "sarif_metadata": {
+    "version": "2.1.0",
+    "schema_uri": "https://json.schemastore.org/sarif-2.1.0.json",
+    "tool": {
+      "name": "CodeQL",
+      "version": "unknown",
+      "information_uri": ""
+    },
+    "tool_name": "CodeQL",
+    "tool_version": "unknown"
+  }
+}

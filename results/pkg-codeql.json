@@ -1,0 +1,604 @@
+{
+  "total_issues": 41,
+  "issues_by_severity": {
+    "error": 0,
+    "warning": 41,
+    "note": 0
+  },
+  "issues": [
+    {
+      "rule_id": "js/clear-text-cookie",
+      "rule_index": 7,
+      "level": "warning",
+      "message": "Sensitive cookie sent without enforcing SSL encryption.",
+      "file": "test/test-79-npm/express-session/express-session.js",
+      "region": {
+        "startLine": 11,
+        "startColumn": 18,
+        "endLine": 18,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/missing-rate-limiting",
+      "rule_index": 10,
+      "level": "warning",
+      "message": "This route handler performs [a file system access](1), but is not rate-limited.",
+      "file": "examples/express/index.js",
+      "region": {
+        "startLine": 15,
+        "startColumn": 14,
+        "endLine": 17,
+        "endColumn": 2
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/insecure-download",
+      "rule_index": 25,
+      "level": "warning",
+      "message": "[Download](1) of sensitive file from [HTTP source](2).",
+      "file": "test/test-79-npm/engine.io/engine.io.js",
+      "region": {
+        "startLine": 8,
+        "startColumn": 12,
+        "endColumn": 58
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/insecure-download",
+      "rule_index": 25,
+      "level": "warning",
+      "message": "[Download](1) of sensitive file from [HTTP source](2).",
+      "file": "test/test-79-npm/socket.io/socket.io.js",
+      "region": {
+        "startLine": 9,
+        "startColumn": 12,
+        "endColumn": 58
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/insecure-download",
+      "rule_index": 25,
+      "level": "warning",
+      "message": "[Download](1) of sensitive file from [HTTP source](2).",
+      "file": "test/test-79-npm/socket.io/socket.io@1.4.8.js",
+      "region": {
+        "startLine": 9,
+        "startColumn": 12,
+        "endColumn": 58
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/insecure-download",
+      "rule_index": 25,
+      "level": "warning",
+      "message": "[Download](1) of sensitive file from [HTTP source](2).",
+      "file": "test/test-79-npm/socket.io/socket.io@1.6.0.js",
+      "region": {
+        "startLine": 9,
+        "startColumn": 12,
+        "endColumn": 58
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/shell-command-injection-from-environment",
+      "rule_index": 35,
+      "level": "warning",
+      "message": "This shell command depends on an uncontrolled [absolute path](1).",
+      "file": "test/test-50-spawn/test-exec-1.js",
+      "region": {
+        "startLine": 10,
+        "startColumn": 3,
+        "endLine": 12,
+        "endColumn": 76
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/shell-command-injection-from-environment",
+      "rule_index": 35,
+      "level": "warning",
+      "message": "This shell command depends on an uncontrolled [absolute path](1).",
+      "file": "test/test-50-spawn/test-exec-3.js",
+      "region": {
+        "startLine": 8,
+        "startColumn": 3,
+        "endLine": 10,
+        "endColumn": 76
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/shell-command-injection-from-environment",
+      "rule_index": 35,
+      "level": "warning",
+      "message": "This shell command depends on an uncontrolled [absolute path](1).",
+      "file": "test/test-50-spawn/test-execSync-1.js",
+      "region": {
+        "startLine": 10,
+        "startColumn": 3,
+        "endLine": 12,
+        "endColumn": 80
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/shell-command-injection-from-environment",
+      "rule_index": 35,
+      "level": "warning",
+      "message": "This shell command depends on an uncontrolled [absolute path](1).",
+      "file": "test/test-50-spawn/test-execSync-3.js",
+      "region": {
+        "startLine": 8,
+        "startColumn": 3,
+        "endLine": 10,
+        "endColumn": 80
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/shell-command-injection-from-environment",
+      "rule_index": 35,
+      "level": "warning",
+      "message": "This shell command depends on an uncontrolled [file name](1).\nThis shell command depends on an uncontrolled [absolute path](2).\nThis shell command depends on an uncontrolled [absolute path](3).",
+      "file": "test/utils.js",
+      "region": {
+        "startLine": 52,
+        "startColumn": 26,
+        "endColumn": 33
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/log-injection",
+      "rule_index": 85,
+      "level": "warning",
+      "message": "Log entry depends on a [user-provided value](1).",
+      "file": "test/test-79-npm/times.js",
+      "region": {
+        "startLine": 22,
+        "startColumn": 30,
+        "endColumn": 35
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/log-injection",
+      "rule_index": 85,
+      "level": "warning",
+      "message": "Log entry depends on a [user-provided value](1).",
+      "file": "test/test-99-%231192/src/index.js",
+      "region": {
+        "startLine": 40,
+        "startColumn": 19,
+        "endColumn": 24
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/file-system-race",
+      "rule_index": 96,
+      "level": "warning",
+      "message": "The file may have changed since it [was checked](1).",
+      "file": "lib/index.ts",
+      "region": {
+        "startLine": 339,
+        "startColumn": 34,
+        "endColumn": 58
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/file-system-race",
+      "rule_index": 96,
+      "level": "warning",
+      "message": "The file may have changed since it [was checked](1).",
+      "file": "prelude/bootstrap.js",
+      "region": {
+        "startLine": 215,
+        "startColumn": 36,
+        "endLine": 217,
+        "endColumn": 13
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/file-system-race",
+      "rule_index": 96,
+      "level": "warning",
+      "message": "The file may have changed since it [was checked](1).",
+      "file": "test/test-50-fs-runtime-layer-2/test-x-index.js",
+      "region": {
+        "startLine": 35,
+        "startColumn": 5,
+        "endLine": 103,
+        "endColumn": 7
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/file-system-race",
+      "rule_index": 96,
+      "level": "warning",
+      "message": "The file may have changed since it [was checked](1).",
+      "file": "test/test-50-fs-runtime-layer-2/test-x-index.js",
+      "region": {
+        "startLine": 114,
+        "startColumn": 5,
+        "endLine": 186,
+        "endColumn": 7
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/file-system-race",
+      "rule_index": 96,
+      "level": "warning",
+      "message": "The file may have changed since it [was checked](1).",
+      "file": "test/test-50-fs-runtime-layer-2/test-x-index.js",
+      "region": {
+        "startLine": 197,
+        "startColumn": 14,
+        "endColumn": 39
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/file-system-race",
+      "rule_index": 96,
+      "level": "warning",
+      "message": "The file may have changed since it [was checked](1).",
+      "file": "test/test-50-fs-runtime-layer-2/test-x-index.js",
+      "region": {
+        "startLine": 214,
+        "startColumn": 14,
+        "endColumn": 39
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/file-system-race",
+      "rule_index": 96,
+      "level": "warning",
+      "message": "The file may have changed since it [was checked](1).",
+      "file": "test/test-50-fs-runtime-layer-3/test-x-index.js",
+      "region": {
+        "startLine": 44,
+        "startColumn": 20,
+        "endColumn": 56
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/file-system-race",
+      "rule_index": 96,
+      "level": "warning",
+      "message": "The file may have changed since it [was checked](1).",
+      "file": "test/test-79-npm/main.js",
+      "region": {
+        "startLine": 384,
+        "startColumn": 34,
+        "endColumn": 61
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/file-system-race",
+      "rule_index": 96,
+      "level": "warning",
+      "message": "The file may have changed since it [was checked](1).",
+      "file": "test/test-79-npm/node-pre-gyp/node-pre-gyp.js",
+      "region": {
+        "startLine": 5,
+        "startColumn": 3,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/insecure-temporary-file",
+      "rule_index": 98,
+      "level": "warning",
+      "message": "Insecure creation of file in [the os temp dir](1).",
+      "file": "prelude/bootstrap.js",
+      "region": {
+        "startLine": 169,
+        "startColumn": 35,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/trivial-conditional",
+      "rule_index": 134,
+      "level": "warning",
+      "message": "This expression always evaluates to true.",
+      "file": "test/test-80-compression/test-x.js",
+      "region": {
+        "startLine": 13,
+        "startColumn": 13,
+        "endColumn": 30
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/useless-assignment-to-local",
+      "rule_index": 151,
+      "level": "warning",
+      "message": "The initial value of stringValue is unused, since it is always overwritten.",
+      "file": "lib/producer.ts",
+      "region": {
+        "startLine": 66,
+        "startColumn": 7,
+        "endColumn": 44
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/useless-assignment-to-local",
+      "rule_index": 151,
+      "level": "warning",
+      "message": "The initial value of loremIpsum2 is unused, since it is always overwritten.",
+      "file": "test/test-80-compression/test-x.js",
+      "region": {
+        "startLine": 10,
+        "startColumn": 7,
+        "endLine": 11,
+        "endColumn": 258
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused import x.",
+      "file": "test/test-50-extensions/test-y-esnext.js",
+      "region": {
+        "startLine": 3,
+        "endColumn": 33
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable logPkg0.",
+      "file": "test/test-80-compression/main.js",
+      "region": {
+        "startLine": 26,
+        "startColumn": 7,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable logPkg1.",
+      "file": "test/test-80-compression/main.js",
+      "region": {
+        "startLine": 42,
+        "startColumn": 9,
+        "endColumn": 16
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable logPkg4.",
+      "file": "test/test-80-compression/main.js",
+      "region": {
+        "startLine": 64,
+        "startColumn": 7,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable m.",
+      "file": "test/test-80-compression/test-x.js",
+      "region": {
+        "startLine": 5,
+        "startColumn": 7,
+        "endColumn": 8
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable c.",
+      "file": "test/test-80-compression/test-x.js",
+      "region": {
+        "startLine": 6,
+        "startColumn": 7,
+        "endColumn": 8
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable loremIpsum.",
+      "file": "test/test-80-compression/test-x.js",
+      "region": {
+        "startLine": 8,
+        "startColumn": 7,
+        "endColumn": 17
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable logPkg0.",
+      "file": "test/test-80-compression-node-opcua/main.js",
+      "region": {
+        "startLine": 59,
+        "startColumn": 7,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable logPkg1.",
+      "file": "test/test-80-compression-node-opcua/main.js",
+      "region": {
+        "startLine": 75,
+        "startColumn": 9,
+        "endColumn": 16
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable logPkgNone.",
+      "file": "test/test-80-compression-various-file-access/main.js",
+      "region": {
+        "startLine": 21,
+        "startColumn": 9,
+        "endColumn": 19
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable logPkgGZip.",
+      "file": "test/test-80-compression-various-file-access/main.js",
+      "region": {
+        "startLine": 25,
+        "startColumn": 9,
+        "endColumn": 19
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable canvas.",
+      "file": "test/test-99-%231135/index.js",
+      "region": {
+        "startLine": 4,
+        "startColumn": 5,
+        "endColumn": 11
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable inspect.",
+      "file": "test/test-99-%23775/main.js",
+      "region": {
+        "startLine": 25,
+        "startColumn": 7,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable logPkg1.",
+      "file": "test/test-99-%23775/main.js",
+      "region": {
+        "startLine": 27,
+        "startColumn": 7,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused variable logPkg2.",
+      "file": "test/test-99-%23775/main.js",
+      "region": {
+        "startLine": 46,
+        "startColumn": 7,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    }
+  ],
+  "sarif_metadata": {
+    "version": "2.1.0",
+    "schema_uri": "https://json.schemastore.org/sarif-2.1.0.json",
+    "tool": {
+      "name": "CodeQL",
+      "version": "unknown",
+      "information_uri": ""
+    },
+    "tool_name": "CodeQL",
+    "tool_version": "unknown"
+  }
+}

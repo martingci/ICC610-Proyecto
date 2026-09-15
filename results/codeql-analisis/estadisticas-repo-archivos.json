@@ -1,0 +1,297 @@
+[
+    {
+        "repo": "ai",
+        "files": [
+            {
+                "file_path": "packages/provider-utils/src/is-url-supported.test.ts",
+                "count": 23,
+                "percentage": 2.7
+            },
+            {
+                "file_path": "packages/workflow/src/test/agent-e2e-workflows.ts",
+                "count": 20,
+                "percentage": 2.4
+            },
+            {
+                "file_path": "packages/codemod/src/test/__testfixtures__/replace-usechat-input-with-state.output.ts",
+                "count": 13,
+                "percentage": 1.5
+            }
+        ]
+    },
+    {
+        "repo": "chatbot",
+        "files": [
+            {
+                "file_path": "components/chat/shell.tsx",
+                "count": 1,
+                "percentage": 33.3
+            },
+            {
+                "file_path": "lib/db/utils.ts",
+                "count": 1,
+                "percentage": 33.3
+            },
+            {
+                "file_path": "components/ui/sidebar.tsx",
+                "count": 1,
+                "percentage": 33.3
+            }
+        ]
+    },
+    {
+        "repo": "examples",
+        "files": [
+            {
+                "file_path": "framework-boilerplates/hexo/themes/landscape/source/fancybox/jquery.fancybox.pack.js",
+                "count": 20,
+                "percentage": 12.9
+            },
+            {
+                "file_path": "framework-boilerplates/hexo/themes/landscape/source/fancybox/jquery.fancybox.js",
+                "count": 10,
+                "percentage": 6.5
+            },
+            {
+                "file_path": "python/vibe-coding-ide/frontend/src/hooks/useChat.tsx",
+                "count": 5,
+                "percentage": 3.2
+            }
+        ]
+    },
+    {
+        "repo": "hyper",
+        "files": [
+            {
+                "file_path": "bin/yarn-standalone.js",
+                "count": 648,
+                "percentage": 96.3
+            },
+            {
+                "file_path": "bin/rimraf-standalone.js",
+                "count": 14,
+                "percentage": 2.1
+            },
+            {
+                "file_path": "lib/components/term.tsx",
+                "count": 4,
+                "percentage": 0.6
+            }
+        ]
+    },
+    {
+        "repo": "micro",
+        "files": [
+            {
+                "file_path": "examples/socket.io-chat-app/index.html",
+                "count": 3,
+                "percentage": 60.0
+            },
+            {
+                "file_path": "examples/json-body-parsing/index.js",
+                "count": 1,
+                "percentage": 20.0
+            },
+            {
+                "file_path": "examples/socket.io-chat-app/websocket-server.js",
+                "count": 1,
+                "percentage": 20.0
+            }
+        ]
+    },
+    {
+        "repo": "ncc",
+        "files": [
+            {
+                "file_path": "test/integration/rxjs.js",
+                "count": 6,
+                "percentage": 9.5
+            },
+            {
+                "file_path": "src/index.js",
+                "count": 5,
+                "percentage": 7.9
+            },
+            {
+                "file_path": "test/unit/browser-mainfield/output-coverage.js",
+                "count": 2,
+                "percentage": 3.2
+            }
+        ]
+    },
+    {
+        "repo": "next-forge",
+        "files": [
+            {
+                "file_path": "apps/web/app/%5Blocale%5D/blog/page.tsx",
+                "count": 2,
+                "percentage": 40.0
+            },
+            {
+                "file_path": "packages/observability/status/index.tsx",
+                "count": 2,
+                "percentage": 40.0
+            },
+            {
+                "file_path": "packages/observability/error.ts",
+                "count": 1,
+                "percentage": 20.0
+            }
+        ]
+    },
+    {
+        "repo": "next-learn",
+        "files": [
+            {
+                "file_path": "dashboard/starter-example/app/ui/dashboard/revenue-chart.tsx",
+                "count": 3,
+                "percentage": 23.1
+            },
+            {
+                "file_path": "dashboard/starter-example/app/ui/invoices/pagination.tsx",
+                "count": 3,
+                "percentage": 23.1
+            },
+            {
+                "file_path": "dashboard/starter-example/app/ui/dashboard/latest-invoices.tsx",
+                "count": 2,
+                "percentage": 15.4
+            }
+        ]
+    },
+    {
+        "repo": "next.js",
+        "files": [
+            {
+                "file_path": "test/e2e/app-dir/chunk-loading/components/SuperShared.tsx",
+                "count": 255,
+                "percentage": 6.4
+            },
+            {
+                "file_path": "turbopack/crates/turbopack-ecmascript/tests/benches/app-page-turbo.runtime.prod.js",
+                "count": 168,
+                "percentage": 4.2
+            },
+            {
+                "file_path": "turbopack/crates/turbopack-ecmascript/tests/benches/packages-bundle.js",
+                "count": 147,
+                "percentage": 3.7
+            }
+        ]
+    },
+    {
+        "repo": "pkg",
+        "files": [
+            {
+                "file_path": "test/test-80-compression/test-x.js",
+                "count": 5,
+                "percentage": 12.2
+            },
+            {
+                "file_path": "test/test-50-fs-runtime-layer-2/test-x-index.js",
+                "count": 4,
+                "percentage": 9.8
+            },
+            {
+                "file_path": "test/test-80-compression/main.js",
+                "count": 3,
+                "percentage": 7.3
+            }
+        ]
+    },
+    {
+        "repo": "satori",
+        "files": [
+            {
+                "file_path": "src/handler/image.ts",
+                "count": 4,
+                "percentage": 30.8
+            },
+            {
+                "file_path": "playground/utils/font.ts",
+                "count": 2,
+                "percentage": 15.4
+            },
+            {
+                "file_path": "src/builder/gradient/radial.ts",
+                "count": 2,
+                "percentage": 15.4
+            }
+        ]
+    },
+    {
+        "repo": "streamdown",
+        "files": [
+            {
+                "file_path": "apps/test/app/api/chat/route.ts",
+                "count": 1,
+                "percentage": 50.0
+            },
+            {
+                "file_path": "packages/streamdown/__tests__/caret.test.tsx",
+                "count": 1,
+                "percentage": 50.0
+            }
+        ]
+    },
+    {
+        "repo": "styled-jsx",
+        "files": [
+            {
+                "file_path": "test/fixtures/macro.js",
+                "count": 5,
+                "percentage": 26.3
+            },
+            {
+                "file_path": "test/fixtures/styles.js",
+                "count": 5,
+                "percentage": 26.3
+            },
+            {
+                "file_path": "test/fixtures/multiple-jsx.js",
+                "count": 3,
+                "percentage": 15.8
+            }
+        ]
+    },
+    {
+        "repo": "swr",
+        "files": [
+            {
+                "file_path": "e2e/site/app/render-suspense-infinite-preload/page.tsx",
+                "count": 2,
+                "percentage": 13.3
+            },
+            {
+                "file_path": "examples/api-hooks/pages/api/data.js",
+                "count": 1,
+                "percentage": 6.7
+            },
+            {
+                "file_path": "examples/axios/pages/api/data.js",
+                "count": 1,
+                "percentage": 6.7
+            }
+        ]
+    },
+    {
+        "repo": "vercel",
+        "files": [
+            {
+                "file_path": "packages/python/test/unit.test.ts",
+                "count": 37,
+                "percentage": 5.7
+            },
+            {
+                "file_path": "packages/cli/test/unit/util/projects/detect-services.test.ts",
+                "count": 29,
+                "percentage": 4.5
+            },
+            {
+                "file_path": "packages/cli/test/fixtures/unit/pnpm-pnp-symlink/.pnp.cjs",
+                "count": 26,
+                "percentage": 4.0
+            }
+        ]
+    }
+]

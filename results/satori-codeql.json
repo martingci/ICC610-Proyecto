@@ -1,0 +1,204 @@
+{
+  "total_issues": 13,
+  "issues_by_severity": {
+    "error": 0,
+    "warning": 13,
+    "note": 0
+  },
+  "issues": [
+    {
+      "rule_id": "js/polynomial-redos",
+      "rule_index": 76,
+      "level": "warning",
+      "message": "This [regular expression](1) that depends on [library input](2) may run slow on strings with many repetitions of '.'.",
+      "file": "src/handler/expand.ts",
+      "region": {
+        "startLine": 160,
+        "startColumn": 22,
+        "endLine": 164,
+        "endColumn": 7
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/polynomial-redos",
+      "rule_index": 76,
+      "level": "warning",
+      "message": "This [regular expression](1) that depends on [library input](2) may run slow on strings starting with '<svg' and with many repetitions of '<svg'.",
+      "file": "src/handler/image.ts",
+      "region": {
+        "startLine": 100,
+        "startColumn": 20,
+        "endColumn": 47
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/polynomial-redos",
+      "rule_index": 76,
+      "level": "warning",
+      "message": "This [regular expression](1) that depends on [library input](2) may run slow on strings starting with 'width=\"' and with many repetitions of '9'.",
+      "file": "src/handler/image.ts",
+      "region": {
+        "startLine": 105,
+        "startColumn": 22,
+        "endColumn": 46
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/polynomial-redos",
+      "rule_index": 76,
+      "level": "warning",
+      "message": "This [regular expression](1) that depends on [library input](2) may run slow on strings starting with 'height=\"' and with many repetitions of '9'.",
+      "file": "src/handler/image.ts",
+      "region": {
+        "startLine": 106,
+        "startColumn": 23,
+        "endColumn": 48
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/polynomial-redos",
+      "rule_index": 76,
+      "level": "warning",
+      "message": "This [regular expression](1) that depends on [library input](2) may run slow on strings starting with 'data:+' and with many repetitions of ';:=data:+'.\nThis [regular expression](3) that depends on [library input](2) may run slow on strings starting with 'data:+;' and with many repetitions of ':=data:+;'.\nThis [regular expression](4) that depends on [library input](2) may run slow on strings starting with 'data:+;:=' and with many repetitions of 'data:+;:='.",
+      "file": "src/handler/image.ts",
+      "region": {
+        "startLine": 191,
+        "startColumn": 9,
+        "endLine": 193,
+        "endColumn": 10
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/remote-property-injection",
+      "rule_index": 88,
+      "level": "warning",
+      "message": "A property name to write to depends on a [user-provided value](1).",
+      "file": "playground/utils/font.ts",
+      "region": {
+        "startLine": 23,
+        "startColumn": 16,
+        "endColumn": 20
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/remote-property-injection",
+      "rule_index": 88,
+      "level": "warning",
+      "message": "A property name to write to depends on a [user-provided value](1).",
+      "file": "playground/utils/font.ts",
+      "region": {
+        "startLine": 24,
+        "startColumn": 16,
+        "endColumn": 20
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/missing-origin-check",
+      "rule_index": 92,
+      "level": "warning",
+      "message": "Postmessage handler has no origin check.",
+      "file": "playground/components/resvg_worker.ts",
+      "region": {
+        "startLine": 6,
+        "startColumn": 19,
+        "endColumn": 20
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/useless-assignment-to-local",
+      "rule_index": 151,
+      "level": "warning",
+      "message": "The initial value of cx is unused, since it is always overwritten.",
+      "file": "src/builder/gradient/radial.ts",
+      "region": {
+        "startLine": 39,
+        "startColumn": 7,
+        "endColumn": 30
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/useless-assignment-to-local",
+      "rule_index": 151,
+      "level": "warning",
+      "message": "The initial value of cy is unused, since it is always overwritten.",
+      "file": "src/builder/gradient/radial.ts",
+      "region": {
+        "startLine": 40,
+        "startColumn": 7,
+        "endColumn": 30
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/useless-assignment-to-local",
+      "rule_index": 151,
+      "level": "warning",
+      "message": "The initial value of m is unused, since it is always overwritten.",
+      "file": "src/text/index.ts",
+      "region": {
+        "startLine": 398,
+        "startColumn": 11,
+        "endColumn": 28
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused function computeBoundingBox.",
+      "file": "src/font.ts",
+      "region": {
+        "startLine": 218,
+        "startColumn": 10,
+        "endColumn": 28
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 152,
+      "level": "warning",
+      "message": "Unused import path.",
+      "file": "vitest.config.ts",
+      "region": {
+        "startLine": 1,
+        "endColumn": 24
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    }
+  ],
+  "sarif_metadata": {
+    "version": "2.1.0",
+    "schema_uri": "https://json.schemastore.org/sarif-2.1.0.json",
+    "tool": {
+      "name": "CodeQL",
+      "version": "unknown",
+      "information_uri": ""
+    },
+    "tool_name": "CodeQL",
+    "tool_version": "unknown"
+  }
+}

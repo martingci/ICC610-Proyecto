@@ -1,0 +1,6 @@
+jupyterlab>=4.5.6
+nbdev>=3.0.12
+pandas>=2.0.0
+matplotlib>=3.7.0
+scipy>=1.10.0
+pip_tools>=7.5.3

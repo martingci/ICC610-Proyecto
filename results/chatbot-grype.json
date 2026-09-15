@@ -1,0 +1,379 @@
+{
+  "total_vulnerabilities": 33,
+  "vulnerabilities_by_severity": {
+    "critical": 0,
+    "high": 12,
+    "medium": 20,
+    "low": 1
+  },
+  "vulnerabilities": [
+    {
+      "package_name": "undici",
+      "current_version": "5.28.5",
+      "vuln_id": "GHSA-v9p9-hfj2-hcw8",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "Undici has Unhandled Exception in WebSocket Client Due to Invalid server_max_window_bits Validation",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "kysely",
+      "current_version": "0.28.11",
+      "vuln_id": "GHSA-8cpq-38p9-67gx",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "Kysely has a MySQL SQL Injection via Insufficient Backslash Escaping in `sql.lit(string)` usage or similar methods that append string literal values into the compiled SQL strings",
+      "cwe": "N/A",
+      "cvss_score": 8.1,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "mdast-util-to-hast",
+      "current_version": "13.2.0",
+      "vuln_id": "GHSA-4fh9-h7wg-q85m",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "mdast-util-to-hast has unsanitized class attribute",
+      "cwe": "N/A",
+      "cvss_score": 5.3,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "dompurify",
+      "current_version": "3.3.1",
+      "vuln_id": "GHSA-crv5-9vww-q3g8",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "DOMPurify has a SAFE_FOR_TEMPLATES bypass in RETURN_DOM mode",
+      "cwe": "N/A",
+      "cvss_score": 6.8,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "uuid",
+      "current_version": "11.1.0",
+      "vuln_id": "GHSA-w5hq-g745-h8pq",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided",
+      "cwe": "N/A",
+      "cvss_score": 6.3,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "lodash-es",
+      "current_version": "4.17.23",
+      "vuln_id": "GHSA-r5fr-rjxr-66jc",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "lodash vulnerable to Code Injection via `_.template` imports key names",
+      "cwe": "N/A",
+      "cvss_score": 8.1,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "minimatch",
+      "current_version": "10.1.1",
+      "vuln_id": "GHSA-7r86-cg39-jmmj",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "minimatch has ReDoS: matchOne() combinatorial backtracking via multiple non-adjacent GLOBSTAR segments",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "playwright",
+      "current_version": "1.51.0",
+      "vuln_id": "GHSA-7mvr-c777-76hp",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "Playwright downloads and installs browsers without verifying the authenticity of the SSL certificate",
+      "cwe": "N/A",
+      "cvss_score": 8.7,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "dompurify",
+      "current_version": "3.3.1",
+      "vuln_id": "GHSA-v9jr-rg53-9pgp",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "DOMPurify: Prototype Pollution to XSS Bypass via CUSTOM_ELEMENT_HANDLING Fallback",
+      "cwe": "N/A",
+      "cvss_score": 6.9,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "minimatch",
+      "current_version": "10.1.1",
+      "vuln_id": "GHSA-3ppc-4f35-3m26",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "minimatch has a ReDoS via repeated wildcards with non-matching literal in pattern",
+      "cwe": "N/A",
+      "cvss_score": 8.7,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "dompurify",
+      "current_version": "3.3.1",
+      "vuln_id": "GHSA-h7mw-gpvr-xq4m",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "DOMPurify: FORBID_TAGS bypassed by function-based ADD_TAGS predicate (asymmetry with FORBID_ATTR fix)",
+      "cwe": "N/A",
+      "cvss_score": 6,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "minimatch",
+      "current_version": "10.1.1",
+      "vuln_id": "GHSA-23c5-xmqv-rm74",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "minimatch ReDoS: nested *() extglobs generate catastrophically backtracking regular expressions",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "postcss",
+      "current_version": "8.4.31",
+      "vuln_id": "GHSA-qx2v-qp2m-jg93",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "PostCSS has XSS via Unescaped </style> in its CSS Stringify Output",
+      "cwe": "N/A",
+      "cvss_score": 6.1,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "postcss",
+      "current_version": "8.5.3",
+      "vuln_id": "GHSA-qx2v-qp2m-jg93",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "PostCSS has XSS via Unescaped </style> in its CSS Stringify Output",
+      "cwe": "N/A",
+      "cvss_score": 6.1,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "@isaacs/brace-expansion",
+      "current_version": "5.0.0",
+      "vuln_id": "GHSA-7h2j-956f-4vf2",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "@isaacs/brace-expansion has Uncontrolled Resource Consumption",
+      "cwe": "N/A",
+      "cvss_score": 8.7,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "kysely",
+      "current_version": "0.28.11",
+      "vuln_id": "GHSA-wmrf-hv6w-mr66",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "SQL Injection via unsanitized JSON path keys when ignoring/silencing compilation errors or using `Kysely<any>`.",
+      "cwe": "N/A",
+      "cvss_score": 8.2,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "undici",
+      "current_version": "5.28.5",
+      "vuln_id": "GHSA-vrm6-8vpv-qv8q",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "Undici has Unbounded Memory Consumption in WebSocket permessage-deflate Decompression",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "lodash-es",
+      "current_version": "4.17.23",
+      "vuln_id": "GHSA-f23m-r3pf-42rh",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "lodash vulnerable to Prototype Pollution via array path bypass in `_.unset` and `_.omit`",
+      "cwe": "N/A",
+      "cvss_score": 6.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "undici",
+      "current_version": "5.28.5",
+      "vuln_id": "GHSA-cxrh-j4jr-qwg3",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "undici Denial of Service attack via bad certificate data",
+      "cwe": "N/A",
+      "cvss_score": 3.1,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "drizzle-orm",
+      "current_version": "0.34.1",
+      "vuln_id": "GHSA-gpj5-g38j-94v9",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "Drizzle ORM has SQL injection via improperly escaped SQL identifiers",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "markdown-it",
+      "current_version": "14.1.0",
+      "vuln_id": "GHSA-38c4-r59v-3vqw",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "markdown-it is has a Regular Expression Denial of Service (ReDoS)",
+      "cwe": "N/A",
+      "cvss_score": 5.3,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "undici",
+      "current_version": "5.28.5",
+      "vuln_id": "GHSA-g9mf-h72j-4rw9",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "Undici has an unbounded decompression chain in HTTP responses on Node.js Fetch API via Content-Encoding leads to resource exhaustion",
+      "cwe": "N/A",
+      "cvss_score": 5.9,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "undici",
+      "current_version": "5.28.5",
+      "vuln_id": "GHSA-2mjp-6q6p-2qxm",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "Undici has an HTTP Request/Response Smuggling issue",
+      "cwe": "N/A",
+      "cvss_score": 6.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "dompurify",
+      "current_version": "3.3.1",
+      "vuln_id": "GHSA-v2wj-7wpq-c8vv",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "DOMPurify contains a Cross-site Scripting vulnerability",
+      "cwe": "N/A",
+      "cvss_score": 6.1,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "undici",
+      "current_version": "5.28.5",
+      "vuln_id": "GHSA-4992-7rv2-5pvq",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "Undici has CRLF Injection in undici via `upgrade` option",
+      "cwe": "N/A",
+      "cvss_score": 4.6,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "next",
+      "current_version": "16.2.0",
+      "vuln_id": "GHSA-q4gf-8mx6-v5v3",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "Next.js has a Denial of Service with Server Components",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "dompurify",
+      "current_version": "3.3.1",
+      "vuln_id": "GHSA-39q2-94rc-95cp",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "DOMPurify's ADD_TAGS function form bypasses FORBID_TAGS due to short-circuit evaluation",
+      "cwe": "N/A",
+      "cvss_score": 5.3,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "dompurify",
+      "current_version": "3.3.1",
+      "vuln_id": "GHSA-cj63-jhhr-wcxv",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "DOMPurify USE_PROFILES prototype pollution allows event handlers",
+      "cwe": "N/A",
+      "cvss_score": 5.3,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "dompurify",
+      "current_version": "3.3.1",
+      "vuln_id": "GHSA-cjmm-f4jc-qw8r",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "DOMPurify ADD_ATTR predicate skips URI validation",
+      "cwe": "N/A",
+      "cvss_score": 5.3,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "dompurify",
+      "current_version": "3.3.1",
+      "vuln_id": "GHSA-h8r8-wccr-v5f2",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "DOMPurify is vulnerable to mutation-XSS via Re-Contextualization",
+      "cwe": "N/A",
+      "cvss_score": 6.9,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "esbuild",
+      "current_version": "0.18.20",
+      "vuln_id": "GHSA-67mh-4wv8-2f99",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "esbuild enables any website to send any requests to the development server and read the response",
+      "cwe": "N/A",
+      "cvss_score": 5.3,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "esbuild",
+      "current_version": "0.19.12",
+      "vuln_id": "GHSA-67mh-4wv8-2f99",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "esbuild enables any website to send any requests to the development server and read the response",
+      "cwe": "N/A",
+      "cvss_score": 5.3,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "next-auth",
+      "current_version": "5.0.0-beta.25",
+      "vuln_id": "GHSA-5jpx-9hw9-2fx4",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "NextAuthjs Email misdelivery Vulnerability",
+      "cwe": "N/A",
+      "cvss_score": 6.9,
+      "type": "vulnerability"
+    }
+  ],
+  "grype_metadata": {
+    "grype_version": "unknown",
+    "db_location": "",
+    "scanned_path": "/workspaces/Proyecto-Ciberseguridad/miner/repos/chatbot"
+  }
+}

@@ -1,0 +1,5900 @@
+{
+  "artifacts": [
+    {
+      "id": "e4c4396c685fab8e",
+      "name": "@inquirer/checkbox",
+      "version": "1.3.6",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:\\@inquirer\\/checkbox:\\@inquirer\\/checkbox:1.3.6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/%40inquirer/checkbox@1.3.6",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-xeY5U/vwU62Hkt7bjAmw446V4iKNR5rzHQGErOREVicxtmipjkGku+qm8MV7y/dWZelxAH0MIkNBbBLqg6/MsQ=="
+        },
+        "dependencies": {
+          "@inquirer/core": "3.1.0",
+          "@inquirer/type": "1.1.1",
+          "ansi-escapes": "4.3.2",
+          "chalk": "4.1.2",
+          "figures": "3.2.0"
+        }
+      }
+    },
+    {
+      "id": "3839abfdb3426665",
+      "name": "@inquirer/confirm",
+      "version": "2.0.7",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:\\@inquirer\\/confirm:\\@inquirer\\/confirm:2.0.7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/%40inquirer/confirm@2.0.7",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-pEpvyeMaYNZYnHYxZL+9M8XtFsJly1Sk0gRPAr2wzRWMtqAvyWCclQo96Zu56S072L3Aez+ntcQ/Mvi+PGX42w=="
+        },
+        "dependencies": {
+          "@inquirer/core": "3.1.0",
+          "@inquirer/type": "1.1.1",
+          "chalk": "4.1.2"
+        }
+      }
+    },
+    {
+      "id": "4bc6c974201b2e4c",
+      "name": "@inquirer/core",
+      "version": "3.1.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:\\@inquirer\\/core:\\@inquirer\\/core:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/%40inquirer/core@3.1.0",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-l+vA7cbkVnEnrV1zCStw9//4mrmJNTziE67C9vQA3ccyTeGx+o0APnFmXo1AMSf7r9N7+gom9KdSjk7v4bg2Wg=="
+        },
+        "dependencies": {
+          "@inquirer/type": "1.1.1",
+          "@types/mute-stream": "0.0.1",
+          "@types/node": "20.4.5",
+          "@types/wrap-ansi": "3.0.0",
+          "ansi-escapes": "4.3.2",
+          "chalk": "4.1.2",
+          "cli-spinners": "2.9.0",
+          "cli-width": "4.0.0",
+          "figures": "3.2.0",
+          "mute-stream": "1.0.0",
+          "run-async": "3.0.0",
+          "strip-ansi": "6.0.1",
+          "wrap-ansi": "6.2.0"
+        }
+      }
+    },
+    {
+      "id": "0829577e3fa2b44f",
+      "name": "@inquirer/editor",
+      "version": "1.2.5",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:\\@inquirer\\/editor:\\@inquirer\\/editor:1.2.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/%40inquirer/editor@1.2.5",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-OyNWKv87U4BpmPSaKNFjiaayH1GYOrccbXiA5s0Zk+b/j8ESo67rMBv9GiBvm9fl1VbXydZpxGz7WKCIbn6cag=="
+        },
+        "dependencies": {
+          "@inquirer/core": "3.1.0",
+          "@inquirer/type": "1.1.1",
+          "chalk": "4.1.2",
+          "external-editor": "3.1.0"
+        }
+      }
+    },
+    {
+      "id": "f9414fb0d37a1094",
+      "name": "@inquirer/expand",
+      "version": "1.1.6",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:\\@inquirer\\/expand:\\@inquirer\\/expand:1.1.6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/%40inquirer/expand@1.1.6",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-9sbFz0dorHOmJ9ndkg4vHq0pNSBAKJ1jlOHE9kwdONRhG4fl1bl1OIBAOaeNZ8XqS/1tEaoDcG2zpFmFDjG1Jw=="
+        },
+        "dependencies": {
+          "@inquirer/core": "3.1.0",
+          "@inquirer/type": "1.1.1",
+          "chalk": "4.1.2",
+          "figures": "3.2.0"
+        }
+      }
+    },
+    {
+      "id": "b11da6d3106bd8d1",
+      "name": "@inquirer/input",
+      "version": "1.2.6",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:\\@inquirer\\/input:\\@inquirer\\/input:1.2.6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/%40inquirer/input@1.2.6",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-zmAAYCEJ7sblT36N3CL7Ugd0Js7hVZwb0BDmCWncTn4I0o+h4t8Kj8pBXh0Kdms2zxitOIBcbZDfFmUkZ5Zs1A=="
+        },
+        "dependencies": {
+          "@inquirer/core": "3.1.0",
+          "@inquirer/type": "1.1.1",
+          "chalk": "4.1.2"
+        }
+      }
+    },
+    {
+      "id": "2f8a50bad3ce635a",
+      "name": "@inquirer/password",
+      "version": "1.1.6",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:\\@inquirer\\/password:\\@inquirer\\/password:1.1.6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/%40inquirer/password@1.1.6",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-HV+7aECu+qT5SQi1PH+5i90ckrUSPqVQ/QWCC3bUYQFh1E/yuQIU479Jw59xldUy+1DxVeqEtBPHpUxNlqUBKw=="
+        },
+        "dependencies": {
+          "@inquirer/input": "1.2.6",
+          "@inquirer/type": "1.1.1",
+          "ansi-escapes": "4.3.2",
+          "chalk": "4.1.2"
+        }
+      }
+    },
+    {
+      "id": "1bc73b1a03b1e12c",
+      "name": "@inquirer/prompts",
+      "version": "3.0.1",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:\\@inquirer\\/prompts:\\@inquirer\\/prompts:3.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/%40inquirer/prompts@3.0.1",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-TQgQHGk4ptJi4nfJCuzzuiqEMNjJU7JdI1QR9y5Mzkhlu1G8viyJD1scXCa8aJM2uCQnZXphJ0/HPsezATOfbA=="
+        },
+        "dependencies": {
+          "@inquirer/checkbox": "1.3.6",
+          "@inquirer/confirm": "2.0.7",
+          "@inquirer/core": "3.1.0",
+          "@inquirer/editor": "1.2.5",
+          "@inquirer/expand": "1.1.6",
+          "@inquirer/input": "1.2.6",
+          "@inquirer/password": "1.1.6",
+          "@inquirer/rawlist": "1.2.6",
+          "@inquirer/select": "1.2.6"
+        }
+      }
+    },
+    {
+      "id": "89fd7e3b0fbcd2a7",
+      "name": "@inquirer/rawlist",
+      "version": "1.2.6",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:\\@inquirer\\/rawlist:\\@inquirer\\/rawlist:1.2.6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/%40inquirer/rawlist@1.2.6",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-EFwYq0ymYeF2ofDw7DkDGooBOvfrcsJgHMMSYKjvu9rp5PRKCBviUuRlmSPs6x97ttOvHKNa3L3FJGXykyskLw=="
+        },
+        "dependencies": {
+          "@inquirer/core": "3.1.0",
+          "@inquirer/type": "1.1.1",
+          "chalk": "4.1.2"
+        }
+      }
+    },
+    {
+      "id": "3de5b0562feff2fa",
+      "name": "@inquirer/select",
+      "version": "1.2.6",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:\\@inquirer\\/select:\\@inquirer\\/select:1.2.6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/%40inquirer/select@1.2.6",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-FE2UQ9sfabDMzu8ynz83nnFoTmUjeoh52AmEwCmiMo61ulN785B5N4t0w8R8ezm6hQtngIGXkP0/FCuGTbsR6g=="
+        },
+        "dependencies": {
+          "@inquirer/core": "3.1.0",
+          "@inquirer/type": "1.1.1",
+          "ansi-escapes": "4.3.2",
+          "chalk": "4.1.2",
+          "figures": "3.2.0"
+        }
+      }
+    },
+    {
+      "id": "03949331d681b49c",
+      "name": "@inquirer/type",
+      "version": "1.1.1",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:\\@inquirer\\/type:\\@inquirer\\/type:1.1.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/%40inquirer/type@1.1.1",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-ACc2N1AnIYtg+bfnitna0OJ1rptWqa8apdDDRQnRWb0R5MEPGAgvqWaDbZahATXOnglqKDRIeHFEQfqxhM6p/g=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
+      "id": "ff57c363ee839430",
+      "name": "@types/mute-stream",
+      "version": "0.0.1",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:\\@types\\/mute-stream:\\@types\\/mute-stream:0.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:\\@types\\/mute-stream:\\@types\\/mute_stream:0.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:\\@types\\/mute_stream:\\@types\\/mute-stream:0.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:\\@types\\/mute_stream:\\@types\\/mute_stream:0.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:\\@types\\/mute:\\@types\\/mute-stream:0.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:\\@types\\/mute:\\@types\\/mute_stream:0.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/%40types/mute-stream@0.0.1",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-0yQLzYhCqGz7CQPE3iDmYjhb7KMBFOP+tBkyw+/Y2YyDI5wpS7itXXxneN1zSsUwWx3Ji6YiVYrhAnpQGS/vkw=="
+        },
+        "dependencies": {
+          "@types/node": "20.4.5"
+        }
+      }
+    },
+    {
+      "id": "582675568f0aa806",
+      "name": "@types/node",
+      "version": "20.4.5",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:\\@types\\/node:\\@types\\/node:20.4.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/%40types/node@20.4.5",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-rt40Nk13II9JwQBdeYqmbn2Q6IVTA5uPhvSO+JVqdXw/6/4glI6oR9ezty/A9Hg5u7JH4OmYmuQ+XvjKm0Datg=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
+      "id": "0b1b4724a23be25f",
+      "name": "@types/wrap-ansi",
+      "version": "3.0.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:\\@types\\/wrap-ansi:\\@types\\/wrap-ansi:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:\\@types\\/wrap-ansi:\\@types\\/wrap_ansi:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:\\@types\\/wrap_ansi:\\@types\\/wrap-ansi:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:\\@types\\/wrap_ansi:\\@types\\/wrap_ansi:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:\\@types\\/wrap:\\@types\\/wrap-ansi:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:\\@types\\/wrap:\\@types\\/wrap_ansi:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/%40types/wrap-ansi@3.0.0",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-ltIpx+kM7g/MLRZfkbL7EsCEjfzCcScLpkg37eXEtx5kmrAKBkTJwd1GIAjDSL8wTpM6Hzn5YO4pSb91BEwu1g=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
+      "id": "86ede8afbcc4ad93",
+      "name": "ansi-escapes",
+      "version": "4.3.2",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:ansi-escapes:ansi-escapes:4.3.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ansi-escapes:ansi_escapes:4.3.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ansi_escapes:ansi-escapes:4.3.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ansi_escapes:ansi_escapes:4.3.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ansi:ansi-escapes:4.3.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ansi:ansi_escapes:4.3.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/ansi-escapes@4.3.2",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-gKXj5ALrKWQLsYG9jlTRmR/xKluxHV+Z9QEwNIgCfM1/uwPMCuzVVnh5mwTd+OuBZcwSIMbqssNWRm1lE51QaQ=="
+        },
+        "dependencies": {
+          "type-fest": "0.21.3"
+        }
+      }
+    },
+    {
+      "id": "22998d6e59ed3ed2",
+      "name": "ansi-regex",
+      "version": "5.0.1",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:ansi-regex_project:ansi-regex:5.0.1:*:*:*:*:node.js:*:*",
+          "source": "nvd-cpe-dictionary"
+        }
+      ],
+      "purl": "pkg:npm/ansi-regex@5.0.1",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
+      "id": "a8255d00557fa8a2",
+      "name": "ansi-regex",
+      "version": "6.0.1",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:ansi-regex_project:ansi-regex:6.0.1:*:*:*:*:node.js:*:*",
+          "source": "nvd-cpe-dictionary"
+        }
+      ],
+      "purl": "pkg:npm/ansi-regex@6.0.1",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-n5M855fKb2SsfMIiFFoVrABHJC8QtHwVx+mHWP3QcEqBHYienj5dHSgjbxtC0WEZXYt4wcD6zrQElDPhFuZgfA=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
+      "id": "90787d56a2d9428e",
+      "name": "ansi-styles",
+      "version": "4.3.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:ansi-styles:ansi-styles:4.3.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ansi-styles:ansi_styles:4.3.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ansi_styles:ansi-styles:4.3.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ansi_styles:ansi_styles:4.3.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ansi:ansi-styles:4.3.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:ansi:ansi_styles:4.3.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/ansi-styles@4.3.0",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg=="
+        },
+        "dependencies": {
+          "color-convert": "2.0.1"
+        }
+      }
+    },
+    {
+      "id": "0ad6e2e6b8981014",
+      "name": "chalk",
+      "version": "4.1.2",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:chalk:chalk:4.1.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/chalk@4.1.2",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA=="
+        },
+        "dependencies": {
+          "ansi-styles": "4.3.0",
+          "supports-color": "7.2.0"
+        }
+      }
+    },
+    {
+      "id": "16d4a28784fb1f91",
+      "name": "chalk",
+      "version": "5.3.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:chalk:chalk:5.3.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/chalk@5.3.0",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-dLitG79d+GV1Nb/VYcCDFivJeK1hiukt9QjRNVOsUtTy1rR1YJsmpGGTZ3qJos+uw7WmWF4wUwBd9jxjocFC2w=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
+      "id": "c5e42996892260c7",
+      "name": "chardet",
+      "version": "0.7.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:chardet:chardet:0.7.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/chardet@0.7.0",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-mT8iDcrh03qDGRRmoA2hmBJnxpllMR+0/0qlzjqZES6NdiWDcZkCNAk4rPFZ9Q85r27unkiNNg8ZOiwZXBHwcA=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
+      "id": "a3f655873c5b7761",
+      "name": "cli-cursor",
+      "version": "4.0.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:cli-cursor:cli-cursor:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:cli-cursor:cli_cursor:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:cli_cursor:cli-cursor:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:cli_cursor:cli_cursor:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:cli:cli-cursor:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:cli:cli_cursor:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/cli-cursor@4.0.0",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-VGtlMu3x/4DOtIUwEkRezxUZ2lBacNJCHash0N0WeZDBS+7Ux1dm3XWAgWYxLJFMMdOeXMHXorshEFhbMSGelg=="
+        },
+        "dependencies": {
+          "restore-cursor": "4.0.0"
+        }
+      }
+    },
+    {
+      "id": "09bf07ab6c378319",
+      "name": "cli-spinners",
+      "version": "2.9.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:cli-spinners:cli-spinners:2.9.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:cli-spinners:cli_spinners:2.9.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:cli_spinners:cli-spinners:2.9.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:cli_spinners:cli_spinners:2.9.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:cli:cli-spinners:2.9.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:cli:cli_spinners:2.9.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/cli-spinners@2.9.0",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-4/aL9X3Wh0yiMQlE+eeRhWP6vclO3QRtw1JHKIT0FFUs5FjpFmESqtMvYZ0+lbzBw900b95mS0hohy+qn2VK/g=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
+      "id": "a099f63854a35592",
+      "name": "cli-spinners",
+      "version": "2.9.2",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:cli-spinners:cli-spinners:2.9.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:cli-spinners:cli_spinners:2.9.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:cli_spinners:cli-spinners:2.9.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:cli_spinners:cli_spinners:2.9.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:cli:cli-spinners:2.9.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:cli:cli_spinners:2.9.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/cli-spinners@2.9.2",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-ywqV+5MmyL4E7ybXgKys4DugZbX0FC6LnwrhjuykIjnK9k8OQacQ7axGKnjDXWNhns0xot3bZI5h55H8yo9cJg=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
+      "id": "23d62d50aedfae8c",
+      "name": "cli-width",
+      "version": "4.0.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:cli-width:cli-width:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:cli-width:cli_width:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:cli_width:cli-width:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:cli_width:cli_width:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:cli:cli-width:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:cli:cli_width:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/cli-width@4.0.0",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-ZksGS2xpa/bYkNzN3BAw1wEjsLV/ZKOf/CCrJ/QOBsxx6fOARIkwTutxp1XIOIohi6HKmOFjMoK/XaqDVUpEEw=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
+      "id": "9a5f8b37b502b5a7",
+      "name": "color-convert",
+      "version": "2.0.1",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:color-convert:color-convert:2.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:color-convert:color_convert:2.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:color_convert:color-convert:2.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:color_convert:color_convert:2.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:color:color-convert:2.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:color:color_convert:2.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/color-convert@2.0.1",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ=="
+        },
+        "dependencies": {
+          "color-name": "1.1.4"
+        }
+      }
+    },
+    {
+      "id": "5629c0b3d91a9d44",
+      "name": "color-name",
+      "version": "1.1.4",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:color-name:color-name:1.1.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:color-name:color_name:1.1.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:color_name:color-name:1.1.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:color_name:color_name:1.1.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:color:color-name:1.1.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:color:color_name:1.1.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/color-name@1.1.4",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
+      "id": "0e2b16d842e5b9a1",
+      "name": "commander",
+      "version": "11.0.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:commander:commander:11.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/commander@11.0.0",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-9HMlXtt/BNoYr8ooyjjNRdIilOTkVJXB+GhxMTtOKwk0R4j4lS4NpjuqmRxroBfnfTSHQIHQB7wryHhXarNjmQ=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
+      "id": "80960c6ae61f62bd",
+      "name": "consola",
+      "version": "3.2.3",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:consola:consola:3.2.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/consola@3.2.3",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-I5qxpzLv+sJhTVEoLYNcTW+bThDCPsit0vLNKShZx6rLtpilNpmmeTPaeqJb9ZE9dV3DGaeby6Vuhrw38WjeyQ=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
+      "id": "10a68d618999d60c",
+      "name": "cross-spawn",
+      "version": "7.0.3",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:cross-spawn:cross-spawn:7.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:cross-spawn:cross_spawn:7.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:cross_spawn:cross-spawn:7.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:cross_spawn:cross_spawn:7.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:cross:cross-spawn:7.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:cross:cross_spawn:7.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/cross-spawn@7.0.3",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w=="
+        },
+        "dependencies": {
+          "path-key": "3.1.1",
+          "shebang-command": "2.0.0",
+          "which": "2.0.2"
+        }
+      }
+    },
+    {
+      "id": "61d0915beda48f01",
+      "name": "emoji-regex",
+      "version": "10.3.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:emoji-regex:emoji-regex:10.3.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:emoji-regex:emoji_regex:10.3.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:emoji_regex:emoji-regex:10.3.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:emoji_regex:emoji_regex:10.3.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:emoji:emoji-regex:10.3.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:emoji:emoji_regex:10.3.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/emoji-regex@10.3.0",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-QpLs9D9v9kArv4lfDEgg1X/gN5XLnf/A6l9cs8SPZLRZR3ZkY9+kwIQTxm+fsSej5UMYGE8fdoaZVIBlqG0XTw=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
+      "id": "752cfd3fae8bf2d5",
+      "name": "emoji-regex",
+      "version": "8.0.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:emoji-regex:emoji-regex:8.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:emoji-regex:emoji_regex:8.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:emoji_regex:emoji-regex:8.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:emoji_regex:emoji_regex:8.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:emoji:emoji-regex:8.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:emoji:emoji_regex:8.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/emoji-regex@8.0.0",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
+      "id": "ab59520106e05548",
+      "name": "escape-string-regexp",
+      "version": "1.0.5",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:escape-string-regexp:escape-string-regexp:1.0.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:escape-string-regexp:escape_string_regexp:1.0.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:escape_string_regexp:escape-string-regexp:1.0.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:escape_string_regexp:escape_string_regexp:1.0.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:escape-string:escape-string-regexp:1.0.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:escape-string:escape_string_regexp:1.0.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:escape_string:escape-string-regexp:1.0.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:escape_string:escape_string_regexp:1.0.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:escape:escape-string-regexp:1.0.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:escape:escape_string_regexp:1.0.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/escape-string-regexp@1.0.5",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-vbRorB5FUQWvla16U8R/qgaFIya2qGzwDrNmCZuYKrbdSUMG6I1ZCGQRefkRVhuOkIGVne7BQ35DSfo1qvJqFg=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
+      "id": "8ad7e0cbe020d07b",
+      "name": "execa",
+      "version": "8.0.1",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:execa:execa:8.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/execa@8.0.1",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-VyhnebXciFV2DESc+p6B+y0LjSm0krU4OgJN44qFAhBY0TJ+1V61tYD2+wHusZ6F9n5K+vl8k0sTy7PEfV4qpg=="
+        },
+        "dependencies": {
+          "cross-spawn": "7.0.3",
+          "get-stream": "8.0.1",
+          "human-signals": "5.0.0",
+          "is-stream": "3.0.0",
+          "merge-stream": "2.0.0",
+          "npm-run-path": "5.1.0",
+          "onetime": "6.0.0",
+          "signal-exit": "4.1.0",
+          "strip-final-newline": "3.0.0"
+        }
+      }
+    },
+    {
+      "id": "8e979321f8148bd7",
+      "name": "external-editor",
+      "version": "3.1.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:external-editor:external-editor:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:external-editor:external_editor:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:external_editor:external-editor:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:external_editor:external_editor:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:external:external-editor:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:external:external_editor:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/external-editor@3.1.0",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-hMQ4CX1p1izmuLYyZqLMO/qGNw10wSv9QDCPfzXfyFrOaCSSoRfqE1Kf1s5an66J5JZC62NewG+mK49jOCtQew=="
+        },
+        "dependencies": {
+          "chardet": "0.7.0",
+          "iconv-lite": "0.4.24",
+          "tmp": "0.0.33"
+        }
+      }
+    },
+    {
+      "id": "3d47696f1977cd14",
+      "name": "figlet",
+      "version": "1.7.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:figlet:figlet:1.7.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/figlet@1.7.0",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-gO8l3wvqo0V7wEFLXPbkX83b7MVjRrk1oRLfYlZXol8nEpb/ON9pcKLI4qpBv5YtOTfrINtqb7b40iYY2FTWFg=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
+      "id": "c6561f7b5324e820",
+      "name": "figures",
+      "version": "3.2.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:figures:figures:3.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/figures@3.2.0",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-yaduQFRKLXYOGgEn6AZau90j3ggSOyiqXU0F9JZfeXYhNa+Jk4X+s45A2zg5jns87GAFa34BBm2kXw4XpNcbdg=="
+        },
+        "dependencies": {
+          "escape-string-regexp": "1.0.5"
+        }
+      }
+    },
+    {
+      "id": "381faadac78d8fda",
+      "name": "get-east-asian-width",
+      "version": "1.2.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:get-east-asian-width:get-east-asian-width:1.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:get-east-asian-width:get_east_asian_width:1.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:get_east_asian_width:get-east-asian-width:1.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:get_east_asian_width:get_east_asian_width:1.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:get-east-asian:get-east-asian-width:1.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:get-east-asian:get_east_asian_width:1.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:get_east_asian:get-east-asian-width:1.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:get_east_asian:get_east_asian_width:1.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:get-east:get-east-asian-width:1.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:get-east:get_east_asian_width:1.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:get_east:get-east-asian-width:1.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:get_east:get_east_asian_width:1.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:get:get-east-asian-width:1.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:get:get_east_asian_width:1.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/get-east-asian-width@1.2.0",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-2nk+7SIVb14QrgXFHcm84tD4bKQz0RxPuMT8Ag5KPOq7J5fEmAg0UbXdTOSHqNuHSU28k55qnceesxXRZGzKWA=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
+      "id": "71adfc00c3147942",
+      "name": "get-stream",
+      "version": "8.0.1",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:get-stream:get-stream:8.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:get-stream:get_stream:8.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:get_stream:get-stream:8.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:get_stream:get_stream:8.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:get:get-stream:8.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:get:get_stream:8.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/get-stream@8.0.1",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-VaUJspBffn/LMCJVoMvSAdmscJyS1auj5Zulnn5UoYcY531UWmdwhRWkcGKnGU93m5HSXP9LP2usOryrBtQowA=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
+      "id": "19518ff1b23dcde0",
+      "name": "has-flag",
+      "version": "4.0.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:has-flag:has-flag:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:has-flag:has_flag:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:has_flag:has-flag:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:has_flag:has_flag:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:has:has-flag:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:has:has_flag:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/has-flag@4.0.0",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
+      "id": "e9c1a8c202af3048",
+      "name": "human-signals",
+      "version": "5.0.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:human-signals:human-signals:5.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:human-signals:human_signals:5.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:human_signals:human-signals:5.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:human_signals:human_signals:5.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:human:human-signals:5.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:human:human_signals:5.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/human-signals@5.0.0",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-AXcZb6vzzrFAUE61HnN4mpLqd/cSIwNQjtNWR0euPm6y0iqx3G4gOXaIDdtdDwZmhwe82LA6+zinmW4UBWVePQ=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
+      "id": "102b4002dd13265a",
+      "name": "iconv-lite",
+      "version": "0.4.24",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:iconv-lite:iconv-lite:0.4.24:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:iconv-lite:iconv_lite:0.4.24:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:iconv_lite:iconv-lite:0.4.24:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:iconv_lite:iconv_lite:0.4.24:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:iconv:iconv-lite:0.4.24:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:iconv:iconv_lite:0.4.24:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/iconv-lite@0.4.24",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA=="
+        },
+        "dependencies": {
+          "safer-buffer": "2.1.2"
+        }
+      }
+    },
+    {
+      "id": "c0b46818611c15ca",
+      "name": "is-fullwidth-code-point",
+      "version": "3.0.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:is-fullwidth-code-point:is-fullwidth-code-point:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:is-fullwidth-code-point:is_fullwidth_code_point:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:is_fullwidth_code_point:is-fullwidth-code-point:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:is_fullwidth_code_point:is_fullwidth_code_point:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:is-fullwidth-code:is-fullwidth-code-point:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:is-fullwidth-code:is_fullwidth_code_point:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:is_fullwidth_code:is-fullwidth-code-point:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:is_fullwidth_code:is_fullwidth_code_point:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:is-fullwidth:is-fullwidth-code-point:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:is-fullwidth:is_fullwidth_code_point:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:is_fullwidth:is-fullwidth-code-point:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:is_fullwidth:is_fullwidth_code_point:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:is:is-fullwidth-code-point:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:is:is_fullwidth_code_point:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/is-fullwidth-code-point@3.0.0",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-zymm5+u+sCsSWyD9qNaejV3DFvhCKclKdizYaJUuHA83RLjb7nSuGnddCHGv0hk+KY7BMAlsWeK4Ueg6EV6XQg=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
+      "id": "b62daa4187f4afcd",
+      "name": "is-interactive",
+      "version": "2.0.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:is-interactive:is-interactive:2.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:is-interactive:is_interactive:2.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:is_interactive:is-interactive:2.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:is_interactive:is_interactive:2.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:is:is-interactive:2.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:is:is_interactive:2.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/is-interactive@2.0.0",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-qP1vozQRI+BMOPcjFzrjXuQvdak2pHNUMZoeG2eRbiSqyvbEf/wQtEOTOX1guk6E3t36RkaqiSt8A/6YElNxLQ=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
+      "id": "354b1b3efb1f1c14",
+      "name": "is-stream",
+      "version": "3.0.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:is-stream:is-stream:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:is-stream:is_stream:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:is_stream:is-stream:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:is_stream:is_stream:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:is:is-stream:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:is:is_stream:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/is-stream@3.0.0",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-LnQR4bZ9IADDRSkvpqMGvt/tEJWclzklNgSw48V5EAaAeDd6qGvN8ei6k5p0tvxSR171VmGyHuTiAOfxAbr8kA=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
+      "id": "39e475965f4c99f1",
+      "name": "is-unicode-supported",
+      "version": "1.3.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:is-unicode-supported:is-unicode-supported:1.3.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:is-unicode-supported:is_unicode_supported:1.3.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:is_unicode_supported:is-unicode-supported:1.3.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:is_unicode_supported:is_unicode_supported:1.3.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:is-unicode:is-unicode-supported:1.3.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:is-unicode:is_unicode_supported:1.3.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:is_unicode:is-unicode-supported:1.3.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:is_unicode:is_unicode_supported:1.3.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:is:is-unicode-supported:1.3.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:is:is_unicode_supported:1.3.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/is-unicode-supported@1.3.0",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-43r2mRvz+8JRIKnWJ+3j8JtjRKZ6GmjzfaE/qiBJnikNnYv/6bagRJ1kUhNk8R5EX/GkobD+r+sfxCPJsiKBLQ=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
+      "id": "eff613e008153d57",
+      "name": "is-unicode-supported",
+      "version": "2.0.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:is-unicode-supported:is-unicode-supported:2.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:is-unicode-supported:is_unicode_supported:2.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:is_unicode_supported:is-unicode-supported:2.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:is_unicode_supported:is_unicode_supported:2.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:is-unicode:is-unicode-supported:2.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:is-unicode:is_unicode_supported:2.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:is_unicode:is-unicode-supported:2.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:is_unicode:is_unicode_supported:2.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:is:is-unicode-supported:2.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:is:is_unicode_supported:2.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/is-unicode-supported@2.0.0",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-FRdAyx5lusK1iHG0TWpVtk9+1i+GjrzRffhDg4ovQ7mcidMQ6mj+MhKPmvh7Xwyv5gIS06ns49CA7Sqg7lC22Q=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
+      "id": "5892272d1ebda4d1",
+      "name": "isexe",
+      "version": "2.0.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:isexe:isexe:2.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/isexe@2.0.0",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
+      "id": "15f782c6ff90e2bc",
+      "name": "log-symbols",
+      "version": "6.0.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:log-symbols:log-symbols:6.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:log-symbols:log_symbols:6.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:log_symbols:log-symbols:6.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:log_symbols:log_symbols:6.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:log:log-symbols:6.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:log:log_symbols:6.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/log-symbols@6.0.0",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-i24m8rpwhmPIS4zscNzK6MSEhk0DUWa/8iYQWxhffV8jkI4Phvs3F+quL5xvS0gdQR0FyTCMMH33Y78dDTzzIw=="
+        },
+        "dependencies": {
+          "chalk": "5.3.0",
+          "is-unicode-supported": "1.3.0"
+        }
+      }
+    },
+    {
+      "id": "e180ff92fd1f2e46",
+      "name": "merge-stream",
+      "version": "2.0.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:merge-stream:merge-stream:2.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:merge-stream:merge_stream:2.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:merge_stream:merge-stream:2.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:merge_stream:merge_stream:2.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:merge:merge-stream:2.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:merge:merge_stream:2.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/merge-stream@2.0.0",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-abv/qOcuPfk3URPfDzmZU1LKmuw8kT+0nIHvKrKgFrwifol/doWcdA4ZqsWQ8ENrFKkd67Mfpo/LovbIUsbt3w=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
+      "id": "983a4b8fea39d30b",
+      "name": "mimic-fn",
+      "version": "2.1.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:mimic-fn:mimic-fn:2.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:mimic-fn:mimic_fn:2.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:mimic_fn:mimic-fn:2.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:mimic_fn:mimic_fn:2.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:mimic:mimic-fn:2.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:mimic:mimic_fn:2.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/mimic-fn@2.1.0",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
+      "id": "f093dd4364c25624",
+      "name": "mimic-fn",
+      "version": "4.0.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:mimic-fn:mimic-fn:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:mimic-fn:mimic_fn:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:mimic_fn:mimic-fn:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:mimic_fn:mimic_fn:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:mimic:mimic-fn:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:mimic:mimic_fn:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/mimic-fn@4.0.0",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-vqiC06CuhBTUdZH+RYl8sFrL096vA45Ok5ISO6sE/Mr1jRbGH4Csnhi8f3wKVl7x8mO4Au7Ir9D3Oyv1VYMFJw=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
+      "id": "653fbbd72d9a2552",
+      "name": "mute-stream",
+      "version": "1.0.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:mute-stream:mute-stream:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:mute-stream:mute_stream:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:mute_stream:mute-stream:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:mute_stream:mute_stream:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:mute:mute-stream:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:mute:mute_stream:1.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/mute-stream@1.0.0",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-avsJQhyd+680gKXyG/sQc0nXaC6rBkPOfyHYcFb9+hdkqQkR9bdnkJ0AMZhke0oesPqIO+mFFJ+IdBc7mst4IA=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
+      "id": "7ba69b74ea145578",
+      "name": "npm-run-path",
+      "version": "5.1.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:npm-run-path:npm-run-path:5.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:npm-run-path:npm_run_path:5.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:npm_run_path:npm-run-path:5.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:npm_run_path:npm_run_path:5.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:npm-run:npm-run-path:5.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:npm-run:npm_run_path:5.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:npm_run:npm-run-path:5.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:npm_run:npm_run_path:5.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:npm:npm-run-path:5.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:npm:npm_run_path:5.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/npm-run-path@5.1.0",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-sJOdmRGrY2sjNTRMbSvluQqg+8X7ZK61yvzBEIDhz4f8z1TZFYABsqjjCBd/0PUNE9M6QDgHJXQkGUEm7Q+l9Q=="
+        },
+        "dependencies": {
+          "path-key": "4.0.0"
+        }
+      }
+    },
+    {
+      "id": "0408b2c890f61f21",
+      "name": "onetime",
+      "version": "5.1.2",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:onetime:onetime:5.1.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/onetime@5.1.2",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-kbpaSSGJTWdAY5KPVeMOKXSrPtr8C8C7wodJbcsd51jRnmD+GZu8Y0VoU6Dm5Z4vWr0Ig/1NKuWRKf7j5aaYSg=="
+        },
+        "dependencies": {
+          "mimic-fn": "2.1.0"
+        }
+      }
+    },
+    {
+      "id": "4f88b7402c854b3c",
+      "name": "onetime",
+      "version": "6.0.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:onetime:onetime:6.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/onetime@6.0.0",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-1FlR+gjXK7X+AsAHso35MnyN5KqGwJRi/31ft6x0M194ht7S+rWAvd7PHss9xSKMzE0asv1pyIHaJYq+BbacAQ=="
+        },
+        "dependencies": {
+          "mimic-fn": "4.0.0"
+        }
+      }
+    },
+    {
+      "id": "96aafbcc9c679d08",
+      "name": "ora",
+      "version": "8.0.1",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:ora:ora:8.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/ora@8.0.1",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-ANIvzobt1rls2BDny5fWZ3ZVKyD6nscLvfFRpQgfWsythlcsVUC9kL0zq6j2Z5z9wwp1kd7wpsD/T9qNPVLCaQ=="
+        },
+        "dependencies": {
+          "chalk": "5.3.0",
+          "cli-cursor": "4.0.0",
+          "cli-spinners": "2.9.2",
+          "is-interactive": "2.0.0",
+          "is-unicode-supported": "2.0.0",
+          "log-symbols": "6.0.0",
+          "stdin-discarder": "0.2.2",
+          "string-width": "7.0.0",
+          "strip-ansi": "7.1.0"
+        }
+      }
+    },
+    {
+      "id": "238eb0a639036c04",
+      "name": "os-tmpdir",
+      "version": "1.0.2",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:os-tmpdir:os-tmpdir:1.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:os-tmpdir:os_tmpdir:1.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:os_tmpdir:os-tmpdir:1.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:os_tmpdir:os_tmpdir:1.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:os:os-tmpdir:1.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:os:os_tmpdir:1.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/os-tmpdir@1.0.2",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-D2FR03Vir7FIu45XBY20mTb+/ZSWB00sjU9jdQXt83gDrI4Ztz5Fs7/yy74g2N5SVQY4xY1qDr4rNddwYRVX0g=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
+      "id": "c20c552e4ff12c8a",
+      "name": "path-key",
+      "version": "3.1.1",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:path-key:path-key:3.1.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:path-key:path_key:3.1.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:path_key:path-key:3.1.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:path_key:path_key:3.1.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:path:path-key:3.1.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:path:path_key:3.1.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/path-key@3.1.1",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-ojmeN0qd+y0jszEtoY48r0Peq5dwMEkIlCOu6Q5f41lfkswXuKtYrhgoTpLnyIcHm24Uhqx+5Tqm2InSwLhE6Q=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
+      "id": "e235695aea777509",
+      "name": "path-key",
+      "version": "4.0.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:path-key:path-key:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:path-key:path_key:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:path_key:path-key:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:path_key:path_key:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:path:path-key:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:path:path_key:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/path-key@4.0.0",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-haREypq7xkM7ErfgIyA0z+Bj4AGKlMSdlQE2jvJo6huWD1EdkKYV+G/T4nq0YEF2vgTT8kqMFKo1uHn950r4SQ=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
+      "id": "447c1f259342549b",
+      "name": "pluralize",
+      "version": "8.0.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:pluralize:pluralize:8.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/pluralize@8.0.0",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
+      "id": "39af261a234bdc20",
+      "name": "restore-cursor",
+      "version": "4.0.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:restore-cursor:restore-cursor:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:restore-cursor:restore_cursor:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:restore_cursor:restore-cursor:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:restore_cursor:restore_cursor:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:restore:restore-cursor:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:restore:restore_cursor:4.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/restore-cursor@4.0.0",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-I9fPXU9geO9bHOt9pHHOhOkYerIMsmVaWB0rA2AI9ERh/+x/i7MV5HKBNrg+ljO5eoPVgCcnFuRjJ9uH6I/3eg=="
+        },
+        "dependencies": {
+          "onetime": "5.1.2",
+          "signal-exit": "3.0.7"
+        }
+      }
+    },
+    {
+      "id": "d9aae2e125c0fd88",
+      "name": "run-async",
+      "version": "3.0.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:run-async:run-async:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:run-async:run_async:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:run_async:run-async:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:run_async:run_async:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:run:run-async:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:run:run_async:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/run-async@3.0.0",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-540WwVDOMxA6dN6We19EcT9sc3hkXPw5mzRNGM3FkdN/vtE9NFvj5lFAPNwUDmJjXidm3v7TC1cTE7t17Ulm1Q=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
+      "id": "011e57de3d5d4b53",
+      "name": "safer-buffer",
+      "version": "2.1.2",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:safer-buffer:safer-buffer:2.1.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:safer-buffer:safer_buffer:2.1.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:safer_buffer:safer-buffer:2.1.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:safer_buffer:safer_buffer:2.1.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:safer:safer-buffer:2.1.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:safer:safer_buffer:2.1.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/safer-buffer@2.1.2",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
+      "id": "014b6ee9f4d42f50",
+      "name": "shebang-command",
+      "version": "2.0.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:shebang-command:shebang-command:2.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:shebang-command:shebang_command:2.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:shebang_command:shebang-command:2.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:shebang_command:shebang_command:2.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:shebang:shebang-command:2.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:shebang:shebang_command:2.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/shebang-command@2.0.0",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA=="
+        },
+        "dependencies": {
+          "shebang-regex": "3.0.0"
+        }
+      }
+    },
+    {
+      "id": "a363f9632cd5a7dd",
+      "name": "shebang-regex",
+      "version": "3.0.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:shebang-regex:shebang-regex:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:shebang-regex:shebang_regex:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:shebang_regex:shebang-regex:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:shebang_regex:shebang_regex:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:shebang:shebang-regex:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:shebang:shebang_regex:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/shebang-regex@3.0.0",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
+      "id": "07052503729261cf",
+      "name": "signal-exit",
+      "version": "3.0.7",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:signal-exit:signal-exit:3.0.7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:signal-exit:signal_exit:3.0.7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:signal_exit:signal-exit:3.0.7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:signal_exit:signal_exit:3.0.7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:signal:signal-exit:3.0.7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:signal:signal_exit:3.0.7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/signal-exit@3.0.7",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
+      "id": "e06244c644325eea",
+      "name": "signal-exit",
+      "version": "4.1.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:signal-exit:signal-exit:4.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:signal-exit:signal_exit:4.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:signal_exit:signal-exit:4.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:signal_exit:signal_exit:4.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:signal:signal-exit:4.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:signal:signal_exit:4.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/signal-exit@4.1.0",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
+      "id": "a8792598c7e6a03c",
+      "name": "stdin-discarder",
+      "version": "0.2.2",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:stdin-discarder:stdin-discarder:0.2.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:stdin-discarder:stdin_discarder:0.2.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:stdin_discarder:stdin-discarder:0.2.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:stdin_discarder:stdin_discarder:0.2.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:stdin:stdin-discarder:0.2.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:stdin:stdin_discarder:0.2.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/stdin-discarder@0.2.2",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-UhDfHmA92YAlNnCfhmq0VeNL5bDbiZGg7sZ2IvPsXubGkiNa9EC+tUTsjBRsYUAz87btI6/1wf4XoVvQ3uRnmQ=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
+      "id": "e115274ddb559067",
+      "name": "string-width",
+      "version": "4.2.3",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:string-width:string-width:4.2.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:string-width:string_width:4.2.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:string_width:string-width:4.2.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:string_width:string_width:4.2.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:string:string-width:4.2.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:string:string_width:4.2.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/string-width@4.2.3",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g=="
+        },
+        "dependencies": {
+          "emoji-regex": "8.0.0",
+          "is-fullwidth-code-point": "3.0.0",
+          "strip-ansi": "6.0.1"
+        }
+      }
+    },
+    {
+      "id": "fa0208bef04b9790",
+      "name": "string-width",
+      "version": "7.0.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:string-width:string-width:7.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:string-width:string_width:7.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:string_width:string-width:7.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:string_width:string_width:7.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:string:string-width:7.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:string:string_width:7.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/string-width@7.0.0",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-GPQHj7row82Hjo9hKZieKcHIhaAIKOJvFSIZXuCU9OASVZrMNUaZuz++SPVrBjnLsnk4k+z9f2EIypgxf2vNFw=="
+        },
+        "dependencies": {
+          "emoji-regex": "10.3.0",
+          "get-east-asian-width": "1.2.0",
+          "strip-ansi": "7.1.0"
+        }
+      }
+    },
+    {
+      "id": "bedc168ac0e44956",
+      "name": "strip-ansi",
+      "version": "6.0.1",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:strip-ansi:strip-ansi:6.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:strip-ansi:strip_ansi:6.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:strip_ansi:strip-ansi:6.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:strip_ansi:strip_ansi:6.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:strip:strip-ansi:6.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:strip:strip_ansi:6.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/strip-ansi@6.0.1",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A=="
+        },
+        "dependencies": {
+          "ansi-regex": "5.0.1"
+        }
+      }
+    },
+    {
+      "id": "59a09aa73160607f",
+      "name": "strip-ansi",
+      "version": "7.1.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:strip-ansi:strip-ansi:7.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:strip-ansi:strip_ansi:7.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:strip_ansi:strip-ansi:7.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:strip_ansi:strip_ansi:7.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:strip:strip-ansi:7.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:strip:strip_ansi:7.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/strip-ansi@7.1.0",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-iq6eVVI64nQQTRYq2KtEg2d2uU7LElhTJwsH4YzIHZshxlgZms/wIc4VoDQTlG/IvVIrBKG06CrZnp0qv7hkcQ=="
+        },
+        "dependencies": {
+          "ansi-regex": "6.0.1"
+        }
+      }
+    },
+    {
+      "id": "b8f1e3a97a908653",
+      "name": "strip-final-newline",
+      "version": "3.0.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:strip-final-newline:strip-final-newline:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:strip-final-newline:strip_final_newline:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:strip_final_newline:strip-final-newline:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:strip_final_newline:strip_final_newline:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:strip-final:strip-final-newline:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:strip-final:strip_final_newline:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:strip_final:strip-final-newline:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:strip_final:strip_final_newline:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:strip:strip-final-newline:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:strip:strip_final_newline:3.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/strip-final-newline@3.0.0",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-dOESqjYr96iWYylGObzd39EuNTa5VJxyvVAEm5Jnh7KGo75V43Hk1odPQkNDyXNmUR6k+gEiDVXnjB8HJ3crXw=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
+      "id": "8ea4160481524fac",
+      "name": "strip-json-comments",
+      "version": "5.0.1",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:strip-json-comments:strip-json-comments:5.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:strip-json-comments:strip_json_comments:5.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:strip_json_comments:strip-json-comments:5.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:strip_json_comments:strip_json_comments:5.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:strip-json:strip-json-comments:5.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:strip-json:strip_json_comments:5.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:strip_json:strip-json-comments:5.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:strip_json:strip_json_comments:5.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:strip:strip-json-comments:5.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:strip:strip_json_comments:5.0.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/strip-json-comments@5.0.1",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-0fk9zBqO67Nq5M/m45qHCJxylV/DhBlIOVExqgOMiCCrzrhU6tCibRXNqE3jwJLftzE9SNuZtYbpzcO+i9FiKw=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
+      "id": "f096020cbcb23820",
+      "name": "supports-color",
+      "version": "7.2.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:supports-color:supports-color:7.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:supports-color:supports_color:7.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:supports_color:supports-color:7.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:supports_color:supports_color:7.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:supports:supports-color:7.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:supports:supports_color:7.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/supports-color@7.2.0",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw=="
+        },
+        "dependencies": {
+          "has-flag": "4.0.0"
+        }
+      }
+    },
+    {
+      "id": "9173bea2d4e60ae3",
+      "name": "tmp",
+      "version": "0.0.33",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:tmp:tmp:0.0.33:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/tmp@0.0.33",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-jRCJlojKnZ3addtTOjdIqoRuPEKBvNXcGYqzO6zWZX8KfKEpnGY5jfggJQ3EjKuu8D4bJRr0y+cYJFmYbImXGw=="
+        },
+        "dependencies": {
+          "os-tmpdir": "1.0.2"
+        }
+      }
+    },
+    {
+      "id": "b3364c8781901ff2",
+      "name": "type-fest",
+      "version": "0.21.3",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:type-fest:type-fest:0.21.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:type-fest:type_fest:0.21.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:type_fest:type-fest:0.21.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:type_fest:type_fest:0.21.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:type:type-fest:0.21.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:type:type_fest:0.21.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/type-fest@0.21.3",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-t0rzBq87m3fVcduHDUFhKmyyX+9eo6WQjZvf51Ea/M0Q7+T374Jp1aUiyUl0GKxp8M/OETVHSDvmkyPgvX+X2w=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
+      "id": "8a939586bb47142e",
+      "name": "which",
+      "version": "2.0.2",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:which:which:2.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/which@2.0.2",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA=="
+        },
+        "dependencies": {
+          "isexe": "2.0.0"
+        }
+      }
+    },
+    {
+      "id": "144d61135eb0c094",
+      "name": "wrap-ansi",
+      "version": "6.2.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:wrap-ansi:wrap-ansi:6.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:wrap-ansi:wrap_ansi:6.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:wrap_ansi:wrap-ansi:6.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:wrap_ansi:wrap_ansi:6.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:wrap:wrap-ansi:6.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:wrap:wrap_ansi:6.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/wrap-ansi@6.2.0",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-r6lPcBGxZXlIcymEu7InxDMhdW0KDxpLgoFLcguasxCaJ/SOIZwINatK9KY/tf+ZrlywOKU0UDj3ATXUBfxJXA=="
+        },
+        "dependencies": {
+          "ansi-styles": "4.3.0",
+          "string-width": "4.2.3",
+          "strip-ansi": "6.0.1"
+        }
+      }
+    }
+  ],
+  "artifactRelationships": [
+    {
+      "parent": "011e57de3d5d4b53",
+      "child": "102b4002dd13265a",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "011e57de3d5d4b53",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "014b6ee9f4d42f50",
+      "child": "10a68d618999d60c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "014b6ee9f4d42f50",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "03949331d681b49c",
+      "child": "0829577e3fa2b44f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "03949331d681b49c",
+      "child": "2f8a50bad3ce635a",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "03949331d681b49c",
+      "child": "3839abfdb3426665",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "03949331d681b49c",
+      "child": "3de5b0562feff2fa",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "03949331d681b49c",
+      "child": "4bc6c974201b2e4c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "03949331d681b49c",
+      "child": "89fd7e3b0fbcd2a7",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "03949331d681b49c",
+      "child": "b11da6d3106bd8d1",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "03949331d681b49c",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "03949331d681b49c",
+      "child": "e4c4396c685fab8e",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "03949331d681b49c",
+      "child": "f9414fb0d37a1094",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "0408b2c890f61f21",
+      "child": "39af261a234bdc20",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "0408b2c890f61f21",
+      "child": "8ad7e0cbe020d07b",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "0408b2c890f61f21",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "07052503729261cf",
+      "child": "39af261a234bdc20",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "07052503729261cf",
+      "child": "8ad7e0cbe020d07b",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "07052503729261cf",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "0829577e3fa2b44f",
+      "child": "1bc73b1a03b1e12c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "0829577e3fa2b44f",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "09bf07ab6c378319",
+      "child": "4bc6c974201b2e4c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "09bf07ab6c378319",
+      "child": "96aafbcc9c679d08",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "09bf07ab6c378319",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "0ad6e2e6b8981014",
+      "child": "0829577e3fa2b44f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "0ad6e2e6b8981014",
+      "child": "15f782c6ff90e2bc",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "0ad6e2e6b8981014",
+      "child": "2f8a50bad3ce635a",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "0ad6e2e6b8981014",
+      "child": "3839abfdb3426665",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "0ad6e2e6b8981014",
+      "child": "3de5b0562feff2fa",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "0ad6e2e6b8981014",
+      "child": "4bc6c974201b2e4c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "0ad6e2e6b8981014",
+      "child": "89fd7e3b0fbcd2a7",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "0ad6e2e6b8981014",
+      "child": "96aafbcc9c679d08",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "0ad6e2e6b8981014",
+      "child": "b11da6d3106bd8d1",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "0ad6e2e6b8981014",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "0ad6e2e6b8981014",
+      "child": "e4c4396c685fab8e",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "0ad6e2e6b8981014",
+      "child": "f9414fb0d37a1094",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "0b1b4724a23be25f",
+      "child": "4bc6c974201b2e4c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "0b1b4724a23be25f",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "0e2b16d842e5b9a1",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "102b4002dd13265a",
+      "child": "8e979321f8148bd7",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "102b4002dd13265a",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "10a68d618999d60c",
+      "child": "8ad7e0cbe020d07b",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "10a68d618999d60c",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "144d61135eb0c094",
+      "child": "4bc6c974201b2e4c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "144d61135eb0c094",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "15f782c6ff90e2bc",
+      "child": "96aafbcc9c679d08",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "15f782c6ff90e2bc",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "16d4a28784fb1f91",
+      "child": "0829577e3fa2b44f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "16d4a28784fb1f91",
+      "child": "15f782c6ff90e2bc",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "16d4a28784fb1f91",
+      "child": "2f8a50bad3ce635a",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "16d4a28784fb1f91",
+      "child": "3839abfdb3426665",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "16d4a28784fb1f91",
+      "child": "3de5b0562feff2fa",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "16d4a28784fb1f91",
+      "child": "4bc6c974201b2e4c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "16d4a28784fb1f91",
+      "child": "89fd7e3b0fbcd2a7",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "16d4a28784fb1f91",
+      "child": "96aafbcc9c679d08",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "16d4a28784fb1f91",
+      "child": "b11da6d3106bd8d1",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "16d4a28784fb1f91",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "16d4a28784fb1f91",
+      "child": "e4c4396c685fab8e",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "16d4a28784fb1f91",
+      "child": "f9414fb0d37a1094",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "19518ff1b23dcde0",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "19518ff1b23dcde0",
+      "child": "f096020cbcb23820",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "1bc73b1a03b1e12c",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "22998d6e59ed3ed2",
+      "child": "59a09aa73160607f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "22998d6e59ed3ed2",
+      "child": "bedc168ac0e44956",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "22998d6e59ed3ed2",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "238eb0a639036c04",
+      "child": "9173bea2d4e60ae3",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "238eb0a639036c04",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "23d62d50aedfae8c",
+      "child": "4bc6c974201b2e4c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "23d62d50aedfae8c",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "2f8a50bad3ce635a",
+      "child": "1bc73b1a03b1e12c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "2f8a50bad3ce635a",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "354b1b3efb1f1c14",
+      "child": "8ad7e0cbe020d07b",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "354b1b3efb1f1c14",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "381faadac78d8fda",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "381faadac78d8fda",
+      "child": "fa0208bef04b9790",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "3839abfdb3426665",
+      "child": "1bc73b1a03b1e12c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "3839abfdb3426665",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "39af261a234bdc20",
+      "child": "a3f655873c5b7761",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "39af261a234bdc20",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "39e475965f4c99f1",
+      "child": "15f782c6ff90e2bc",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "39e475965f4c99f1",
+      "child": "96aafbcc9c679d08",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "39e475965f4c99f1",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "3d47696f1977cd14",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "3de5b0562feff2fa",
+      "child": "1bc73b1a03b1e12c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "3de5b0562feff2fa",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "447c1f259342549b",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "4bc6c974201b2e4c",
+      "child": "0829577e3fa2b44f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "4bc6c974201b2e4c",
+      "child": "1bc73b1a03b1e12c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "4bc6c974201b2e4c",
+      "child": "3839abfdb3426665",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "4bc6c974201b2e4c",
+      "child": "3de5b0562feff2fa",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "4bc6c974201b2e4c",
+      "child": "89fd7e3b0fbcd2a7",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "4bc6c974201b2e4c",
+      "child": "b11da6d3106bd8d1",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "4bc6c974201b2e4c",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "4bc6c974201b2e4c",
+      "child": "e4c4396c685fab8e",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "4bc6c974201b2e4c",
+      "child": "f9414fb0d37a1094",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "4f88b7402c854b3c",
+      "child": "39af261a234bdc20",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "4f88b7402c854b3c",
+      "child": "8ad7e0cbe020d07b",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "4f88b7402c854b3c",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "5629c0b3d91a9d44",
+      "child": "9a5f8b37b502b5a7",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "5629c0b3d91a9d44",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "582675568f0aa806",
+      "child": "4bc6c974201b2e4c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "582675568f0aa806",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "582675568f0aa806",
+      "child": "ff57c363ee839430",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "5892272d1ebda4d1",
+      "child": "8a939586bb47142e",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "5892272d1ebda4d1",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "59a09aa73160607f",
+      "child": "144d61135eb0c094",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "59a09aa73160607f",
+      "child": "4bc6c974201b2e4c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "59a09aa73160607f",
+      "child": "96aafbcc9c679d08",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "59a09aa73160607f",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "59a09aa73160607f",
+      "child": "e115274ddb559067",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "59a09aa73160607f",
+      "child": "fa0208bef04b9790",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "61d0915beda48f01",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "61d0915beda48f01",
+      "child": "e115274ddb559067",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "61d0915beda48f01",
+      "child": "fa0208bef04b9790",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "653fbbd72d9a2552",
+      "child": "4bc6c974201b2e4c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "653fbbd72d9a2552",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "71adfc00c3147942",
+      "child": "8ad7e0cbe020d07b",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "71adfc00c3147942",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "752cfd3fae8bf2d5",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "752cfd3fae8bf2d5",
+      "child": "e115274ddb559067",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "752cfd3fae8bf2d5",
+      "child": "fa0208bef04b9790",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "7ba69b74ea145578",
+      "child": "8ad7e0cbe020d07b",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "7ba69b74ea145578",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "80960c6ae61f62bd",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "86ede8afbcc4ad93",
+      "child": "2f8a50bad3ce635a",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "86ede8afbcc4ad93",
+      "child": "3de5b0562feff2fa",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "86ede8afbcc4ad93",
+      "child": "4bc6c974201b2e4c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "86ede8afbcc4ad93",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "86ede8afbcc4ad93",
+      "child": "e4c4396c685fab8e",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "011e57de3d5d4b53",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "014b6ee9f4d42f50",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "03949331d681b49c",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "0408b2c890f61f21",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "07052503729261cf",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "0829577e3fa2b44f",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "09bf07ab6c378319",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "0ad6e2e6b8981014",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "0b1b4724a23be25f",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "0e2b16d842e5b9a1",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "102b4002dd13265a",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "10a68d618999d60c",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "144d61135eb0c094",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "15f782c6ff90e2bc",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "16d4a28784fb1f91",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "19518ff1b23dcde0",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "1bc73b1a03b1e12c",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "22998d6e59ed3ed2",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "238eb0a639036c04",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "23d62d50aedfae8c",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "2f8a50bad3ce635a",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "354b1b3efb1f1c14",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "381faadac78d8fda",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "3839abfdb3426665",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "39af261a234bdc20",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "39e475965f4c99f1",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "3d47696f1977cd14",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "3de5b0562feff2fa",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "447c1f259342549b",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "4bc6c974201b2e4c",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "4f88b7402c854b3c",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "5629c0b3d91a9d44",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "582675568f0aa806",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "5892272d1ebda4d1",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "59a09aa73160607f",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "61d0915beda48f01",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "653fbbd72d9a2552",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "71adfc00c3147942",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "752cfd3fae8bf2d5",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "7ba69b74ea145578",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "80960c6ae61f62bd",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "86ede8afbcc4ad93",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "89fd7e3b0fbcd2a7",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "8a939586bb47142e",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "8ad7e0cbe020d07b",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "8e979321f8148bd7",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "8ea4160481524fac",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "90787d56a2d9428e",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "9173bea2d4e60ae3",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "96aafbcc9c679d08",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "983a4b8fea39d30b",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "9a5f8b37b502b5a7",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "a099f63854a35592",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "a363f9632cd5a7dd",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "a3f655873c5b7761",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "a8255d00557fa8a2",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "a8792598c7e6a03c",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "ab59520106e05548",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "b11da6d3106bd8d1",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "b3364c8781901ff2",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "b62daa4187f4afcd",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "b8f1e3a97a908653",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "bedc168ac0e44956",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "c0b46818611c15ca",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "c20c552e4ff12c8a",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "c5e42996892260c7",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "c6561f7b5324e820",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "d9aae2e125c0fd88",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "e06244c644325eea",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "e115274ddb559067",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "e180ff92fd1f2e46",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "e235695aea777509",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "e4c4396c685fab8e",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "e9c1a8c202af3048",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "eff613e008153d57",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "f093dd4364c25624",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "f096020cbcb23820",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "f9414fb0d37a1094",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "fa0208bef04b9790",
+      "type": "contains"
+    },
+    {
+      "parent": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+      "child": "ff57c363ee839430",
+      "type": "contains"
+    },
+    {
+      "parent": "89fd7e3b0fbcd2a7",
+      "child": "1bc73b1a03b1e12c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "89fd7e3b0fbcd2a7",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "8a939586bb47142e",
+      "child": "10a68d618999d60c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "8a939586bb47142e",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "8ad7e0cbe020d07b",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "8e979321f8148bd7",
+      "child": "0829577e3fa2b44f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "8e979321f8148bd7",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "8ea4160481524fac",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "90787d56a2d9428e",
+      "child": "0ad6e2e6b8981014",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "90787d56a2d9428e",
+      "child": "144d61135eb0c094",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "90787d56a2d9428e",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "9173bea2d4e60ae3",
+      "child": "8e979321f8148bd7",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "9173bea2d4e60ae3",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "96aafbcc9c679d08",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "983a4b8fea39d30b",
+      "child": "0408b2c890f61f21",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "983a4b8fea39d30b",
+      "child": "4f88b7402c854b3c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "983a4b8fea39d30b",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "9a5f8b37b502b5a7",
+      "child": "90787d56a2d9428e",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "9a5f8b37b502b5a7",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "a099f63854a35592",
+      "child": "4bc6c974201b2e4c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "a099f63854a35592",
+      "child": "96aafbcc9c679d08",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "a099f63854a35592",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "a363f9632cd5a7dd",
+      "child": "014b6ee9f4d42f50",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "a363f9632cd5a7dd",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "a3f655873c5b7761",
+      "child": "96aafbcc9c679d08",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "a3f655873c5b7761",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "a8255d00557fa8a2",
+      "child": "59a09aa73160607f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "a8255d00557fa8a2",
+      "child": "bedc168ac0e44956",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "a8255d00557fa8a2",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "a8792598c7e6a03c",
+      "child": "96aafbcc9c679d08",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "a8792598c7e6a03c",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "ab59520106e05548",
+      "child": "c6561f7b5324e820",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "ab59520106e05548",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "b11da6d3106bd8d1",
+      "child": "1bc73b1a03b1e12c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "b11da6d3106bd8d1",
+      "child": "2f8a50bad3ce635a",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "b11da6d3106bd8d1",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "b3364c8781901ff2",
+      "child": "86ede8afbcc4ad93",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "b3364c8781901ff2",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "b62daa4187f4afcd",
+      "child": "96aafbcc9c679d08",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "b62daa4187f4afcd",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "b8f1e3a97a908653",
+      "child": "8ad7e0cbe020d07b",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "b8f1e3a97a908653",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "bedc168ac0e44956",
+      "child": "144d61135eb0c094",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "bedc168ac0e44956",
+      "child": "4bc6c974201b2e4c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "bedc168ac0e44956",
+      "child": "96aafbcc9c679d08",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "bedc168ac0e44956",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "bedc168ac0e44956",
+      "child": "e115274ddb559067",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "bedc168ac0e44956",
+      "child": "fa0208bef04b9790",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "c0b46818611c15ca",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "c0b46818611c15ca",
+      "child": "e115274ddb559067",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "c20c552e4ff12c8a",
+      "child": "10a68d618999d60c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "c20c552e4ff12c8a",
+      "child": "7ba69b74ea145578",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "c20c552e4ff12c8a",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "c5e42996892260c7",
+      "child": "8e979321f8148bd7",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "c5e42996892260c7",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "c6561f7b5324e820",
+      "child": "3de5b0562feff2fa",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "c6561f7b5324e820",
+      "child": "4bc6c974201b2e4c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "c6561f7b5324e820",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "c6561f7b5324e820",
+      "child": "e4c4396c685fab8e",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "c6561f7b5324e820",
+      "child": "f9414fb0d37a1094",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "d9aae2e125c0fd88",
+      "child": "4bc6c974201b2e4c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "d9aae2e125c0fd88",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "e06244c644325eea",
+      "child": "39af261a234bdc20",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "e06244c644325eea",
+      "child": "8ad7e0cbe020d07b",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "e06244c644325eea",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "e115274ddb559067",
+      "child": "144d61135eb0c094",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "e115274ddb559067",
+      "child": "96aafbcc9c679d08",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "e115274ddb559067",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "e180ff92fd1f2e46",
+      "child": "8ad7e0cbe020d07b",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "e180ff92fd1f2e46",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "e235695aea777509",
+      "child": "10a68d618999d60c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "e235695aea777509",
+      "child": "7ba69b74ea145578",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "e235695aea777509",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "e4c4396c685fab8e",
+      "child": "1bc73b1a03b1e12c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "e4c4396c685fab8e",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "e9c1a8c202af3048",
+      "child": "8ad7e0cbe020d07b",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "e9c1a8c202af3048",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "eff613e008153d57",
+      "child": "15f782c6ff90e2bc",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "eff613e008153d57",
+      "child": "96aafbcc9c679d08",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "eff613e008153d57",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "f093dd4364c25624",
+      "child": "0408b2c890f61f21",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "f093dd4364c25624",
+      "child": "4f88b7402c854b3c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "f093dd4364c25624",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "f096020cbcb23820",
+      "child": "0ad6e2e6b8981014",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "f096020cbcb23820",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "f9414fb0d37a1094",
+      "child": "1bc73b1a03b1e12c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "f9414fb0d37a1094",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "fa0208bef04b9790",
+      "child": "144d61135eb0c094",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "fa0208bef04b9790",
+      "child": "96aafbcc9c679d08",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "fa0208bef04b9790",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "ff57c363ee839430",
+      "child": "4bc6c974201b2e4c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "ff57c363ee839430",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    }
+  ],
+  "files": [
+    {
+      "id": "c895fb8e872e275f",
+      "location": {
+        "path": "/pnpm-lock.yaml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 48537
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "228e6c47bb563fa18ca95b1536c5a35800b8f183"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "253f117d1cf0c3714a798b2eac6f4c1136c25a97aa019f405f41068c215378df"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "id": "87ca65685c3946f590f7197b9e062c299b745c7794bce335c7f8e5a55aa6b92c",
+    "name": "/workspaces/Proyecto-Ciberseguridad/miner/repos/kirimase",
+    "version": "",
+    "type": "directory",
+    "metadata": {
+      "path": "/workspaces/Proyecto-Ciberseguridad/miner/repos/kirimase"
+    }
+  },
+  "distro": {},
+  "descriptor": {
+    "name": "syft",
+    "version": "1.44.0",
+    "configuration": {
+      "catalogers": {
+        "requested": {
+          "default": [
+            "directory",
+            "file"
+          ]
+        },
+        "used": [
+          "alpm-db-cataloger",
+          "apk-db-cataloger",
+          "binary-classifier-cataloger",
+          "cargo-auditable-binary-cataloger",
+          "cocoapods-cataloger",
+          "conan-cataloger",
+          "conda-meta-cataloger",
+          "dart-pubspec-cataloger",
+          "dart-pubspec-lock-cataloger",
+          "deb-archive-cataloger",
+          "dotnet-deps-binary-cataloger",
+          "dotnet-packages-lock-cataloger",
+          "dpkg-db-cataloger",
+          "elf-binary-package-cataloger",
+          "elixir-mix-lock-cataloger",
+          "erlang-otp-application-cataloger",
+          "erlang-rebar-lock-cataloger",
+          "file-content-cataloger",
+          "file-digest-cataloger",
+          "file-executable-cataloger",
+          "file-metadata-cataloger",
+          "gguf-cataloger",
+          "github-action-workflow-usage-cataloger",
+          "github-actions-usage-cataloger",
+          "go-module-binary-cataloger",
+          "go-module-file-cataloger",
+          "graalvm-native-image-cataloger",
+          "haskell-cataloger",
+          "homebrew-cataloger",
+          "java-archive-cataloger",
+          "java-gradle-lockfile-cataloger",
+          "java-jvm-cataloger",
+          "java-pom-cataloger",
+          "javascript-lock-cataloger",
+          "linux-kernel-cataloger",
+          "lua-rock-cataloger",
+          "nix-cataloger",
+          "opam-cataloger",
+          "pe-binary-package-cataloger",
+          "php-composer-lock-cataloger",
+          "php-interpreter-cataloger",
+          "php-pear-serialized-cataloger",
+          "portage-cataloger",
+          "python-installed-package-cataloger",
+          "python-package-cataloger",
+          "r-package-cataloger",
+          "rpm-archive-cataloger",
+          "rpm-db-cataloger",
+          "ruby-gemfile-cataloger",
+          "ruby-gemspec-cataloger",
+          "rust-cargo-lock-cataloger",
+          "snap-cataloger",
+          "swift-package-manager-cataloger",
+          "swipl-pack-cataloger",
+          "terraform-lock-cataloger",
+          "wordpress-plugins-cataloger"
+        ]
+      },
+      "data-generation": {
+        "generate-cpes": true
+      },
+      "files": {
+        "content": {
+          "globs": null,
+          "skip-files-above-size": 0
+        },
+        "hashers": [
+          "sha-1",
+          "sha-256"
+        ],
+        "selection": "owned-by-package"
+      },
+      "licenses": {
+        "coverage": 75,
+        "include-content": "none"
+      },
+      "packages": {
+        "binary": [
+          "python-binary",
+          "python-binary-lib",
+          "pypy-binary-lib",
+          "go-binary",
+          "julia-binary",
+          "helm",
+          "redis-binary",
+          "valkey-binary",
+          "nodejs-binary",
+          "busybox-binary",
+          "util-linux-binary",
+          "haproxy-binary",
+          "perl-binary",
+          "php-composer-binary",
+          "httpd-binary",
+          "memcached-binary",
+          "traefik-binary",
+          "arangodb-binary",
+          "postgresql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "xtrabackup-binary",
+          "mariadb-binary",
+          "rust-standard-library-linux",
+          "rust-standard-library-macos",
+          "ruby-binary",
+          "erlang-binary",
+          "erlang-alpine-binary",
+          "erlang-library",
+          "swipl-binary",
+          "dart-binary",
+          "deno-binary",
+          "haskell-ghc-binary",
+          "haskell-cabal-binary",
+          "haskell-stack-binary",
+          "consul-binary",
+          "hashicorp-vault-binary",
+          "nginx-binary",
+          "bash-binary",
+          "openssl-binary",
+          "openldap-search-binary",
+          "qt-qtbase-lib",
+          "gcc-binary",
+          "fluent-bit-binary",
+          "wordpress-cli-binary",
+          "curl-binary",
+          "lighttpd-binary",
+          "proftpd-binary",
+          "zstd-binary",
+          "xz-binary",
+          "gzip-binary",
+          "sqlcipher-binary",
+          "jq-binary",
+          "chrome-binary",
+          "ffmpeg-binary",
+          "ffmpeg-library",
+          "ffmpeg-library",
+          "elixir-binary",
+          "elixir-library",
+          "istio-binary",
+          "istio-binary",
+          "grafana-binary",
+          "grafana-binary",
+          "envoy-binary",
+          "mongodb-binary",
+          "java-binary",
+          "java-jdb-binary"
+        ],
+        "dotnet": {
+          "dep-packages-must-claim-dll": true,
+          "dep-packages-must-have-dll": false,
+          "exclude-project-references": true,
+          "propagate-dll-claims-to-parents": true,
+          "relax-dll-claims-when-bundling-detected": true
+        },
+        "golang": {
+          "local-mod-cache-dir": "/home/vscode/go/pkg/mod",
+          "local-vendor-dir": "",
+          "main-module-version": {
+            "from-build-settings": true,
+            "from-contents": false,
+            "from-ld-flags": true
+          },
+          "proxies": [
+            "https://proxy.golang.org",
+            "direct"
+          ],
+          "search-local-mod-cache-licenses": false,
+          "search-local-vendor-licenses": false,
+          "search-remote-licenses": false,
+          "use-packages-lib": true
+        },
+        "java-archive": {
+          "include-indexed-archives": true,
+          "include-unindexed-archives": false,
+          "maven-base-url": "https://repo1.maven.org/maven2",
+          "maven-localrepository-dir": "/home/vscode/.m2/repository",
+          "max-parent-recursive-depth": 0,
+          "resolve-transitive-dependencies": false,
+          "use-maven-localrepository": false,
+          "use-network": false
+        },
+        "javascript": {
+          "include-dev-dependencies": false,
+          "npm-base-url": "https://registry.npmjs.org",
+          "search-remote-licenses": false
+        },
+        "linux-kernel": {
+          "catalog-modules": true
+        },
+        "nix": {
+          "capture-owned-files": false
+        },
+        "python": {
+          "guess-unpinned-requirements": false,
+          "pypi-base-url": "https://pypi.org/pypi",
+          "search-remote-licenses": false
+        }
+      },
+      "relationships": {
+        "exclude-binary-packages-with-file-ownership-overlap": true,
+        "package-file-ownership": true,
+        "package-file-ownership-overlap": true
+      },
+      "search": {
+        "scope": "squashed"
+      }
+    }
+  },
+  "schema": {
+    "version": "16.1.3",
+    "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-16.1.3.json"
+  }
+}

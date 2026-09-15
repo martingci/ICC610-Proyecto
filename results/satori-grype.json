@@ -1,0 +1,214 @@
+{
+  "total_vulnerabilities": 18,
+  "vulnerabilities_by_severity": {
+    "critical": 2,
+    "high": 2,
+    "medium": 12,
+    "low": 2
+  },
+  "vulnerabilities": [
+    {
+      "package_name": "next",
+      "current_version": "12.3.4",
+      "vuln_id": "GHSA-f82v-jwr5-mffw",
+      "vuln_severity": "critical",
+      "fix_version": "N/A",
+      "message": "Authorization Bypass in Next.js Middleware",
+      "cwe": "N/A",
+      "cvss_score": 9.1,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "next",
+      "current_version": "12.3.4",
+      "vuln_id": "GHSA-7gfc-8cq8-jh5f",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "Next.js authorization bypass vulnerability",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "next",
+      "current_version": "12.3.4",
+      "vuln_id": "GHSA-4342-x723-ch2f",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "Next.js Improper Middleware Redirect Handling Leads to SSRF",
+      "cwe": "N/A",
+      "cvss_score": 6.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "crypto-js",
+      "current_version": "4.1.1",
+      "vuln_id": "GHSA-xwcq-pm8m-c4vf",
+      "vuln_severity": "critical",
+      "fix_version": "N/A",
+      "message": "crypto-js PBKDF2 1,000 times weaker than specified in 1993 and 1.3M times weaker than current standard",
+      "cwe": "N/A",
+      "cvss_score": 9.1,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "next",
+      "current_version": "12.3.4",
+      "vuln_id": "GHSA-g77x-44xx-532m",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "Denial of Service condition in Next.js image optimization",
+      "cwe": "N/A",
+      "cvss_score": 5.9,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "dom-iterator",
+      "current_version": "1.0.0",
+      "vuln_id": "GHSA-jrvm-mcxc-mf6m",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "dom-iterator code execution vulnerability",
+      "cwe": "N/A",
+      "cvss_score": 7.3,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "next",
+      "current_version": "12.3.4",
+      "vuln_id": "GHSA-qpjv-v59x-3qc4",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Next.js Race Condition to Cache Poisoning",
+      "cwe": "N/A",
+      "cvss_score": 3.7,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "postcss",
+      "current_version": "8.4.14",
+      "vuln_id": "GHSA-7fh5-64p2-3v2j",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "PostCSS line return parsing error",
+      "cwe": "N/A",
+      "cvss_score": 5.3,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "next",
+      "current_version": "12.3.4",
+      "vuln_id": "GHSA-c59h-r6p8-q9wc",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Next.js missing cache-control header may lead to CDN caching empty reply",
+      "cwe": "N/A",
+      "cvss_score": 0.0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "next",
+      "current_version": "12.3.4",
+      "vuln_id": "GHSA-xv57-4mr9-wg8v",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "Next.js Content Injection Vulnerability for Image Optimization",
+      "cwe": "N/A",
+      "cvss_score": 4.3,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "nanoid",
+      "current_version": "3.3.4",
+      "vuln_id": "GHSA-mwcw-c2x4-8c55",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "Predictable results in nanoid generation when given non-integer values",
+      "cwe": "N/A",
+      "cvss_score": 4.3,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "@babel/helpers",
+      "current_version": "7.22.15",
+      "vuln_id": "GHSA-968p-4wvh-cqc8",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "Babel has inefficient RegExp complexity in generated code with .replace when transpiling named capturing groups",
+      "cwe": "N/A",
+      "cvss_score": 6.2,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "@babel/runtime",
+      "current_version": "7.22.3",
+      "vuln_id": "GHSA-968p-4wvh-cqc8",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "Babel has inefficient RegExp complexity in generated code with .replace when transpiling named capturing groups",
+      "cwe": "N/A",
+      "cvss_score": 6.2,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "next",
+      "current_version": "12.3.4",
+      "vuln_id": "GHSA-g5qg-72qw-gw5v",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "Next.js Affected by Cache Key Confusion for Image Optimization API Routes",
+      "cwe": "N/A",
+      "cvss_score": 6.2,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "next",
+      "current_version": "12.3.4",
+      "vuln_id": "GHSA-ggv3-7p47-pfv8",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "Next.js: HTTP request smuggling in rewrites",
+      "cwe": "N/A",
+      "cvss_score": 6.3,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "postcss",
+      "current_version": "8.4.14",
+      "vuln_id": "GHSA-qx2v-qp2m-jg93",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "PostCSS has XSS via Unescaped </style> in its CSS Stringify Output",
+      "cwe": "N/A",
+      "cvss_score": 6.1,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "next",
+      "current_version": "12.3.4",
+      "vuln_id": "GHSA-9g9p-9gw9-jx7f",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "Next.js self-hosted applications vulnerable to DoS via Image Optimizer remotePatterns configuration",
+      "cwe": "N/A",
+      "cvss_score": 5.9,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "next",
+      "current_version": "12.3.4",
+      "vuln_id": "GHSA-3x4c-7xq6-9pq8",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "Next.js: Unbounded next/image disk cache growth can exhaust storage",
+      "cwe": "N/A",
+      "cvss_score": 6.9,
+      "type": "vulnerability"
+    }
+  ],
+  "grype_metadata": {
+    "grype_version": "unknown",
+    "db_location": "",
+    "scanned_path": "/workspaces/Proyecto-Ciberseguridad/miner/repos/satori"
+  }
+}

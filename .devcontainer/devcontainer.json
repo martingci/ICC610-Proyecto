@@ -1,0 +1,44 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/python
+{
+    "name": "Proyecto Ciberseguridad",
+    // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".",
+        "options": [
+            "--platform=linux/amd64"
+        ]
+    },
+    // Features to add to the dev container. More info: https://containers.dev/features.
+    // "features": {},
+    // Use 'forwardPorts' to make a list of ports inside the container available locally.
+    // "forwardPorts": [],
+    // Use 'postCreateCommand' to run commands after the container is created.
+    "postCreateCommand": "python3 -m venv .venv && .venv/bin/pip install -r requirements.txt && .venv/bin/python -m ipykernel install --user --name proyecto --display-name 'Python (proyecto)' && codeql pack download codeql/python-queries codeql/javascript-queries codeql/java-queries codeql/actions-queries || true && grype db update || true",
+    // Configure tool-specific properties.
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "python.formatting.provider": "black",
+                "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+                // Format on save for Python files and json files
+                "editor.formatOnSave": true,
+                "jupyter.notebook.defaultKernel": "PY (proyecto(env))"
+            },
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "ms-toolsai.jupyter",
+                "ms-python.black-formatter"
+            ]
+        }
+    },
+    // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+    "remoteUser": "vscode",
+    "runArgs": [
+        "--name",
+        "Proyecto-dev-container",
+        "--platform=linux/amd64"
+    ]
+}

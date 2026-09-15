@@ -1,0 +1,104 @@
+{
+  "total_vulnerabilities": 8,
+  "vulnerabilities_by_severity": {
+    "critical": 1,
+    "high": 5,
+    "medium": 2,
+    "low": 0
+  },
+  "vulnerabilities": [
+    {
+      "package_name": "minimist",
+      "current_version": "1.2.5",
+      "vuln_id": "GHSA-xvch-5gv4-984h",
+      "vuln_severity": "critical",
+      "fix_version": "N/A",
+      "message": "Prototype Pollution in minimist",
+      "cwe": "N/A",
+      "cvss_score": 9.8,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "tar-fs",
+      "current_version": "2.1.1",
+      "vuln_id": "GHSA-8cj5-5rvv-wf4v",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "tar-fs can extract outside the specified dir with a specific tarball",
+      "cwe": "N/A",
+      "cvss_score": 8.7,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "tar-fs",
+      "current_version": "2.1.1",
+      "vuln_id": "GHSA-pq67-2wwv-3xjx",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "tar-fs Vulnerable to Link Following and Path Traversal via Extracting a Crafted tar File",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "braces",
+      "current_version": "3.0.2",
+      "vuln_id": "GHSA-grv7-fg5c-xmjg",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "Uncontrolled resource consumption in braces",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "micromatch",
+      "current_version": "4.0.4",
+      "vuln_id": "GHSA-952p-6rrq-rcjv",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "Regular Expression Denial of Service (ReDoS) in micromatch",
+      "cwe": "N/A",
+      "cvss_score": 5.3,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "picomatch",
+      "current_version": "2.3.0",
+      "vuln_id": "GHSA-3v7f-55p6-f55p",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching",
+      "cwe": "N/A",
+      "cvss_score": 5.3,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "tar-fs",
+      "current_version": "2.1.1",
+      "vuln_id": "GHSA-vj76-c3g6-qr5v",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "tar-fs has a symlink validation bypass if destination directory is predictable with a specific tarball",
+      "cwe": "N/A",
+      "cvss_score": 8.7,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "picomatch",
+      "current_version": "2.3.0",
+      "vuln_id": "GHSA-c2c7-rcm5-vvqj",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "Picomatch has a ReDoS vulnerability via extglob quantifiers",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    }
+  ],
+  "grype_metadata": {
+    "grype_version": "unknown",
+    "db_location": "",
+    "scanned_path": "/workspaces/Proyecto-Ciberseguridad/miner/repos/pkg"
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "total_vulnerabilities": 15,
+  "vulnerabilities_by_severity": {
+    "critical": 0,
+    "high": 9,
+    "medium": 6,
+    "low": 0
+  },
+  "vulnerabilities": [
+    {
+      "package_name": "next",
+      "current_version": "15.5.7",
+      "vuln_id": "GHSA-ggv3-7p47-pfv8",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "Next.js: HTTP request smuggling in rewrites",
+      "cwe": "N/A",
+      "cvss_score": 6.3,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "tar",
+      "current_version": "7.4.3",
+      "vuln_id": "GHSA-34x7-hfp2-rc4v",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "node-tar Vulnerable to Arbitrary File Creation/Overwrite via Hardlink Path Traversal",
+      "cwe": "N/A",
+      "cvss_score": 8.2,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "postcss",
+      "current_version": "8.4.31",
+      "vuln_id": "GHSA-qx2v-qp2m-jg93",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "PostCSS has XSS via Unescaped </style> in its CSS Stringify Output",
+      "cwe": "N/A",
+      "cvss_score": 6.1,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "postcss",
+      "current_version": "8.5.3",
+      "vuln_id": "GHSA-qx2v-qp2m-jg93",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "PostCSS has XSS via Unescaped </style> in its CSS Stringify Output",
+      "cwe": "N/A",
+      "cvss_score": 6.1,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "next",
+      "current_version": "15.5.7",
+      "vuln_id": "GHSA-9g9p-9gw9-jx7f",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "Next.js self-hosted applications vulnerable to DoS via Image Optimizer remotePatterns configuration",
+      "cwe": "N/A",
+      "cvss_score": 5.9,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "next",
+      "current_version": "15.5.7",
+      "vuln_id": "GHSA-3x4c-7xq6-9pq8",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "Next.js: Unbounded next/image disk cache growth can exhaust storage",
+      "cwe": "N/A",
+      "cvss_score": 6.9,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "tar",
+      "current_version": "7.4.3",
+      "vuln_id": "GHSA-r6q2-hw4h-h46w",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "Race Condition in node-tar Path Reservations via Unicode Ligature Collisions on macOS APFS",
+      "cwe": "N/A",
+      "cvss_score": 8.8,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "tar",
+      "current_version": "7.4.3",
+      "vuln_id": "GHSA-9ppj-qmqm-q256",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "node-tar Symlink Path Traversal via Drive-Relative Linkpath",
+      "cwe": "N/A",
+      "cvss_score": 8.2,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "tar",
+      "current_version": "7.4.3",
+      "vuln_id": "GHSA-qffp-2rhf-9h96",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "tar has Hardlink Path Traversal via Drive-Relative Linkpath",
+      "cwe": "N/A",
+      "cvss_score": 8.2,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "tar",
+      "current_version": "7.4.3",
+      "vuln_id": "GHSA-83g3-92jg-28cx",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "Arbitrary File Read/Write via Hardlink Target Escape Through Symlink Chain in node-tar Extraction",
+      "cwe": "N/A",
+      "cvss_score": 7.1,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "tar",
+      "current_version": "7.4.3",
+      "vuln_id": "GHSA-8qq5-rm4j-mr97",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "node-tar is Vulnerable to Arbitrary File Overwrite and Symlink Poisoning via Insufficient Path Sanitization",
+      "cwe": "N/A",
+      "cvss_score": 8.2,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "next",
+      "current_version": "15.5.7",
+      "vuln_id": "GHSA-h25m-26qc-wcjf",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "Next.js HTTP request deserialization can lead to DoS when using insecure React Server Components",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "next",
+      "current_version": "15.5.7",
+      "vuln_id": "GHSA-mwv6-3258-q52c",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "Next Vulnerable to Denial of Service with Server Components",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "next",
+      "current_version": "15.5.7",
+      "vuln_id": "GHSA-q4gf-8mx6-v5v3",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "Next.js has a Denial of Service with Server Components",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "next",
+      "current_version": "15.5.7",
+      "vuln_id": "GHSA-w37m-7fhw-fmv9",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "Next Server Actions Source Code Exposure",
+      "cwe": "N/A",
+      "cvss_score": 5.3,
+      "type": "vulnerability"
+    }
+  ],
+  "grype_metadata": {
+    "grype_version": "unknown",
+    "db_location": "",
+    "scanned_path": "/workspaces/Proyecto-Ciberseguridad/miner/repos/platforms"
+  }
+}

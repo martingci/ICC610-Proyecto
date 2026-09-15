@@ -1,0 +1,399 @@
+{
+  "total_issues": 26,
+  "issues_by_severity": {
+    "error": 0,
+    "warning": 26,
+    "note": 0
+  },
+  "issues": [
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/ai-provider-api-changes.yml",
+      "region": {
+        "startLine": 9,
+        "startColumn": 5,
+        "endLine": 33,
+        "endColumn": 62
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/ai-provider-models.yml",
+      "region": {
+        "startLine": 9,
+        "startColumn": 5,
+        "endLine": 52,
+        "endColumn": 17
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
+      "file": ".github/workflows/ci.yml",
+      "region": {
+        "startLine": 15,
+        "startColumn": 5,
+        "endLine": 38,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
+      "file": ".github/workflows/ci.yml",
+      "region": {
+        "startLine": 39,
+        "startColumn": 5,
+        "endLine": 62,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
+      "file": ".github/workflows/ci.yml",
+      "region": {
+        "startLine": 63,
+        "startColumn": 5,
+        "endLine": 86,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
+      "file": ".github/workflows/ci.yml",
+      "region": {
+        "startLine": 87,
+        "startColumn": 5,
+        "endLine": 110,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
+      "file": ".github/workflows/ci.yml",
+      "region": {
+        "startLine": 111,
+        "startColumn": 5,
+        "endLine": 144,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
+      "file": ".github/workflows/ci.yml",
+      "region": {
+        "startLine": 145,
+        "startColumn": 5,
+        "endLine": 179,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/ci.yml",
+      "region": {
+        "startLine": 180,
+        "startColumn": 5,
+        "endLine": 191,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
+      "file": ".github/workflows/ci.yml",
+      "region": {
+        "startLine": 192,
+        "startColumn": 5,
+        "endLine": 264,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/ci.yml",
+      "region": {
+        "startLine": 265,
+        "startColumn": 5,
+        "endLine": 274,
+        "endColumn": 21
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/slack-team-review-notification.yml",
+      "region": {
+        "startLine": 9,
+        "startColumn": 5,
+        "endLine": 38,
+        "endColumn": 58
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
+      "file": ".github/workflows/slack-workflow-failure-notification.yml",
+      "region": {
+        "startLine": 15,
+        "startColumn": 5,
+        "endLine": 26,
+        "endColumn": 67
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 17,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
+      "file": ".github/workflows/verify-changesets.yml",
+      "region": {
+        "startLine": 17,
+        "startColumn": 5,
+        "endLine": 40,
+        "endColumn": 77
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/unpinned-tag",
+      "rule_index": 21,
+      "level": "warning",
+      "message": "Unpinned 3rd party Action 'AI Provider API Changes' step [Uses Step](1) uses 'octokit/request-action' with ref 'v3', not a pinned commit hash",
+      "file": ".github/workflows/ai-provider-api-changes.yml",
+      "region": {
+        "startLine": 19,
+        "startColumn": 15,
+        "endColumn": 40
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/unpinned-tag",
+      "rule_index": 21,
+      "level": "warning",
+      "message": "Unpinned 3rd party Action 'CI' step [Uses Step](1) uses 'pnpm/action-setup' with ref 'v5', not a pinned commit hash",
+      "file": ".github/workflows/ci.yml",
+      "region": {
+        "startLine": 22,
+        "startColumn": 15,
+        "endColumn": 35
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/unpinned-tag",
+      "rule_index": 21,
+      "level": "warning",
+      "message": "Unpinned 3rd party Action 'CI' step [Uses Step](1) uses 'pnpm/action-setup' with ref 'v5', not a pinned commit hash",
+      "file": ".github/workflows/ci.yml",
+      "region": {
+        "startLine": 46,
+        "startColumn": 15,
+        "endColumn": 35
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/unpinned-tag",
+      "rule_index": 21,
+      "level": "warning",
+      "message": "Unpinned 3rd party Action 'CI' step [Uses Step](1) uses 'pnpm/action-setup' with ref 'v5', not a pinned commit hash",
+      "file": ".github/workflows/ci.yml",
+      "region": {
+        "startLine": 70,
+        "startColumn": 15,
+        "endColumn": 35
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/unpinned-tag",
+      "rule_index": 21,
+      "level": "warning",
+      "message": "Unpinned 3rd party Action 'CI' step [Uses Step](1) uses 'pnpm/action-setup' with ref 'v5', not a pinned commit hash",
+      "file": ".github/workflows/ci.yml",
+      "region": {
+        "startLine": 94,
+        "startColumn": 15,
+        "endColumn": 35
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/unpinned-tag",
+      "rule_index": 21,
+      "level": "warning",
+      "message": "Unpinned 3rd party Action 'CI' step [Uses Step](1) uses 'pnpm/action-setup' with ref 'v5', not a pinned commit hash",
+      "file": ".github/workflows/ci.yml",
+      "region": {
+        "startLine": 118,
+        "startColumn": 15,
+        "endColumn": 35
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/unpinned-tag",
+      "rule_index": 21,
+      "level": "warning",
+      "message": "Unpinned 3rd party Action 'CI' step [Uses Step](1) uses 'pnpm/action-setup' with ref 'v5', not a pinned commit hash",
+      "file": ".github/workflows/ci.yml",
+      "region": {
+        "startLine": 158,
+        "startColumn": 15,
+        "endColumn": 35
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/unpinned-tag",
+      "rule_index": 21,
+      "level": "warning",
+      "message": "Unpinned 3rd party Action 'CI' step [Uses Step](1) uses 'pnpm/action-setup' with ref 'v5', not a pinned commit hash",
+      "file": ".github/workflows/ci.yml",
+      "region": {
+        "startLine": 213,
+        "startColumn": 15,
+        "endColumn": 35
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/unpinned-tag",
+      "rule_index": 21,
+      "level": "warning",
+      "message": "Unpinned 3rd party Action 'Release' step [Uses Step](1) uses 'pnpm/action-setup' with ref 'v5', not a pinned commit hash",
+      "file": ".github/workflows/release.yml",
+      "region": {
+        "startLine": 47,
+        "startColumn": 15,
+        "endColumn": 35
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/unpinned-tag",
+      "rule_index": 21,
+      "level": "warning",
+      "message": "Unpinned 3rd party Action 'Release' step [Uses Step: changesets](1) uses 'changesets/action' with ref 'v1', not a pinned commit hash",
+      "file": ".github/workflows/release.yml",
+      "region": {
+        "startLine": 63,
+        "startColumn": 15,
+        "endColumn": 35
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/unpinned-tag",
+      "rule_index": 21,
+      "level": "warning",
+      "message": "Unpinned 3rd party Action 'Update Gateway Model Settings' step [Uses Step](1) uses 'pnpm/action-setup' with ref 'v5', not a pinned commit hash",
+      "file": ".github/workflows/update-model-settings.yml",
+      "region": {
+        "startLine": 54,
+        "startColumn": 15,
+        "endColumn": 35
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/code-injection/medium",
+      "rule_index": 26,
+      "level": "warning",
+      "message": "Potential code injection in [${{ toJson(env.TITLE) }}](1), which may be controlled by an external user.",
+      "file": ".github/workflows/slack-team-review-notification.yml",
+      "region": {
+        "startLine": 32,
+        "startColumn": 184,
+        "endColumn": 208
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    }
+  ],
+  "sarif_metadata": {
+    "version": "2.1.0",
+    "schema_uri": "https://json.schemastore.org/sarif-2.1.0.json",
+    "tool": {
+      "name": "CodeQL",
+      "version": "unknown",
+      "information_uri": ""
+    },
+    "tool_name": "CodeQL",
+    "tool_version": "unknown"
+  }
+}

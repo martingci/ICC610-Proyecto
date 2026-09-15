@@ -1,0 +1,15 @@
+{
+  "total_vulnerabilities": 0,
+  "vulnerabilities_by_severity": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0
+  },
+  "vulnerabilities": [],
+  "grype_metadata": {
+    "grype_version": "unknown",
+    "db_location": "",
+    "scanned_path": "/workspaces/Proyecto-Ciberseguridad/miner/repos/next-forge"
+  }
+}

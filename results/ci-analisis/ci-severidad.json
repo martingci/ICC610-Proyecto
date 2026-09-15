@@ -1,0 +1,11 @@
+{
+    "total_repos": 17,
+    "total_issues": 206,
+    "severities": [
+        {
+            "level": "warning",
+            "count": 206,
+            "percentage": 100.0
+        }
+    ]
+}
