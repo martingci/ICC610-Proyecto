@@ -1,3 +1,26 @@
+"""
+Generación de SBOMs con Syft
+
+Script que automatiza la generación de SBOMs (Software Bill of Materials) para múltiples
+repositorios usando Syft.
+
+Proceso:
+1. Descubre todos los repositorios en miner/repos/
+2. Ejecuta Syft sobre cada repositorio
+3. Normaliza la salida JSON de Syft
+4. Guarda resultados en results/ con el patrón {repo}-sbom.json
+
+Uso:
+    python3 miner/generate_sboms.py --repos-path miner/repos --output-path results
+
+Requisitos:
+    - Syft CLI instalado (https://github.com/anchore/syft)
+    - Repositorios clonados en miner/repos/
+
+Salida:
+    - {repo}-sbom.json: SBOM en formato JSON (syft-json)
+"""
+
 from __future__ import annotations
 
 import argparse
@@ -14,14 +37,14 @@ RUTA_REPOS_POR_DEFECTO = RUTA_BASE_SBOMS / "data" / "repos"
 RUTA_RESULTADOS_POR_DEFECTO = RUTA_BASE_SBOMS / "data" / "results"
 FORMATO_SALIDA_SYFT = "syft-json"
 SUFIJO_SBOM = "-sbom.json"
-SUFIJOS_LEGADOS = (".spdx.json", ".cyclonedx.json")
 MENSAJE_SYFT_NO_INSTALADO = (
-    "Syft CLI is not installed. Please install it (e.g., `brew install syft`)."
+    "Syft CLI is not installed. Please install it."
 )
 
 
 if not logging.getLogger().handlers:
-    logging.basicConfig(level=logging.INFO, format="%(levelname)s | %(message)s")
+    logging.basicConfig(level=logging.INFO,
+                        format="%(levelname)s | %(message)s")
 LOGGER = logging.getLogger(__name__)
 PATRON_ANSI = re.compile(r"\x1b\[[0-9;?]*[ -/]*[@-~]")
 
@@ -32,7 +55,6 @@ class SBOMGenerator:
         self.output_path = Path(output_path).expanduser().resolve()
         self.project_root = Path(__file__).resolve().parents[1]
         self.syft_bin = "syft"
-        self.dry_run = False
         self.syft_path: str | None = None
 
     def discover_repositories(self) -> list[str]:
@@ -46,7 +68,8 @@ class SBOMGenerator:
         )
 
         if not repositorios:
-            LOGGER.warning("No se encontraron repositorios en %s", self.repos_path)
+            LOGGER.warning(
+                "No se encontraron repositorios en %s", self.repos_path)
 
         return repositorios
 
@@ -58,7 +81,8 @@ class SBOMGenerator:
             raise FileNotFoundError(f"El repositorio no existe: {ruta_repo}")
 
         if not ruta_repo.is_dir():
-            raise NotADirectoryError(f"La ruta no es un directorio: {ruta_repo}")
+            raise NotADirectoryError(
+                f"La ruta no es un directorio: {ruta_repo}")
 
         if not any(ruta_repo.iterdir()):
             raise ValueError(f"El repositorio esta vacio: {ruta_repo}")
@@ -79,7 +103,8 @@ class SBOMGenerator:
 
         salida = self._normalizar_sbom_json(resultado.stdout)
         if not salida.strip():
-            raise RuntimeError(f"Syft no devolvio contenido para {ruta_repo.name}.")
+            raise RuntimeError(
+                f"Syft no devolvio contenido para {ruta_repo.name}.")
 
         try:
             json.loads(salida)
@@ -98,7 +123,8 @@ class SBOMGenerator:
         self.output_path.mkdir(parents=True, exist_ok=True)
         ruta_salida = self.output_path / f"{repo_name}{SUFIJO_SBOM}"
         ruta_salida.write_text(sbom_data, encoding="utf-8")
-        LOGGER.info("SBOM guardado en %s", ruta_salida.relative_to(self.project_root))
+        LOGGER.info("SBOM guardado en %s",
+                    ruta_salida.relative_to(self.project_root))
         return ruta_salida
 
     def run(self):
@@ -109,15 +135,13 @@ class SBOMGenerator:
         if not repositorios:
             return
 
-        if not self.dry_run:
-            self.syft_path = self._resolver_syft()
-            LOGGER.info("Usando Syft CLI: %s", self.syft_path)
+        self.syft_path = self._resolver_syft()
+        LOGGER.info("Usando Syft CLI: %s", self.syft_path)
 
         self.output_path.mkdir(parents=True, exist_ok=True)
 
         repositorios_generados = 0
         archivos_generados = 0
-        omitidos = 0
         errores = 0
 
         for indice, repo_path in enumerate(repositorios, start=1):
@@ -129,30 +153,9 @@ class SBOMGenerator:
                 repo_path,
             )
 
-            if self.dry_run:
-                if not any(ruta_repo.iterdir()):
-                    LOGGER.warning(
-                        "[%s/%s] Se omite %s porque esta vacio.",
-                        indice,
-                        len(repositorios),
-                        ruta_repo.name,
-                    )
-                    omitidos += 1
-                    continue
-
-                ruta_salida = self.output_path / f"{ruta_repo.name}{SUFIJO_SBOM}"
-                LOGGER.info(
-                    "[%s/%s] Dry-run: se generaria %s",
-                    indice,
-                    len(repositorios),
-                    ruta_salida.relative_to(self.project_root),
-                )
-                continue
-
             try:
                 sbom_data = self.generate_sbom(repo_path)
                 self.save_sbom(ruta_repo.name, sbom_data)
-                self._eliminar_archivos_legados(ruta_repo.name)
                 repositorios_generados += 1
                 archivos_generados += 1
             except Exception as error:
@@ -167,11 +170,10 @@ class SBOMGenerator:
                 )
 
         LOGGER.info(
-            "Resumen final | total_repos=%s | repos_generados=%s | archivos_generados=%s | omitidos=%s | errores=%s",
+            "Resumen final | total_repos=%s | repos_generados=%s | archivos_generados=%s | errores=%s",
             len(repositorios),
             repositorios_generados,
             archivos_generados,
-            omitidos,
             errores,
         )
 
@@ -208,18 +210,19 @@ class SBOMGenerator:
         if not salida_cruda or not salida_cruda.strip():
             return ""
 
-        texto_limpio = PATRON_ANSI.sub("", salida_cruda).replace("\ufeff", "").strip()
+        texto_limpio = PATRON_ANSI.sub(
+            "", salida_cruda).replace("\ufeff", "").strip()
         candidatos = [texto_limpio]
 
         inicio_objeto = texto_limpio.find("{")
         fin_objeto = texto_limpio.rfind("}")
         if inicio_objeto != -1 and fin_objeto != -1 and inicio_objeto < fin_objeto:
-            candidatos.append(texto_limpio[inicio_objeto : fin_objeto + 1])
+            candidatos.append(texto_limpio[inicio_objeto: fin_objeto + 1])
 
         inicio_lista = texto_limpio.find("[")
         fin_lista = texto_limpio.rfind("]")
         if inicio_lista != -1 and fin_lista != -1 and inicio_lista < fin_lista:
-            candidatos.append(texto_limpio[inicio_lista : fin_lista + 1])
+            candidatos.append(texto_limpio[inicio_lista: fin_lista + 1])
 
         for candidato in candidatos:
             try:
@@ -229,19 +232,13 @@ class SBOMGenerator:
 
             return json.dumps(contenido, ensure_ascii=False, indent=2)
 
-        raise RuntimeError("Syft devolvio una salida que no pudo normalizarse a JSON valido.")
+        raise RuntimeError(
+            "Syft devolvio una salida que no pudo normalizarse a JSON valido.")
 
     def _eliminar_archivos_parciales(self, repo_name: str):
         ruta_salida = self.output_path / f"{repo_name}{SUFIJO_SBOM}"
         if ruta_salida.exists():
             ruta_salida.unlink()
-
-    def _eliminar_archivos_legados(self, repo_name: str):
-        for sufijo in SUFIJOS_LEGADOS:
-            ruta_salida = self.output_path / f"{repo_name}{sufijo}"
-            if ruta_salida.exists():
-                ruta_salida.unlink()
-                LOGGER.info("Archivo legado eliminado: %s", ruta_salida)
 
 
 def _construir_parser() -> argparse.ArgumentParser:
@@ -258,11 +255,6 @@ def _construir_parser() -> argparse.ArgumentParser:
         default=str(RUTA_RESULTADOS_POR_DEFECTO),
         help="Ruta al directorio donde se guardaran los SBOMs.",
     )
-    parser.add_argument(
-        "--dry-run",
-        action="store_true",
-        help="Muestra que repositorios se procesarian sin ejecutar Syft.",
-    )
     return parser
 
 
@@ -271,7 +263,6 @@ def main() -> int:
     args = parser.parse_args()
 
     generador = SBOMGenerator(args.repos_path, args.output_path)
-    generador.dry_run = args.dry_run
     try:
         generador.run()
     except Exception as error:
