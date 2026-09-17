@@ -8,7 +8,7 @@
   "issues": [
     {
       "rule_id": "actions/unpinned-tag",
-      "rule_index": 21,
+      "rule_index": 23,
       "level": "warning",
       "message": "Unpinned 3rd party Action 'Release' step [Uses Step](1) uses 'oven-sh/setup-bun' with ref 'v2', not a pinned commit hash",
       "file": ".github/workflows/release.yml",

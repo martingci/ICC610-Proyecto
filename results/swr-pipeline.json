@@ -8,7 +8,7 @@
   "issues": [
     {
       "rule_id": "actions/missing-workflow-permissions",
-      "rule_index": 17,
+      "rule_index": 9,
       "level": "warning",
       "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
       "file": ".github/workflows/test-canary.yml",
@@ -23,7 +23,7 @@
     },
     {
       "rule_id": "actions/missing-workflow-permissions",
-      "rule_index": 17,
+      "rule_index": 9,
       "level": "warning",
       "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
       "file": ".github/workflows/test-legacy-react.yml",
@@ -38,14 +38,14 @@
     },
     {
       "rule_id": "actions/missing-workflow-permissions",
-      "rule_index": 17,
+      "rule_index": 9,
       "level": "warning",
       "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
-      "file": ".github/workflows/test-release.yml",
+      "file": ".github/workflows/test.yml",
       "region": {
-        "startLine": 13,
+        "startLine": 11,
         "startColumn": 5,
-        "endLine": 31,
+        "endLine": 29,
         "endColumn": 3
       },
       "kind": "notApplicable",
@@ -53,30 +53,29 @@
     },
     {
       "rule_id": "actions/missing-workflow-permissions",
-      "rule_index": 17,
+      "rule_index": 9,
       "level": "warning",
       "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
-      "file": ".github/workflows/test-release.yml",
+      "file": ".github/workflows/test.yml",
       "region": {
-        "startLine": 32,
+        "startLine": 30,
         "startColumn": 5,
-        "endLine": 54,
-        "endColumn": 3
+        "endLine": 59,
+        "endColumn": 44
       },
       "kind": "notApplicable",
       "properties": {}
     },
     {
-      "rule_id": "actions/missing-workflow-permissions",
-      "rule_index": 17,
+      "rule_id": "actions/unpinned-tag",
+      "rule_index": 23,
       "level": "warning",
-      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
-      "file": ".github/workflows/trigger-release.yml",
+      "message": "Unpinned 3rd party Action 'action.yml' step [Uses Step](1) uses 'pnpm/action-setup' with ref 'v6.0.8', not a pinned commit hash",
+      "file": ".github/workflows/install/action.yml",
       "region": {
-        "startLine": 28,
-        "startColumn": 5,
-        "endLine": 56,
-        "endColumn": 34
+        "startLine": 7,
+        "startColumn": 13,
+        "endColumn": 37
       },
       "kind": "notApplicable",
       "properties": {}

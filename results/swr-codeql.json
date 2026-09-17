@@ -1,14 +1,14 @@
 {
-  "total_issues": 15,
+  "total_issues": 13,
   "issues_by_severity": {
     "error": 0,
-    "warning": 15,
+    "warning": 13,
     "note": 0
   },
   "issues": [
     {
       "rule_id": "js/request-forgery",
-      "rule_index": 28,
+      "rule_index": 25,
       "level": "warning",
       "message": "The [URL](1) of this request depends on a [user-provided value](2).",
       "file": "examples/api-hooks/pages/api/data.js",
@@ -22,35 +22,7 @@
     },
     {
       "rule_id": "js/request-forgery",
-      "rule_index": 28,
-      "level": "warning",
-      "message": "The [URL](1) of this request depends on a [user-provided value](2).",
-      "file": "examples/axios/pages/api/data.js",
-      "region": {
-        "startLine": 10,
-        "startColumn": 5,
-        "endColumn": 58
-      },
-      "kind": "notApplicable",
-      "properties": {}
-    },
-    {
-      "rule_id": "js/request-forgery",
-      "rule_index": 28,
-      "level": "warning",
-      "message": "The [URL](1) of this request depends on a [user-provided value](2).",
-      "file": "examples/axios-typescript/pages/api/data.ts",
-      "region": {
-        "startLine": 14,
-        "startColumn": 5,
-        "endColumn": 58
-      },
-      "kind": "notApplicable",
-      "properties": {}
-    },
-    {
-      "rule_id": "js/request-forgery",
-      "rule_index": 28,
+      "rule_index": 25,
       "level": "warning",
       "message": "The [URL](1) of this request depends on a [user-provided value](2).",
       "file": "examples/basic/pages/api/data.js",
@@ -64,7 +36,7 @@
     },
     {
       "rule_id": "js/request-forgery",
-      "rule_index": 28,
+      "rule_index": 25,
       "level": "warning",
       "message": "The [URL](1) of this request depends on a [user-provided value](2).",
       "file": "examples/basic-typescript/pages/api/data.ts",
@@ -78,7 +50,7 @@
     },
     {
       "rule_id": "js/request-forgery",
-      "rule_index": 28,
+      "rule_index": 25,
       "level": "warning",
       "message": "The [URL](1) of this request depends on a [user-provided value](2).",
       "file": "examples/global-fetcher/pages/api/data.js",
@@ -92,7 +64,7 @@
     },
     {
       "rule_id": "js/request-forgery",
-      "rule_index": 28,
+      "rule_index": 25,
       "level": "warning",
       "message": "The [URL](1) of this request depends on a [user-provided value](2).",
       "file": "examples/prefetch-preload/pages/api/data.js",
@@ -106,7 +78,7 @@
     },
     {
       "rule_id": "js/request-forgery",
-      "rule_index": 28,
+      "rule_index": 25,
       "level": "warning",
       "message": "The [URL](1) of this request depends on a [user-provided value](2).",
       "file": "examples/suspense/pages/api/data.js",
@@ -120,7 +92,7 @@
     },
     {
       "rule_id": "js/request-forgery",
-      "rule_index": 28,
+      "rule_index": 25,
       "level": "warning",
       "message": "The [URL](1) of this request depends on a [user-provided value](2).",
       "file": "examples/suspense-global/pages/api/data.ts",
@@ -134,12 +106,12 @@
     },
     {
       "rule_id": "js/useless-expression",
-      "rule_index": 108,
+      "rule_index": 118,
       "level": "warning",
       "message": "This expression has no effect.",
       "file": "test/type/trigger.ts",
       "region": {
-        "startLine": 146,
+        "startLine": 145,
         "startColumn": 6,
         "endColumn": 19
       },
@@ -148,10 +120,10 @@
     },
     {
       "rule_id": "js/trivial-conditional",
-      "rule_index": 134,
+      "rule_index": 135,
       "level": "warning",
       "message": "This negation always evaluates to true.",
-      "file": "e2e/site/app/render-suspense-infinite-preload/page.tsx",
+      "file": "test/e2e/site/app/render-suspense-infinite-preload/page.tsx",
       "region": {
         "startLine": 22,
         "startColumn": 5,
@@ -161,22 +133,8 @@
       "properties": {}
     },
     {
-      "rule_id": "js/useless-assignment-to-local",
-      "rule_index": 151,
-      "level": "warning",
-      "message": "The value assigned to preloaded here is unused.",
-      "file": "e2e/site/app/render-suspense-infinite-preload/page.tsx",
-      "region": {
-        "startLine": 23,
-        "startColumn": 3,
-        "endColumn": 19
-      },
-      "kind": "notApplicable",
-      "properties": {}
-    },
-    {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable isValidating.",
       "file": "examples/autocomplete-suggestions/pages/index.js",
@@ -189,8 +147,22 @@
       "properties": {}
     },
     {
+      "rule_id": "js/useless-assignment-to-local",
+      "rule_index": 161,
+      "level": "warning",
+      "message": "The value assigned to preloaded here is unused.",
+      "file": "test/e2e/site/app/render-suspense-infinite-preload/page.tsx",
+      "region": {
+        "startLine": 23,
+        "startColumn": 3,
+        "endColumn": 19
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
       "rule_id": "js/react/unused-or-undefined-state-property",
-      "rule_index": 198,
+      "rule_index": 199,
       "level": "warning",
       "message": "Component state property 'error' is [written](1), but it is never read.\nComponent state property 'error' is [written](2), but it is never read.",
       "file": "examples/suspense/components/error-handling.js",
@@ -204,7 +176,7 @@
     },
     {
       "rule_id": "js/react/unused-or-undefined-state-property",
-      "rule_index": 198,
+      "rule_index": 199,
       "level": "warning",
       "message": "Component state property 'error' is [written](1), but it is never read.\nComponent state property 'error' is [written](2), but it is never read.",
       "file": "examples/suspense-global/components/error-handling.ts",

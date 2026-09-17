@@ -1,144 +1,12 @@
 {
-  "total_vulnerabilities": 21,
+  "total_vulnerabilities": 35,
   "vulnerabilities_by_severity": {
     "critical": 0,
-    "high": 13,
-    "medium": 6,
-    "low": 2
+    "high": 23,
+    "medium": 9,
+    "low": 3
   },
   "vulnerabilities": [
-    {
-      "package_name": "picomatch",
-      "current_version": "2.3.1",
-      "vuln_id": "GHSA-3v7f-55p6-f55p",
-      "vuln_severity": "medium",
-      "fix_version": "N/A",
-      "message": "Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching",
-      "cwe": "N/A",
-      "cvss_score": 5.3,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "picomatch",
-      "current_version": "4.0.3",
-      "vuln_id": "GHSA-3v7f-55p6-f55p",
-      "vuln_severity": "medium",
-      "fix_version": "N/A",
-      "message": "Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching",
-      "cwe": "N/A",
-      "cvss_score": 5.3,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "yaml",
-      "current_version": "2.8.0",
-      "vuln_id": "GHSA-48c2-rrv3-qjmp",
-      "vuln_severity": "medium",
-      "fix_version": "N/A",
-      "message": "yaml is vulnerable to Stack Overflow via deeply nested YAML collections",
-      "cwe": "N/A",
-      "cvss_score": 4.3,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "minimatch",
-      "current_version": "3.1.2",
-      "vuln_id": "GHSA-7r86-cg39-jmmj",
-      "vuln_severity": "high",
-      "fix_version": "N/A",
-      "message": "minimatch has ReDoS: matchOne() combinatorial backtracking via multiple non-adjacent GLOBSTAR segments",
-      "cwe": "N/A",
-      "cvss_score": 7.5,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "minimatch",
-      "current_version": "5.1.6",
-      "vuln_id": "GHSA-7r86-cg39-jmmj",
-      "vuln_severity": "high",
-      "fix_version": "N/A",
-      "message": "minimatch has ReDoS: matchOne() combinatorial backtracking via multiple non-adjacent GLOBSTAR segments",
-      "cwe": "N/A",
-      "cvss_score": 7.5,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "minimatch",
-      "current_version": "9.0.5",
-      "vuln_id": "GHSA-7r86-cg39-jmmj",
-      "vuln_severity": "high",
-      "fix_version": "N/A",
-      "message": "minimatch has ReDoS: matchOne() combinatorial backtracking via multiple non-adjacent GLOBSTAR segments",
-      "cwe": "N/A",
-      "cvss_score": 7.5,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "minimatch",
-      "current_version": "3.1.2",
-      "vuln_id": "GHSA-3ppc-4f35-3m26",
-      "vuln_severity": "high",
-      "fix_version": "N/A",
-      "message": "minimatch has a ReDoS via repeated wildcards with non-matching literal in pattern",
-      "cwe": "N/A",
-      "cvss_score": 8.7,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "minimatch",
-      "current_version": "5.1.6",
-      "vuln_id": "GHSA-3ppc-4f35-3m26",
-      "vuln_severity": "high",
-      "fix_version": "N/A",
-      "message": "minimatch has a ReDoS via repeated wildcards with non-matching literal in pattern",
-      "cwe": "N/A",
-      "cvss_score": 8.7,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "minimatch",
-      "current_version": "9.0.5",
-      "vuln_id": "GHSA-3ppc-4f35-3m26",
-      "vuln_severity": "high",
-      "fix_version": "N/A",
-      "message": "minimatch has a ReDoS via repeated wildcards with non-matching literal in pattern",
-      "cwe": "N/A",
-      "cvss_score": 8.7,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "minimatch",
-      "current_version": "3.1.2",
-      "vuln_id": "GHSA-23c5-xmqv-rm74",
-      "vuln_severity": "high",
-      "fix_version": "N/A",
-      "message": "minimatch ReDoS: nested *() extglobs generate catastrophically backtracking regular expressions",
-      "cwe": "N/A",
-      "cvss_score": 7.5,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "minimatch",
-      "current_version": "5.1.6",
-      "vuln_id": "GHSA-23c5-xmqv-rm74",
-      "vuln_severity": "high",
-      "fix_version": "N/A",
-      "message": "minimatch ReDoS: nested *() extglobs generate catastrophically backtracking regular expressions",
-      "cwe": "N/A",
-      "cvss_score": 7.5,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "minimatch",
-      "current_version": "9.0.5",
-      "vuln_id": "GHSA-23c5-xmqv-rm74",
-      "vuln_severity": "high",
-      "fix_version": "N/A",
-      "message": "minimatch ReDoS: nested *() extglobs generate catastrophically backtracking regular expressions",
-      "cwe": "N/A",
-      "cvss_score": 7.5,
-      "type": "vulnerability"
-    },
     {
       "package_name": "glob",
       "current_version": "10.4.5",
@@ -151,14 +19,168 @@
       "type": "vulnerability"
     },
     {
+      "package_name": "brace-expansion",
+      "current_version": "1.1.12",
+      "vuln_id": "GHSA-rgw5-rvv9-x895",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "brace-expansion: DoS via unbounded intermediate arrays, bypassing the CVE-2026-14257 mitigation",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "brace-expansion",
+      "current_version": "2.0.2",
+      "vuln_id": "GHSA-rgw5-rvv9-x895",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "brace-expansion: DoS via unbounded intermediate arrays, bypassing the CVE-2026-14257 mitigation",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "minimatch",
+      "current_version": "3.1.2",
+      "vuln_id": "GHSA-3ppc-4f35-3m26",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "minimatch has a ReDoS via repeated wildcards with non-matching literal in pattern",
+      "cwe": "N/A",
+      "cvss_score": 8.7,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "minimatch",
+      "current_version": "5.1.6",
+      "vuln_id": "GHSA-3ppc-4f35-3m26",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "minimatch has a ReDoS via repeated wildcards with non-matching literal in pattern",
+      "cwe": "N/A",
+      "cvss_score": 8.7,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "minimatch",
+      "current_version": "9.0.5",
+      "vuln_id": "GHSA-3ppc-4f35-3m26",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "minimatch has a ReDoS via repeated wildcards with non-matching literal in pattern",
+      "cwe": "N/A",
+      "cvss_score": 8.7,
+      "type": "vulnerability"
+    },
+    {
       "package_name": "js-yaml",
       "current_version": "3.14.1",
-      "vuln_id": "GHSA-mh29-5h37-fv8m",
-      "vuln_severity": "medium",
+      "vuln_id": "GHSA-52cp-r559-cp3m",
+      "vuln_severity": "high",
       "fix_version": "N/A",
-      "message": "js-yaml has prototype pollution in merge (<<)",
+      "message": "js-yaml: YAML merge-key chains can force quadratic CPU consumption",
       "cwe": "N/A",
-      "cvss_score": 5.3,
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "minimatch",
+      "current_version": "3.1.2",
+      "vuln_id": "GHSA-7r86-cg39-jmmj",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "minimatch has ReDoS: matchOne() combinatorial backtracking via multiple non-adjacent GLOBSTAR segments",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "minimatch",
+      "current_version": "5.1.6",
+      "vuln_id": "GHSA-7r86-cg39-jmmj",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "minimatch has ReDoS: matchOne() combinatorial backtracking via multiple non-adjacent GLOBSTAR segments",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "minimatch",
+      "current_version": "9.0.5",
+      "vuln_id": "GHSA-7r86-cg39-jmmj",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "minimatch has ReDoS: matchOne() combinatorial backtracking via multiple non-adjacent GLOBSTAR segments",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "minimatch",
+      "current_version": "3.1.2",
+      "vuln_id": "GHSA-23c5-xmqv-rm74",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "minimatch ReDoS: nested *() extglobs generate catastrophically backtracking regular expressions",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "minimatch",
+      "current_version": "5.1.6",
+      "vuln_id": "GHSA-23c5-xmqv-rm74",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "minimatch ReDoS: nested *() extglobs generate catastrophically backtracking regular expressions",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "minimatch",
+      "current_version": "9.0.5",
+      "vuln_id": "GHSA-23c5-xmqv-rm74",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "minimatch ReDoS: nested *() extglobs generate catastrophically backtracking regular expressions",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "brace-expansion",
+      "current_version": "1.1.12",
+      "vuln_id": "GHSA-mh99-v99m-4gvg",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "brace-expansion: DoS via unbounded expansion length causing an out-of-memory process crash",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "brace-expansion",
+      "current_version": "2.0.2",
+      "vuln_id": "GHSA-mh99-v99m-4gvg",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "brace-expansion: DoS via unbounded expansion length causing an out-of-memory process crash",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "browserslist",
+      "current_version": "4.25.1",
+      "vuln_id": "GHSA-73wf-gq98-2v4g",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "Browserslist: Uncaught crash / prototype write via untrusted browserslist-stats.json custom stats (normalizeStats)",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
       "type": "vulnerability"
     },
     {
@@ -181,6 +203,61 @@
       "message": "Picomatch has a ReDoS vulnerability via extglob quantifiers",
       "cwe": "N/A",
       "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "defu",
+      "current_version": "6.1.4",
+      "vuln_id": "GHSA-737v-mqg7-c878",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "defu: Prototype pollution via `__proto__` key in defaults argument",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "js-yaml",
+      "current_version": "3.14.1",
+      "vuln_id": "GHSA-2883-xcg3-v3hh",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "js-yaml: maxTotalMergeKeys does not limit CPU use for empty merge sources",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "browserslist",
+      "current_version": "4.25.1",
+      "vuln_id": "GHSA-c83g-rgw3-j3cx",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "Browserslist: Unbounded memory growth (no cache eviction) via distinct query results, leading to eventual OOM",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "brace-expansion",
+      "current_version": "1.1.12",
+      "vuln_id": "GHSA-3jxr-9vmj-r5cp",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "brace-expansion: DoS via exponential-time expansion of consecutive non-expanding {} groups",
+      "cwe": "N/A",
+      "cvss_score": 5.3,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "brace-expansion",
+      "current_version": "2.0.2",
+      "vuln_id": "GHSA-3jxr-9vmj-r5cp",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "brace-expansion: DoS via exponential-time expansion of consecutive non-expanding {} groups",
+      "cwe": "N/A",
+      "cvss_score": 5.3,
       "type": "vulnerability"
     },
     {
@@ -206,12 +283,67 @@
       "type": "vulnerability"
     },
     {
-      "package_name": "defu",
-      "current_version": "6.1.4",
-      "vuln_id": "GHSA-737v-mqg7-c878",
+      "package_name": "yaml",
+      "current_version": "2.8.0",
+      "vuln_id": "GHSA-48c2-rrv3-qjmp",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "yaml is vulnerable to Stack Overflow via deeply nested YAML collections",
+      "cwe": "N/A",
+      "cvss_score": 4.3,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "picomatch",
+      "current_version": "2.3.1",
+      "vuln_id": "GHSA-3v7f-55p6-f55p",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching",
+      "cwe": "N/A",
+      "cvss_score": 5.3,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "picomatch",
+      "current_version": "4.0.3",
+      "vuln_id": "GHSA-3v7f-55p6-f55p",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching",
+      "cwe": "N/A",
+      "cvss_score": 5.3,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "js-yaml",
+      "current_version": "3.14.1",
+      "vuln_id": "GHSA-mh29-5h37-fv8m",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "js-yaml has prototype pollution in merge (<<)",
+      "cwe": "N/A",
+      "cvss_score": 5.3,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "js-yaml",
+      "current_version": "3.14.1",
+      "vuln_id": "GHSA-h67p-54hq-rp68",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "JS-YAML: Quadratic-complexity DoS in merge key handling via repeated aliases",
+      "cwe": "N/A",
+      "cvss_score": 5.3,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "fflate",
+      "current_version": "0.8.2",
+      "vuln_id": "GHSA-px8p-9vwx-vf98",
       "vuln_severity": "high",
       "fix_version": "N/A",
-      "message": "defu: Prototype pollution via `__proto__` key in defaults argument",
+      "message": "fflate unzipSync can enter an infinite loop when parsing malformed ZIP64 archives",
       "cwe": "N/A",
       "cvss_score": 7.5,
       "type": "vulnerability"
@@ -236,6 +368,28 @@
       "message": "jsdiff has a Denial of Service vulnerability in parsePatch and applyPatch",
       "cwe": "N/A",
       "cvss_score": 2.7,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "@babel/core",
+      "current_version": "7.28.0",
+      "vuln_id": "GHSA-4x5r-pxfx-6jf8",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "@babel/core: Arbitrary File Read via sourceMappingURL Comment",
+      "cwe": "N/A",
+      "cvss_score": 3.2,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "js-yaml",
+      "current_version": "3.14.1",
+      "vuln_id": "GHSA-5p4m-2wfm-xmqj",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "JS-YAML: Quadratic CPU consumption in !!omap resolution (3.x and 4.x) — CVE-2026-59870 fix not backported",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
       "type": "vulnerability"
     }
   ],

@@ -1,14 +1,14 @@
 {
-  "total_issues": 3,
+  "total_issues": 4,
   "issues_by_severity": {
     "error": 0,
-    "warning": 3,
+    "warning": 4,
     "note": 0
   },
   "issues": [
     {
       "rule_id": "js/insecure-randomness",
-      "rule_index": 20,
+      "rule_index": 58,
       "level": "warning",
       "message": "This uses a cryptographically insecure random number generated at [Math.random()](1) in a security context.",
       "file": "components/chat/shell.tsx",
@@ -22,7 +22,7 @@
     },
     {
       "rule_id": "js/insecure-randomness",
-      "rule_index": 20,
+      "rule_index": 58,
       "level": "warning",
       "message": "This uses a cryptographically insecure random number generated at [Math.random()](1) in a security context.",
       "file": "lib/db/utils.ts",
@@ -35,8 +35,22 @@
       "properties": {}
     },
     {
+      "rule_id": "js/trivial-conditional",
+      "rule_index": 135,
+      "level": "warning",
+      "message": "This use of variable 'documents' always evaluates to true.",
+      "file": "components/chat/version-footer.tsx",
+      "region": {
+        "startLine": 70,
+        "startColumn": 27,
+        "endColumn": 36
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable SIDEBAR_WIDTH_MOBILE.",
       "file": "components/ui/sidebar.tsx",

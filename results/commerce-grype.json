@@ -1,12 +1,122 @@
 {
-  "total_vulnerabilities": 5,
+  "total_vulnerabilities": 16,
   "vulnerabilities_by_severity": {
     "critical": 0,
-    "high": 1,
-    "medium": 4,
+    "high": 8,
+    "medium": 8,
     "low": 0
   },
   "vulnerabilities": [
+    {
+      "package_name": "postcss",
+      "current_version": "8.4.31",
+      "vuln_id": "GHSA-6g55-p6wh-862q",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "PostCSS: Arbitrary file read and information disclosure via attacker-controlled sourceMappingURL in CSS comments",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "postcss",
+      "current_version": "8.5.3",
+      "vuln_id": "GHSA-6g55-p6wh-862q",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "PostCSS: Arbitrary file read and information disclosure via attacker-controlled sourceMappingURL in CSS comments",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "postcss",
+      "current_version": "8.4.31",
+      "vuln_id": "GHSA-r28c-9q8g-f849",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "PostCSS: Path Traversal in Previous Source Map Auto-Loading (sourceMappingURL) leads to Arbitrary .map File Disclosure",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "postcss",
+      "current_version": "8.5.3",
+      "vuln_id": "GHSA-r28c-9q8g-f849",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "PostCSS: Path Traversal in Previous Source Map Auto-Loading (sourceMappingURL) leads to Arbitrary .map File Disclosure",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "postcss",
+      "current_version": "8.4.31",
+      "vuln_id": "GHSA-fxqj-rqcc-2cmp",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "PostCSS: incomplete fix of GHSA-6g55-p6wh-862q — attacker-controlled sourceMappingURL reads arbitrary .map files when `from` is unset",
+      "cwe": "N/A",
+      "cvss_score": 6.3,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "postcss",
+      "current_version": "8.5.3",
+      "vuln_id": "GHSA-fxqj-rqcc-2cmp",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "PostCSS: incomplete fix of GHSA-6g55-p6wh-862q — attacker-controlled sourceMappingURL reads arbitrary .map files when `from` is unset",
+      "cwe": "N/A",
+      "cvss_score": 6.3,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "next",
+      "current_version": "15.6.0-canary.60",
+      "vuln_id": "GHSA-9g9p-9gw9-jx7f",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "Next.js self-hosted applications vulnerable to DoS via Image Optimizer remotePatterns configuration",
+      "cwe": "N/A",
+      "cvss_score": 5.9,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "nanoid",
+      "current_version": "3.3.11",
+      "vuln_id": "GHSA-28wg-ghj8-5hjv",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "nanoid: non-secure generators can loop indefinitely with negative size",
+      "cwe": "N/A",
+      "cvss_score": 5.9,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "nanoid",
+      "current_version": "3.3.11",
+      "vuln_id": "GHSA-2v37-7h3g-55p8",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "nanoid: custom generators can loop indefinitely when size is zero",
+      "cwe": "N/A",
+      "cvss_score": 5.9,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "nanoid",
+      "current_version": "3.3.11",
+      "vuln_id": "GHSA-xwg4-73v4-xw9w",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "nanoid: Integer Overflow or Wraparound",
+      "cwe": "N/A",
+      "cvss_score": 7.4,
+      "type": "vulnerability"
+    },
     {
       "package_name": "next",
       "current_version": "15.6.0-canary.60",
@@ -43,23 +153,34 @@
     {
       "package_name": "next",
       "current_version": "15.6.0-canary.60",
-      "vuln_id": "GHSA-9g9p-9gw9-jx7f",
-      "vuln_severity": "medium",
-      "fix_version": "N/A",
-      "message": "Next.js self-hosted applications vulnerable to DoS via Image Optimizer remotePatterns configuration",
-      "cwe": "N/A",
-      "cvss_score": 5.9,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "next",
-      "current_version": "15.6.0-canary.60",
       "vuln_id": "GHSA-h25m-26qc-wcjf",
       "vuln_severity": "high",
       "fix_version": "N/A",
       "message": "Next.js HTTP request deserialization can lead to DoS when using insecure React Server Components",
       "cwe": "N/A",
       "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "sharp",
+      "current_version": "0.34.5",
+      "vuln_id": "GHSA-f88m-g3jw-g9cj",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "sharp inherited vulnerabilities in libvips: CVE-2026-33327, CVE-2026-33328, CVE-2026-35590, CVE-2026-35591",
+      "cwe": "N/A",
+      "cvss_score": 7,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "sharp",
+      "current_version": "0.34.5",
+      "vuln_id": "GHSA-rgj7-g3m4-5g8c",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "sharp: Vulnerabilities in libheif: GHSA-g89c-p67h-r497 and GHSA-2jg2-4ch7-h545",
+      "cwe": "N/A",
+      "cvss_score": 8.9,
       "type": "vulnerability"
     }
   ],

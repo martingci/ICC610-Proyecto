@@ -1,14 +1,29 @@
 {
-  "total_issues": 2,
+  "total_issues": 3,
   "issues_by_severity": {
     "error": 0,
-    "warning": 2,
+    "warning": 3,
     "note": 0
   },
   "issues": [
     {
+      "rule_id": "js/polynomial-redos",
+      "rule_index": 1,
+      "level": "warning",
+      "message": "This [regular expression](1) that depends on [library input](2) may run slow on strings starting with '```' and with many repetitions of '```'.\nThis [regular expression](1) that depends on [library input](3) may run slow on strings starting with '```' and with many repetitions of '```'.",
+      "file": "packages/streamdown/lib/detect-direction.ts",
+      "region": {
+        "startLine": 23,
+        "startColumn": 20,
+        "endLine": 24,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
       "rule_id": "js/log-injection",
-      "rule_index": 85,
+      "rule_index": 86,
       "level": "warning",
       "message": "Log entry depends on a [user-provided value](1).",
       "file": "apps/test/app/api/chat/route.ts",
@@ -22,7 +37,7 @@
     },
     {
       "rule_id": "js/trivial-conditional",
-      "rule_index": 134,
+      "rule_index": 135,
       "level": "warning",
       "message": "This expression always evaluates to false.",
       "file": "packages/streamdown/__tests__/caret.test.tsx",

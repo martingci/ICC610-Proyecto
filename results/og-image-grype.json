@@ -1,23 +1,12 @@
 {
-  "total_vulnerabilities": 9,
+  "total_vulnerabilities": 16,
   "vulnerabilities_by_severity": {
     "critical": 0,
-    "high": 7,
-    "medium": 1,
+    "high": 12,
+    "medium": 3,
     "low": 1
   },
   "vulnerabilities": [
-    {
-      "package_name": "tar-fs",
-      "current_version": "2.1.1",
-      "vuln_id": "GHSA-8cj5-5rvv-wf4v",
-      "vuln_severity": "high",
-      "fix_version": "N/A",
-      "message": "tar-fs can extract outside the specified dir with a specific tarball",
-      "cwe": "N/A",
-      "cvss_score": 8.7,
-      "type": "vulnerability"
-    },
     {
       "package_name": "tar-fs",
       "current_version": "2.1.1",
@@ -41,14 +30,36 @@
       "type": "vulnerability"
     },
     {
-      "package_name": "minimatch",
-      "current_version": "3.1.2",
-      "vuln_id": "GHSA-7r86-cg39-jmmj",
+      "package_name": "ws",
+      "current_version": "8.2.3",
+      "vuln_id": "GHSA-96hv-2xvq-fx4p",
       "vuln_severity": "high",
       "fix_version": "N/A",
-      "message": "minimatch has ReDoS: matchOne() combinatorial backtracking via multiple non-adjacent GLOBSTAR segments",
+      "message": "ws: Memory exhaustion DoS from tiny fragments and data chunks",
       "cwe": "N/A",
       "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "brace-expansion",
+      "current_version": "1.1.11",
+      "vuln_id": "GHSA-rgw5-rvv9-x895",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "brace-expansion: DoS via unbounded intermediate arrays, bypassing the CVE-2026-14257 mitigation",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "tar-fs",
+      "current_version": "2.1.1",
+      "vuln_id": "GHSA-8cj5-5rvv-wf4v",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "tar-fs can extract outside the specified dir with a specific tarball",
+      "cwe": "N/A",
+      "cvss_score": 8.7,
       "type": "vulnerability"
     },
     {
@@ -60,17 +71,6 @@
       "message": "tar-fs has a symlink validation bypass if destination directory is predictable with a specific tarball",
       "cwe": "N/A",
       "cvss_score": 8.7,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "brace-expansion",
-      "current_version": "1.1.11",
-      "vuln_id": "GHSA-v6h2-p8h4-qcjw",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "brace-expansion Regular Expression Denial of Service vulnerability",
-      "cwe": "N/A",
-      "cvss_score": 3.1,
       "type": "vulnerability"
     },
     {
@@ -87,12 +87,67 @@
     {
       "package_name": "minimatch",
       "current_version": "3.1.2",
+      "vuln_id": "GHSA-7r86-cg39-jmmj",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "minimatch has ReDoS: matchOne() combinatorial backtracking via multiple non-adjacent GLOBSTAR segments",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "minimatch",
+      "current_version": "3.1.2",
       "vuln_id": "GHSA-23c5-xmqv-rm74",
       "vuln_severity": "high",
       "fix_version": "N/A",
       "message": "minimatch ReDoS: nested *() extglobs generate catastrophically backtracking regular expressions",
       "cwe": "N/A",
       "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "ws",
+      "current_version": "8.2.3",
+      "vuln_id": "GHSA-58qx-3vcg-4xpx",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "ws: Uninitialized memory disclosure",
+      "cwe": "N/A",
+      "cvss_score": 4.4,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "brace-expansion",
+      "current_version": "1.1.11",
+      "vuln_id": "GHSA-mh99-v99m-4gvg",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "brace-expansion: DoS via unbounded expansion length causing an out-of-memory process crash",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "extract-zip",
+      "current_version": "2.0.1",
+      "vuln_id": "GHSA-jmr9-qjv8-65gv",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "extract-zip unvalidated symlink path traversal",
+      "cwe": "N/A",
+      "cvss_score": 8.1,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "brace-expansion",
+      "current_version": "1.1.11",
+      "vuln_id": "GHSA-3jxr-9vmj-r5cp",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "brace-expansion: DoS via exponential-time expansion of consecutive non-expanding {} groups",
+      "cwe": "N/A",
+      "cvss_score": 5.3,
       "type": "vulnerability"
     },
     {
@@ -104,6 +159,28 @@
       "message": "brace-expansion: Zero-step sequence causes process hang and memory exhaustion",
       "cwe": "N/A",
       "cvss_score": 6.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "extract-zip",
+      "current_version": "2.0.1",
+      "vuln_id": "GHSA-7pqw-9j4j-h8q3",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "extract-zip allows arbitrary file writes through symlink archive entries",
+      "cwe": "N/A",
+      "cvss_score": 8.1,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "brace-expansion",
+      "current_version": "1.1.11",
+      "vuln_id": "GHSA-v6h2-p8h4-qcjw",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "brace-expansion Regular Expression Denial of Service vulnerability",
+      "cwe": "N/A",
+      "cvss_score": 3.1,
       "type": "vulnerability"
     }
   ],

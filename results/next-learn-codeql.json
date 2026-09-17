@@ -8,7 +8,7 @@
   "issues": [
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable result.",
       "file": "dashboard/final-example/app/seed/route.ts",
@@ -22,7 +22,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused import AcmeLogo.",
       "file": "dashboard/starter-example/app/page.tsx",
@@ -35,7 +35,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable result.",
       "file": "dashboard/starter-example/app/seed/route.ts",
@@ -49,7 +49,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused import CustomersTableType.",
       "file": "dashboard/starter-example/app/ui/customers/table.tsx",
@@ -63,7 +63,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused import clsx.",
       "file": "dashboard/starter-example/app/ui/dashboard/latest-invoices.tsx",
@@ -76,7 +76,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused import Image.",
       "file": "dashboard/starter-example/app/ui/dashboard/latest-invoices.tsx",
@@ -89,7 +89,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused import generateYAxis.",
       "file": "dashboard/starter-example/app/ui/dashboard/revenue-chart.tsx",
@@ -102,7 +102,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused import CalendarIcon.",
       "file": "dashboard/starter-example/app/ui/dashboard/revenue-chart.tsx",
@@ -115,7 +115,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable chartHeight.",
       "file": "dashboard/starter-example/app/ui/dashboard/revenue-chart.tsx",
@@ -129,7 +129,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused import generatePagination.",
       "file": "dashboard/starter-example/app/ui/invoices/pagination.tsx",
@@ -142,7 +142,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused function PaginationNumber.",
       "file": "dashboard/starter-example/app/ui/invoices/pagination.tsx",
@@ -156,7 +156,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused function PaginationArrow.",
       "file": "dashboard/starter-example/app/ui/invoices/pagination.tsx",
@@ -170,7 +170,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused import ExclamationCircleIcon.",
       "file": "dashboard/starter-example/app/ui/login-form.tsx",

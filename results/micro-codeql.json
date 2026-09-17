@@ -7,36 +7,8 @@
   },
   "issues": [
     {
-      "rule_id": "js/xss",
-      "rule_index": 13,
-      "level": "warning",
-      "message": "Cross-site scripting vulnerability due to [user-provided value](1).",
-      "file": "examples/socket.io-chat-app/index.html",
-      "region": {
-        "startLine": 38,
-        "startColumn": 72,
-        "endColumn": 89
-      },
-      "kind": "notApplicable",
-      "properties": {}
-    },
-    {
-      "rule_id": "js/xss-through-dom",
-      "rule_index": 14,
-      "level": "warning",
-      "message": "[DOM text](1) is reinterpreted as HTML without escaping meta-characters.",
-      "file": "examples/socket.io-chat-app/index.html",
-      "region": {
-        "startLine": 38,
-        "startColumn": 72,
-        "endColumn": 89
-      },
-      "kind": "notApplicable",
-      "properties": {}
-    },
-    {
       "rule_id": "js/functionality-from-untrusted-source",
-      "rule_index": 36,
+      "rule_index": 13,
       "level": "warning",
       "message": "Script loaded from content delivery network with no integrity check.",
       "file": "examples/socket.io-chat-app/index.html",
@@ -49,8 +21,36 @@
       "properties": {}
     },
     {
+      "rule_id": "js/xss-through-dom",
+      "rule_index": 52,
+      "level": "warning",
+      "message": "[DOM text](1) is reinterpreted as HTML without escaping meta-characters.",
+      "file": "examples/socket.io-chat-app/index.html",
+      "region": {
+        "startLine": 38,
+        "startColumn": 72,
+        "endColumn": 89
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/xss",
+      "rule_index": 54,
+      "level": "warning",
+      "message": "Cross-site scripting vulnerability due to [user-provided value](1).",
+      "file": "examples/socket.io-chat-app/index.html",
+      "region": {
+        "startLine": 38,
+        "startColumn": 72,
+        "endColumn": 89
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
       "rule_id": "js/log-injection",
-      "rule_index": 85,
+      "rule_index": 86,
       "level": "warning",
       "message": "Log entry depends on a [user-provided value](1).",
       "file": "examples/json-body-parsing/index.js",
@@ -64,7 +64,7 @@
     },
     {
       "rule_id": "js/log-injection",
-      "rule_index": 85,
+      "rule_index": 86,
       "level": "warning",
       "message": "Log entry depends on a [user-provided value](1).",
       "file": "examples/socket.io-chat-app/websocket-server.js",

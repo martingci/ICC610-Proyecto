@@ -1,0 +1,2739 @@
+{
+  "total_issues": 194,
+  "issues_by_severity": {
+    "error": 0,
+    "warning": 194,
+    "note": 0
+  },
+  "issues": [
+    {
+      "rule_id": "js/redos",
+      "rule_index": 0,
+      "level": "warning",
+      "message": "This part of the regular expression may cause exponential backtracking on strings starting with '.' and containing many repetitions of '/'.",
+      "file": "packages/eve/src/cli/commands/extension-init.ts",
+      "region": {
+        "startLine": 76,
+        "startColumn": 17,
+        "endColumn": 23
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/polynomial-redos",
+      "rule_index": 1,
+      "level": "warning",
+      "message": "This [regular expression](1) that depends on [library input](2) may run slow on strings starting with 'bearer ' and with many repetitions of '  '.",
+      "file": "packages/eve/src/public/channels/auth.ts",
+      "region": {
+        "startLine": 334,
+        "startColumn": 17,
+        "endColumn": 61
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/polynomial-redos",
+      "rule_index": 1,
+      "level": "warning",
+      "message": "This [regular expression](1) that depends on [library input](2) may run slow on strings with many repetitions of '/'.",
+      "file": "packages/eve/src/public/next/index.ts",
+      "region": {
+        "startLine": 178,
+        "startColumn": 22,
+        "endColumn": 50
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/polynomial-redos",
+      "rule_index": 1,
+      "level": "warning",
+      "message": "This [regular expression](1) that depends on [library input](2) may run slow on strings with many repetitions of '/'.\nThis [regular expression](1) that depends on [library input](3) may run slow on strings with many repetitions of '/'.\nThis [regular expression](1) that depends on [library input](4) may run slow on strings with many repetitions of '/'.\nThis [regular expression](1) that depends on [library input](5) may run slow on strings with many repetitions of '/'.",
+      "file": "packages/eve/src/setup/scaffold/update/channels.ts",
+      "region": {
+        "startLine": 326,
+        "startColumn": 22,
+        "endLine": 330,
+        "endColumn": 32
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/polynomial-redos",
+      "rule_index": 1,
+      "level": "warning",
+      "message": "This [regular expression](1) that depends on [a user-provided value](2) may run slow on strings starting with 'Bearer ' and with many repetitions of '  '.",
+      "file": "packages/eve/test/tui-client/lib/mcp-stub-server.ts",
+      "region": {
+        "startLine": 140,
+        "startColumn": 53,
+        "endColumn": 88
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/identity-replacement",
+      "rule_index": 4,
+      "level": "warning",
+      "message": "This replaces 'connection search' with itself.",
+      "file": "apps/templates/eve-chat-template/components/chat/message.tsx",
+      "region": {
+        "startLine": 856,
+        "startColumn": 14,
+        "endColumn": 35
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/bad-code-sanitization",
+      "rule_index": 39,
+      "level": "warning",
+      "message": "Code construction depends on an [improperly sanitized value](1).",
+      "file": "packages/eve/src/internal/nitro/host/authored-workflow-scope.scenario.test.ts",
+      "region": {
+        "startLine": 45,
+        "startColumn": 69,
+        "endColumn": 97
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/bad-code-sanitization",
+      "rule_index": 39,
+      "level": "warning",
+      "message": "Code construction depends on an [improperly sanitized value](1).",
+      "file": "packages/eve/src/internal/nitro/host/channel-routes.ts",
+      "region": {
+        "startLine": 90,
+        "startColumn": 98,
+        "endColumn": 122
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/bad-code-sanitization",
+      "rule_index": 39,
+      "level": "warning",
+      "message": "Code construction depends on an [improperly sanitized value](1).",
+      "file": "packages/eve/src/internal/nitro/host/channel-routes.ts",
+      "region": {
+        "startLine": 110,
+        "startColumn": 68,
+        "endColumn": 92
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/bad-code-sanitization",
+      "rule_index": 39,
+      "level": "warning",
+      "message": "Code construction depends on an [improperly sanitized value](1).\nCode construction depends on an [improperly sanitized value](2).",
+      "file": "packages/eve/src/internal/nitro/host/configure-nitro-routes.ts",
+      "region": {
+        "startLine": 230,
+        "startColumn": 63,
+        "endColumn": 73
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/insufficient-password-hash",
+      "rule_index": 42,
+      "level": "warning",
+      "message": "Password from [an access to password](1) is hashed insecurely.\nPassword from [an access to password](2) is hashed insecurely.\nPassword from [an access to EVE_CHAT_PASSWORD](3) is hashed insecurely.\nPassword from [a call to getChatPassword](4) is hashed insecurely.",
+      "file": "apps/templates/eve-chat-template/lib/password-auth.ts",
+      "region": {
+        "startLine": 90,
+        "startColumn": 38,
+        "endColumn": 43
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/insufficient-password-hash",
+      "rule_index": 42,
+      "level": "warning",
+      "message": "Password from [an access to PASSWORD_SESSION_MAX_AGE](1) is hashed insecurely.",
+      "file": "apps/templates/eve-chat-template/lib/password-auth.ts",
+      "region": {
+        "startLine": 94,
+        "startColumn": 57,
+        "endColumn": 64
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/insufficient-password-hash",
+      "rule_index": 42,
+      "level": "warning",
+      "message": "Password from [a call to resolveModelApiKey](1) is hashed insecurely.\nPassword from [an access to AI_GATEWAY_API_KEY](2) is hashed insecurely.\nPassword from [a call to getPassword](3) is hashed insecurely.",
+      "file": "packages/eve/src/internal/model-auth/development-broker-client.ts",
+      "region": {
+        "startLine": 38,
+        "startColumn": 15,
+        "endColumn": 28
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/insufficient-password-hash",
+      "rule_index": 42,
+      "level": "warning",
+      "message": "Password from [a call to resolveModelApiKey](1) is hashed insecurely.\nPassword from [an access to AI_GATEWAY_API_KEY](2) is hashed insecurely.\nPassword from [a call to getPassword](3) is hashed insecurely.",
+      "file": "packages/eve/src/internal/model-auth/development-broker-server.ts",
+      "region": {
+        "startLine": 34,
+        "startColumn": 46,
+        "endColumn": 51
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/incomplete-sanitization",
+      "rule_index": 48,
+      "level": "warning",
+      "message": "This does not escape backslash characters in the input.",
+      "file": "packages/eve/src/internal/nitro/routes/dev-schedule-dispatch.ts",
+      "region": {
+        "startLine": 17,
+        "startColumn": 7,
+        "endColumn": 31
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/incomplete-multi-character-sanitization",
+      "rule_index": 49,
+      "level": "warning",
+      "message": "This string may still contain [<script](1), which may cause an HTML element injection vulnerability.",
+      "file": "packages/eve/src/execution/web-fetch/html.ts",
+      "region": {
+        "startLine": 34,
+        "startColumn": 10,
+        "endColumn": 78
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/incomplete-multi-character-sanitization",
+      "rule_index": 49,
+      "level": "warning",
+      "message": "This string may still contain [<script](1), which may cause an HTML element injection vulnerability.",
+      "file": "packages/eve/src/execution/web-fetch/html.ts",
+      "region": {
+        "startLine": 46,
+        "startColumn": 10,
+        "endColumn": 38
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/incomplete-multi-character-sanitization",
+      "rule_index": 49,
+      "level": "warning",
+      "message": "This string may still contain [<script](1), which may cause an HTML element injection vulnerability.",
+      "file": "packages/eve/src/setup/cli/option-row.test.ts",
+      "region": {
+        "startLine": 54,
+        "startColumn": 39,
+        "endColumn": 70
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/incomplete-multi-character-sanitization",
+      "rule_index": 49,
+      "level": "warning",
+      "message": "This string may still contain [<script](1), which may cause an HTML element injection vulnerability.",
+      "file": "packages/eve/src/setup/cli/prompt-ui.test.ts",
+      "region": {
+        "startLine": 255,
+        "startColumn": 39,
+        "endColumn": 70
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/file-system-race",
+      "rule_index": 97,
+      "level": "warning",
+      "message": "The file may have changed since it [was checked](1).",
+      "file": "apps/benchmarks/evals/mock-vercel-cli.mjs",
+      "region": {
+        "startLine": 25,
+        "startColumn": 3,
+        "endColumn": 50
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/file-system-race",
+      "rule_index": 97,
+      "level": "warning",
+      "message": "The file may have changed since it [was checked](1).",
+      "file": "e2e/fixtures/agent-self-modification/evals/self-modification/harness.ts",
+      "region": {
+        "startLine": 336,
+        "startColumn": 19,
+        "endColumn": 37
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/file-system-race",
+      "rule_index": 97,
+      "level": "warning",
+      "message": "The file may have changed since it [was checked](1).",
+      "file": "packages/eve/src/internal/authored-module-loader.ts",
+      "region": {
+        "startLine": 632,
+        "startColumn": 5,
+        "endColumn": 36
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/file-system-race",
+      "rule_index": 97,
+      "level": "warning",
+      "message": "The file may have changed since it [was checked](1).",
+      "file": "packages/eve/src/internal/materialized-authored-modules.ts",
+      "region": {
+        "startLine": 205,
+        "startColumn": 21,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/file-system-race",
+      "rule_index": 97,
+      "level": "warning",
+      "message": "The file may have changed since it [was checked](1).",
+      "file": "packages/eve/src/internal/nitro/dev-runtime-source-snapshot-copy.ts",
+      "region": {
+        "startLine": 55,
+        "startColumn": 9,
+        "endLine": 65,
+        "endColumn": 4
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/file-system-race",
+      "rule_index": 97,
+      "level": "warning",
+      "message": "The file may have changed since it [was checked](1).",
+      "file": "packages/eve/src/internal/workflow-bundle/nitro-step-entry.scenario.test.ts",
+      "region": {
+        "startLine": 81,
+        "startColumn": 34,
+        "endColumn": 59
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/file-system-race",
+      "rule_index": 97,
+      "level": "warning",
+      "message": "The file may have changed since it [was checked](1).",
+      "file": "packages/eve/src/tracing/local-trace-reader.ts",
+      "region": {
+        "startLine": 136,
+        "startColumn": 21,
+        "endColumn": 43
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/file-system-race",
+      "rule_index": 97,
+      "level": "warning",
+      "message": "The file may have changed since it [was checked](1).",
+      "file": "packages/eve/test/scenarios/production-build-isolation.scenario.test.ts",
+      "region": {
+        "startLine": 371,
+        "startColumn": 23,
+        "endColumn": 44
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/file-system-race",
+      "rule_index": 97,
+      "level": "warning",
+      "message": "The file may have changed since it [was checked](1).",
+      "file": "scripts/materialize-registry-release-requirements.mjs",
+      "region": {
+        "startLine": 53,
+        "startColumn": 5,
+        "endColumn": 47
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/insecure-temporary-file",
+      "rule_index": 99,
+      "level": "warning",
+      "message": "Insecure creation of file in [the os temp dir](1).\nInsecure creation of file in [the os temp dir](2).\nInsecure creation of file in [the os temp dir](3).\nInsecure creation of file in [the os temp dir](4).\nInsecure creation of file in [the os temp dir](5).\nInsecure creation of file in [the os temp dir](6).",
+      "file": "packages/eve/src/internal/nitro/host/configure-nitro-routes.ts",
+      "region": {
+        "startLine": 108,
+        "startColumn": 5,
+        "endColumn": 16
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/insecure-temporary-file",
+      "rule_index": 99,
+      "level": "warning",
+      "message": "Insecure creation of file in [the os temp dir](1).",
+      "file": "packages/eve/src/internal/testing/unit-guard.test.ts",
+      "region": {
+        "startLine": 14,
+        "startColumn": 39,
+        "endColumn": 66
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/insecure-temporary-file",
+      "rule_index": 99,
+      "level": "warning",
+      "message": "Insecure creation of file in [the os temp dir](1).",
+      "file": "packages/eve/src/internal/testing/unit-guard.test.ts",
+      "region": {
+        "startLine": 26,
+        "startColumn": 35,
+        "endColumn": 62
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/file-access-to-http",
+      "rule_index": 100,
+      "level": "warning",
+      "message": "Outbound network request depends on [file data](1).",
+      "file": "packages/eve/src/internal/model-auth/vercel.ts",
+      "region": {
+        "startLine": 20,
+        "startColumn": 32,
+        "endColumn": 35
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "e2e/fixtures/agent-background-tools/agent/tools/export.ts",
+      "region": {
+        "startLine": 10,
+        "startColumn": 5,
+        "endColumn": 20
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "e2e/fixtures/agent-task-reporting/agent/tools/warehouse_lookup.ts",
+      "region": {
+        "startLine": 8,
+        "startColumn": 5,
+        "endColumn": 20
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "e2e/fixtures/agent-workflow-tools/agent/lib/deploy.ts",
+      "region": {
+        "startLine": 7,
+        "startColumn": 3,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "e2e/fixtures/agent-workflow-tools/agent/lib/fanout.ts",
+      "region": {
+        "startLine": 21,
+        "startColumn": 3,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "e2e/fixtures/agent-workflow-tools/agent/lib/fanout.ts",
+      "region": {
+        "startLine": 29,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "e2e/fixtures/agent-workflow-tools/agent/lib/fanout.ts",
+      "region": {
+        "startLine": 36,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "e2e/fixtures/agent-workflow-tools/agent/lib/plan.ts",
+      "region": {
+        "startLine": 9,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "e2e/fixtures/agent-workflow-tools/agent/lib/webhook.ts",
+      "region": {
+        "startLine": 2,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "e2e/fixtures/agent-workflow-tools/agent/tools/authorize_service.ts",
+      "region": {
+        "startLine": 11,
+        "startColumn": 5,
+        "endColumn": 20
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "e2e/fixtures/agent-workflow-tools/agent/tools/authorize_service.ts",
+      "region": {
+        "startLine": 17,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "e2e/fixtures/agent-workflow-tools/agent/tools/background_agent.ts",
+      "region": {
+        "startLine": 9,
+        "startColumn": 5,
+        "endColumn": 20
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "e2e/fixtures/agent-workflow-tools/agent/tools/blocking_agent.ts",
+      "region": {
+        "startLine": 8,
+        "startColumn": 5,
+        "endColumn": 20
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "e2e/fixtures/agent-workflow-tools/agent/tools/blocking_agent_probe.ts",
+      "region": {
+        "startLine": 12,
+        "startColumn": 5,
+        "endColumn": 20
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "e2e/fixtures/agent-workflow-tools/agent/tools/confirm_deploy.ts",
+      "region": {
+        "startLine": 14,
+        "startColumn": 5,
+        "endColumn": 20
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "e2e/fixtures/agent-workflow-tools/agent/tools/escalate_deploy.ts",
+      "region": {
+        "startLine": 16,
+        "startColumn": 5,
+        "endColumn": 20
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "e2e/fixtures/agent-workflow-tools/agent/tools/fanout_agents.ts",
+      "region": {
+        "startLine": 8,
+        "startColumn": 5,
+        "endColumn": 20
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "e2e/fixtures/agent-workflow-tools/agent/tools/fanout_deploy.ts",
+      "region": {
+        "startLine": 16,
+        "startColumn": 5,
+        "endColumn": 20
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "e2e/fixtures/agent-workflow-tools/agent/tools/hold_deploy.ts",
+      "region": {
+        "startLine": 13,
+        "startColumn": 5,
+        "endColumn": 20
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "e2e/fixtures/agent-workflow-tools/agent/tools/report_deploy.ts",
+      "region": {
+        "startLine": 15,
+        "startColumn": 5,
+        "endColumn": 20
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "e2e/fixtures/agent-workflow-tools/agent/tools/webhook_deploy.ts",
+      "region": {
+        "startLine": 11,
+        "startColumn": 5,
+        "endColumn": 20
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "e2e/fixtures/fixture-tasks/agent/lib/lifecycle-control.ts",
+      "region": {
+        "startLine": 24,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "e2e/fixtures/fixture-tasks/agent/subagents/lifecycle-worker/tools/release.ts",
+      "region": {
+        "startLine": 12,
+        "startColumn": 3,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "e2e/fixtures/fixture-tasks/agent/tools/lifecycle_hold.ts",
+      "region": {
+        "startLine": 10,
+        "startColumn": 3,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "e2e/fixtures/fixture-tasks/agent/tools/lifecycle_task.ts",
+      "region": {
+        "startLine": 26,
+        "startColumn": 3,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "packages/eve/extension-contracts/compatibility/tool/v29.ts",
+      "region": {
+        "startLine": 17,
+        "startColumn": 5,
+        "endColumn": 20
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "packages/eve/extension-contracts/compatibility/tool/v30.ts",
+      "region": {
+        "startLine": 17,
+        "startColumn": 5,
+        "endColumn": 20
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "packages/eve/extension-contracts/compatibility/tool/v31.ts",
+      "region": {
+        "startLine": 17,
+        "startColumn": 5,
+        "endColumn": 20
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "packages/eve/extension-contracts/compatibility/tool/v32.ts",
+      "region": {
+        "startLine": 21,
+        "startColumn": 5,
+        "endColumn": 20
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "packages/eve/src/execution/activity-collector.ts",
+      "region": {
+        "startLine": 21,
+        "startColumn": 3,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/cancel-descendant-turns-step.ts",
+      "region": {
+        "startLine": 37,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/cancel-indexed-session-tasks-step.ts",
+      "region": {
+        "startLine": 18,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/continuation-conflict-step.ts",
+      "region": {
+        "startLine": 18,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/coordination-dispatch-step.ts",
+      "region": {
+        "startLine": 22,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/create-session-step.ts",
+      "region": {
+        "startLine": 44,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/dynamic-workflow/program-step.ts",
+      "region": {
+        "startLine": 61,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/dynamic-workflow/security-step.ts",
+      "region": {
+        "startLine": 9,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "packages/eve/src/execution/dynamic-workflow/tool.ts",
+      "region": {
+        "startLine": 15,
+        "startColumn": 3,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/legacy-session/completion-step.ts",
+      "region": {
+        "startLine": 14,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/legacy-session/interrupt-step.ts",
+      "region": {
+        "startLine": 17,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/legacy-session/prepare-step.ts",
+      "region": {
+        "startLine": 11,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "packages/eve/src/execution/legacy-session/turn-workflow.ts",
+      "region": {
+        "startLine": 19,
+        "startColumn": 3,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/proxied-deliver-step.ts",
+      "region": {
+        "startLine": 53,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/report-dropped-wire-payload-step.ts",
+      "region": {
+        "startLine": 18,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "packages/eve/src/execution/session/entry.ts",
+      "region": {
+        "startLine": 49,
+        "startColumn": 3,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/session/handoff-steps.ts",
+      "region": {
+        "startLine": 50,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/session/handoff-steps.ts",
+      "region": {
+        "startLine": 58,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/session/handoff-steps.ts",
+      "region": {
+        "startLine": 82,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/session/handoff-steps.ts",
+      "region": {
+        "startLine": 90,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/session/timeout-steps.ts",
+      "region": {
+        "startLine": 21,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/session/timeout-steps.ts",
+      "region": {
+        "startLine": 32,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/session/timeout-steps.ts",
+      "region": {
+        "startLine": 48,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "packages/eve/src/execution/session/timeout-workflow.ts",
+      "region": {
+        "startLine": 14,
+        "startColumn": 3,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/session/turn-step.ts",
+      "region": {
+        "startLine": 103,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/session-activity-renderer-step.ts",
+      "region": {
+        "startLine": 19,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/session-activity-renderer-step.ts",
+      "region": {
+        "startLine": 53,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/session-inbox/release-step.ts",
+      "region": {
+        "startLine": 9,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/settle-cancelled-turn-step.ts",
+      "region": {
+        "startLine": 63,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/tasks/child/steps.ts",
+      "region": {
+        "startLine": 42,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/tasks/child/steps.ts",
+      "region": {
+        "startLine": 94,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/tasks/child/steps.ts",
+      "region": {
+        "startLine": 117,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/tasks/child/steps.ts",
+      "region": {
+        "startLine": 148,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/tasks/child/steps.ts",
+      "region": {
+        "startLine": 171,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/tasks/child/steps.ts",
+      "region": {
+        "startLine": 192,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/tasks/child/steps.ts",
+      "region": {
+        "startLine": 223,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/tasks/child/steps.ts",
+      "region": {
+        "startLine": 252,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/tasks/child/steps.ts",
+      "region": {
+        "startLine": 302,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "packages/eve/src/execution/tasks/child/workflow.ts",
+      "region": {
+        "startLine": 79,
+        "startColumn": 3,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/tasks/parent/delegate.ts",
+      "region": {
+        "startLine": 113,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/tasks/parent/hitl-proxy-steps.ts",
+      "region": {
+        "startLine": 40,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/tasks/parent/hitl-proxy-steps.ts",
+      "region": {
+        "startLine": 117,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/terminal-session-completion-step.ts",
+      "region": {
+        "startLine": 9,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/terminal-session-failure-step.ts",
+      "region": {
+        "startLine": 15,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/terminate-child-sessions-step.ts",
+      "region": {
+        "startLine": 32,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "packages/eve/src/execution/tools/sleep-workflow.ts",
+      "region": {
+        "startLine": 7,
+        "startColumn": 3,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/tools/subagent/accept-event-step.ts",
+      "region": {
+        "startLine": 12,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/tools/subagent/emit-called-step.ts",
+      "region": {
+        "startLine": 17,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/tools/subagent/invoke-step.ts",
+      "region": {
+        "startLine": 346,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/tools/subagent/invoke-step.ts",
+      "region": {
+        "startLine": 429,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/tools/subagent/invoke-step.ts",
+      "region": {
+        "startLine": 504,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/tools/subagent/task-cancel.ts",
+      "region": {
+        "startLine": 47,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/tools/workflow/cancel.ts",
+      "region": {
+        "startLine": 50,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/tools/workflow/emit-workflow-tool-run-report-step.ts",
+      "region": {
+        "startLine": 15,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/tools/workflow/resume-hook-step.ts",
+      "region": {
+        "startLine": 10,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "packages/eve/src/execution/tools/workflow/workflow.ts",
+      "region": {
+        "startLine": 17,
+        "startColumn": 3,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/execution/workflow-runtime.ts",
+      "region": {
+        "startLine": 353,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/internal/testing/durable-session-workflow.ts",
+      "region": {
+        "startLine": 54,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/internal/testing/durable-session-workflow.ts",
+      "region": {
+        "startLine": 75,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/internal/testing/durable-session-workflow.ts",
+      "region": {
+        "startLine": 102,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "packages/eve/src/internal/testing/durable-session-workflow.ts",
+      "region": {
+        "startLine": 139,
+        "startColumn": 3,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "packages/eve/src/internal/testing/durable-session-workflow.ts",
+      "region": {
+        "startLine": 185,
+        "startColumn": 3,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "packages/eve/src/internal/testing/legacy-session-driver-workflow.ts",
+      "region": {
+        "startLine": 17,
+        "startColumn": 3,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/internal/testing/legacy-session-driver-workflow.ts",
+      "region": {
+        "startLine": 101,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "packages/eve/src/internal/testing/session-hook-pump-workflow.ts",
+      "region": {
+        "startLine": 9,
+        "startColumn": 3,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/internal/testing/session-hook-pump-workflow.ts",
+      "region": {
+        "startLine": 23,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "packages/eve/src/internal/testing/session-inbox-workflow.ts",
+      "region": {
+        "startLine": 11,
+        "startColumn": 3,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "packages/eve/src/internal/testing/task-cancel-notification-workflow.ts",
+      "region": {
+        "startLine": 18,
+        "startColumn": 3,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/internal/testing/task-cancel-notification-workflow.ts",
+      "region": {
+        "startLine": 34,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/internal/testing/task-cancel-notification-workflow.ts",
+      "region": {
+        "startLine": 54,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "packages/eve/src/internal/testing/task-cancel-notification-workflow.ts",
+      "region": {
+        "startLine": 64,
+        "startColumn": 3,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/internal/testing/task-model-retry-workflow.ts",
+      "region": {
+        "startLine": 41,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/internal/testing/task-model-retry-workflow.ts",
+      "region": {
+        "startLine": 70,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/internal/testing/task-model-retry-workflow.ts",
+      "region": {
+        "startLine": 119,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "packages/eve/src/internal/testing/task-model-retry-workflow.ts",
+      "region": {
+        "startLine": 140,
+        "startColumn": 3,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "packages/eve/src/internal/testing/workflow-tool-fixtures.ts",
+      "region": {
+        "startLine": 31,
+        "startColumn": 3,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "packages/eve/src/internal/testing/workflow-tool-fixtures.ts",
+      "region": {
+        "startLine": 38,
+        "startColumn": 3,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "packages/eve/src/internal/testing/workflow-tool-fixtures.ts",
+      "region": {
+        "startLine": 45,
+        "startColumn": 3,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/internal/testing/workflow-tool-fixtures.ts",
+      "region": {
+        "startLine": 55,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/internal/testing/workflow-tool-fixtures.ts",
+      "region": {
+        "startLine": 60,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/internal/testing/workflow-tool-fixtures.ts",
+      "region": {
+        "startLine": 65,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "packages/eve/src/internal/testing/workflow-tool-fixtures.ts",
+      "region": {
+        "startLine": 113,
+        "startColumn": 3,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "packages/eve/src/internal/testing/workflow-tool-fixtures.ts",
+      "region": {
+        "startLine": 130,
+        "startColumn": 3,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "packages/eve/src/internal/testing/workflow-tool-fixtures.ts",
+      "region": {
+        "startLine": 144,
+        "startColumn": 3,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "packages/eve/src/internal/testing/workflow-tool-fixtures.ts",
+      "region": {
+        "startLine": 159,
+        "startColumn": 3,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "packages/eve/src/internal/testing/workflow-tool-fixtures.ts",
+      "region": {
+        "startLine": 171,
+        "startColumn": 3,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/internal/testing/workflow-tool-fixtures.ts",
+      "region": {
+        "startLine": 180,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "packages/eve/src/internal/testing/workflow-tool-fixtures.ts",
+      "region": {
+        "startLine": 188,
+        "startColumn": 3,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "packages/eve/src/internal/testing/workflow-tool-fixtures.ts",
+      "region": {
+        "startLine": 200,
+        "startColumn": 3,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/internal/testing/workflow-tool-fixtures.ts",
+      "region": {
+        "startLine": 210,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/internal/testing/workflow-tool-fixtures.ts",
+      "region": {
+        "startLine": 230,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "packages/eve/src/internal/testing/workflow-tool-fixtures.ts",
+      "region": {
+        "startLine": 239,
+        "startColumn": 3,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/internal/workflow/builtins.ts",
+      "region": {
+        "startLine": 10,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/internal/workflow/builtins.ts",
+      "region": {
+        "startLine": 15,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/internal/workflow/builtins.ts",
+      "region": {
+        "startLine": 20,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/internal/workflow/builtins.ts",
+      "region": {
+        "startLine": 64,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/internal/workflow/index.ts",
+      "region": {
+        "startLine": 8,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "packages/eve/src/runtime/subagents/workflow.ts",
+      "region": {
+        "startLine": 22,
+        "startColumn": 3,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/subagents/adapter.ts",
+      "region": {
+        "startLine": 92,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/subagents/adapter.ts",
+      "region": {
+        "startLine": 119,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/subagents/callback-step.ts",
+      "region": {
+        "startLine": 22,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/subagents/callback-step.ts",
+      "region": {
+        "startLine": 66,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/subagents/event-proxy-step.ts",
+      "region": {
+        "startLine": 55,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/subagents/event-proxy-step.ts",
+      "region": {
+        "startLine": 76,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/subagents/parent-notification.ts",
+      "region": {
+        "startLine": 43,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/subagents/parent-notification.ts",
+      "region": {
+        "startLine": 109,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/subagents/parent-notification.ts",
+      "region": {
+        "startLine": 140,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/subagents/parent-notification.ts",
+      "region": {
+        "startLine": 223,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/src/subagents/parent-notification.ts",
+      "region": {
+        "startLine": 264,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "packages/eve/src/tools/framework/agent.ts",
+      "region": {
+        "startLine": 19,
+        "startColumn": 7,
+        "endColumn": 22
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use workflow'.",
+      "file": "packages/eve/src/tools/workflow-definition.test.ts",
+      "region": {
+        "startLine": 96,
+        "startColumn": 9,
+        "endColumn": 24
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unknown-directive",
+      "rule_index": 105,
+      "level": "warning",
+      "message": "Unknown directive: 'use step'.",
+      "file": "packages/eve/test/setup/compiled-artifacts-bootstrap.mjs",
+      "region": {
+        "startLine": 5,
+        "startColumn": 3,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/comparison-between-incompatible-types",
+      "rule_index": 114,
+      "level": "warning",
+      "message": "Variable 'value' is of type date, object or regular expression, but it is compared to [an expression](1) of type null.",
+      "file": "packages/eve/src/context/dynamic-connection-lifecycle.ts",
+      "region": {
+        "startLine": 29,
+        "startColumn": 36,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/comparison-between-incompatible-types",
+      "rule_index": 114,
+      "level": "warning",
+      "message": "Variable 'value' is of type date, object or regular expression, but it is compared to [an expression](1) of type null.",
+      "file": "packages/eve/src/context/dynamic-subagent-lifecycle.ts",
+      "region": {
+        "startLine": 109,
+        "startColumn": 5,
+        "endColumn": 10
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/comparison-between-incompatible-types",
+      "rule_index": 114,
+      "level": "warning",
+      "message": "Variable 'value' is of type date, object or regular expression, but it is compared to [an expression](1) of type null.",
+      "file": "packages/eve/src/context/dynamic-tool-lifecycle.ts",
+      "region": {
+        "startLine": 110,
+        "startColumn": 36,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/comparison-between-incompatible-types",
+      "rule_index": 114,
+      "level": "warning",
+      "message": "Variable 'value' is of type date, object or regular expression, but it is compared to [an expression](1) of type null.",
+      "file": "packages/eve/src/context/memory-tools.ts",
+      "region": {
+        "startLine": 127,
+        "startColumn": 36,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/comparison-between-incompatible-types",
+      "rule_index": 114,
+      "level": "warning",
+      "message": "Variable 'value' is of type date, object or regular expression, but it is compared to ['undefined'](1) of type undefined.",
+      "file": "packages/eve/src/shared/json.ts",
+      "region": {
+        "startLine": 113,
+        "startColumn": 36,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/redundant-operation",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Operands [(await  ... defined](1) and [(await  ... defined](2) are identical.",
+      "file": "packages/eve/src/cli/dev/run-interactive-ui.ts",
+      "region": {
+        "startLine": 87,
+        "startColumn": 9,
+        "endLine": 88,
+        "endColumn": 73
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/redundant-operation",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Operands [(await  ... defined](1) and [(await  ... defined](2) are identical.",
+      "file": "packages/eve/src/runtime/local-dev-capability.ts",
+      "region": {
+        "startLine": 163,
+        "startColumn": 9,
+        "endLine": 165,
+        "endColumn": 100
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unneeded-defensive-code",
+      "rule_index": 125,
+      "level": "warning",
+      "message": "This guard always evaluates to false.",
+      "file": "packages/eve/src/cli/dev/tui/traces/trace-conversation.ts",
+      "region": {
+        "startLine": 534,
+        "startColumn": 7,
+        "endColumn": 24
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unneeded-defensive-code",
+      "rule_index": 125,
+      "level": "warning",
+      "message": "This guard always evaluates to false.",
+      "file": "packages/eve/src/public/channels/telegram/attachments.ts",
+      "region": {
+        "startLine": 35,
+        "startColumn": 9,
+        "endColumn": 22
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/trivial-conditional",
+      "rule_index": 135,
+      "level": "warning",
+      "message": "This negation always evaluates to true.",
+      "file": "packages/eve/src/cli/dev/tui/runner.ts",
+      "region": {
+        "startLine": 2578,
+        "startColumn": 7,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 143,
+      "level": "warning",
+      "message": "Unused import cn.",
+      "file": "apps/templates/eve-chat-template/app/_components/agent-chat.tsx",
+      "region": {
+        "startLine": 50,
+        "endColumn": 34
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 143,
+      "level": "warning",
+      "message": "Unused function isStreamDisconnectError.",
+      "file": "apps/templates/eve-chat-template/app/_components/agent-chat.tsx",
+      "region": {
+        "startLine": 201,
+        "startColumn": 10,
+        "endColumn": 33
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 143,
+      "level": "warning",
+      "message": "Unused function readResponseError.",
+      "file": "apps/templates/eve-chat-template/app/_components/agent-chat.tsx",
+      "region": {
+        "startLine": 220,
+        "startColumn": 16,
+        "endColumn": 33
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 143,
+      "level": "warning",
+      "message": "Unused function sleep.",
+      "file": "apps/templates/eve-chat-template/app/_components/agent-chat.tsx",
+      "region": {
+        "startLine": 240,
+        "startColumn": 16,
+        "endColumn": 21
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 143,
+      "level": "warning",
+      "message": "Unused import isTextUIPart.",
+      "file": "apps/templates/personal-agent-template/app/utils/chat/eve.ts",
+      "region": {
+        "startLine": 1,
+        "endColumn": 70
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 143,
+      "level": "warning",
+      "message": "Unused import getToken.",
+      "file": "apps/templates/personal-agent-template/server/utils/connect.ts",
+      "region": {
+        "startLine": 4,
+        "endLine": 13,
+        "endColumn": 26
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/useless-assignment-to-local",
+      "rule_index": 161,
+      "level": "warning",
+      "message": "The initial value of pathname is unused, since it is always overwritten.",
+      "file": "apps/docs/lib/analytics/events.ts",
+      "region": {
+        "startLine": 44,
+        "startColumn": 7,
+        "endColumn": 23
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/useless-assignment-to-local",
+      "rule_index": 161,
+      "level": "warning",
+      "message": "The value assigned to sentFinish here is unused.",
+      "file": "packages/eve/src/cli/dev/tui/runner.ts",
+      "region": {
+        "startLine": 2508,
+        "startColumn": 9,
+        "endColumn": 26
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/useless-assignment-to-local",
+      "rule_index": 161,
+      "level": "warning",
+      "message": "The value assigned to sentFinish here is unused.",
+      "file": "packages/eve/src/cli/dev/tui/runner.ts",
+      "region": {
+        "startLine": 2521,
+        "startColumn": 9,
+        "endColumn": 26
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/useless-assignment-to-local",
+      "rule_index": 161,
+      "level": "warning",
+      "message": "The initial value of closeDurationMs is unused, since it is always overwritten.",
+      "file": "packages/eve/src/internal/nitro/host/dev-runner.scenario.test.ts",
+      "region": {
+        "startLine": 39,
+        "startColumn": 9,
+        "endColumn": 51
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/superfluous-trailing-arguments",
+      "rule_index": 176,
+      "level": "warning",
+      "message": "Superfluous argument passed to [function getDefaultResolve](1).",
+      "file": "packages/eve/scripts/vendor-compiled/_shared.mjs",
+      "region": {
+        "startLine": 736,
+        "startColumn": 32,
+        "endColumn": 40
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/superfluous-trailing-arguments",
+      "rule_index": 176,
+      "level": "warning",
+      "message": "Superfluous argument passed to [function createRunner](1).",
+      "file": "packages/eve/src/internal/nitro/host/dev-authored-rebuild-coordinator.test.ts",
+      "region": {
+        "startLine": 212,
+        "startColumn": 35,
+        "endColumn": 98
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    }
+  ],
+  "sarif_metadata": {
+    "version": "2.1.0",
+    "schema_uri": "https://json.schemastore.org/sarif-2.1.0.json",
+    "tool": {
+      "name": "CodeQL",
+      "version": "unknown",
+      "information_uri": ""
+    },
+    "tool_name": "CodeQL",
+    "tool_version": "unknown"
+  }
+}

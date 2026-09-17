@@ -8,7 +8,7 @@
   "issues": [
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused class Test.",
       "file": "test/fixtures/css-tag-same-file.js",
@@ -22,7 +22,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable element.",
       "file": "test/fixtures/dynamic-element.js",
@@ -36,7 +36,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused function Component1.",
       "file": "test/fixtures/fragment.js",
@@ -50,7 +50,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused function Component2.",
       "file": "test/fixtures/fragment.js",
@@ -64,7 +64,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable className.",
       "file": "test/fixtures/macro.js",
@@ -78,7 +78,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable styles.",
       "file": "test/fixtures/macro.js",
@@ -92,7 +92,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable test.",
       "file": "test/fixtures/macro.js",
@@ -106,7 +106,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable dynamicStyles2.",
       "file": "test/fixtures/macro.js",
@@ -120,7 +120,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable ExampleComponent.",
       "file": "test/fixtures/macro.js",
@@ -134,7 +134,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable Test.",
       "file": "test/fixtures/mixed-global-scoped.js",
@@ -148,7 +148,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable Test1.",
       "file": "test/fixtures/multiple-jsx.js",
@@ -162,7 +162,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable Test2.",
       "file": "test/fixtures/multiple-jsx.js",
@@ -176,7 +176,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable Test3.",
       "file": "test/fixtures/multiple-jsx.js",
@@ -190,7 +190,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable baz.",
       "file": "test/fixtures/styles.js",
@@ -204,7 +204,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable a.",
       "file": "test/fixtures/styles.js",
@@ -218,7 +218,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable b.",
       "file": "test/fixtures/styles.js",
@@ -232,7 +232,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable dynamic.",
       "file": "test/fixtures/styles.js",
@@ -246,7 +246,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable b.",
       "file": "test/fixtures/styles.js",

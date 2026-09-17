@@ -1,14 +1,14 @@
 {
-  "total_issues": 15,
+  "total_issues": 8,
   "issues_by_severity": {
     "error": 0,
-    "warning": 15,
+    "warning": 8,
     "note": 0
   },
   "issues": [
     {
       "rule_id": "actions/missing-workflow-permissions",
-      "rule_index": 17,
+      "rule_index": 9,
       "level": "warning",
       "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
       "file": ".github/workflows/codeql-analysis.yml",
@@ -23,29 +23,14 @@
     },
     {
       "rule_id": "actions/missing-workflow-permissions",
-      "rule_index": 17,
-      "level": "warning",
-      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
-      "file": ".github/workflows/e2e_comment.yml",
-      "region": {
-        "startLine": 9,
-        "startColumn": 5,
-        "endLine": 63,
-        "endColumn": 68
-      },
-      "kind": "notApplicable",
-      "properties": {}
-    },
-    {
-      "rule_id": "actions/missing-workflow-permissions",
-      "rule_index": 17,
+      "rule_index": 9,
       "level": "warning",
       "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
       "file": ".github/workflows/nodejs.yml",
       "region": {
-        "startLine": 15,
+        "startLine": 16,
         "startColumn": 5,
-        "endLine": 117,
+        "endLine": 122,
         "endColumn": 3
       },
       "kind": "notApplicable",
@@ -53,14 +38,14 @@
     },
     {
       "rule_id": "actions/missing-workflow-permissions",
-      "rule_index": 17,
+      "rule_index": 9,
       "level": "warning",
       "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
       "file": ".github/workflows/nodejs.yml",
       "region": {
-        "startLine": 118,
+        "startLine": 123,
         "startColumn": 5,
-        "endLine": 190,
+        "endLine": 201,
         "endColumn": 27
       },
       "kind": "notApplicable",
@@ -83,96 +68,12 @@
     },
     {
       "rule_id": "actions/unpinned-tag",
-      "rule_index": 21,
-      "level": "warning",
-      "message": "Unpinned 3rd party Action 'Comment e2e test screenshots on PR' step [Uses Step](1) uses 'dawidd6/action-download-artifact' with ref 'v3.1.4', not a pinned commit hash",
-      "file": ".github/workflows/e2e_comment.yml",
-      "region": {
-        "startLine": 17,
-        "startColumn": 15,
-        "endColumn": 54
-      },
-      "kind": "notApplicable",
-      "properties": {}
-    },
-    {
-      "rule_id": "actions/unpinned-tag",
-      "rule_index": 21,
-      "level": "warning",
-      "message": "Unpinned 3rd party Action 'Comment e2e test screenshots on PR' step [Uses Step](1) uses 'dawidd6/action-download-artifact' with ref 'v3.1.4', not a pinned commit hash",
-      "file": ".github/workflows/e2e_comment.yml",
-      "region": {
-        "startLine": 24,
-        "startColumn": 15,
-        "endColumn": 54
-      },
-      "kind": "notApplicable",
-      "properties": {}
-    },
-    {
-      "rule_id": "actions/unpinned-tag",
-      "rule_index": 21,
-      "level": "warning",
-      "message": "Unpinned 3rd party Action 'Comment e2e test screenshots on PR' step [Uses Step: pr_num_reader](1) uses 'juliangruber/read-file-action' with ref 'v1.1.7', not a pinned commit hash",
-      "file": ".github/workflows/e2e_comment.yml",
-      "region": {
-        "startLine": 32,
-        "startColumn": 15,
-        "endColumn": 51
-      },
-      "kind": "notApplicable",
-      "properties": {}
-    },
-    {
-      "rule_id": "actions/unpinned-tag",
-      "rule_index": 21,
-      "level": "warning",
-      "message": "Unpinned 3rd party Action 'Comment e2e test screenshots on PR' step [Uses Step: upload_screenshots](1) uses 'devicons/public-upload-to-imgur' with ref 'v2.2.2', not a pinned commit hash",
-      "file": ".github/workflows/e2e_comment.yml",
-      "region": {
-        "startLine": 39,
-        "startColumn": 15,
-        "endColumn": 53
-      },
-      "kind": "notApplicable",
-      "properties": {}
-    },
-    {
-      "rule_id": "actions/unpinned-tag",
-      "rule_index": 21,
-      "level": "warning",
-      "message": "Unpinned 3rd party Action 'Comment e2e test screenshots on PR' step [Uses Step](1) uses 'jungwinter/comment' with ref 'v1', not a pinned commit hash",
-      "file": ".github/workflows/e2e_comment.yml",
-      "region": {
-        "startLine": 44,
-        "startColumn": 15,
-        "endColumn": 36
-      },
-      "kind": "notApplicable",
-      "properties": {}
-    },
-    {
-      "rule_id": "actions/unpinned-tag",
-      "rule_index": 21,
-      "level": "warning",
-      "message": "Unpinned 3rd party Action 'Comment e2e test screenshots on PR' step [Uses Step](1) uses 'kanga333/comment-hider' with ref 'v0.4.0', not a pinned commit hash",
-      "file": ".github/workflows/e2e_comment.yml",
-      "region": {
-        "startLine": 59,
-        "startColumn": 15,
-        "endColumn": 44
-      },
-      "kind": "notApplicable",
-      "properties": {}
-    },
-    {
-      "rule_id": "actions/unpinned-tag",
-      "rule_index": 21,
+      "rule_index": 23,
       "level": "warning",
       "message": "Unpinned 3rd party Action 'Node CI' step [Uses Step](1) uses 'LabhanshAgrawal/upload-artifact' with ref 'v3', not a pinned commit hash",
       "file": ".github/workflows/nodejs.yml",
       "region": {
-        "startLine": 75,
+        "startLine": 80,
         "startColumn": 15,
         "endColumn": 49
       },
@@ -181,12 +82,12 @@
     },
     {
       "rule_id": "actions/unpinned-tag",
-      "rule_index": 21,
+      "rule_index": 23,
       "level": "warning",
       "message": "Unpinned 3rd party Action 'Node CI' step [Uses Step](1) uses 'GabrielBB/xvfb-action' with ref 'v1.6', not a pinned commit hash",
       "file": ".github/workflows/nodejs.yml",
       "region": {
-        "startLine": 90,
+        "startLine": 95,
         "startColumn": 15,
         "endColumn": 41
       },
@@ -195,12 +96,12 @@
     },
     {
       "rule_id": "actions/unpinned-tag",
-      "rule_index": 21,
+      "rule_index": 23,
       "level": "warning",
       "message": "Unpinned 3rd party Action 'Node CI' step [Uses Step](1) uses 'pguyot/arm-runner-action' with ref 'v2.5.2', not a pinned commit hash",
       "file": ".github/workflows/nodejs.yml",
       "region": {
-        "startLine": 155,
+        "startLine": 164,
         "startColumn": 15,
         "endColumn": 46
       },
@@ -209,12 +110,12 @@
     },
     {
       "rule_id": "actions/unpinned-tag",
-      "rule_index": 21,
+      "rule_index": 23,
       "level": "warning",
       "message": "Unpinned 3rd party Action 'Node CI' step [Uses Step](1) uses 'LabhanshAgrawal/upload-artifact' with ref 'v3', not a pinned commit hash",
       "file": ".github/workflows/nodejs.yml",
       "region": {
-        "startLine": 183,
+        "startLine": 194,
         "startColumn": 15,
         "endColumn": 49
       },

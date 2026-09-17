@@ -21,17 +21,6 @@
     {
       "package_name": "tar-fs",
       "current_version": "2.1.1",
-      "vuln_id": "GHSA-8cj5-5rvv-wf4v",
-      "vuln_severity": "high",
-      "fix_version": "N/A",
-      "message": "tar-fs can extract outside the specified dir with a specific tarball",
-      "cwe": "N/A",
-      "cvss_score": 8.7,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "tar-fs",
-      "current_version": "2.1.1",
       "vuln_id": "GHSA-pq67-2wwv-3xjx",
       "vuln_severity": "high",
       "fix_version": "N/A",
@@ -63,14 +52,14 @@
       "type": "vulnerability"
     },
     {
-      "package_name": "picomatch",
-      "current_version": "2.3.0",
-      "vuln_id": "GHSA-3v7f-55p6-f55p",
-      "vuln_severity": "medium",
+      "package_name": "tar-fs",
+      "current_version": "2.1.1",
+      "vuln_id": "GHSA-8cj5-5rvv-wf4v",
+      "vuln_severity": "high",
       "fix_version": "N/A",
-      "message": "Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching",
+      "message": "tar-fs can extract outside the specified dir with a specific tarball",
       "cwe": "N/A",
-      "cvss_score": 5.3,
+      "cvss_score": 8.7,
       "type": "vulnerability"
     },
     {
@@ -93,6 +82,17 @@
       "message": "Picomatch has a ReDoS vulnerability via extglob quantifiers",
       "cwe": "N/A",
       "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "picomatch",
+      "current_version": "2.3.0",
+      "vuln_id": "GHSA-3v7f-55p6-f55p",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching",
+      "cwe": "N/A",
+      "cvss_score": 5.3,
       "type": "vulnerability"
     }
   ],

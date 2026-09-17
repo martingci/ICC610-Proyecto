@@ -3791,28 +3791,8 @@
       "language": "javascript",
       "cpes": [
         {
-          "cpe": "cpe:2.3:a:brace-expansion:brace-expansion:2.0.1:*:*:*:*:*:*:*",
-          "source": "syft-generated"
-        },
-        {
-          "cpe": "cpe:2.3:a:brace-expansion:brace_expansion:2.0.1:*:*:*:*:*:*:*",
-          "source": "syft-generated"
-        },
-        {
-          "cpe": "cpe:2.3:a:brace_expansion:brace-expansion:2.0.1:*:*:*:*:*:*:*",
-          "source": "syft-generated"
-        },
-        {
-          "cpe": "cpe:2.3:a:brace_expansion:brace_expansion:2.0.1:*:*:*:*:*:*:*",
-          "source": "syft-generated"
-        },
-        {
-          "cpe": "cpe:2.3:a:brace:brace-expansion:2.0.1:*:*:*:*:*:*:*",
-          "source": "syft-generated"
-        },
-        {
-          "cpe": "cpe:2.3:a:brace:brace_expansion:2.0.1:*:*:*:*:*:*:*",
-          "source": "syft-generated"
+          "cpe": "cpe:2.3:a:juliangruber:brace-expansion:2.0.1:*:*:*:*:node.js:*:*",
+          "source": "nvd-cpe-dictionary"
         }
       ],
       "purl": "pkg:npm/brace-expansion@2.0.1",
@@ -14374,7 +14354,7 @@
   "distro": {},
   "descriptor": {
     "name": "syft",
-    "version": "1.44.0",
+    "version": "1.51.1",
     "configuration": {
       "catalogers": {
         "requested": {
@@ -14386,6 +14366,7 @@
         "used": [
           "alpm-db-cataloger",
           "apk-db-cataloger",
+          "apple-app-bundle-cataloger",
           "binary-classifier-cataloger",
           "cargo-auditable-binary-cataloger",
           "cocoapods-cataloger",
@@ -14435,10 +14416,12 @@
           "ruby-gemfile-cataloger",
           "ruby-gemspec-cataloger",
           "rust-cargo-lock-cataloger",
+          "safetensors-cataloger",
           "snap-cataloger",
           "swift-package-manager-cataloger",
           "swipl-pack-cataloger",
           "terraform-lock-cataloger",
+          "vcpkg-manifest-cataloger",
           "wordpress-plugins-cataloger"
         ]
       },
@@ -14467,6 +14450,7 @@
           "pypy-binary-lib",
           "go-binary",
           "julia-binary",
+          "julia-binary",
           "helm",
           "redis-binary",
           "valkey-binary",
@@ -14484,6 +14468,11 @@
           "mysql-binary",
           "mysql-binary",
           "mysql-binary",
+          "mysqld-mysql-cluster-legacy-binary",
+          "mysqld-binary",
+          "ndbd-binary",
+          "ndbmtd-binary",
+          "ndb_mgmd-binary",
           "xtrabackup-binary",
           "mariadb-binary",
           "rust-standard-library-linux",
@@ -14495,6 +14484,7 @@
           "swipl-binary",
           "dart-binary",
           "deno-binary",
+          "bun-binary",
           "haskell-ghc-binary",
           "haskell-cabal-binary",
           "haskell-stack-binary",
@@ -14517,6 +14507,7 @@
           "sqlcipher-binary",
           "jq-binary",
           "chrome-binary",
+          "firefox-binary",
           "ffmpeg-binary",
           "ffmpeg-library",
           "ffmpeg-library",
@@ -14528,9 +14519,21 @@
           "grafana-binary",
           "envoy-binary",
           "mongodb-binary",
+          "ingress-nginx-binary",
+          "filebeat-binary",
+          "metricbeat-binary",
+          "heartbeat-binary",
+          "packetbeat-binary",
+          "auditbeat-binary",
+          "elastic-agent-binary",
+          "krb5-library",
+          "heimdal-krb5-library",
           "java-binary",
           "java-jdb-binary"
         ],
+        "cpp": {
+          "vcpkg-allow-git-clone": false
+        },
         "dotnet": {
           "dep-packages-must-claim-dll": true,
           "dep-packages-must-have-dll": false,
@@ -14539,6 +14542,7 @@
           "relax-dll-claims-when-bundling-detected": true
         },
         "golang": {
+          "capture-symbols": "none",
           "local-mod-cache-dir": "/home/vscode/go/pkg/mod",
           "local-vendor-dir": "",
           "main-module-version": {
@@ -14593,7 +14597,7 @@
     }
   },
   "schema": {
-    "version": "16.1.3",
-    "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-16.1.3.json"
+    "version": "16.1.10",
+    "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-16.1.10.json"
   }
 }

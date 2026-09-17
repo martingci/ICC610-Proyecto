@@ -1,14 +1,14 @@
 {
-  "total_issues": 63,
+  "total_issues": 57,
   "issues_by_severity": {
     "error": 0,
-    "warning": 63,
+    "warning": 57,
     "note": 0
   },
   "issues": [
     {
       "rule_id": "js/insecure-temporary-file",
-      "rule_index": 98,
+      "rule_index": 99,
       "level": "warning",
       "message": "Insecure creation of file in [the os temp dir](1).",
       "file": "src/cli.js",
@@ -22,12 +22,12 @@
     },
     {
       "rule_id": "js/unneeded-defensive-code",
-      "rule_index": 116,
+      "rule_index": 125,
       "level": "warning",
       "message": "This guard always evaluates to true.",
       "file": "test/unit/browser-mainfield/output-coverage.js",
       "region": {
-        "startLine": 86,
+        "startLine": 45,
         "startColumn": 15,
         "endColumn": 57
       },
@@ -36,12 +36,12 @@
     },
     {
       "rule_id": "js/unneeded-defensive-code",
-      "rule_index": 116,
+      "rule_index": 125,
       "level": "warning",
       "message": "This guard always evaluates to true.",
       "file": "test/unit/browser-mainfield/output.js",
       "region": {
-        "startLine": 86,
+        "startLine": 45,
         "startColumn": 15,
         "endColumn": 57
       },
@@ -50,12 +50,12 @@
     },
     {
       "rule_id": "js/unneeded-defensive-code",
-      "rule_index": 116,
+      "rule_index": 125,
       "level": "warning",
       "message": "This guard always evaluates to true.",
       "file": "test/unit/bundle-subasset2/output-coverage.js",
       "region": {
-        "startLine": 67,
+        "startLine": 37,
         "startColumn": 15,
         "endColumn": 57
       },
@@ -64,12 +64,12 @@
     },
     {
       "rule_id": "js/unneeded-defensive-code",
-      "rule_index": 116,
+      "rule_index": 125,
       "level": "warning",
       "message": "This guard always evaluates to true.",
       "file": "test/unit/bundle-subasset2/output.js",
       "region": {
-        "startLine": 67,
+        "startLine": 37,
         "startColumn": 15,
         "endColumn": 57
       },
@@ -78,12 +78,12 @@
     },
     {
       "rule_id": "js/unneeded-defensive-code",
-      "rule_index": 116,
+      "rule_index": 125,
       "level": "warning",
       "message": "This guard always evaluates to true.",
       "file": "test/unit/custom-emit/output-coverage.js",
       "region": {
-        "startLine": 47,
+        "startLine": 46,
         "startColumn": 15,
         "endColumn": 57
       },
@@ -92,12 +92,12 @@
     },
     {
       "rule_id": "js/unneeded-defensive-code",
-      "rule_index": 116,
+      "rule_index": 125,
       "level": "warning",
       "message": "This guard always evaluates to true.",
       "file": "test/unit/custom-emit/output.js",
       "region": {
-        "startLine": 47,
+        "startLine": 46,
         "startColumn": 15,
         "endColumn": 57
       },
@@ -106,12 +106,12 @@
     },
     {
       "rule_id": "js/unneeded-defensive-code",
-      "rule_index": 116,
+      "rule_index": 125,
       "level": "warning",
       "message": "This guard always evaluates to true.",
       "file": "test/unit/externals/output-coverage.js",
       "region": {
-        "startLine": 63,
+        "startLine": 62,
         "startColumn": 15,
         "endColumn": 57
       },
@@ -120,12 +120,12 @@
     },
     {
       "rule_id": "js/unneeded-defensive-code",
-      "rule_index": 116,
+      "rule_index": 125,
       "level": "warning",
       "message": "This guard always evaluates to true.",
       "file": "test/unit/externals/output.js",
       "region": {
-        "startLine": 63,
+        "startLine": 62,
         "startColumn": 15,
         "endColumn": 57
       },
@@ -134,96 +134,12 @@
     },
     {
       "rule_id": "js/unneeded-defensive-code",
-      "rule_index": 116,
-      "level": "warning",
-      "message": "This guard always evaluates to true.",
-      "file": "test/unit/shebang/output-coverage.js",
-      "region": {
-        "startLine": 47,
-        "startColumn": 15,
-        "endColumn": 57
-      },
-      "kind": "notApplicable",
-      "properties": {}
-    },
-    {
-      "rule_id": "js/unneeded-defensive-code",
-      "rule_index": 116,
-      "level": "warning",
-      "message": "This guard always evaluates to true.",
-      "file": "test/unit/shebang/output.js",
-      "region": {
-        "startLine": 47,
-        "startColumn": 15,
-        "endColumn": 57
-      },
-      "kind": "notApplicable",
-      "properties": {}
-    },
-    {
-      "rule_id": "js/unneeded-defensive-code",
-      "rule_index": 116,
-      "level": "warning",
-      "message": "This guard always evaluates to true.",
-      "file": "test/unit/ts-decl/output-coverage.js",
-      "region": {
-        "startLine": 37,
-        "startColumn": 15,
-        "endColumn": 57
-      },
-      "kind": "notApplicable",
-      "properties": {}
-    },
-    {
-      "rule_id": "js/unneeded-defensive-code",
-      "rule_index": 116,
-      "level": "warning",
-      "message": "This guard always evaluates to true.",
-      "file": "test/unit/ts-decl/output.js",
-      "region": {
-        "startLine": 37,
-        "startColumn": 15,
-        "endColumn": 57
-      },
-      "kind": "notApplicable",
-      "properties": {}
-    },
-    {
-      "rule_id": "js/unneeded-defensive-code",
-      "rule_index": 116,
-      "level": "warning",
-      "message": "This guard always evaluates to true.",
-      "file": "test/unit/ts-decl-dir/output-coverage.js",
-      "region": {
-        "startLine": 37,
-        "startColumn": 15,
-        "endColumn": 57
-      },
-      "kind": "notApplicable",
-      "properties": {}
-    },
-    {
-      "rule_id": "js/unneeded-defensive-code",
-      "rule_index": 116,
-      "level": "warning",
-      "message": "This guard always evaluates to true.",
-      "file": "test/unit/ts-decl-dir/output.js",
-      "region": {
-        "startLine": 37,
-        "startColumn": 15,
-        "endColumn": 57
-      },
-      "kind": "notApplicable",
-      "properties": {}
-    },
-    {
-      "rule_id": "js/unneeded-defensive-code",
-      "rule_index": 116,
+      "rule_index": 125,
       "level": "warning",
       "message": "This guard always evaluates to true.",
       "file": "test/unit/ts-exts/output-coverage.js",
       "region": {
-        "startLine": 62,
+        "startLine": 61,
         "startColumn": 15,
         "endColumn": 57
       },
@@ -232,12 +148,12 @@
     },
     {
       "rule_id": "js/unneeded-defensive-code",
-      "rule_index": 116,
+      "rule_index": 125,
       "level": "warning",
       "message": "This guard always evaluates to true.",
       "file": "test/unit/ts-exts/output.js",
       "region": {
-        "startLine": 62,
+        "startLine": 61,
         "startColumn": 15,
         "endColumn": 57
       },
@@ -246,12 +162,12 @@
     },
     {
       "rule_id": "js/unneeded-defensive-code",
-      "rule_index": 116,
+      "rule_index": 125,
       "level": "warning",
       "message": "This guard always evaluates to true.",
-      "file": "test/unit/ts-mixed-modules/output-coverage.js",
+      "file": "test/unit/ts-json-resolve/output-coverage.js",
       "region": {
-        "startLine": 53,
+        "startLine": 52,
         "startColumn": 15,
         "endColumn": 57
       },
@@ -260,12 +176,12 @@
     },
     {
       "rule_id": "js/unneeded-defensive-code",
-      "rule_index": 116,
+      "rule_index": 125,
       "level": "warning",
       "message": "This guard always evaluates to true.",
-      "file": "test/unit/ts-mixed-modules/output.js",
+      "file": "test/unit/ts-json-resolve/output.js",
       "region": {
-        "startLine": 53,
+        "startLine": 52,
         "startColumn": 15,
         "endColumn": 57
       },
@@ -274,12 +190,12 @@
     },
     {
       "rule_id": "js/unneeded-defensive-code",
-      "rule_index": 116,
+      "rule_index": 125,
       "level": "warning",
       "message": "This guard always evaluates to true.",
       "file": "test/unit/tsconfig-paths/output-coverage.js",
       "region": {
-        "startLine": 50,
+        "startLine": 49,
         "startColumn": 15,
         "endColumn": 57
       },
@@ -288,12 +204,12 @@
     },
     {
       "rule_id": "js/unneeded-defensive-code",
-      "rule_index": 116,
+      "rule_index": 125,
       "level": "warning",
       "message": "This guard always evaluates to true.",
       "file": "test/unit/tsconfig-paths-allowjs/output-coverage.js",
       "region": {
-        "startLine": 80,
+        "startLine": 51,
         "startColumn": 15,
         "endColumn": 57
       },
@@ -302,12 +218,12 @@
     },
     {
       "rule_id": "js/unneeded-defensive-code",
-      "rule_index": 116,
+      "rule_index": 125,
       "level": "warning",
       "message": "This guard always evaluates to true.",
       "file": "test/unit/tsconfig-paths-array-extends/output-coverage.js",
       "region": {
-        "startLine": 80,
+        "startLine": 51,
         "startColumn": 15,
         "endColumn": 57
       },
@@ -316,12 +232,12 @@
     },
     {
       "rule_id": "js/unneeded-defensive-code",
-      "rule_index": 116,
+      "rule_index": 125,
       "level": "warning",
       "message": "This guard always evaluates to true.",
       "file": "test/unit/tsconfig-paths-conflicting-external/output-coverage.js",
       "region": {
-        "startLine": 50,
+        "startLine": 49,
         "startColumn": 15,
         "endColumn": 57
       },
@@ -330,7 +246,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable ctx.",
       "file": "test/integration/canvas.js",
@@ -344,7 +260,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable app.",
       "file": "test/integration/express.js",
@@ -358,7 +274,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable fetch.",
       "file": "test/integration/fetch-h2.js",
@@ -372,7 +288,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable proc.",
       "file": "test/integration/fluent-ffmpeg.js",
@@ -386,7 +302,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable bigquery.",
       "file": "test/integration/google-bigquery.js",
@@ -400,7 +316,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable ioredis.",
       "file": "test/integration/ioredis.js",
@@ -414,7 +330,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable jimp.",
       "file": "test/integration/jimp.js",
@@ -428,7 +344,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable a.",
       "file": "test/integration/json-without-ext.js",
@@ -442,7 +358,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable db.",
       "file": "test/integration/leveldown.js",
@@ -456,7 +372,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable mailgun.",
       "file": "test/integration/mailgun.js",
@@ -470,7 +386,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable blogSchema.",
       "file": "test/integration/mongoose.js",
@@ -484,7 +400,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable connection.",
       "file": "test/integration/mysql.js",
@@ -498,7 +414,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable fs.",
       "file": "test/integration/pdfkit.js",
@@ -512,7 +428,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable client.",
       "file": "test/integration/pg.js",
@@ -526,7 +442,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable Observable.",
       "file": "test/integration/rxjs.js",
@@ -540,7 +456,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable Subject.",
       "file": "test/integration/rxjs.js",
@@ -554,7 +470,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable ReplaySubject.",
       "file": "test/integration/rxjs.js",
@@ -568,7 +484,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable from.",
       "file": "test/integration/rxjs.js",
@@ -582,7 +498,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable of.",
       "file": "test/integration/rxjs.js",
@@ -596,7 +512,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable switchMap.",
       "file": "test/integration/rxjs.js",
@@ -610,7 +526,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable sentry.",
       "file": "test/integration/sentry.js",
@@ -624,7 +540,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable db.",
       "file": "test/integration/sequelize.js",
@@ -638,7 +554,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable slackWebClient.",
       "file": "test/integration/slack.js",
@@ -652,7 +568,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable io.",
       "file": "test/integration/socket.io.js",
@@ -666,7 +582,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable stripe.",
       "file": "test/integration/stripe.js",
@@ -680,7 +596,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable tiny.",
       "file": "test/integration/tiny-json-http.js",
@@ -694,7 +610,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable deferred.",
       "file": "test/integration/when.js",
@@ -708,7 +624,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused import crypto.",
       "file": "test/unit/browser-mainfield/input.js",
@@ -721,12 +637,12 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable crypto_browser__WEBPACK_IMPORTED_MODULE_0___default.",
       "file": "test/unit/browser-mainfield/output-coverage.js",
       "region": {
-        "startLine": 95,
+        "startLine": 94,
         "startColumn": 26,
         "endColumn": 77
       },
@@ -735,12 +651,12 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable crypto_browser__WEBPACK_IMPORTED_MODULE_0___default.",
       "file": "test/unit/browser-mainfield/output.js",
       "region": {
-        "startLine": 95,
+        "startLine": 94,
         "startColumn": 26,
         "endColumn": 77
       },
@@ -749,12 +665,12 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable external_path_namespaceObject.",
       "file": "test/unit/bundle-subasset2/output-coverage.js",
       "region": {
-        "startLine": 76,
+        "startLine": 75,
         "startColumn": 7,
         "endColumn": 36
       },
@@ -763,12 +679,12 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable external_path_namespaceObject.",
       "file": "test/unit/bundle-subasset2/output.js",
       "region": {
-        "startLine": 76,
+        "startLine": 75,
         "startColumn": 7,
         "endColumn": 36
       },
@@ -777,7 +693,7 @@
     },
     {
       "rule_id": "js/automatic-semicolon-insertion",
-      "rule_index": 184,
+      "rule_index": 178,
       "level": "warning",
       "message": "Avoid automated semicolon insertion (95% of all statements in [the enclosing script](1) have an explicit semicolon).",
       "file": "src/index.js",
@@ -790,7 +706,7 @@
     },
     {
       "rule_id": "js/automatic-semicolon-insertion",
-      "rule_index": 184,
+      "rule_index": 178,
       "level": "warning",
       "message": "Avoid automated semicolon insertion (90% of all statements in [the enclosing function](1) have an explicit semicolon).",
       "file": "src/index.js",
@@ -804,7 +720,7 @@
     },
     {
       "rule_id": "js/automatic-semicolon-insertion",
-      "rule_index": 184,
+      "rule_index": 178,
       "level": "warning",
       "message": "Avoid automated semicolon insertion (90% of all statements in [the enclosing function](1) have an explicit semicolon).",
       "file": "src/index.js",
@@ -818,7 +734,7 @@
     },
     {
       "rule_id": "js/automatic-semicolon-insertion",
-      "rule_index": 184,
+      "rule_index": 178,
       "level": "warning",
       "message": "Avoid automated semicolon insertion (90% of all statements in [the enclosing function](1) have an explicit semicolon).",
       "file": "src/index.js",
@@ -832,7 +748,7 @@
     },
     {
       "rule_id": "js/automatic-semicolon-insertion",
-      "rule_index": 184,
+      "rule_index": 178,
       "level": "warning",
       "message": "Avoid automated semicolon insertion (90% of all statements in [the enclosing function](1) have an explicit semicolon).",
       "file": "src/index.js",
@@ -845,12 +761,12 @@
     },
     {
       "rule_id": "js/automatic-semicolon-insertion",
-      "rule_index": 184,
+      "rule_index": 178,
       "level": "warning",
       "message": "Avoid automated semicolon insertion (90% of all statements in [the enclosing function](1) have an explicit semicolon).",
       "file": "test/unit/externals/output-coverage.js",
       "region": {
-        "startLine": 69,
+        "startLine": 68,
         "endColumn": 53
       },
       "kind": "notApplicable",
@@ -858,12 +774,12 @@
     },
     {
       "rule_id": "js/automatic-semicolon-insertion",
-      "rule_index": 184,
+      "rule_index": 178,
       "level": "warning",
       "message": "Avoid automated semicolon insertion (90% of all statements in [the enclosing function](1) have an explicit semicolon).",
       "file": "test/unit/externals/output.js",
       "region": {
-        "startLine": 69,
+        "startLine": 68,
         "endColumn": 53
       },
       "kind": "notApplicable",
@@ -871,7 +787,7 @@
     },
     {
       "rule_id": "js/automatic-semicolon-insertion",
-      "rule_index": 184,
+      "rule_index": 178,
       "level": "warning",
       "message": "Avoid automated semicolon insertion (90% of all statements in [the enclosing function](1) have an explicit semicolon).",
       "file": "test/unit.test.js",

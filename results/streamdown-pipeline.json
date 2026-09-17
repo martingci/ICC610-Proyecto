@@ -8,12 +8,12 @@
   "issues": [
     {
       "rule_id": "actions/unpinned-tag",
-      "rule_index": 21,
+      "rule_index": 23,
       "level": "warning",
       "message": "Unpinned 3rd party Action 'Release' step [Uses Step](1) uses 'pnpm/action-setup' with ref 'v4', not a pinned commit hash",
       "file": ".github/workflows/release.yml",
       "region": {
-        "startLine": 41,
+        "startLine": 32,
         "startColumn": 15,
         "endColumn": 35
       },
@@ -22,12 +22,12 @@
     },
     {
       "rule_id": "actions/unpinned-tag",
-      "rule_index": 21,
+      "rule_index": 23,
       "level": "warning",
       "message": "Unpinned 3rd party Action 'Release' step [Uses Step: changesets](1) uses 'changesets/action' with ref 'v1', not a pinned commit hash",
       "file": ".github/workflows/release.yml",
       "region": {
-        "startLine": 69,
+        "startLine": 68,
         "startColumn": 15,
         "endColumn": 35
       },
@@ -36,7 +36,7 @@
     },
     {
       "rule_id": "actions/unpinned-tag",
-      "rule_index": 21,
+      "rule_index": 23,
       "level": "warning",
       "message": "Unpinned 3rd party Action 'Test' step [Uses Step](1) uses 'pnpm/action-setup' with ref 'v4', not a pinned commit hash",
       "file": ".github/workflows/test.yml",

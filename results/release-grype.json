@@ -1,23 +1,12 @@
 {
-  "total_vulnerabilities": 18,
+  "total_vulnerabilities": 19,
   "vulnerabilities_by_severity": {
     "critical": 3,
-    "high": 7,
+    "high": 8,
     "medium": 5,
     "low": 3
   },
   "vulnerabilities": [
-    {
-      "package_name": "debug",
-      "current_version": "0.8.1",
-      "vuln_id": "GHSA-9vvw-cc9w-f27h",
-      "vuln_severity": "high",
-      "fix_version": "N/A",
-      "message": "debug Inefficient Regular Expression Complexity vulnerability",
-      "cwe": "N/A",
-      "cvss_score": 7.5,
-      "type": "vulnerability"
-    },
     {
       "package_name": "minimist",
       "current_version": "0.0.8",
@@ -38,39 +27,6 @@
       "message": "Prototype Pollution in minimist",
       "cwe": "N/A",
       "cvss_score": 9.8,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "got",
-      "current_version": "7.1.0",
-      "vuln_id": "GHSA-pfrx-2q88-qq97",
-      "vuln_severity": "medium",
-      "fix_version": "N/A",
-      "message": "Got allows a redirect to a UNIX socket",
-      "cwe": "N/A",
-      "cvss_score": 5.3,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "deep-extend",
-      "current_version": "0.4.2",
-      "vuln_id": "GHSA-hr2v-3952-633q",
-      "vuln_severity": "critical",
-      "fix_version": "N/A",
-      "message": "Prototype Pollution in deep-extend",
-      "cwe": "N/A",
-      "cvss_score": 9.8,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "node-fetch",
-      "current_version": "2.6.1",
-      "vuln_id": "GHSA-r683-j2x4-v87g",
-      "vuln_severity": "high",
-      "fix_version": "N/A",
-      "message": "node-fetch forwards secure headers to untrusted sites",
-      "cwe": "N/A",
-      "cvss_score": 8.8,
       "type": "vulnerability"
     },
     {
@@ -85,6 +41,61 @@
       "type": "vulnerability"
     },
     {
+      "package_name": "lodash",
+      "current_version": "4.17.21",
+      "vuln_id": "GHSA-r5fr-rjxr-66jc",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "lodash vulnerable to Code Injection via `_.template` imports key names",
+      "cwe": "N/A",
+      "cvss_score": 8.1,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "deep-extend",
+      "current_version": "0.4.2",
+      "vuln_id": "GHSA-hr2v-3952-633q",
+      "vuln_severity": "critical",
+      "fix_version": "N/A",
+      "message": "Prototype Pollution in deep-extend",
+      "cwe": "N/A",
+      "cvss_score": 9.8,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "debug",
+      "current_version": "0.8.1",
+      "vuln_id": "GHSA-9vvw-cc9w-f27h",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "debug Inefficient Regular Expression Complexity vulnerability",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "node-fetch",
+      "current_version": "2.6.1",
+      "vuln_id": "GHSA-r683-j2x4-v87g",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "node-fetch forwards secure headers to untrusted sites",
+      "cwe": "N/A",
+      "cvss_score": 8.8,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "got",
+      "current_version": "7.1.0",
+      "vuln_id": "GHSA-pfrx-2q88-qq97",
+      "vuln_severity": "medium",
+      "fix_version": "N/A",
+      "message": "Got allows a redirect to a UNIX socket",
+      "cwe": "N/A",
+      "cvss_score": 5.3,
+      "type": "vulnerability"
+    },
+    {
       "package_name": "minimist",
       "current_version": "0.0.8",
       "vuln_id": "GHSA-vh95-rmgr-6w4m",
@@ -107,36 +118,14 @@
       "type": "vulnerability"
     },
     {
-      "package_name": "cross-spawn",
-      "current_version": "4.0.2",
-      "vuln_id": "GHSA-3xgq-45jj-v275",
-      "vuln_severity": "high",
+      "package_name": "lodash",
+      "current_version": "4.17.21",
+      "vuln_id": "GHSA-xxjr-mmjv-4gpg",
+      "vuln_severity": "medium",
       "fix_version": "N/A",
-      "message": "Regular Expression Denial of Service (ReDoS) in cross-spawn",
+      "message": "Lodash has Prototype Pollution Vulnerability in `_.unset` and `_.omit` functions",
       "cwe": "N/A",
-      "cvss_score": 7.5,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "cross-spawn",
-      "current_version": "5.1.0",
-      "vuln_id": "GHSA-3xgq-45jj-v275",
-      "vuln_severity": "high",
-      "fix_version": "N/A",
-      "message": "Regular Expression Denial of Service (ReDoS) in cross-spawn",
-      "cwe": "N/A",
-      "cvss_score": 7.5,
-      "type": "vulnerability"
-    },
-    {
-      "package_name": "tmp",
-      "current_version": "0.0.33",
-      "vuln_id": "GHSA-52f5-9888-hmc6",
-      "vuln_severity": "low",
-      "fix_version": "N/A",
-      "message": "tmp allows arbitrary temporary file / directory write via symbolic link `dir` parameter",
-      "cwe": "N/A",
-      "cvss_score": 2.5,
+      "cvss_score": 6.5,
       "type": "vulnerability"
     },
     {
@@ -162,14 +151,25 @@
       "type": "vulnerability"
     },
     {
-      "package_name": "lodash",
-      "current_version": "4.17.21",
-      "vuln_id": "GHSA-r5fr-rjxr-66jc",
+      "package_name": "cross-spawn",
+      "current_version": "4.0.2",
+      "vuln_id": "GHSA-3xgq-45jj-v275",
       "vuln_severity": "high",
       "fix_version": "N/A",
-      "message": "lodash vulnerable to Code Injection via `_.template` imports key names",
+      "message": "Regular Expression Denial of Service (ReDoS) in cross-spawn",
       "cwe": "N/A",
-      "cvss_score": 8.1,
+      "cvss_score": 7.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "cross-spawn",
+      "current_version": "5.1.0",
+      "vuln_id": "GHSA-3xgq-45jj-v275",
+      "vuln_severity": "high",
+      "fix_version": "N/A",
+      "message": "Regular Expression Denial of Service (ReDoS) in cross-spawn",
+      "cwe": "N/A",
+      "cvss_score": 7.5,
       "type": "vulnerability"
     },
     {
@@ -184,14 +184,14 @@
       "type": "vulnerability"
     },
     {
-      "package_name": "lodash",
-      "current_version": "4.17.21",
-      "vuln_id": "GHSA-xxjr-mmjv-4gpg",
-      "vuln_severity": "medium",
+      "package_name": "tmp",
+      "current_version": "0.0.33",
+      "vuln_id": "GHSA-ph9p-34f9-6g65",
+      "vuln_severity": "high",
       "fix_version": "N/A",
-      "message": "Lodash has Prototype Pollution Vulnerability in `_.unset` and `_.omit` functions",
+      "message": "tmp has Path Traversal via unsanitized prefix/postfix that enables directory escape",
       "cwe": "N/A",
-      "cvss_score": 6.5,
+      "cvss_score": 7.7,
       "type": "vulnerability"
     },
     {
@@ -203,6 +203,17 @@
       "message": "lodash vulnerable to Prototype Pollution via array path bypass in `_.unset` and `_.omit`",
       "cwe": "N/A",
       "cvss_score": 6.5,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "tmp",
+      "current_version": "0.0.33",
+      "vuln_id": "GHSA-52f5-9888-hmc6",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "tmp allows arbitrary temporary file / directory write via symbolic link `dir` parameter",
+      "cwe": "N/A",
+      "cvss_score": 2.5,
       "type": "vulnerability"
     }
   ],

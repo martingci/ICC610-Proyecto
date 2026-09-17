@@ -8,14 +8,14 @@
   "issues": [
     {
       "rule_id": "actions/missing-workflow-permissions",
-      "rule_index": 17,
+      "rule_index": 9,
       "level": "warning",
       "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
       "file": ".github/workflows/ci.yaml",
       "region": {
         "startLine": 7,
         "startColumn": 5,
-        "endLine": 21,
+        "endLine": 23,
         "endColumn": 28
       },
       "kind": "notApplicable",

@@ -7,38 +7,8 @@
   },
   "issues": [
     {
-      "rule_id": "js/clear-text-cookie",
-      "rule_index": 7,
-      "level": "warning",
-      "message": "Sensitive cookie sent without enforcing SSL encryption.",
-      "file": "test/test-79-npm/express-session/express-session.js",
-      "region": {
-        "startLine": 11,
-        "startColumn": 18,
-        "endLine": 18,
-        "endColumn": 3
-      },
-      "kind": "notApplicable",
-      "properties": {}
-    },
-    {
-      "rule_id": "js/missing-rate-limiting",
-      "rule_index": 10,
-      "level": "warning",
-      "message": "This route handler performs [a file system access](1), but is not rate-limited.",
-      "file": "examples/express/index.js",
-      "region": {
-        "startLine": 15,
-        "startColumn": 14,
-        "endLine": 17,
-        "endColumn": 2
-      },
-      "kind": "notApplicable",
-      "properties": {}
-    },
-    {
       "rule_id": "js/insecure-download",
-      "rule_index": 25,
+      "rule_index": 19,
       "level": "warning",
       "message": "[Download](1) of sensitive file from [HTTP source](2).",
       "file": "test/test-79-npm/engine.io/engine.io.js",
@@ -52,7 +22,7 @@
     },
     {
       "rule_id": "js/insecure-download",
-      "rule_index": 25,
+      "rule_index": 19,
       "level": "warning",
       "message": "[Download](1) of sensitive file from [HTTP source](2).",
       "file": "test/test-79-npm/socket.io/socket.io.js",
@@ -66,7 +36,7 @@
     },
     {
       "rule_id": "js/insecure-download",
-      "rule_index": 25,
+      "rule_index": 19,
       "level": "warning",
       "message": "[Download](1) of sensitive file from [HTTP source](2).",
       "file": "test/test-79-npm/socket.io/socket.io@1.4.8.js",
@@ -80,7 +50,7 @@
     },
     {
       "rule_id": "js/insecure-download",
-      "rule_index": 25,
+      "rule_index": 19,
       "level": "warning",
       "message": "[Download](1) of sensitive file from [HTTP source](2).",
       "file": "test/test-79-npm/socket.io/socket.io@1.6.0.js",
@@ -93,8 +63,38 @@
       "properties": {}
     },
     {
+      "rule_id": "js/missing-rate-limiting",
+      "rule_index": 29,
+      "level": "warning",
+      "message": "This route handler performs [a file system access](1), but is not rate-limited.",
+      "file": "examples/express/index.js",
+      "region": {
+        "startLine": 15,
+        "startColumn": 14,
+        "endLine": 17,
+        "endColumn": 2
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/clear-text-cookie",
+      "rule_index": 38,
+      "level": "warning",
+      "message": "Sensitive cookie sent without enforcing SSL encryption.",
+      "file": "test/test-79-npm/express-session/express-session.js",
+      "region": {
+        "startLine": 11,
+        "startColumn": 18,
+        "endLine": 18,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
       "rule_id": "js/shell-command-injection-from-environment",
-      "rule_index": 35,
+      "rule_index": 60,
       "level": "warning",
       "message": "This shell command depends on an uncontrolled [absolute path](1).",
       "file": "test/test-50-spawn/test-exec-1.js",
@@ -109,7 +109,7 @@
     },
     {
       "rule_id": "js/shell-command-injection-from-environment",
-      "rule_index": 35,
+      "rule_index": 60,
       "level": "warning",
       "message": "This shell command depends on an uncontrolled [absolute path](1).",
       "file": "test/test-50-spawn/test-exec-3.js",
@@ -124,7 +124,7 @@
     },
     {
       "rule_id": "js/shell-command-injection-from-environment",
-      "rule_index": 35,
+      "rule_index": 60,
       "level": "warning",
       "message": "This shell command depends on an uncontrolled [absolute path](1).",
       "file": "test/test-50-spawn/test-execSync-1.js",
@@ -139,7 +139,7 @@
     },
     {
       "rule_id": "js/shell-command-injection-from-environment",
-      "rule_index": 35,
+      "rule_index": 60,
       "level": "warning",
       "message": "This shell command depends on an uncontrolled [absolute path](1).",
       "file": "test/test-50-spawn/test-execSync-3.js",
@@ -154,7 +154,7 @@
     },
     {
       "rule_id": "js/shell-command-injection-from-environment",
-      "rule_index": 35,
+      "rule_index": 60,
       "level": "warning",
       "message": "This shell command depends on an uncontrolled [file name](1).\nThis shell command depends on an uncontrolled [absolute path](2).\nThis shell command depends on an uncontrolled [absolute path](3).",
       "file": "test/utils.js",
@@ -168,7 +168,7 @@
     },
     {
       "rule_id": "js/log-injection",
-      "rule_index": 85,
+      "rule_index": 86,
       "level": "warning",
       "message": "Log entry depends on a [user-provided value](1).",
       "file": "test/test-79-npm/times.js",
@@ -182,7 +182,7 @@
     },
     {
       "rule_id": "js/log-injection",
-      "rule_index": 85,
+      "rule_index": 86,
       "level": "warning",
       "message": "Log entry depends on a [user-provided value](1).",
       "file": "test/test-99-%231192/src/index.js",
@@ -196,7 +196,7 @@
     },
     {
       "rule_id": "js/file-system-race",
-      "rule_index": 96,
+      "rule_index": 97,
       "level": "warning",
       "message": "The file may have changed since it [was checked](1).",
       "file": "lib/index.ts",
@@ -210,7 +210,7 @@
     },
     {
       "rule_id": "js/file-system-race",
-      "rule_index": 96,
+      "rule_index": 97,
       "level": "warning",
       "message": "The file may have changed since it [was checked](1).",
       "file": "prelude/bootstrap.js",
@@ -225,7 +225,7 @@
     },
     {
       "rule_id": "js/file-system-race",
-      "rule_index": 96,
+      "rule_index": 97,
       "level": "warning",
       "message": "The file may have changed since it [was checked](1).",
       "file": "test/test-50-fs-runtime-layer-2/test-x-index.js",
@@ -240,7 +240,7 @@
     },
     {
       "rule_id": "js/file-system-race",
-      "rule_index": 96,
+      "rule_index": 97,
       "level": "warning",
       "message": "The file may have changed since it [was checked](1).",
       "file": "test/test-50-fs-runtime-layer-2/test-x-index.js",
@@ -255,7 +255,7 @@
     },
     {
       "rule_id": "js/file-system-race",
-      "rule_index": 96,
+      "rule_index": 97,
       "level": "warning",
       "message": "The file may have changed since it [was checked](1).",
       "file": "test/test-50-fs-runtime-layer-2/test-x-index.js",
@@ -269,7 +269,7 @@
     },
     {
       "rule_id": "js/file-system-race",
-      "rule_index": 96,
+      "rule_index": 97,
       "level": "warning",
       "message": "The file may have changed since it [was checked](1).",
       "file": "test/test-50-fs-runtime-layer-2/test-x-index.js",
@@ -283,7 +283,7 @@
     },
     {
       "rule_id": "js/file-system-race",
-      "rule_index": 96,
+      "rule_index": 97,
       "level": "warning",
       "message": "The file may have changed since it [was checked](1).",
       "file": "test/test-50-fs-runtime-layer-3/test-x-index.js",
@@ -297,7 +297,7 @@
     },
     {
       "rule_id": "js/file-system-race",
-      "rule_index": 96,
+      "rule_index": 97,
       "level": "warning",
       "message": "The file may have changed since it [was checked](1).",
       "file": "test/test-79-npm/main.js",
@@ -311,7 +311,7 @@
     },
     {
       "rule_id": "js/file-system-race",
-      "rule_index": 96,
+      "rule_index": 97,
       "level": "warning",
       "message": "The file may have changed since it [was checked](1).",
       "file": "test/test-79-npm/node-pre-gyp/node-pre-gyp.js",
@@ -325,7 +325,7 @@
     },
     {
       "rule_id": "js/insecure-temporary-file",
-      "rule_index": 98,
+      "rule_index": 99,
       "level": "warning",
       "message": "Insecure creation of file in [the os temp dir](1).",
       "file": "prelude/bootstrap.js",
@@ -339,7 +339,7 @@
     },
     {
       "rule_id": "js/trivial-conditional",
-      "rule_index": 134,
+      "rule_index": 135,
       "level": "warning",
       "message": "This expression always evaluates to true.",
       "file": "test/test-80-compression/test-x.js",
@@ -352,37 +352,8 @@
       "properties": {}
     },
     {
-      "rule_id": "js/useless-assignment-to-local",
-      "rule_index": 151,
-      "level": "warning",
-      "message": "The initial value of stringValue is unused, since it is always overwritten.",
-      "file": "lib/producer.ts",
-      "region": {
-        "startLine": 66,
-        "startColumn": 7,
-        "endColumn": 44
-      },
-      "kind": "notApplicable",
-      "properties": {}
-    },
-    {
-      "rule_id": "js/useless-assignment-to-local",
-      "rule_index": 151,
-      "level": "warning",
-      "message": "The initial value of loremIpsum2 is unused, since it is always overwritten.",
-      "file": "test/test-80-compression/test-x.js",
-      "region": {
-        "startLine": 10,
-        "startColumn": 7,
-        "endLine": 11,
-        "endColumn": 258
-      },
-      "kind": "notApplicable",
-      "properties": {}
-    },
-    {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused import x.",
       "file": "test/test-50-extensions/test-y-esnext.js",
@@ -395,7 +366,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable logPkg0.",
       "file": "test/test-80-compression/main.js",
@@ -409,7 +380,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable logPkg1.",
       "file": "test/test-80-compression/main.js",
@@ -423,7 +394,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable logPkg4.",
       "file": "test/test-80-compression/main.js",
@@ -437,7 +408,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable m.",
       "file": "test/test-80-compression/test-x.js",
@@ -451,7 +422,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable c.",
       "file": "test/test-80-compression/test-x.js",
@@ -465,7 +436,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable loremIpsum.",
       "file": "test/test-80-compression/test-x.js",
@@ -479,7 +450,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable logPkg0.",
       "file": "test/test-80-compression-node-opcua/main.js",
@@ -493,7 +464,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable logPkg1.",
       "file": "test/test-80-compression-node-opcua/main.js",
@@ -507,7 +478,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable logPkgNone.",
       "file": "test/test-80-compression-various-file-access/main.js",
@@ -521,7 +492,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable logPkgGZip.",
       "file": "test/test-80-compression-various-file-access/main.js",
@@ -535,7 +506,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable canvas.",
       "file": "test/test-99-%231135/index.js",
@@ -549,7 +520,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable inspect.",
       "file": "test/test-99-%23775/main.js",
@@ -563,7 +534,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable logPkg1.",
       "file": "test/test-99-%23775/main.js",
@@ -577,7 +548,7 @@
     },
     {
       "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
+      "rule_index": 143,
       "level": "warning",
       "message": "Unused variable logPkg2.",
       "file": "test/test-99-%23775/main.js",
@@ -585,6 +556,35 @@
         "startLine": 46,
         "startColumn": 7,
         "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/useless-assignment-to-local",
+      "rule_index": 161,
+      "level": "warning",
+      "message": "The initial value of stringValue is unused, since it is always overwritten.",
+      "file": "lib/producer.ts",
+      "region": {
+        "startLine": 66,
+        "startColumn": 7,
+        "endColumn": 44
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/useless-assignment-to-local",
+      "rule_index": 161,
+      "level": "warning",
+      "message": "The initial value of loremIpsum2 is unused, since it is always overwritten.",
+      "file": "test/test-80-compression/test-x.js",
+      "region": {
+        "startLine": 10,
+        "startColumn": 7,
+        "endLine": 11,
+        "endColumn": 258
       },
       "kind": "notApplicable",
       "properties": {}

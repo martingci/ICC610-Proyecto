@@ -7,22 +7,8 @@
   },
   "issues": [
     {
-      "rule_id": "js/xss",
-      "rule_index": 13,
-      "level": "warning",
-      "message": "Cross-site scripting vulnerability due to [user-provided value](1).",
-      "file": "apps/web/app/%5Blocale%5D/blog/page.tsx",
-      "region": {
-        "startLine": 62,
-        "startColumn": 26,
-        "endColumn": 36
-      },
-      "kind": "notApplicable",
-      "properties": {}
-    },
-    {
       "rule_id": "js/client-side-unvalidated-url-redirection",
-      "rule_index": 67,
+      "rule_index": 43,
       "level": "warning",
       "message": "Untrusted URL redirection depends on a [user-provided value](1).",
       "file": "apps/web/app/%5Blocale%5D/blog/page.tsx",
@@ -35,8 +21,22 @@
       "properties": {}
     },
     {
+      "rule_id": "js/xss",
+      "rule_index": 54,
+      "level": "warning",
+      "message": "Cross-site scripting vulnerability due to [user-provided value](1).",
+      "file": "apps/web/app/%5Blocale%5D/blog/page.tsx",
+      "region": {
+        "startLine": 62,
+        "startColumn": 26,
+        "endColumn": 36
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
       "rule_id": "js/useless-assignment-to-local",
-      "rule_index": 151,
+      "rule_index": 161,
       "level": "warning",
       "message": "The initial value of message is unused, since it is always overwritten.",
       "file": "packages/observability/error.ts",
@@ -50,7 +50,7 @@
     },
     {
       "rule_id": "js/useless-assignment-to-local",
-      "rule_index": 151,
+      "rule_index": 161,
       "level": "warning",
       "message": "The initial value of statusColor is unused, since it is always overwritten.",
       "file": "packages/observability/status/index.tsx",
@@ -64,7 +64,7 @@
     },
     {
       "rule_id": "js/useless-assignment-to-local",
-      "rule_index": 151,
+      "rule_index": 161,
       "level": "warning",
       "message": "The initial value of statusLabel is unused, since it is always overwritten.",
       "file": "packages/observability/status/index.tsx",

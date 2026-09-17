@@ -3,3 +3,9 @@ miner/repos
 .venv
 __pycache__
 .DS_Store
+
+
+# Archivos que superan el límite de GitHub
+results/examples-sbom.json
+results/vercel-sbom.json
+results/*-raw.json

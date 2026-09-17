@@ -1,21 +1,21 @@
 {
-  "total_issues": 22,
+  "total_issues": 24,
   "issues_by_severity": {
     "error": 0,
-    "warning": 22,
+    "warning": 24,
     "note": 0
   },
   "issues": [
     {
       "rule_id": "actions/missing-workflow-permissions",
-      "rule_index": 17,
+      "rule_index": 9,
       "level": "warning",
       "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
       "file": ".github/workflows/cli-evals.yml",
       "region": {
-        "startLine": 15,
+        "startLine": 12,
         "startColumn": 5,
-        "endLine": 77,
+        "endLine": 88,
         "endColumn": 33
       },
       "kind": "notApplicable",
@@ -23,7 +23,7 @@
     },
     {
       "rule_id": "actions/missing-workflow-permissions",
-      "rule_index": 17,
+      "rule_index": 9,
       "level": "warning",
       "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
       "file": ".github/workflows/comment-cli-tarball.yml",
@@ -38,7 +38,7 @@
     },
     {
       "rule_id": "actions/missing-workflow-permissions",
-      "rule_index": 17,
+      "rule_index": 9,
       "level": "warning",
       "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
       "file": ".github/workflows/cron-update-gatsby-fixtures.yml",
@@ -53,7 +53,7 @@
     },
     {
       "rule_id": "actions/missing-workflow-permissions",
-      "rule_index": 17,
+      "rule_index": 9,
       "level": "warning",
       "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
       "file": ".github/workflows/cron-update-next-canary.yml",
@@ -68,7 +68,7 @@
     },
     {
       "rule_id": "actions/missing-workflow-permissions",
-      "rule_index": 17,
+      "rule_index": 9,
       "level": "warning",
       "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
       "file": ".github/workflows/cron-update-next-latest.yml",
@@ -83,7 +83,7 @@
     },
     {
       "rule_id": "actions/missing-workflow-permissions",
-      "rule_index": 17,
+      "rule_index": 9,
       "level": "warning",
       "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
       "file": ".github/workflows/cron-update-turbo.yml",
@@ -98,7 +98,7 @@
     },
     {
       "rule_id": "actions/missing-workflow-permissions",
-      "rule_index": 17,
+      "rule_index": 9,
       "level": "warning",
       "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
       "file": ".github/workflows/discussions-auto-close.yml",
@@ -113,7 +113,7 @@
     },
     {
       "rule_id": "actions/missing-workflow-permissions",
-      "rule_index": 17,
+      "rule_index": 9,
       "level": "warning",
       "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
       "file": ".github/workflows/faster-template-prebuild-nextjs.yml",
@@ -128,29 +128,44 @@
     },
     {
       "rule_id": "actions/missing-workflow-permissions",
-      "rule_index": 17,
+      "rule_index": 9,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
+      "file": ".github/workflows/release.yml",
+      "region": {
+        "startLine": 15,
+        "startColumn": 5,
+        "endLine": 48,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 9,
       "level": "warning",
       "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
       "file": ".github/workflows/release.yml",
       "region": {
-        "startLine": 102,
+        "startLine": 178,
         "startColumn": 5,
-        "endLine": 109,
-        "endColumn": 22
+        "endLine": 206,
+        "endColumn": 19
       },
       "kind": "notApplicable",
       "properties": {}
     },
     {
       "rule_id": "actions/missing-workflow-permissions",
-      "rule_index": 17,
+      "rule_index": 9,
       "level": "warning",
       "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
       "file": ".github/workflows/test-lint.yml",
       "region": {
-        "startLine": 18,
+        "startLine": 16,
         "startColumn": 5,
-        "endLine": 35,
+        "endLine": 33,
         "endColumn": 3
       },
       "kind": "notApplicable",
@@ -158,14 +173,14 @@
     },
     {
       "rule_id": "actions/missing-workflow-permissions",
-      "rule_index": 17,
+      "rule_index": 9,
       "level": "warning",
       "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
       "file": ".github/workflows/test-lint.yml",
       "region": {
-        "startLine": 36,
+        "startLine": 73,
         "startColumn": 5,
-        "endLine": 66,
+        "endLine": 129,
         "endColumn": 3
       },
       "kind": "notApplicable",
@@ -173,29 +188,14 @@
     },
     {
       "rule_id": "actions/missing-workflow-permissions",
-      "rule_index": 17,
-      "level": "warning",
-      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
-      "file": ".github/workflows/test-lint.yml",
-      "region": {
-        "startLine": 67,
-        "startColumn": 5,
-        "endLine": 123,
-        "endColumn": 3
-      },
-      "kind": "notApplicable",
-      "properties": {}
-    },
-    {
-      "rule_id": "actions/missing-workflow-permissions",
-      "rule_index": 17,
+      "rule_index": 9,
       "level": "warning",
       "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
       "file": ".github/workflows/test-lint.yml",
       "region": {
-        "startLine": 124,
+        "startLine": 130,
         "startColumn": 5,
-        "endLine": 142,
+        "endLine": 148,
         "endColumn": 16
       },
       "kind": "notApplicable",
@@ -203,7 +203,7 @@
     },
     {
       "rule_id": "actions/missing-workflow-permissions",
-      "rule_index": 17,
+      "rule_index": 9,
       "level": "warning",
       "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
       "file": ".github/workflows/test-python-packages.yml",
@@ -218,7 +218,7 @@
     },
     {
       "rule_id": "actions/missing-workflow-permissions",
-      "rule_index": 17,
+      "rule_index": 9,
       "level": "warning",
       "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
       "file": ".github/workflows/test-python-packages.yml",
@@ -233,7 +233,7 @@
     },
     {
       "rule_id": "actions/missing-workflow-permissions",
-      "rule_index": 17,
+      "rule_index": 9,
       "level": "warning",
       "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{}}",
       "file": ".github/workflows/test-python-packages.yml",
@@ -248,7 +248,7 @@
     },
     {
       "rule_id": "actions/missing-workflow-permissions",
-      "rule_index": 17,
+      "rule_index": 9,
       "level": "warning",
       "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
       "file": ".github/workflows/update-remix-run-dev.yml",
@@ -263,7 +263,7 @@
     },
     {
       "rule_id": "actions/missing-workflow-permissions",
-      "rule_index": 17,
+      "rule_index": 9,
       "level": "warning",
       "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
       "file": ".github/workflows/update-sandbox.yml",
@@ -277,15 +277,45 @@
       "properties": {}
     },
     {
-      "rule_id": "actions/untrusted-checkout/medium",
-      "rule_index": 23,
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 9,
       "level": "warning",
-      "message": "Potential unsafe checkout of untrusted pull request on privileged workflow.",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
+      "file": ".github/workflows/validate-binary.yml",
+      "region": {
+        "startLine": 21,
+        "startColumn": 5,
+        "endLine": 118,
+        "endColumn": 3
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/missing-workflow-permissions",
+      "rule_index": 9,
+      "level": "warning",
+      "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
+      "file": ".github/workflows/validate-binary.yml",
+      "region": {
+        "startLine": 119,
+        "startColumn": 5,
+        "endLine": 140,
+        "endColumn": 51
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "actions/untrusted-checkout/medium",
+      "rule_index": 21,
+      "level": "warning",
+      "message": "Potential unsafe checkout of untrusted pull request on non-privileged workflow.",
       "file": ".github/workflows/test-lint.yml",
       "region": {
-        "startLine": 27,
+        "startLine": 25,
         "startColumn": 9,
-        "endLine": 28,
+        "endLine": 26,
         "endColumn": 7
       },
       "kind": "notApplicable",
@@ -293,14 +323,14 @@
     },
     {
       "rule_id": "actions/untrusted-checkout/medium",
-      "rule_index": 23,
+      "rule_index": 21,
       "level": "warning",
-      "message": "Potential unsafe checkout of untrusted pull request on privileged workflow.",
+      "message": "Potential unsafe checkout of untrusted pull request on non-privileged workflow.",
       "file": ".github/workflows/test.yml",
       "region": {
-        "startLine": 71,
+        "startLine": 73,
         "startColumn": 9,
-        "endLine": 76,
+        "endLine": 78,
         "endColumn": 7
       },
       "kind": "notApplicable",
@@ -308,14 +338,14 @@
     },
     {
       "rule_id": "actions/untrusted-checkout/medium",
-      "rule_index": 23,
+      "rule_index": 21,
       "level": "warning",
-      "message": "Potential unsafe checkout of untrusted pull request on privileged workflow.",
+      "message": "Potential unsafe checkout of untrusted pull request on non-privileged workflow.",
       "file": ".github/workflows/test.yml",
       "region": {
-        "startLine": 264,
+        "startLine": 273,
         "startColumn": 9,
-        "endLine": 268,
+        "endLine": 277,
         "endColumn": 7
       },
       "kind": "notApplicable",
@@ -323,14 +353,14 @@
     },
     {
       "rule_id": "actions/untrusted-checkout/medium",
-      "rule_index": 23,
+      "rule_index": 21,
       "level": "warning",
-      "message": "Potential unsafe checkout of untrusted pull request on privileged workflow.",
+      "message": "Potential unsafe checkout of untrusted pull request on non-privileged workflow.",
       "file": ".github/workflows/test.yml",
       "region": {
-        "startLine": 387,
+        "startLine": 415,
         "startColumn": 9,
-        "endLine": 391,
+        "endLine": 419,
         "endColumn": 7
       },
       "kind": "notApplicable",

@@ -10242,38 +10242,6 @@
       }
     },
     {
-      "id": "c2173afec9e7237a",
-      "name": "arch",
-      "version": "2.2.0",
-      "type": "npm",
-      "foundBy": "javascript-lock-cataloger",
-      "locations": [
-        {
-          "path": "/pnpm-lock.yaml",
-          "accessPath": "/pnpm-lock.yaml",
-          "annotations": {
-            "evidence": "primary"
-          }
-        }
-      ],
-      "licenses": [],
-      "language": "javascript",
-      "cpes": [
-        {
-          "cpe": "cpe:2.3:a:arch:arch:2.2.0:*:*:*:*:*:*:*",
-          "source": "syft-generated"
-        }
-      ],
-      "purl": "pkg:npm/arch@2.2.0",
-      "metadataType": "javascript-pnpm-lock-entry",
-      "metadata": {
-        "resolution": {
-          "integrity": "sha512-Of/R0wqp83cgHozfIYLbBMnej79U/SVGOOyuB3VVFv1NRM/PSFMK12x9KVtiYzJqmnU5WR2qp0Z5rHb7sWGnFQ=="
-        },
-        "dependencies": {}
-      }
-    },
-    {
       "id": "7028c4df2ca64a69",
       "name": "arg",
       "version": "5.0.2",
@@ -11319,28 +11287,8 @@
       "language": "javascript",
       "cpes": [
         {
-          "cpe": "cpe:2.3:a:brace-expansion:brace-expansion:1.1.11:*:*:*:*:*:*:*",
-          "source": "syft-generated"
-        },
-        {
-          "cpe": "cpe:2.3:a:brace-expansion:brace_expansion:1.1.11:*:*:*:*:*:*:*",
-          "source": "syft-generated"
-        },
-        {
-          "cpe": "cpe:2.3:a:brace_expansion:brace-expansion:1.1.11:*:*:*:*:*:*:*",
-          "source": "syft-generated"
-        },
-        {
-          "cpe": "cpe:2.3:a:brace_expansion:brace_expansion:1.1.11:*:*:*:*:*:*:*",
-          "source": "syft-generated"
-        },
-        {
-          "cpe": "cpe:2.3:a:brace:brace-expansion:1.1.11:*:*:*:*:*:*:*",
-          "source": "syft-generated"
-        },
-        {
-          "cpe": "cpe:2.3:a:brace:brace_expansion:1.1.11:*:*:*:*:*:*:*",
-          "source": "syft-generated"
+          "cpe": "cpe:2.3:a:juliangruber:brace-expansion:1.1.11:*:*:*:*:node.js:*:*",
+          "source": "nvd-cpe-dictionary"
         }
       ],
       "purl": "pkg:npm/brace-expansion@1.1.11",
@@ -11374,28 +11322,8 @@
       "language": "javascript",
       "cpes": [
         {
-          "cpe": "cpe:2.3:a:brace-expansion:brace-expansion:2.0.1:*:*:*:*:*:*:*",
-          "source": "syft-generated"
-        },
-        {
-          "cpe": "cpe:2.3:a:brace-expansion:brace_expansion:2.0.1:*:*:*:*:*:*:*",
-          "source": "syft-generated"
-        },
-        {
-          "cpe": "cpe:2.3:a:brace_expansion:brace-expansion:2.0.1:*:*:*:*:*:*:*",
-          "source": "syft-generated"
-        },
-        {
-          "cpe": "cpe:2.3:a:brace_expansion:brace_expansion:2.0.1:*:*:*:*:*:*:*",
-          "source": "syft-generated"
-        },
-        {
-          "cpe": "cpe:2.3:a:brace:brace-expansion:2.0.1:*:*:*:*:*:*:*",
-          "source": "syft-generated"
-        },
-        {
-          "cpe": "cpe:2.3:a:brace:brace_expansion:2.0.1:*:*:*:*:*:*:*",
-          "source": "syft-generated"
+          "cpe": "cpe:2.3:a:juliangruber:brace-expansion:2.0.1:*:*:*:*:node.js:*:*",
+          "source": "nvd-cpe-dictionary"
         }
       ],
       "purl": "pkg:npm/brace-expansion@2.0.1",
@@ -12692,42 +12620,6 @@
         "dependencies": {
           "slice-ansi": "5.0.0",
           "string-width": "5.1.2"
-        }
-      }
-    },
-    {
-      "id": "7dee8d2460ebb549",
-      "name": "clipboardy",
-      "version": "3.0.0",
-      "type": "npm",
-      "foundBy": "javascript-lock-cataloger",
-      "locations": [
-        {
-          "path": "/pnpm-lock.yaml",
-          "accessPath": "/pnpm-lock.yaml",
-          "annotations": {
-            "evidence": "primary"
-          }
-        }
-      ],
-      "licenses": [],
-      "language": "javascript",
-      "cpes": [
-        {
-          "cpe": "cpe:2.3:a:clipboardy:clipboardy:3.0.0:*:*:*:*:*:*:*",
-          "source": "syft-generated"
-        }
-      ],
-      "purl": "pkg:npm/clipboardy@3.0.0",
-      "metadataType": "javascript-pnpm-lock-entry",
-      "metadata": {
-        "resolution": {
-          "integrity": "sha512-Su+uU5sr1jkUy1sGRpLKjKrvEOVXgSgiSInwa/qeID6aJ07yh+5NWc3h2QfjHjBnfX4LhtFcuAWKUsJ3r+fjbg=="
-        },
-        "dependencies": {
-          "arch": "2.2.0",
-          "execa": "5.1.1",
-          "is-wsl": "2.2.0"
         }
       }
     },
@@ -17787,28 +17679,8 @@
       "language": "javascript",
       "cpes": [
         {
-          "cpe": "cpe:2.3:a:fast-uri:fast-uri:3.1.0:*:*:*:*:*:*:*",
-          "source": "syft-generated"
-        },
-        {
-          "cpe": "cpe:2.3:a:fast-uri:fast_uri:3.1.0:*:*:*:*:*:*:*",
-          "source": "syft-generated"
-        },
-        {
-          "cpe": "cpe:2.3:a:fast_uri:fast-uri:3.1.0:*:*:*:*:*:*:*",
-          "source": "syft-generated"
-        },
-        {
-          "cpe": "cpe:2.3:a:fast_uri:fast_uri:3.1.0:*:*:*:*:*:*:*",
-          "source": "syft-generated"
-        },
-        {
-          "cpe": "cpe:2.3:a:fast:fast-uri:3.1.0:*:*:*:*:*:*:*",
-          "source": "syft-generated"
-        },
-        {
-          "cpe": "cpe:2.3:a:fast:fast_uri:3.1.0:*:*:*:*:*:*:*",
-          "source": "syft-generated"
+          "cpe": "cpe:2.3:a:openjsf:fast-uri:3.1.0:*:*:*:*:node.js:*:*",
+          "source": "nvd-cpe-dictionary"
         }
       ],
       "purl": "pkg:npm/fast-uri@3.1.0",
@@ -21402,58 +21274,6 @@
       }
     },
     {
-      "id": "fae699ec6fe6567e",
-      "name": "is-docker",
-      "version": "2.2.1",
-      "type": "npm",
-      "foundBy": "javascript-lock-cataloger",
-      "locations": [
-        {
-          "path": "/pnpm-lock.yaml",
-          "accessPath": "/pnpm-lock.yaml",
-          "annotations": {
-            "evidence": "primary"
-          }
-        }
-      ],
-      "licenses": [],
-      "language": "javascript",
-      "cpes": [
-        {
-          "cpe": "cpe:2.3:a:is-docker:is-docker:2.2.1:*:*:*:*:*:*:*",
-          "source": "syft-generated"
-        },
-        {
-          "cpe": "cpe:2.3:a:is-docker:is_docker:2.2.1:*:*:*:*:*:*:*",
-          "source": "syft-generated"
-        },
-        {
-          "cpe": "cpe:2.3:a:is_docker:is-docker:2.2.1:*:*:*:*:*:*:*",
-          "source": "syft-generated"
-        },
-        {
-          "cpe": "cpe:2.3:a:is_docker:is_docker:2.2.1:*:*:*:*:*:*:*",
-          "source": "syft-generated"
-        },
-        {
-          "cpe": "cpe:2.3:a:is:is-docker:2.2.1:*:*:*:*:*:*:*",
-          "source": "syft-generated"
-        },
-        {
-          "cpe": "cpe:2.3:a:is:is_docker:2.2.1:*:*:*:*:*:*:*",
-          "source": "syft-generated"
-        }
-      ],
-      "purl": "pkg:npm/is-docker@2.2.1",
-      "metadataType": "javascript-pnpm-lock-entry",
-      "metadata": {
-        "resolution": {
-          "integrity": "sha512-F+i2BKsFrH66iaUFc0woD8sLy8getkwTwtOBjvs56Cx4CgJDeKQeqfz8wAYiSb8JOprWhHH5p77PbmYCvvUuXQ=="
-        },
-        "dependencies": {}
-      }
-    },
-    {
       "id": "fe98ea57e225e60c",
       "name": "is-extglob",
       "version": "2.1.1",
@@ -22566,60 +22386,6 @@
           "integrity": "sha512-eXK1UInq2bPmjyX6e3VHIzMLobc4J94i4AWn+Hpq3OU5KkrRC96OAcR3PRJ/pGu6m8TRnBHP9dkXQVsT/COVIA=="
         },
         "dependencies": {}
-      }
-    },
-    {
-      "id": "1461ce091630e734",
-      "name": "is-wsl",
-      "version": "2.2.0",
-      "type": "npm",
-      "foundBy": "javascript-lock-cataloger",
-      "locations": [
-        {
-          "path": "/pnpm-lock.yaml",
-          "accessPath": "/pnpm-lock.yaml",
-          "annotations": {
-            "evidence": "primary"
-          }
-        }
-      ],
-      "licenses": [],
-      "language": "javascript",
-      "cpes": [
-        {
-          "cpe": "cpe:2.3:a:is-wsl:is-wsl:2.2.0:*:*:*:*:*:*:*",
-          "source": "syft-generated"
-        },
-        {
-          "cpe": "cpe:2.3:a:is-wsl:is_wsl:2.2.0:*:*:*:*:*:*:*",
-          "source": "syft-generated"
-        },
-        {
-          "cpe": "cpe:2.3:a:is_wsl:is-wsl:2.2.0:*:*:*:*:*:*:*",
-          "source": "syft-generated"
-        },
-        {
-          "cpe": "cpe:2.3:a:is_wsl:is_wsl:2.2.0:*:*:*:*:*:*:*",
-          "source": "syft-generated"
-        },
-        {
-          "cpe": "cpe:2.3:a:is:is-wsl:2.2.0:*:*:*:*:*:*:*",
-          "source": "syft-generated"
-        },
-        {
-          "cpe": "cpe:2.3:a:is:is_wsl:2.2.0:*:*:*:*:*:*:*",
-          "source": "syft-generated"
-        }
-      ],
-      "purl": "pkg:npm/is-wsl@2.2.0",
-      "metadataType": "javascript-pnpm-lock-entry",
-      "metadata": {
-        "resolution": {
-          "integrity": "sha512-fKzAra0rGJUUBwGBgNkHZuToZcn+TtXHpeCgmkMJMMYx1sQDYaCSyjJBSCa2nH1DGm7s3n1oBnohoVTBaN7Lww=="
-        },
-        "dependencies": {
-          "is-docker": "2.2.1"
-        }
       }
     },
     {
@@ -27798,44 +27564,8 @@
       "language": "javascript",
       "cpes": [
         {
-          "cpe": "cpe:2.3:a:path-to-regexp:path-to-regexp:3.3.0:*:*:*:*:*:*:*",
-          "source": "syft-generated"
-        },
-        {
-          "cpe": "cpe:2.3:a:path-to-regexp:path_to_regexp:3.3.0:*:*:*:*:*:*:*",
-          "source": "syft-generated"
-        },
-        {
-          "cpe": "cpe:2.3:a:path_to_regexp:path-to-regexp:3.3.0:*:*:*:*:*:*:*",
-          "source": "syft-generated"
-        },
-        {
-          "cpe": "cpe:2.3:a:path_to_regexp:path_to_regexp:3.3.0:*:*:*:*:*:*:*",
-          "source": "syft-generated"
-        },
-        {
-          "cpe": "cpe:2.3:a:path-to:path-to-regexp:3.3.0:*:*:*:*:*:*:*",
-          "source": "syft-generated"
-        },
-        {
-          "cpe": "cpe:2.3:a:path-to:path_to_regexp:3.3.0:*:*:*:*:*:*:*",
-          "source": "syft-generated"
-        },
-        {
-          "cpe": "cpe:2.3:a:path_to:path-to-regexp:3.3.0:*:*:*:*:*:*:*",
-          "source": "syft-generated"
-        },
-        {
-          "cpe": "cpe:2.3:a:path_to:path_to_regexp:3.3.0:*:*:*:*:*:*:*",
-          "source": "syft-generated"
-        },
-        {
-          "cpe": "cpe:2.3:a:path:path-to-regexp:3.3.0:*:*:*:*:*:*:*",
-          "source": "syft-generated"
-        },
-        {
-          "cpe": "cpe:2.3:a:path:path_to_regexp:3.3.0:*:*:*:*:*:*:*",
-          "source": "syft-generated"
+          "cpe": "cpe:2.3:a:pillarjs:path-to-regexp:3.3.0:*:*:*:*:node.js:*:*",
+          "source": "nvd-cpe-dictionary"
         }
       ],
       "purl": "pkg:npm/path-to-regexp@3.3.0",
@@ -30147,8 +29877,8 @@
       "language": "javascript",
       "cpes": [
         {
-          "cpe": "cpe:2.3:a:rollup:rollup:4.24.0:*:*:*:*:*:*:*",
-          "source": "syft-generated"
+          "cpe": "cpe:2.3:a:rollupjs:rollup:4.24.0:*:*:*:*:node.js:*:*",
+          "source": "nvd-cpe-dictionary"
         }
       ],
       "purl": "pkg:npm/rollup@4.24.0",
@@ -33243,6 +32973,38 @@
       }
     },
     {
+      "id": "4ce9aa4200d43967",
+      "name": "tinyclip",
+      "version": "0.1.12",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/pnpm-lock.yaml",
+          "accessPath": "/pnpm-lock.yaml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:tinyclip:tinyclip:0.1.12:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/tinyclip@0.1.12",
+      "metadataType": "javascript-pnpm-lock-entry",
+      "metadata": {
+        "resolution": {
+          "integrity": "sha512-Ae3OVUqifDw0wBriIBS7yVaW44Dp6eSHQcyq4Igc7eN2TJH/2YsicswaW+J/OuMvhpDPOKEgpAZCjkb4hpoyeA=="
+        },
+        "dependencies": {}
+      }
+    },
+    {
       "id": "df63fa9f6122bb72",
       "name": "tinyexec",
       "version": "0.3.0",
@@ -35192,8 +34954,8 @@
       "language": "javascript",
       "cpes": [
         {
-          "cpe": "cpe:2.3:a:vitest:vitest:2.1.3:*:*:*:*:*:*:*",
-          "source": "syft-generated"
+          "cpe": "cpe:2.3:a:vitest.dev:vitest:2.1.3:*:*:*:*:node.js:*:*",
+          "source": "nvd-cpe-dictionary"
         }
       ],
       "purl": "pkg:npm/vitest@2.1.3",
@@ -37307,19 +37069,6 @@
     },
     {
       "parent": "144d61135eb0c094",
-      "child": "c895fb8e872e275f",
-      "type": "evident-by",
-      "metadata": {
-        "kind": "primary"
-      }
-    },
-    {
-      "parent": "1461ce091630e734",
-      "child": "7dee8d2460ebb549",
-      "type": "dependency-of"
-    },
-    {
-      "parent": "1461ce091630e734",
       "child": "c895fb8e872e275f",
       "type": "evident-by",
       "metadata": {
@@ -39927,6 +39676,14 @@
       }
     },
     {
+      "parent": "4ce9aa4200d43967",
+      "child": "c895fb8e872e275f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
       "parent": "4de4d87bdc1da795",
       "child": "c895fb8e872e275f",
       "type": "evident-by",
@@ -41713,11 +41470,6 @@
     },
     {
       "parent": "7091b53e5be57d5a",
-      "child": "7dee8d2460ebb549",
-      "type": "dependency-of"
-    },
-    {
-      "parent": "7091b53e5be57d5a",
       "child": "ad015e639dbe0bd8",
       "type": "dependency-of"
     },
@@ -42222,14 +41974,6 @@
     },
     {
       "parent": "7d3c0705a8d00ae7",
-      "child": "c895fb8e872e275f",
-      "type": "evident-by",
-      "metadata": {
-        "kind": "primary"
-      }
-    },
-    {
-      "parent": "7dee8d2460ebb549",
       "child": "c895fb8e872e275f",
       "type": "evident-by",
       "metadata": {
@@ -43438,11 +43182,6 @@
     },
     {
       "parent": "8e7c1f15189bb4a78e716934c79e24c435882a002c271583412b453c7a0750c3",
-      "child": "1461ce091630e734",
-      "type": "contains"
-    },
-    {
-      "parent": "8e7c1f15189bb4a78e716934c79e24c435882a002c271583412b453c7a0750c3",
       "child": "1483f1f2b36edce4",
       "type": "contains"
     },
@@ -44118,6 +43857,11 @@
     },
     {
       "parent": "8e7c1f15189bb4a78e716934c79e24c435882a002c271583412b453c7a0750c3",
+      "child": "4ce9aa4200d43967",
+      "type": "contains"
+    },
+    {
+      "parent": "8e7c1f15189bb4a78e716934c79e24c435882a002c271583412b453c7a0750c3",
       "child": "4de4d87bdc1da795",
       "type": "contains"
     },
@@ -44759,11 +44503,6 @@
     {
       "parent": "8e7c1f15189bb4a78e716934c79e24c435882a002c271583412b453c7a0750c3",
       "child": "7d3c0705a8d00ae7",
-      "type": "contains"
-    },
-    {
-      "parent": "8e7c1f15189bb4a78e716934c79e24c435882a002c271583412b453c7a0750c3",
-      "child": "7dee8d2460ebb549",
       "type": "contains"
     },
     {
@@ -45713,11 +45452,6 @@
     },
     {
       "parent": "8e7c1f15189bb4a78e716934c79e24c435882a002c271583412b453c7a0750c3",
-      "child": "c2173afec9e7237a",
-      "type": "contains"
-    },
-    {
-      "parent": "8e7c1f15189bb4a78e716934c79e24c435882a002c271583412b453c7a0750c3",
       "child": "c2a390e78538cf52",
       "type": "contains"
     },
@@ -46503,11 +46237,6 @@
     },
     {
       "parent": "8e7c1f15189bb4a78e716934c79e24c435882a002c271583412b453c7a0750c3",
-      "child": "fae699ec6fe6567e",
-      "type": "contains"
-    },
-    {
-      "parent": "8e7c1f15189bb4a78e716934c79e24c435882a002c271583412b453c7a0750c3",
       "child": "fb06f1db1495edfe",
       "type": "contains"
     },
@@ -46713,11 +46442,6 @@
       "metadata": {
         "kind": "primary"
       }
-    },
-    {
-      "parent": "8ff9a695a9451d6b",
-      "child": "7dee8d2460ebb549",
-      "type": "dependency-of"
     },
     {
       "parent": "8ff9a695a9451d6b",
@@ -49819,19 +49543,6 @@
       }
     },
     {
-      "parent": "c2173afec9e7237a",
-      "child": "7dee8d2460ebb549",
-      "type": "dependency-of"
-    },
-    {
-      "parent": "c2173afec9e7237a",
-      "child": "c895fb8e872e275f",
-      "type": "evident-by",
-      "metadata": {
-        "kind": "primary"
-      }
-    },
-    {
       "parent": "c2a390e78538cf52",
       "child": "838bc3703b00b6c1",
       "type": "dependency-of"
@@ -52508,19 +52219,6 @@
       }
     },
     {
-      "parent": "fae699ec6fe6567e",
-      "child": "1461ce091630e734",
-      "type": "dependency-of"
-    },
-    {
-      "parent": "fae699ec6fe6567e",
-      "child": "c895fb8e872e275f",
-      "type": "evident-by",
-      "metadata": {
-        "kind": "primary"
-      }
-    },
-    {
       "parent": "fb06f1db1495edfe",
       "child": "c895fb8e872e275f",
       "type": "evident-by",
@@ -52802,16 +52500,16 @@
         "userID": 1000,
         "groupID": 1000,
         "mimeType": "text/plain",
-        "size": 213375
+        "size": 212576
       },
       "digests": [
         {
           "algorithm": "sha1",
-          "value": "88e96cd10271aa4b2155de3e3733abf5184d6efe"
+          "value": "51bfba498d467c44e537b8b9f973133c4ffd985f"
         },
         {
           "algorithm": "sha256",
-          "value": "62bb1a5e8a1f84398094c72f09ae9689a496c24384e702e70e34a7b38f517a9a"
+          "value": "f5f64e18b7612b83a62140414f3a52fd3e14f3a72bd77685743826ecd3755e50"
         }
       ]
     }
@@ -52828,7 +52526,7 @@
   "distro": {},
   "descriptor": {
     "name": "syft",
-    "version": "1.44.0",
+    "version": "1.51.1",
     "configuration": {
       "catalogers": {
         "requested": {
@@ -52840,6 +52538,7 @@
         "used": [
           "alpm-db-cataloger",
           "apk-db-cataloger",
+          "apple-app-bundle-cataloger",
           "binary-classifier-cataloger",
           "cargo-auditable-binary-cataloger",
           "cocoapods-cataloger",
@@ -52889,10 +52588,12 @@
           "ruby-gemfile-cataloger",
           "ruby-gemspec-cataloger",
           "rust-cargo-lock-cataloger",
+          "safetensors-cataloger",
           "snap-cataloger",
           "swift-package-manager-cataloger",
           "swipl-pack-cataloger",
           "terraform-lock-cataloger",
+          "vcpkg-manifest-cataloger",
           "wordpress-plugins-cataloger"
         ]
       },
@@ -52921,6 +52622,7 @@
           "pypy-binary-lib",
           "go-binary",
           "julia-binary",
+          "julia-binary",
           "helm",
           "redis-binary",
           "valkey-binary",
@@ -52938,6 +52640,11 @@
           "mysql-binary",
           "mysql-binary",
           "mysql-binary",
+          "mysqld-mysql-cluster-legacy-binary",
+          "mysqld-binary",
+          "ndbd-binary",
+          "ndbmtd-binary",
+          "ndb_mgmd-binary",
           "xtrabackup-binary",
           "mariadb-binary",
           "rust-standard-library-linux",
@@ -52949,6 +52656,7 @@
           "swipl-binary",
           "dart-binary",
           "deno-binary",
+          "bun-binary",
           "haskell-ghc-binary",
           "haskell-cabal-binary",
           "haskell-stack-binary",
@@ -52971,6 +52679,7 @@
           "sqlcipher-binary",
           "jq-binary",
           "chrome-binary",
+          "firefox-binary",
           "ffmpeg-binary",
           "ffmpeg-library",
           "ffmpeg-library",
@@ -52982,9 +52691,21 @@
           "grafana-binary",
           "envoy-binary",
           "mongodb-binary",
+          "ingress-nginx-binary",
+          "filebeat-binary",
+          "metricbeat-binary",
+          "heartbeat-binary",
+          "packetbeat-binary",
+          "auditbeat-binary",
+          "elastic-agent-binary",
+          "krb5-library",
+          "heimdal-krb5-library",
           "java-binary",
           "java-jdb-binary"
         ],
+        "cpp": {
+          "vcpkg-allow-git-clone": false
+        },
         "dotnet": {
           "dep-packages-must-claim-dll": true,
           "dep-packages-must-have-dll": false,
@@ -52993,6 +52714,7 @@
           "relax-dll-claims-when-bundling-detected": true
         },
         "golang": {
+          "capture-symbols": "none",
           "local-mod-cache-dir": "/home/vscode/go/pkg/mod",
           "local-vendor-dir": "",
           "main-module-version": {
@@ -53047,7 +52769,7 @@
     }
   },
   "schema": {
-    "version": "16.1.3",
-    "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-16.1.3.json"
+    "version": "16.1.10",
+    "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-16.1.10.json"
   }
 }

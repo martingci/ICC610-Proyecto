@@ -8,7 +8,7 @@
   "issues": [
     {
       "rule_id": "actions/missing-workflow-permissions",
-      "rule_index": 17,
+      "rule_index": 9,
       "level": "warning",
       "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
       "file": ".github/workflows/ci.yaml",
@@ -23,7 +23,7 @@
     },
     {
       "rule_id": "actions/missing-workflow-permissions",
-      "rule_index": 17,
+      "rule_index": 9,
       "level": "warning",
       "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
       "file": ".github/workflows/ci.yaml",
@@ -38,7 +38,7 @@
     },
     {
       "rule_id": "actions/missing-workflow-permissions",
-      "rule_index": 17,
+      "rule_index": 9,
       "level": "warning",
       "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
       "file": ".github/workflows/release-snapshot.yaml",
@@ -53,7 +53,7 @@
     },
     {
       "rule_id": "actions/missing-workflow-permissions",
-      "rule_index": 17,
+      "rule_index": 9,
       "level": "warning",
       "message": "Actions job or workflow does not limit the permissions of the GITHUB_TOKEN. Consider setting an explicit permissions block, using the following as a minimal starting point: {{contents: read}}",
       "file": ".github/workflows/release.yaml",
@@ -68,7 +68,7 @@
     },
     {
       "rule_id": "actions/unpinned-tag",
-      "rule_index": 21,
+      "rule_index": 23,
       "level": "warning",
       "message": "Unpinned 3rd party Action 'CI' step [Uses Step](1) uses 'pnpm/action-setup' with ref 'v4', not a pinned commit hash",
       "file": ".github/workflows/ci.yaml",
@@ -82,7 +82,7 @@
     },
     {
       "rule_id": "actions/unpinned-tag",
-      "rule_index": 21,
+      "rule_index": 23,
       "level": "warning",
       "message": "Unpinned 3rd party Action 'CI' step [Uses Step](1) uses 'pnpm/action-setup' with ref 'v4', not a pinned commit hash",
       "file": ".github/workflows/ci.yaml",
@@ -96,7 +96,7 @@
     },
     {
       "rule_id": "actions/unpinned-tag",
-      "rule_index": 21,
+      "rule_index": 23,
       "level": "warning",
       "message": "Unpinned 3rd party Action 'Release Snapshot' step [Uses Step](1) uses 'pnpm/action-setup' with ref 'v4', not a pinned commit hash",
       "file": ".github/workflows/release-snapshot.yaml",
@@ -110,7 +110,7 @@
     },
     {
       "rule_id": "actions/unpinned-tag",
-      "rule_index": 21,
+      "rule_index": 23,
       "level": "warning",
       "message": "Unpinned 3rd party Action 'Release' step [Uses Step](1) uses 'pnpm/action-setup' with ref 'v4', not a pinned commit hash",
       "file": ".github/workflows/release.yaml",
@@ -124,7 +124,7 @@
     },
     {
       "rule_id": "actions/unpinned-tag",
-      "rule_index": 21,
+      "rule_index": 23,
       "level": "warning",
       "message": "Unpinned 3rd party Action 'Release' step [Uses Step: changesets](1) uses 'changesets/action' with ref 'v1', not a pinned commit hash",
       "file": ".github/workflows/release.yaml",

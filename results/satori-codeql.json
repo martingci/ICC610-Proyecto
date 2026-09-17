@@ -1,21 +1,21 @@
 {
-  "total_issues": 13,
+  "total_issues": 15,
   "issues_by_severity": {
     "error": 0,
-    "warning": 13,
+    "warning": 15,
     "note": 0
   },
   "issues": [
     {
       "rule_id": "js/polynomial-redos",
-      "rule_index": 76,
+      "rule_index": 1,
       "level": "warning",
       "message": "This [regular expression](1) that depends on [library input](2) may run slow on strings with many repetitions of '.'.",
       "file": "src/handler/expand.ts",
       "region": {
-        "startLine": 160,
+        "startLine": 219,
         "startColumn": 22,
-        "endLine": 164,
+        "endLine": 223,
         "endColumn": 7
       },
       "kind": "notApplicable",
@@ -23,12 +23,12 @@
     },
     {
       "rule_id": "js/polynomial-redos",
-      "rule_index": 76,
+      "rule_index": 1,
       "level": "warning",
       "message": "This [regular expression](1) that depends on [library input](2) may run slow on strings starting with '<svg' and with many repetitions of '<svg'.",
       "file": "src/handler/image.ts",
       "region": {
-        "startLine": 100,
+        "startLine": 182,
         "startColumn": 20,
         "endColumn": 47
       },
@@ -37,12 +37,12 @@
     },
     {
       "rule_id": "js/polynomial-redos",
-      "rule_index": 76,
+      "rule_index": 1,
       "level": "warning",
-      "message": "This [regular expression](1) that depends on [library input](2) may run slow on strings starting with 'width=\"' and with many repetitions of '9'.",
+      "message": "This [regular expression](1) that depends on [library input](2) may run slow on strings starting with 'width=\"' and with many repetitions of '0'.",
       "file": "src/handler/image.ts",
       "region": {
-        "startLine": 105,
+        "startLine": 187,
         "startColumn": 22,
         "endColumn": 46
       },
@@ -51,12 +51,12 @@
     },
     {
       "rule_id": "js/polynomial-redos",
-      "rule_index": 76,
+      "rule_index": 1,
       "level": "warning",
-      "message": "This [regular expression](1) that depends on [library input](2) may run slow on strings starting with 'height=\"' and with many repetitions of '9'.",
+      "message": "This [regular expression](1) that depends on [library input](2) may run slow on strings starting with 'height=\"' and with many repetitions of '0'.",
       "file": "src/handler/image.ts",
       "region": {
-        "startLine": 106,
+        "startLine": 188,
         "startColumn": 23,
         "endColumn": 48
       },
@@ -65,22 +65,50 @@
     },
     {
       "rule_id": "js/polynomial-redos",
-      "rule_index": 76,
+      "rule_index": 1,
       "level": "warning",
       "message": "This [regular expression](1) that depends on [library input](2) may run slow on strings starting with 'data:+' and with many repetitions of ';:=data:+'.\nThis [regular expression](3) that depends on [library input](2) may run slow on strings starting with 'data:+;' and with many repetitions of ':=data:+;'.\nThis [regular expression](4) that depends on [library input](2) may run slow on strings starting with 'data:+;:=' and with many repetitions of 'data:+;:='.",
       "file": "src/handler/image.ts",
       "region": {
-        "startLine": 191,
+        "startLine": 276,
         "startColumn": 9,
-        "endLine": 193,
+        "endLine": 278,
         "endColumn": 10
       },
       "kind": "notApplicable",
       "properties": {}
     },
     {
+      "rule_id": "js/polynomial-redos",
+      "rule_index": 1,
+      "level": "warning",
+      "message": "This [regular expression](1) that depends on [library input](2) may run slow on strings starting with 'superellipse(' and with many repetitions of 'superellipse('.",
+      "file": "src/parser/corner-shape.ts",
+      "region": {
+        "startLine": 30,
+        "startColumn": 18,
+        "endColumn": 63
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/missing-origin-check",
+      "rule_index": 90,
+      "level": "warning",
+      "message": "Postmessage handler has no origin check.",
+      "file": "playground/components/resvg_worker.ts",
+      "region": {
+        "startLine": 6,
+        "startColumn": 19,
+        "endColumn": 20
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
       "rule_id": "js/remote-property-injection",
-      "rule_index": 88,
+      "rule_index": 95,
       "level": "warning",
       "message": "A property name to write to depends on a [user-provided value](1).",
       "file": "playground/utils/font.ts",
@@ -94,7 +122,7 @@
     },
     {
       "rule_id": "js/remote-property-injection",
-      "rule_index": 88,
+      "rule_index": 95,
       "level": "warning",
       "message": "A property name to write to depends on a [user-provided value](1).",
       "file": "playground/utils/font.ts",
@@ -107,22 +135,49 @@
       "properties": {}
     },
     {
-      "rule_id": "js/missing-origin-check",
-      "rule_index": 92,
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 143,
       "level": "warning",
-      "message": "Postmessage handler has no origin check.",
-      "file": "playground/components/resvg_worker.ts",
+      "message": "Unused function computeBoundingBox.",
+      "file": "src/font.ts",
       "region": {
-        "startLine": 6,
-        "startColumn": 19,
-        "endColumn": 20
+        "startLine": 350,
+        "startColumn": 10,
+        "endColumn": 28
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 143,
+      "level": "warning",
+      "message": "Unused variable mode.",
+      "file": "src/parser/shape-function.ts",
+      "region": {
+        "startLine": 103,
+        "startColumn": 13,
+        "endColumn": 17
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "js/unused-local-variable",
+      "rule_index": 143,
+      "level": "warning",
+      "message": "Unused import path.",
+      "file": "vitest.config.ts",
+      "region": {
+        "startLine": 1,
+        "endColumn": 24
       },
       "kind": "notApplicable",
       "properties": {}
     },
     {
       "rule_id": "js/useless-assignment-to-local",
-      "rule_index": 151,
+      "rule_index": 161,
       "level": "warning",
       "message": "The initial value of cx is unused, since it is always overwritten.",
       "file": "src/builder/gradient/radial.ts",
@@ -136,7 +191,7 @@
     },
     {
       "rule_id": "js/useless-assignment-to-local",
-      "rule_index": 151,
+      "rule_index": 161,
       "level": "warning",
       "message": "The initial value of cy is unused, since it is always overwritten.",
       "file": "src/builder/gradient/radial.ts",
@@ -150,41 +205,14 @@
     },
     {
       "rule_id": "js/useless-assignment-to-local",
-      "rule_index": 151,
+      "rule_index": 161,
       "level": "warning",
       "message": "The initial value of m is unused, since it is always overwritten.",
       "file": "src/text/index.ts",
       "region": {
-        "startLine": 398,
+        "startLine": 410,
         "startColumn": 11,
         "endColumn": 28
-      },
-      "kind": "notApplicable",
-      "properties": {}
-    },
-    {
-      "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
-      "level": "warning",
-      "message": "Unused function computeBoundingBox.",
-      "file": "src/font.ts",
-      "region": {
-        "startLine": 218,
-        "startColumn": 10,
-        "endColumn": 28
-      },
-      "kind": "notApplicable",
-      "properties": {}
-    },
-    {
-      "rule_id": "js/unused-local-variable",
-      "rule_index": 152,
-      "level": "warning",
-      "message": "Unused import path.",
-      "file": "vitest.config.ts",
-      "region": {
-        "startLine": 1,
-        "endColumn": 24
       },
       "kind": "notApplicable",
       "properties": {}
