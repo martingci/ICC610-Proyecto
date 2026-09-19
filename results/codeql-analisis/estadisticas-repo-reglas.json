@@ -1,0 +1,447 @@
+[
+    {
+        "repo": "ai",
+        "rules": [
+            {
+                "rule_id": "js/unused-local-variable",
+                "count": 505,
+                "percentage": 55.4
+            },
+            {
+                "rule_id": "js/unknown-directive",
+                "count": 114,
+                "percentage": 12.5
+            },
+            {
+                "rule_id": "js/useless-expression",
+                "count": 54,
+                "percentage": 5.9
+            },
+            {
+                "rule_id": "js/regex/missing-regexp-anchor",
+                "count": 33,
+                "percentage": 3.6
+            },
+            {
+                "rule_id": "js/log-injection",
+                "count": 25,
+                "percentage": 2.7
+            }
+        ]
+    },
+    {
+        "repo": "chatbot",
+        "rules": [
+            {
+                "rule_id": "js/insecure-randomness",
+                "count": 2,
+                "percentage": 50.0
+            },
+            {
+                "rule_id": "js/trivial-conditional",
+                "count": 1,
+                "percentage": 25.0
+            },
+            {
+                "rule_id": "js/unused-local-variable",
+                "count": 1,
+                "percentage": 25.0
+            }
+        ]
+    },
+    {
+        "repo": "eve",
+        "rules": [
+            {
+                "rule_id": "js/unknown-directive",
+                "count": 140,
+                "percentage": 72.2
+            },
+            {
+                "rule_id": "js/file-system-race",
+                "count": 9,
+                "percentage": 4.6
+            },
+            {
+                "rule_id": "js/unused-local-variable",
+                "count": 6,
+                "percentage": 3.1
+            },
+            {
+                "rule_id": "js/comparison-between-incompatible-types",
+                "count": 5,
+                "percentage": 2.6
+            },
+            {
+                "rule_id": "js/polynomial-redos",
+                "count": 4,
+                "percentage": 2.1
+            }
+        ]
+    },
+    {
+        "repo": "examples",
+        "rules": [
+            {
+                "rule_id": "js/unused-local-variable",
+                "count": 52,
+                "percentage": 32.9
+            },
+            {
+                "rule_id": "js/insecure-randomness",
+                "count": 10,
+                "percentage": 6.3
+            },
+            {
+                "rule_id": "js/unsafe-jquery-plugin",
+                "count": 10,
+                "percentage": 6.3
+            },
+            {
+                "rule_id": "js/html-constructed-from-input",
+                "count": 10,
+                "percentage": 6.3
+            },
+            {
+                "rule_id": "js/resource-exhaustion",
+                "count": 8,
+                "percentage": 5.1
+            }
+        ]
+    },
+    {
+        "repo": "hyper",
+        "rules": [
+            {
+                "rule_id": "js/duplicate-variable-declaration",
+                "count": 286,
+                "percentage": 42.5
+            },
+            {
+                "rule_id": "js/unused-local-variable",
+                "count": 210,
+                "percentage": 31.2
+            },
+            {
+                "rule_id": "js/trivial-conditional",
+                "count": 33,
+                "percentage": 4.9
+            },
+            {
+                "rule_id": "js/useless-assignment-to-local",
+                "count": 31,
+                "percentage": 4.6
+            },
+            {
+                "rule_id": "js/missing-space-in-concatenation",
+                "count": 15,
+                "percentage": 2.2
+            }
+        ]
+    },
+    {
+        "repo": "micro",
+        "rules": [
+            {
+                "rule_id": "js/log-injection",
+                "count": 2,
+                "percentage": 40.0
+            },
+            {
+                "rule_id": "js/xss-through-dom",
+                "count": 1,
+                "percentage": 20.0
+            },
+            {
+                "rule_id": "js/xss",
+                "count": 1,
+                "percentage": 20.0
+            },
+            {
+                "rule_id": "js/functionality-from-untrusted-source",
+                "count": 1,
+                "percentage": 20.0
+            }
+        ]
+    },
+    {
+        "repo": "ncc",
+        "rules": [
+            {
+                "rule_id": "js/unused-local-variable",
+                "count": 32,
+                "percentage": 56.1
+            },
+            {
+                "rule_id": "js/unneeded-defensive-code",
+                "count": 16,
+                "percentage": 28.1
+            },
+            {
+                "rule_id": "js/automatic-semicolon-insertion",
+                "count": 8,
+                "percentage": 14.0
+            },
+            {
+                "rule_id": "js/insecure-temporary-file",
+                "count": 1,
+                "percentage": 1.8
+            }
+        ]
+    },
+    {
+        "repo": "next-app-router-playground",
+        "rules": [
+            {
+                "rule_id": "js/unused-local-variable",
+                "count": 1,
+                "percentage": 100.0
+            }
+        ]
+    },
+    {
+        "repo": "next-forge",
+        "rules": [
+            {
+                "rule_id": "js/useless-assignment-to-local",
+                "count": 3,
+                "percentage": 60.0
+            },
+            {
+                "rule_id": "js/xss",
+                "count": 1,
+                "percentage": 20.0
+            },
+            {
+                "rule_id": "js/client-side-unvalidated-url-redirection",
+                "count": 1,
+                "percentage": 20.0
+            }
+        ]
+    },
+    {
+        "repo": "next-learn",
+        "rules": [
+            {
+                "rule_id": "js/unused-local-variable",
+                "count": 13,
+                "percentage": 100.0
+            }
+        ]
+    },
+    {
+        "repo": "next.js",
+        "rules": [
+            {
+                "rule_id": "js/unused-local-variable",
+                "count": 1086,
+                "percentage": 27.1
+            },
+            {
+                "rule_id": "js/useless-assignment-to-local",
+                "count": 505,
+                "percentage": 12.6
+            },
+            {
+                "rule_id": "js/useless-expression",
+                "count": 495,
+                "percentage": 12.3
+            },
+            {
+                "rule_id": "js/superfluous-trailing-arguments",
+                "count": 391,
+                "percentage": 9.8
+            },
+            {
+                "rule_id": "js/trivial-conditional",
+                "count": 278,
+                "percentage": 6.9
+            }
+        ]
+    },
+    {
+        "repo": "nextjs-subscription-payments",
+        "rules": [
+            {
+                "rule_id": "js/useless-assignment-to-local",
+                "count": 4,
+                "percentage": 57.1
+            },
+            {
+                "rule_id": "js/unused-local-variable",
+                "count": 2,
+                "percentage": 28.6
+            },
+            {
+                "rule_id": "js/trivial-conditional",
+                "count": 1,
+                "percentage": 14.3
+            }
+        ]
+    },
+    {
+        "repo": "pkg",
+        "rules": [
+            {
+                "rule_id": "js/unused-local-variable",
+                "count": 15,
+                "percentage": 36.6
+            },
+            {
+                "rule_id": "js/file-system-race",
+                "count": 9,
+                "percentage": 22.0
+            },
+            {
+                "rule_id": "js/shell-command-injection-from-environment",
+                "count": 5,
+                "percentage": 12.2
+            },
+            {
+                "rule_id": "js/insecure-download",
+                "count": 4,
+                "percentage": 9.8
+            },
+            {
+                "rule_id": "js/log-injection",
+                "count": 2,
+                "percentage": 4.9
+            }
+        ]
+    },
+    {
+        "repo": "satori",
+        "rules": [
+            {
+                "rule_id": "js/polynomial-redos",
+                "count": 6,
+                "percentage": 40.0
+            },
+            {
+                "rule_id": "js/useless-assignment-to-local",
+                "count": 3,
+                "percentage": 20.0
+            },
+            {
+                "rule_id": "js/unused-local-variable",
+                "count": 3,
+                "percentage": 20.0
+            },
+            {
+                "rule_id": "js/remote-property-injection",
+                "count": 2,
+                "percentage": 13.3
+            },
+            {
+                "rule_id": "js/missing-origin-check",
+                "count": 1,
+                "percentage": 6.7
+            }
+        ]
+    },
+    {
+        "repo": "serve",
+        "rules": [
+            {
+                "rule_id": "js/log-injection",
+                "count": 1,
+                "percentage": 100.0
+            }
+        ]
+    },
+    {
+        "repo": "streamdown",
+        "rules": [
+            {
+                "rule_id": "js/trivial-conditional",
+                "count": 1,
+                "percentage": 33.3
+            },
+            {
+                "rule_id": "js/polynomial-redos",
+                "count": 1,
+                "percentage": 33.3
+            },
+            {
+                "rule_id": "js/log-injection",
+                "count": 1,
+                "percentage": 33.3
+            }
+        ]
+    },
+    {
+        "repo": "styled-jsx",
+        "rules": [
+            {
+                "rule_id": "js/unused-local-variable",
+                "count": 18,
+                "percentage": 94.7
+            },
+            {
+                "rule_id": "js/superfluous-trailing-arguments",
+                "count": 1,
+                "percentage": 5.3
+            }
+        ]
+    },
+    {
+        "repo": "swr",
+        "rules": [
+            {
+                "rule_id": "js/request-forgery",
+                "count": 7,
+                "percentage": 53.8
+            },
+            {
+                "rule_id": "js/react/unused-or-undefined-state-property",
+                "count": 2,
+                "percentage": 15.4
+            },
+            {
+                "rule_id": "js/useless-expression",
+                "count": 1,
+                "percentage": 7.7
+            },
+            {
+                "rule_id": "js/unused-local-variable",
+                "count": 1,
+                "percentage": 7.7
+            },
+            {
+                "rule_id": "js/useless-assignment-to-local",
+                "count": 1,
+                "percentage": 7.7
+            }
+        ]
+    },
+    {
+        "repo": "vercel",
+        "rules": [
+            {
+                "rule_id": "js/insecure-temporary-file",
+                "count": 496,
+                "percentage": 49.2
+            },
+            {
+                "rule_id": "js/unused-local-variable",
+                "count": 98,
+                "percentage": 9.7
+            },
+            {
+                "rule_id": "js/useless-assignment-to-local",
+                "count": 30,
+                "percentage": 3.0
+            },
+            {
+                "rule_id": "js/xss",
+                "count": 28,
+                "percentage": 2.8
+            },
+            {
+                "rule_id": "js/client-side-unvalidated-url-redirection",
+                "count": 28,
+                "percentage": 2.8
+            }
+        ]
+    }
+]

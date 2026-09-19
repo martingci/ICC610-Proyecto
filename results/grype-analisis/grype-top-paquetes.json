@@ -1,0 +1,23 @@
+[
+    {
+        "package_name": "next",
+        "count": 5031,
+        "current_version": "16.2.10",
+        "has_fix": false,
+        "fix_version": "N/A"
+    },
+    {
+        "package_name": "hono",
+        "count": 1838,
+        "current_version": "4.12.25",
+        "has_fix": false,
+        "fix_version": "N/A"
+    },
+    {
+        "package_name": "postcss",
+        "count": 1801,
+        "current_version": "8.5.12",
+        "has_fix": false,
+        "fix_version": "N/A"
+    }
+]

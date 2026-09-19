@@ -1,0 +1,22 @@
+[
+    {
+        "language": "javascript",
+        "count": 181247
+    },
+    {
+        "language": "rust",
+        "count": 3758
+    },
+    {
+        "language": "python",
+        "count": 899
+    },
+    {
+        "language": "ruby",
+        "count": 438
+    },
+    {
+        "language": "go",
+        "count": 183
+    }
+]

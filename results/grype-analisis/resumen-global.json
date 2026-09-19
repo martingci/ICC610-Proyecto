@@ -1,0 +1,14 @@
+{
+    "max": {
+        "repo": "vercel",
+        "total": 17375,
+        "codeql": 1009,
+        "grype": 16366
+    },
+    "min": {
+        "repo": "next-app-router-playground",
+        "total": 7,
+        "codeql": 1,
+        "grype": 6
+    }
+}

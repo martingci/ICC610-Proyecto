@@ -1,0 +1,33 @@
+{
+    "total_repos": 25,
+    "ecosystems": [
+        {
+            "type": "npm",
+            "count": 181247
+        },
+        {
+            "type": "rust-crate",
+            "count": 3758
+        },
+        {
+            "type": "python",
+            "count": 899
+        },
+        {
+            "type": "gem",
+            "count": 438
+        },
+        {
+            "type": "github-action",
+            "count": 370
+        },
+        {
+            "type": "go-module",
+            "count": 183
+        },
+        {
+            "type": "github-action-workflow",
+            "count": 14
+        }
+    ]
+}

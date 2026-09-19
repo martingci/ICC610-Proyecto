@@ -1,0 +1,32 @@
+{
+    "repo_name": "next.js",
+    "total_issues": 4009,
+    "percentage_of_total": 56.2,
+    "top_rules": [
+        {
+            "rule_id": "js/unused-local-variable",
+            "count": 1086,
+            "percentage": 27.1
+        },
+        {
+            "rule_id": "js/useless-assignment-to-local",
+            "count": 505,
+            "percentage": 12.6
+        },
+        {
+            "rule_id": "js/useless-expression",
+            "count": 495,
+            "percentage": 12.3
+        },
+        {
+            "rule_id": "js/superfluous-trailing-arguments",
+            "count": 391,
+            "percentage": 9.8
+        },
+        {
+            "rule_id": "js/trivial-conditional",
+            "count": 278,
+            "percentage": 6.9
+        }
+    ]
+}

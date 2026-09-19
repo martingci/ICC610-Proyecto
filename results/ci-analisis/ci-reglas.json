@@ -1,0 +1,27 @@
+[
+    {
+        "rule_id": "actions/missing-workflow-permissions",
+        "count": 88,
+        "percentage": 74.6
+    },
+    {
+        "rule_id": "actions/unpinned-tag",
+        "count": 24,
+        "percentage": 20.3
+    },
+    {
+        "rule_id": "actions/untrusted-checkout/medium",
+        "count": 4,
+        "percentage": 3.4
+    },
+    {
+        "rule_id": "actions/code-injection/medium",
+        "count": 1,
+        "percentage": 0.8
+    },
+    {
+        "rule_id": "actions/unnecessary-use-of-advanced-config",
+        "count": 1,
+        "percentage": 0.8
+    }
+]

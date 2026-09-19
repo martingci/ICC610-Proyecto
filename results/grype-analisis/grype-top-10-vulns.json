@@ -1,0 +1,42 @@
+[
+    {
+        "vuln_id": "GHSA-r28c-9q8g-f849",
+        "count": 410
+    },
+    {
+        "vuln_id": "GHSA-fxqj-rqcc-2cmp",
+        "count": 410
+    },
+    {
+        "vuln_id": "GHSA-6g55-p6wh-862q",
+        "count": 396
+    },
+    {
+        "vuln_id": "GHSA-qx2v-qp2m-jg93",
+        "count": 395
+    },
+    {
+        "vuln_id": "GHSA-2v37-7h3g-55p8",
+        "count": 319
+    },
+    {
+        "vuln_id": "GHSA-28wg-ghj8-5hjv",
+        "count": 315
+    },
+    {
+        "vuln_id": "GHSA-3ppc-4f35-3m26",
+        "count": 308
+    },
+    {
+        "vuln_id": "GHSA-7r86-cg39-jmmj",
+        "count": 308
+    },
+    {
+        "vuln_id": "GHSA-23c5-xmqv-rm74",
+        "count": 308
+    },
+    {
+        "vuln_id": "GHSA-xwg4-73v4-xw9w",
+        "count": 296
+    }
+]

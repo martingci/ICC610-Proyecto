@@ -1,0 +1,22 @@
+[
+    {
+        "rule_id":"js\/unused-local-variable",
+        "count":2043
+    },
+    {
+        "rule_id":"js\/useless-assignment-to-local",
+        "count":612
+    },
+    {
+        "rule_id":"js\/useless-expression",
+        "count":567
+    },
+    {
+        "rule_id":"js\/insecure-temporary-file",
+        "count":529
+    },
+    {
+        "rule_id":"js\/superfluous-trailing-arguments",
+        "count":406
+    }
+]
