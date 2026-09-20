@@ -1033,7 +1033,7 @@
 
             kpiContainer.html(`
             <div class="kpi-data">
-                <div class="kpi-title">Repositorio Crítico</div>
+                <div class="kpi-title">Repositorio Con Más Problemas</div>
                 <h3 class="kpi-repo-name">${data.repo_name}</h3>
                 <div class="kpi-numbers">
                     Contiene <span>${data.total_issues}</span> problemas <br>
@@ -1576,8 +1576,8 @@
                 `;
             }
 
-            const htmlMax = createCard("Mayor Cantidad de Vulnerabilidades", data.max, "#f38ba8");
-            const htmlMin = createCard("Menor Cantidad de Vulnerabilidades", data.min, "#a6e3a1");
+            const htmlMax = createCard("Mayor Cantidad de Problemas (CodeQL + Grype)", data.max, "#f38ba8");
+            const htmlMin = createCard("Menor Cantidad de Problemas (CodeQL + Grype)", data.min, "#a6e3a1");
 
             container.html(htmlMax + htmlMin);
         }
