@@ -4,11 +4,11 @@
         "count": 21
     },
     {
-        "purl": "pkg:npm/graceful-fs@4.2.11",
+        "purl": "pkg:npm/isexe@2.0.0",
         "count": 20
     },
     {
-        "purl": "pkg:npm/isexe@2.0.0",
+        "purl": "pkg:npm/graceful-fs@4.2.11",
         "count": 20
     },
     {
@@ -16,7 +16,19 @@
         "count": 19
     },
     {
-        "purl": "pkg:npm/shebang-command@2.0.0",
+        "purl": "pkg:npm/shebang-regex@3.0.0",
+        "count": 18
+    },
+    {
+        "purl": "pkg:npm/wrappy@1.0.2",
+        "count": 18
+    },
+    {
+        "purl": "pkg:npm/path-exists@4.0.0",
+        "count": 18
+    },
+    {
+        "purl": "pkg:npm/picocolors@1.1.1",
         "count": 18
     },
     {
@@ -24,7 +36,11 @@
         "count": 18
     },
     {
-        "purl": "pkg:npm/picocolors@1.1.1",
+        "purl": "pkg:npm/to-regex-range@5.0.1",
+        "count": 18
+    },
+    {
+        "purl": "pkg:npm/is-number@7.0.0",
         "count": 18
     },
     {
@@ -36,7 +52,7 @@
         "count": 18
     },
     {
-        "purl": "pkg:npm/ansi-regex@5.0.1",
+        "purl": "pkg:npm/once@1.4.0",
         "count": 18
     },
     {
@@ -44,39 +60,23 @@
         "count": 18
     },
     {
+        "purl": "pkg:npm/shebang-command@2.0.0",
+        "count": 18
+    },
+    {
+        "purl": "pkg:npm/ansi-regex@5.0.1",
+        "count": 18
+    },
+    {
         "purl": "pkg:npm/which@2.0.2",
         "count": 18
     },
     {
-        "purl": "pkg:npm/path-exists@4.0.0",
-        "count": 18
-    },
-    {
-        "purl": "pkg:npm/is-number@7.0.0",
-        "count": 18
-    },
-    {
-        "purl": "pkg:npm/wrappy@1.0.2",
-        "count": 18
-    },
-    {
-        "purl": "pkg:npm/to-regex-range@5.0.1",
-        "count": 18
-    },
-    {
-        "purl": "pkg:npm/shebang-regex@3.0.0",
-        "count": 18
-    },
-    {
-        "purl": "pkg:npm/once@1.4.0",
-        "count": 18
-    },
-    {
-        "purl": "pkg:npm/fast-json-stable-stringify@2.1.0",
+        "purl": "pkg:npm/is-extglob@2.1.1",
         "count": 17
     },
     {
-        "purl": "pkg:npm/balanced-match@1.0.2",
+        "purl": "pkg:npm/supports-preserve-symlinks-flag@1.0.0",
         "count": 17
     }
 ]

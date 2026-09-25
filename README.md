@@ -41,21 +41,15 @@ Es por esto que el análisis realizado busca comprobar si existen otras vulnerab
 ## Resultados cuantitativos
 
 Las cifras totales obtenidas se componen de:
-- 6470 problemas de código fuente, todos de nivel de severidad *“warning”*, es decir, medio dentro de la clasificación de SARIF.
-- 17074 vulnerabilidades de componentes, todas de nivel de severidad *“low”*, es decir, bajo dentro de la clasificación CVSS.
-- 206 problemas en los procesos de CI, principalmente el repo **next.js**.
+- 7138 problemas de código fuente, todos de nivel de severidad *“warning”*, es decir, medio dentro de la clasificación de SARIF.
+- 32257 vulnerabilidades de componentes, de las cuales 1479 son de nivel de severidad *“critical”*, 13672 de nivel *“high”*, 14210 de nivel *“medium”* y 2896 de nivel *“low”*, de acuerdo a la clasificación CVSS.
+- 118 problemas en los procesos de CI, principalmente el repo **vercel**, seguido por **next.js**.
 
 ## Análisis cualificativo
 
 Aparte de los problemas y vulnerabilidades más recurrentes entre los repositorios que fueron analizados dentro del [notebook](analyzer/analyzer.ipynb), al equipo le llamó la atención las vulnerabilidades del componente Kysely dentro de los repositorio de *chatbot* y *examples*, que contenían dos amenazas de posibles inyecciones SQL calificadas con un CVSS de [8,1](https://github.com/advisories/GHSA-8cpq-38p9-67gx) y de [8,2](https://github.com/advisories/GHSA-wmrf-hv6w-mr66), con Vercel aún manteniendo la versión afectada por ambas, a pesar de que la primera ya ha sido corregida en la versión 0.28.14 y la segunda fue corregida en la versión 0.28.12.
 
-Dentro del análisis de vulnerabilidades, las de dependencias sólo se clasifican como “low”, es decir, por debajo de 3,9, sin embargo, las comprobaciones manuales del equipo muestran que varias vulnerabilidades en realidad tienen niveles de severidad distintos a los vistos, evidenciando que la utilización de diferentes herramientas entrega resultados distintos, por lo que, ahí es donde entra el trabajo del equipo de revisar estas contradicciones y registrarlas para mejorar los análisis posteriores.
-
-Luego de la comprobación realizada, se encontró que el error era que la información de los archivos tenían un formato nuevo, por lo que los datos de nivel de severidad habían cambiado la forma de guardarse. Por lo tanto, el conteo final (y correcto) de vulnerabilidades de dependencias fue de:
-- 1858 de nivel "low" (0 a 3,9)
-- 7847 de nivel "medium" (4 a 6,9)
-- 6532 de nivel "high" (7 a 8,9)
-- 837 de nivel "critical" (9 a 10)
+Respecto al análisis de vulnerabilidades de dependencias, se encontraron 32.257 vulnerabilidades de componentes en total, de las cuales el 9,0% son de nivel "low" (0 a 3,9), el 44,1% de nivel "medium" (4 a 6,9), el 42,4% de nivel "high" (7 a 8,9) y el 4,6% de nivel "critical" (9 a 10).
 
 La distribución del nivel de severidad de las vulnerabilidades de dependencias es altamente preocupante, ya que, si bien la mayor cantidad se encuentra en "medium", el rango numérico de la severidad "high" es menor. Esto indica un riesgo muy grande para la organización, aumentando su probabilidad de ser víctimas (nuevamente) de un ciberataque debido al peligro que presenta que un atacante pueda aprovecharse de esto.
 

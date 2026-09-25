@@ -38,12 +38,12 @@
                 "percentage": 50.0
             },
             {
-                "rule_id": "js/trivial-conditional",
+                "rule_id": "js/unused-local-variable",
                 "count": 1,
                 "percentage": 25.0
             },
             {
-                "rule_id": "js/unused-local-variable",
+                "rule_id": "js/trivial-conditional",
                 "count": 1,
                 "percentage": 25.0
             }
@@ -73,7 +73,7 @@
                 "percentage": 2.6
             },
             {
-                "rule_id": "js/polynomial-redos",
+                "rule_id": "js/incomplete-multi-character-sanitization",
                 "count": 4,
                 "percentage": 2.1
             }
@@ -148,17 +148,17 @@
                 "percentage": 40.0
             },
             {
+                "rule_id": "js/functionality-from-untrusted-source",
+                "count": 1,
+                "percentage": 20.0
+            },
+            {
                 "rule_id": "js/xss-through-dom",
                 "count": 1,
                 "percentage": 20.0
             },
             {
                 "rule_id": "js/xss",
-                "count": 1,
-                "percentage": 20.0
-            },
-            {
-                "rule_id": "js/functionality-from-untrusted-source",
                 "count": 1,
                 "percentage": 20.0
             }
@@ -208,12 +208,12 @@
                 "percentage": 60.0
             },
             {
-                "rule_id": "js/xss",
+                "rule_id": "js/client-side-unvalidated-url-redirection",
                 "count": 1,
                 "percentage": 20.0
             },
             {
-                "rule_id": "js/client-side-unvalidated-url-redirection",
+                "rule_id": "js/xss",
                 "count": 1,
                 "percentage": 20.0
             }
@@ -303,7 +303,7 @@
                 "percentage": 9.8
             },
             {
-                "rule_id": "js/log-injection",
+                "rule_id": "js/useless-assignment-to-local",
                 "count": 2,
                 "percentage": 4.9
             }
@@ -353,17 +353,17 @@
         "repo": "streamdown",
         "rules": [
             {
-                "rule_id": "js/trivial-conditional",
-                "count": 1,
-                "percentage": 33.3
-            },
-            {
                 "rule_id": "js/polynomial-redos",
                 "count": 1,
                 "percentage": 33.3
             },
             {
                 "rule_id": "js/log-injection",
+                "count": 1,
+                "percentage": 33.3
+            },
+            {
+                "rule_id": "js/trivial-conditional",
                 "count": 1,
                 "percentage": 33.3
             }
@@ -398,12 +398,12 @@
                 "percentage": 15.4
             },
             {
-                "rule_id": "js/useless-expression",
+                "rule_id": "js/trivial-conditional",
                 "count": 1,
                 "percentage": 7.7
             },
             {
-                "rule_id": "js/unused-local-variable",
+                "rule_id": "js/useless-expression",
                 "count": 1,
                 "percentage": 7.7
             },
