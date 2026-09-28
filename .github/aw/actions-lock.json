@@ -1,0 +1,24 @@
+{
+  "entries": {
+    "anchore/scan-action@v6": {
+      "repo": "anchore/scan-action",
+      "version": "v6",
+      "sha": "1638637db639e0ade3258b51db49a9a137574c3e"
+    },
+    "github/codeql-action/analyze@v3": {
+      "repo": "github/codeql-action/analyze",
+      "version": "v3",
+      "sha": "1190a975f95ce23525efb6a3fc21ea29567c1b52"
+    },
+    "github/codeql-action/init@v3": {
+      "repo": "github/codeql-action/init",
+      "version": "v3",
+      "sha": "1190a975f95ce23525efb6a3fc21ea29567c1b52"
+    },
+    "github/gh-aw-actions/setup@v0.89.21": {
+      "repo": "github/gh-aw-actions/setup",
+      "version": "v0.89.21",
+      "sha": "924af5fdc64061cfbf66fb584c8b07e2ac230c60"
+    }
+  }
+}
